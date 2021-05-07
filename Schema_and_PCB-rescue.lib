@@ -1,0 +1,153 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ISO224ADWVR-Isolator
+#
+DEF ISO224ADWVR-Isolator U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN
+F1 "ISO224ADWVR-Isolator" 0 300 50 H V L CNN
+F2 "Texas_Instruments-DWV0008A-0-0-*" 0 400 50 H I L CNN
+F3 "https://www.ti.com/lit/ds/symlink/iso224.pdf" 0 500 50 H I L CNN
+F4 "+125°C" 0 600 50 H I L CNN "ambient temperature range high"
+F5 "-55°C" 0 700 50 H I L CNN "ambient temperature range low"
+F6 "No" 0 800 50 H I L CNN "automotive"
+F7 "IC" 0 900 50 H I L CNN "category"
+F8 "Integrated Circuits (ICs)" 0 1000 50 H I L CNN "device class L1"
+F9 "Linear ICs" 0 1100 50 H I L CNN "device class L2"
+F10 "unset" 0 1200 50 H I L CNN "device class L3"
+F11 "IC ISOLATED 8SOIC" 0 1300 50 H I L CNN "digikey description"
+F12 "296-52315-1-ND" 0 1400 50 H I L CNN "digikey part number"
+F13 "185kHz" 0 1500 50 H I L CNN "gain bandwidth"
+F14 "2.8mm" 0 1600 50 H I L CNN "height"
+F15 "0.015uA" 0 1700 50 H I L CNN "input bias current"
+F16 "1mV" 0 1800 50 H I L CNN "input offset voltage"
+F17 "Yes" 0 1900 50 H I L CNN "lead free"
+F18 "f96fe3b55d649421" 0 2000 50 H I L CNN "library id"
+F19 "Texas Instruments" 0 2100 50 H I L CNN "manufacturer"
+F20 "+150°C" 0 2200 50 H I L CNN "max junction temp"
+F21 "18V" 0 2300 50 H I L CNN "max supply voltage"
+F22 "4.5V" 0 2400 50 H I L CNN "min supply voltage"
+F23 "Reinforced isolated amplifier for voltage sensing with ±12-V input 8-SOIC -55 to 125" 0 2500 50 H I L CNN "mouser description"
+F24 "595-ISO224ADWVR" 0 2600 50 H I L CNN "mouser part number"
+F25 "1" 0 2700 50 H I L CNN "number of channels"
+F26 "18mA" 0 2800 50 H I L CNN "output current per channel"
+F27 "SOICW8" 0 2900 50 H I L CNN "package"
+F28 "250us" 0 3000 50 H I L CNN "response time"
+F29 "Yes" 0 3100 50 H I L CNN "rohs"
+F30 "0.36mm" 0 3200 50 H I L CNN "standoff height"
+F31 "+125°C" 0 3300 50 H I L CNN "temperature range high"
+F32 "-55°C" 0 3400 50 H I L CNN "temperature range low"
+F33 "0.001/3V/mV" 0 3500 50 H I L CNN "voltage gain"
+DRAW
+S 200 100 1100 -700 1 1 0 f
+P 2 1 1 0 600 -550 600 -650 N
+P 2 1 1 0 600 -350 600 -450 N
+P 2 1 1 0 600 -150 600 -250 N
+P 2 1 1 0 600 50 600 -50 N
+P 2 1 1 0 700 -550 700 -650 N
+P 2 1 1 0 700 -350 700 -450 N
+P 2 1 1 0 700 -150 700 -250 N
+P 2 1 1 0 700 50 700 -50 N
+X VCAP 1 100 -400 100 R 40 40 1 1 P
+X IN 2 100 -200 100 R 40 40 1 1 P
+X VDD1 3 100 0 100 R 40 40 1 1 W
+X GND1 4 100 -600 100 R 40 40 1 1 W
+X GND2 5 1200 -600 100 L 40 40 1 1 W
+X OUTN 6 1200 -400 100 L 40 40 1 1 P
+X OUTP 7 1200 -200 100 L 40 40 1 1 P
+X VDD2 8 1200 0 100 L 40 40 1 1 W
+ENDDRAW
+ENDDEF
+#
+# LAN8742A-CZ-TR-Interface_Ethernet
+#
+DEF LAN8742A-CZ-TR-Interface_Ethernet U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN
+F1 "LAN8742A-CZ-TR-Interface_Ethernet" 0 300 50 H V L CNN
+F2 "Microchip-C04-143B-S4QFN-0-0-*" 0 400 50 H I L CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/DS_LAN8742_00001989A.pdf" 0 500 50 H I L CNN
+F4 "+70°C" 0 600 50 H I L CNN "ambient temperature range high"
+F5 "0°C" 0 700 50 H I L CNN "ambient temperature range low"
+F6 "No" 0 800 50 H I L CNN "automotive"
+F7 "IC" 0 900 50 H I L CNN "category"
+F8 "100Mbits/s" 0 1000 50 H I L CNN "data rate"
+F9 "Integrated Circuits (ICs)" 0 1100 50 H I L CNN "device class L1"
+F10 "Interface ICs" 0 1200 50 H I L CNN "device class L2"
+F11 "Ethernet Interface ICs" 0 1300 50 H I L CNN "device class L3"
+F12 "IC TRANSCEIVER 1/1 24SQFN" 0 1400 50 H I L CNN "digikey description"
+F13 "LAN8742A-CZ-CT-ND" 0 1500 50 H I L CNN "digikey part number"
+F14 "1mm" 0 1600 50 H I L CNN "height"
+F15 "Ethernet,Other" 0 1700 50 H I L CNN "interface"
+F16 "QFN50P400X400X90-24" 0 1800 50 H I L CNN "ipc land pattern name"
+F17 "Yes" 0 1900 50 H I L CNN "lead free"
+F18 "65aace372bc6d89f" 0 2000 50 H I L CNN "library id"
+F19 "Microchip" 0 2100 50 H I L CNN "manufacturer"
+F20 "3.6V" 0 2200 50 H I L CNN "max supply voltage"
+F21 "1.14V" 0 2300 50 H I L CNN "min supply voltage"
+F22 "579-LAN8742A-CZ-TR" 0 2400 50 H I L CNN "mouser part number"
+F23 "6.5-59mA" 0 2500 50 H I L CNN "nominal supply current"
+F24 "1" 0 2600 50 H I L CNN "number of channels"
+F25 "VQFN24" 0 2700 50 H I L CNN "package"
+F26 "Yes" 0 2800 50 H I L CNN "rohs"
+F27 "Full-Duplex" 0 2900 50 H I L CNN "simplex duplex"
+F28 "0mm" 0 3000 50 H I L CNN "standoff height"
+F29 "+70°C" 0 3100 50 H I L CNN "temperature range high"
+F30 "0°C" 0 3200 50 H I L CNN "temperature range low"
+DRAW
+S 200 100 2800 -2200 1 1 0 f
+X VDD2A 1 2900 -90 100 L 40 40 1 1 W
+X RXER/PHYAD0 10 100 -520 100 R 40 40 1 1 B
+X CRS_DV/MODE2 11 100 -1220 100 R 40 40 1 1 B
+X MDIO 12 100 -1420 100 R 40 40 1 1 B
+X MDC 13 100 -1520 100 R 40 40 1 1 I C
+X ~INT~/REFCLKO 14 100 -1670 100 R 40 40 1 1 O
+X ~RST~ 15 100 -1820 100 R 40 40 1 1 I
+X TXEN 16 100 -1020 100 R 40 40 1 1 I
+X TXD0 17 100 -720 100 R 40 40 1 1 I
+X TXD1 18 100 -820 100 R 40 40 1 1 I
+X VDD1A 19 2900 10 100 L 40 40 1 1 W
+X LED2/~INT~/~PME~/~INTSEL~ 2 2900 -1510 100 L 40 40 1 1 B
+X TXN 20 2900 -690 100 L 40 40 1 1 O
+X TXP 21 2900 -490 100 L 40 40 1 1 O
+X RXN 22 2900 -1090 100 L 40 40 1 1 I
+X RXP 23 2900 -890 100 L 40 40 1 1 I
+X RBIAS 24 2900 -1990 100 L 40 40 1 1 P
+X VSS 25 2900 -2100 100 L 40 40 1 1 W
+X LED1/~INT~/~PME~/REGOFF 3 2900 -1410 100 L 40 40 1 1 B
+X XTAL2 4 100 -2040 100 R 40 40 1 1 O
+X XTAL1/CLKIN 5 100 -2130 100 R 40 40 1 1 I
+X VDDCR 6 2900 -1750 100 L 40 40 1 1 W
+X RXD1/MODE1 7 100 -320 100 R 40 40 1 1 B
+X RXD0/MODE0 8 100 -220 100 R 40 40 1 1 B
+X VDDIO 9 100 -20 100 R 40 40 1 1 W
+ENDDRAW
+ENDDEF
+#
+# W25Q256JVFIQ-Memory_Flash
+#
+DEF W25Q256JVFIQ-Memory_Flash U 0 40 Y Y 1 F N
+F0 "U" 0 200 50 H V L CNN
+F1 "W25Q256JVFIQ-Memory_Flash" 0 300 50 H V L CNN
+F2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" 0 400 50 H I L CNN
+F3 "" 0 500 50 H I L CNN
+F4 "IC" 0 600 50 H I L CNN "category"
+F5 "IC FLASH 256MBIT 104MHZ 16WSOIC" 0 700 50 H I L CNN "digikey description"
+F6 "Winbond" 0 1200 50 H I L CNN "manufacturer"
+F7 "yes" 0 1400 50 H I L CNN "rohs"
+F8 "+85°C" 0 1500 50 H I L CNN "temperature range high"
+F9 "-40°C" 0 1600 50 H I L CNN "temperature range low"
+DRAW
+S 100 100 1000 -700 1 1 0 f
+X ~RESET~(IO3) 1 1100 -100 100 L 40 40 1 1 B
+X GND 10 1100 -600 100 L 40 40 1 1 W
+X DI(IO0) 15 1100 -300 100 L 40 40 1 1 B
+X CLK 16 0 -600 100 R 40 40 1 1 I
+X VCC 2 0 0 100 R 40 40 1 1 W
+X ~RESET 3 0 -200 100 R 40 40 1 1 I
+X ~CS 7 0 -400 100 R 40 40 1 1 I
+X DO(IO1) 8 1100 -400 100 L 40 40 1 1 B
+X ~WP~(IO2) 9 1100 0 100 L 40 40 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library

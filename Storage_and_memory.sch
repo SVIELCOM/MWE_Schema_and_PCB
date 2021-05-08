@@ -33,76 +33,199 @@ $EndComp
 $Comp
 L Connector:Micro_SD_Card_Det J?
 U 1 1 60912CF3
-P 6840 2020
-F 0 "J?" H 6790 2837 50  0000 C CNN
-F 1 "Micro_SD_Card_Det" H 6790 2746 50  0000 C CNN
-F 2 "" H 8890 2720 50  0001 C CNN
-F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 6840 2120 50  0001 C CNN
-	1    6840 2020
+P 6840 1990
+F 0 "J?" H 6790 2807 50  0000 C CNN
+F 1 "Micro_SD_Card_Det" H 6790 2716 50  0000 C CNN
+F 2 "" H 8890 2690 50  0001 C CNN
+F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 6840 2090 50  0001 C CNN
+	1    6840 1990
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 1620 5940 1620
+	5300 1590 5940 1590
 Wire Wire Line
-	5300 1720 5940 1720
+	5300 1690 5940 1690
 Wire Wire Line
-	5940 1820 5300 1820
+	5940 1790 5300 1790
 Wire Wire Line
-	5300 2020 5940 2020
+	5300 2190 5940 2190
 Wire Wire Line
-	5300 2220 5940 2220
+	5940 2490 5300 2490
 Wire Wire Line
-	5940 2520 5820 2520
+	5300 2290 5940 2290
 Wire Wire Line
-	5820 2520 5820 2420
+	5940 2090 5870 2090
 Wire Wire Line
-	5300 2320 5940 2320
+	5870 2090 5870 2790
 $Comp
-L SVIELCOM_Library:NVT4857UK IC?
-U 1 1 60923467
-P 4000 1620
-F 0 "IC?" H 4650 1885 50  0000 C CNN
-F 1 "NVT4857UK" H 4650 1794 50  0000 C CNN
-F 2 "SVIELCOM:BGA20C40P4X5_170X210X53" H 5150 2050 50  0001 L CNN
-F 3 "http://www.nxp.com/docs/en/data-sheet/NVT4857UK.pdf" H 5150 1620 50  0001 L CNN
-F 4 "SD 3.0-SDR104 compliant integrated auto-direction control memory card with EMI filter and ESD protection" H 5150 2130 50  0001 L CNN "Description"
-F 5 "0.53" H 5150 1980 50  0001 L CNN "Height"
-F 6 "NXP" H 5150 2280 50  0001 L CNN "Manufacturer_Name"
-F 7 "NVT4857UK" H 5150 2210 50  0001 L CNN "Manufacturer_Part_Number"
-	1    4000 1620
+L SVIELCOM_Library:TXS0206-29YFPRB U?
+U 1 1 6095792B
+P 3800 1590
+F 0 "U?" H 4600 1877 60  0000 C CNN
+F 1 "TXS0206-29YFPRB" H 4600 1771 60  0000 C CNN
+F 2 "SVIELCOM:TXS0206-29YFPRB" H 4600 190 60  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/txs0206-29.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1620399755204" H 3900 1390 60  0001 C CNN
+	1    3800 1590
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 1920 5590 1920
+	5300 2790 5430 2790
+NoConn ~ 5300 2690
+Wire Wire Line
+	5300 1890 5430 1890
+NoConn ~ 5940 2390
 $Comp
-L SVIELCOM_Library:+2.9V_SD #PWR?
-U 1 1 60CDD3B2
-P 5590 1370
-F 0 "#PWR?" H 5590 1220 50  0001 C CNN
-F 1 "+2.9V_SD" H 5605 1543 50  0000 C CNN
-F 2 "" H 5590 1370 50  0001 C CNN
-F 3 "" H 5590 1370 50  0001 C CNN
-	1    5590 1370
+L power:GNDREF #PWR?
+U 1 1 6098D661
+P 5300 2910
+AR Path="/6098D661" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/6098D661" Ref="#PWR?"  Part="1" 
+AR Path="/60D8A641/6098D661" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5300 2660 50  0001 C CNN
+F 1 "GNDREF" V 5305 2782 50  0001 R CNN
+F 2 "" H 5300 2910 50  0001 C CNN
+F 3 "" H 5300 2910 50  0001 C CNN
+	1    5300 2910
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5590 1920 5590 1370
-Connection ~ 5590 1920
+	5300 2910 5300 2790
+Connection ~ 5300 2790
+$Comp
+L Device:C C?
+U 1 1 6099014F
+P 5430 2610
+AR Path="/6099014F" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/6099014F" Ref="C?"  Part="1" 
+AR Path="/60D8A641/6099014F" Ref="C?"  Part="1" 
+F 0 "C?" H 5450 2500 50  0000 L CNN
+F 1 "1µF" H 5370 2360 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5468 2460 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 5430 2610 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 5430 2610 50  0001 C CNN "Type"
+	1    5430 2610
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60990581
+P 5680 2610
+AR Path="/60990581" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60990581" Ref="C?"  Part="1" 
+AR Path="/60D8A641/60990581" Ref="C?"  Part="1" 
+F 0 "C?" H 5710 2500 50  0000 L CNN
+F 1 "1µF" H 5680 2360 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5718 2460 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 5680 2610 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 5680 2610 50  0001 C CNN "Type"
+	1    5680 2610
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	5590 1920 5940 1920
+	5430 2760 5430 2790
+Connection ~ 5430 2790
 Wire Wire Line
-	5410 2420 5300 2420
+	5430 2790 5680 2790
 Wire Wire Line
-	4000 2620 4000 2880
+	5680 2760 5680 2790
+Connection ~ 5680 2790
 Wire Wire Line
-	4000 2880 5300 2880
+	5680 2790 5870 2790
 Wire Wire Line
-	5300 2880 5300 2620
+	5300 1990 5940 1990
 Wire Wire Line
-	5940 2120 5590 2120
+	5430 2460 5430 1890
+Connection ~ 5430 1890
 Wire Wire Line
-	5590 2120 5590 2880
+	5430 1890 5680 1890
 Wire Wire Line
-	5590 2880 5300 2880
-Connection ~ 5300 2880
+	5680 2460 5680 1890
+Connection ~ 5680 1890
+Wire Wire Line
+	5680 1890 5940 1890
+$Comp
+L SVIELCOM_Library:VDD_PER #PWR?
+U 1 1 60995939
+P 3480 1060
+F 0 "#PWR?" H 3480 910 50  0001 C CNN
+F 1 "VDD_PER" H 3495 1233 50  0000 C CNN
+F 2 "" H 3480 1060 50  0001 C CNN
+F 3 "" H 3480 1060 50  0001 C CNN
+	1    3480 1060
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3480 1060 3480 1200
+Wire Wire Line
+	3480 1590 3900 1590
+$Comp
+L Device:C C?
+U 1 1 60996784
+P 3250 1440
+AR Path="/60996784" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60996784" Ref="C?"  Part="1" 
+AR Path="/60D8A641/60996784" Ref="C?"  Part="1" 
+F 0 "C?" H 3050 1530 50  0000 L CNN
+F 1 "1µF" H 3080 1340 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3288 1290 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 3250 1440 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 3250 1440 50  0001 C CNN "Type"
+	1    3250 1440
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 1290 3250 1200
+Wire Wire Line
+	3250 1200 3480 1200
+Connection ~ 3480 1200
+Wire Wire Line
+	3480 1200 3480 1590
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60997B3F
+P 3250 1590
+AR Path="/60997B3F" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60997B3F" Ref="#PWR?"  Part="1" 
+AR Path="/60D8A641/60997B3F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3250 1340 50  0001 C CNN
+F 1 "GNDREF" V 3255 1462 50  0001 R CNN
+F 2 "" H 3250 1590 50  0001 C CNN
+F 3 "" H 3250 1590 50  0001 C CNN
+	1    3250 1590
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60998CBA
+P 3860 2910
+AR Path="/60998CBA" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60998CBA" Ref="#PWR?"  Part="1" 
+AR Path="/60D8A641/60998CBA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3860 2660 50  0001 C CNN
+F 1 "GNDREF" V 3865 2782 50  0001 R CNN
+F 2 "" H 3860 2910 50  0001 C CNN
+F 3 "" H 3860 2910 50  0001 C CNN
+	1    3860 2910
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2790 3860 2790
+Wire Wire Line
+	3860 2790 3860 2910
+$Comp
+L power:GNDREF #PWR?
+U 1 1 609998AA
+P 7640 2910
+AR Path="/609998AA" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/609998AA" Ref="#PWR?"  Part="1" 
+AR Path="/60D8A641/609998AA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7640 2660 50  0001 C CNN
+F 1 "GNDREF" V 7645 2782 50  0001 R CNN
+F 2 "" H 7640 2910 50  0001 C CNN
+F 3 "" H 7640 2910 50  0001 C CNN
+	1    7640 2910
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7640 2490 7640 2910
 $EndSCHEMATC

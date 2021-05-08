@@ -1,4 +1,4 @@
-20246835751673631
+20248456123295631
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -76383,6 +76383,13 @@ DFN6 3x3
 0
 7
 7
+SVIELCOM
+TXS0206-29YFPRB
+
+
+0
+20
+20
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf

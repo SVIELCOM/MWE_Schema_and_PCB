@@ -410,4 +410,16 @@ Text HLabel 6450 5010 2    50   BiDi ~ 0
 QUADPSI_BK1_IO0
 Text HLabel 6450 5110 2    50   BiDi ~ 0
 QUADPSI_BK1_IO1
+Text Label 6210 4710 0    50   ~ 0
+PF7
+Text Label 6210 4810 0    50   ~ 0
+PF6
+Text Label 6210 5010 0    50   ~ 0
+PF8
+Text Label 6210 5110 0    50   ~ 0
+PF9
+Text Label 3770 5310 0    50   ~ 0
+PF10
+Text Label 3770 5110 0    50   ~ 0
+PB6
 $EndSCHEMATC

@@ -16,71 +16,589 @@ $EndDescr
 $Comp
 L Driver_LED:MAX7219 U?
 U 1 1 608F051E
-P 3160 3320
+P 1550 2840
 AR Path="/608F051E" Ref="U?"  Part="1" 
 AR Path="/608C8099/608F051E" Ref="U9"  Part="1" 
-F 0 "U9" H 3160 4501 50  0000 C CNN
-F 1 "MAX7219EWG+T" H 3160 4410 50  0000 C CNN
-F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 3110 3370 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf" H 3210 3170 50  0001 C CNN
-	1    3160 3320
+F 0 "U9" H 1550 4021 50  0000 C CNN
+F 1 "MAX7219EWG+T" H 1550 3930 50  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 1500 2890 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf" H 1600 2690 50  0001 C CNN
+	1    1550 2840
 	1    0    0    -1  
 $EndComp
 $Comp
 L Driver_LED:MAX7219 U?
 U 1 1 608F1867
-P 3140 5900
+P 1550 6090
 AR Path="/608F1867" Ref="U?"  Part="1" 
 AR Path="/608C8099/608F1867" Ref="U12"  Part="1" 
-F 0 "U12" H 3140 7081 50  0000 C CNN
-F 1 "MAX7219EWG+T" H 3140 6990 50  0000 C CNN
-F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 3090 5950 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf" H 3190 5750 50  0001 C CNN
-	1    3140 5900
+F 0 "U12" H 1550 7271 50  0000 C CNN
+F 1 "MAX7219EWG+T" H 1550 7180 50  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 1500 6140 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf" H 1600 5940 50  0001 C CNN
+	1    1550 6090
 	1    0    0    -1  
 $EndComp
 $Comp
 L SVIELCOM_Library:SC56-11SRWA U11
 U 1 1 60904CE7
-P 5570 4980
-F 0 "U11" H 5570 5647 50  0000 C CNN
-F 1 "SC56-11SRWA" H 5570 5556 50  0000 C CNN
-F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 5620 4380 50  0001 C CNN
-F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/SC56-11SRWA.pdf" H 5070 5455 50  0001 L CNN
-	1    5570 4980
+P 7260 5050
+F 0 "U11" H 7120 5620 50  0000 C CNN
+F 1 "SC56-11SRWA" H 7270 4480 50  0000 C CNN
+F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 7310 4450 50  0001 C CNN
+F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/SC56-11SRWA.pdf" H 6760 5525 50  0001 L CNN
+	1    7260 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L SVIELCOM_Library:BC56-12SURKWA U10
 U 1 1 60904CED
-P 7800 4860
-F 0 "U10" H 7800 5777 50  0000 C CNN
-F 1 "BC56-12SURKWA" H 7800 5686 50  0000 C CNN
-F 2 "Display_7Segment:CA56-12SURKWA" H 7850 3960 50  0001 C CNN
-F 3 "https://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12SURKWA(Ver.8A).pdf" H 7720 4940 50  0001 C CNN
-	1    7800 4860
+P 4990 5050
+F 0 "U10" H 4050 5960 50  0000 C CNN
+F 1 "BC56-12SURKWA" H 4310 5870 50  0000 C CNN
+F 2 "SVIELCOM:BC56-11SURKWA" H 5040 4150 50  0001 C CNN
+F 3 "https://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12SURKWA(Ver.8A).pdf" H 4910 5130 50  0001 C CNN
+	1    4990 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L SVIELCOM_Library:CC56-12SURKWA U8
 U 1 1 60904CF3
-P 6930 3050
-F 0 "U8" H 6930 3717 50  0000 C CNN
-F 1 "CC56-12SURKWA" H 6930 3626 50  0000 C CNN
-F 2 "Display_7Segment:CA56-12SURKWA" H 6930 2450 50  0001 C CNN
-F 3 "https://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12SURKWA(Ver.8A).pdf" H 6650 3080 50  0001 C CNN
-	1    6930 3050
+P 4990 1620
+F 0 "U8" H 4040 2260 50  0000 C CNN
+F 1 "CC56-12SURKWA" H 4310 2180 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12SURKWA" H 4990 1020 50  0001 C CNN
+F 3 "https://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12SURKWA(Ver.8A).pdf" H 4710 1650 50  0001 C CNN
+	1    4990 1620
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D2
 U 1 1 609B4BF3
-P 4850 1830
-F 0 "D2" H 4843 2047 50  0000 C CNN
-F 1 "L-1154ID" H 4843 1956 50  0000 C CNN
-F 2 "LED_THT:LED_D3.0mm" H 4850 1830 50  0001 C CNN
-F 3 "https://www.kingbright.com/attachments/file/psearch/000/00/00/L-1154ID(Ver.17A).pdf" H 4850 1830 50  0001 C CNN
-	1    4850 1830
+P 7970 1540
+F 0 "D2" H 7963 1757 50  0000 C CNN
+F 1 "L-1154ID" H 7963 1666 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 7970 1540 50  0001 C CNN
+F 3 "https://www.kingbright.com/attachments/file/psearch/000/00/00/L-1154ID(Ver.17A).pdf" H 7970 1540 50  0001 C CNN
+	1    7970 1540
 	1    0    0    -1  
 $EndComp
+$Comp
+L SVIELCOM_Library:CC56-12SURKWA U?
+U 1 1 60A2DE5F
+P 4990 2820
+F 0 "U?" H 4040 3460 50  0000 C CNN
+F 1 "CC56-12SURKWA" H 4310 3380 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12SURKWA" H 4990 2220 50  0001 C CNN
+F 3 "https://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12SURKWA(Ver.8A).pdf" H 4710 2850 50  0001 C CNN
+	1    4990 2820
+	1    0    0    -1  
+$EndComp
+Entry Bus Bus
+	3400 560  3500 660 
+Entry Wire Line
+	2220 1940 2120 2040
+Wire Wire Line
+	1950 2040 2120 2040
+Entry Wire Line
+	2220 2040 2120 2140
+Wire Wire Line
+	1950 2140 2120 2140
+Entry Wire Line
+	2220 2140 2120 2240
+Wire Wire Line
+	1950 2240 2120 2240
+Entry Wire Line
+	2220 2240 2120 2340
+Wire Wire Line
+	1950 2340 2120 2340
+Entry Wire Line
+	2220 2340 2120 2440
+Wire Wire Line
+	1950 2440 2120 2440
+Entry Wire Line
+	2220 2440 2120 2540
+Wire Wire Line
+	1950 2540 2120 2540
+Entry Wire Line
+	2220 2540 2120 2640
+Wire Wire Line
+	1950 2640 2120 2640
+Entry Wire Line
+	2220 2640 2120 2740
+Wire Wire Line
+	1950 2740 2120 2740
+Entry Wire Line
+	2220 2740 2120 2840
+Wire Wire Line
+	1950 2840 2120 2840
+Entry Wire Line
+	2220 2840 2120 2940
+Wire Wire Line
+	1950 2940 2120 2940
+Entry Wire Line
+	2220 2940 2120 3040
+Wire Wire Line
+	1950 3040 2120 3040
+Entry Wire Line
+	2220 3040 2120 3140
+Wire Wire Line
+	1950 3140 2120 3140
+Entry Wire Line
+	2220 3140 2120 3240
+Wire Wire Line
+	1950 3240 2120 3240
+Entry Wire Line
+	2220 3240 2120 3340
+Wire Wire Line
+	1950 3340 2120 3340
+Entry Wire Line
+	2220 3340 2120 3440
+Wire Wire Line
+	1950 3440 2120 3440
+Entry Wire Line
+	2220 3440 2120 3540
+Wire Wire Line
+	1950 3540 2120 3540
+Entry Wire Line
+	3500 1220 3600 1320
+Wire Wire Line
+	3600 1320 3890 1320
+Entry Wire Line
+	3500 1320 3600 1420
+Wire Wire Line
+	3600 1420 3890 1420
+Entry Wire Line
+	3500 1420 3600 1520
+Wire Wire Line
+	3600 1520 3890 1520
+Entry Wire Line
+	3500 1520 3600 1620
+Wire Wire Line
+	3600 1620 3890 1620
+Entry Wire Line
+	3500 1620 3600 1720
+Wire Wire Line
+	3600 1720 3890 1720
+Entry Wire Line
+	3500 1720 3600 1820
+Wire Wire Line
+	3600 1820 3890 1820
+Entry Wire Line
+	3500 1820 3600 1920
+Wire Wire Line
+	3600 1920 3890 1920
+Entry Wire Line
+	3500 1920 3600 2020
+Wire Wire Line
+	3600 2020 3890 2020
+Entry Wire Line
+	3500 2420 3600 2520
+Wire Wire Line
+	3600 2520 3890 2520
+Entry Wire Line
+	3500 2520 3600 2620
+Wire Wire Line
+	3600 2620 3890 2620
+Entry Wire Line
+	3500 2620 3600 2720
+Wire Wire Line
+	3600 2720 3890 2720
+Entry Wire Line
+	3500 2720 3600 2820
+Wire Wire Line
+	3600 2820 3890 2820
+Entry Wire Line
+	3500 2820 3600 2920
+Wire Wire Line
+	3600 2920 3890 2920
+Entry Wire Line
+	3500 2920 3600 3020
+Wire Wire Line
+	3600 3020 3890 3020
+Entry Wire Line
+	3500 3020 3600 3120
+Wire Wire Line
+	3600 3120 3890 3120
+Entry Wire Line
+	3500 3120 3600 3220
+Wire Wire Line
+	3600 3220 3890 3220
+Entry Wire Line
+	6480 1220 6380 1320
+Wire Wire Line
+	6380 1320 6090 1320
+Entry Wire Line
+	6480 1420 6380 1520
+Wire Wire Line
+	6380 1520 6090 1520
+Entry Wire Line
+	6480 1620 6380 1720
+Wire Wire Line
+	6380 1720 6090 1720
+Entry Wire Line
+	6480 1820 6380 1920
+Wire Wire Line
+	6380 1920 6090 1920
+Entry Wire Line
+	6480 2420 6380 2520
+Wire Wire Line
+	6380 2520 6090 2520
+Entry Wire Line
+	6480 2620 6380 2720
+Wire Wire Line
+	6380 2720 6090 2720
+Entry Wire Line
+	6480 2820 6380 2920
+Wire Wire Line
+	6380 2920 6090 2920
+Entry Wire Line
+	6480 3020 6380 3120
+Wire Wire Line
+	6380 3120 6090 3120
+Text Notes 5750 1090 0    50   ~ 0
+"Время"
+Text Notes 5760 2290 0    50   ~ 0
+"Вес"
+$Comp
+L SVIELCOM_Library:CC56-12SURKWA U?
+U 1 1 60A5D5C4
+P 4990 6940
+F 0 "U?" H 4040 7580 50  0000 C CNN
+F 1 "CC56-12SURKWA" H 4310 7500 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12SURKWA" H 4990 6340 50  0001 C CNN
+F 3 "https://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12SURKWA(Ver.8A).pdf" H 4710 6970 50  0001 C CNN
+	1    4990 6940
+	1    0    0    -1  
+$EndComp
+Entry Bus Bus
+	6380 3920 6480 4020
+Entry Bus Bus
+	3400 3920 3500 4020
+Wire Wire Line
+	7560 5350 7700 5350
+Wire Wire Line
+	7700 5350 7700 5450
+Wire Wire Line
+	7700 5450 7560 5450
+Entry Wire Line
+	7990 5250 7890 5350
+Wire Wire Line
+	7700 5350 7890 5350
+Connection ~ 7700 5350
+Entry Wire Line
+	2220 5190 2120 5290
+Wire Wire Line
+	1950 5290 2120 5290
+Entry Wire Line
+	2220 5290 2120 5390
+Wire Wire Line
+	1950 5390 2120 5390
+Entry Wire Line
+	2220 5390 2120 5490
+Wire Wire Line
+	1950 5490 2120 5490
+Entry Wire Line
+	2220 5490 2120 5590
+Wire Wire Line
+	1950 5590 2120 5590
+Entry Wire Line
+	2220 5590 2120 5690
+Wire Wire Line
+	1950 5690 2120 5690
+Entry Wire Line
+	2220 5690 2120 5790
+Wire Wire Line
+	1950 5790 2120 5790
+Entry Wire Line
+	2220 5790 2120 5890
+Wire Wire Line
+	1950 5890 2120 5890
+Entry Wire Line
+	2220 5890 2120 5990
+Wire Wire Line
+	1950 5990 2120 5990
+Entry Wire Line
+	2220 5990 2120 6090
+Wire Wire Line
+	1950 6090 2120 6090
+Entry Wire Line
+	2220 6090 2120 6190
+Wire Wire Line
+	1950 6190 2120 6190
+Entry Wire Line
+	2220 6190 2120 6290
+Wire Wire Line
+	1950 6290 2120 6290
+Entry Wire Line
+	2220 6290 2120 6390
+Wire Wire Line
+	1950 6390 2120 6390
+Entry Wire Line
+	2220 6390 2120 6490
+Wire Wire Line
+	1950 6490 2120 6490
+Entry Wire Line
+	2220 6490 2120 6590
+Wire Wire Line
+	1950 6590 2120 6590
+Entry Wire Line
+	2220 6590 2120 6690
+Wire Wire Line
+	1950 6690 2120 6690
+Entry Wire Line
+	2220 6690 2120 6790
+Wire Wire Line
+	1950 6790 2120 6790
+Entry Wire Line
+	3500 4350 3600 4450
+Wire Wire Line
+	3600 4450 3670 4450
+Entry Wire Line
+	3500 4650 3600 4750
+Wire Wire Line
+	3600 4750 3670 4750
+Entry Wire Line
+	3500 4950 3600 5050
+Wire Wire Line
+	3600 5050 3670 5050
+Entry Wire Line
+	3500 5250 3600 5350
+Wire Wire Line
+	3600 5350 3670 5350
+Entry Wire Line
+	3500 5550 3600 5650
+Wire Wire Line
+	3600 5650 3670 5650
+Entry Wire Line
+	3500 6540 3600 6640
+Wire Wire Line
+	3600 6640 3890 6640
+Entry Wire Line
+	3500 6640 3600 6740
+Wire Wire Line
+	3600 6740 3890 6740
+Entry Wire Line
+	3500 6740 3600 6840
+Wire Wire Line
+	3600 6840 3890 6840
+Entry Wire Line
+	3500 6840 3600 6940
+Wire Wire Line
+	3600 6940 3890 6940
+Entry Wire Line
+	3500 6940 3600 7040
+Wire Wire Line
+	3600 7040 3890 7040
+Entry Wire Line
+	3500 7040 3600 7140
+Wire Wire Line
+	3600 7140 3890 7140
+Entry Wire Line
+	3500 7140 3600 7240
+Wire Wire Line
+	3600 7240 3890 7240
+Entry Wire Line
+	3500 7240 3600 7340
+Wire Wire Line
+	3600 7340 3890 7340
+Entry Wire Line
+	6480 4350 6380 4450
+Wire Wire Line
+	6380 4450 6310 4450
+Entry Wire Line
+	6480 4650 6380 4750
+Wire Wire Line
+	6380 4750 6310 4750
+Entry Wire Line
+	6480 4950 6380 5050
+Wire Wire Line
+	6380 5050 6310 5050
+Entry Wire Line
+	6480 5250 6380 5350
+Wire Wire Line
+	6380 5350 6310 5350
+Wire Wire Line
+	3890 4650 3670 4650
+Wire Wire Line
+	3670 4650 3670 4550
+Connection ~ 3670 4450
+Wire Wire Line
+	3670 4450 3890 4450
+Wire Wire Line
+	3890 4550 3670 4550
+Connection ~ 3670 4550
+Wire Wire Line
+	3670 4550 3670 4450
+Wire Wire Line
+	3890 4950 3670 4950
+Wire Wire Line
+	3670 4950 3670 4850
+Wire Wire Line
+	3890 4850 3670 4850
+Connection ~ 3670 4850
+Wire Wire Line
+	3670 4850 3670 4750
+Wire Wire Line
+	3890 5250 3670 5250
+Wire Wire Line
+	3670 5250 3670 5150
+Wire Wire Line
+	3890 5150 3670 5150
+Connection ~ 3670 5150
+Wire Wire Line
+	3670 5150 3670 5050
+Wire Wire Line
+	3890 5550 3670 5550
+Wire Wire Line
+	3670 5550 3670 5450
+Wire Wire Line
+	3890 5450 3670 5450
+Connection ~ 3670 5450
+Wire Wire Line
+	3670 5450 3670 5350
+Connection ~ 3670 4750
+Wire Wire Line
+	3670 4750 3890 4750
+Connection ~ 3670 5050
+Wire Wire Line
+	3670 5050 3890 5050
+Connection ~ 3670 5350
+Wire Wire Line
+	3670 5350 3890 5350
+Wire Wire Line
+	3670 5650 3670 5750
+Wire Wire Line
+	3670 5750 3890 5750
+Connection ~ 3670 5650
+Wire Wire Line
+	3670 5650 3890 5650
+Wire Wire Line
+	6090 4650 6310 4650
+Wire Wire Line
+	6310 4650 6310 4550
+Wire Wire Line
+	6090 4550 6310 4550
+Connection ~ 6310 4550
+Wire Wire Line
+	6310 4550 6310 4450
+Connection ~ 6310 4450
+Wire Wire Line
+	6310 4450 6090 4450
+Wire Wire Line
+	6090 4950 6310 4950
+Wire Wire Line
+	6310 4950 6310 4850
+Wire Wire Line
+	6090 4850 6310 4850
+Connection ~ 6310 4850
+Wire Wire Line
+	6310 4850 6310 4750
+Wire Wire Line
+	6090 5250 6310 5250
+Wire Wire Line
+	6310 5250 6310 5150
+Wire Wire Line
+	6090 5150 6310 5150
+Connection ~ 6310 5150
+Wire Wire Line
+	6310 5150 6310 5050
+Wire Wire Line
+	6090 5550 6310 5550
+Wire Wire Line
+	6310 5550 6310 5450
+Wire Wire Line
+	6090 5450 6310 5450
+Connection ~ 6310 5450
+Wire Wire Line
+	6310 5450 6310 5350
+Connection ~ 6310 4750
+Wire Wire Line
+	6310 4750 6090 4750
+Connection ~ 6310 5050
+Wire Wire Line
+	6310 5050 6090 5050
+Connection ~ 6310 5350
+Wire Wire Line
+	6310 5350 6090 5350
+Entry Wire Line
+	6480 5550 6380 5650
+Wire Wire Line
+	6380 5650 6090 5650
+Entry Wire Line
+	6480 5650 6380 5750
+Wire Wire Line
+	6380 5750 6090 5750
+Entry Wire Line
+	6480 6540 6380 6640
+Wire Wire Line
+	6380 6640 6090 6640
+Entry Wire Line
+	6480 6740 6380 6840
+Wire Wire Line
+	6380 6840 6090 6840
+Entry Wire Line
+	6480 6940 6380 7040
+Wire Wire Line
+	6380 7040 6090 7040
+Entry Wire Line
+	6480 7140 6380 7240
+Wire Wire Line
+	6380 7240 6090 7240
+Entry Wire Line
+	6480 4650 6580 4750
+Wire Wire Line
+	6580 4750 6960 4750
+Entry Wire Line
+	6480 4750 6580 4850
+Wire Wire Line
+	6580 4850 6960 4850
+Entry Wire Line
+	6480 4850 6580 4950
+Wire Wire Line
+	6580 4950 6960 4950
+Entry Wire Line
+	6480 4950 6580 5050
+Wire Wire Line
+	6580 5050 6960 5050
+Entry Wire Line
+	6480 5050 6580 5150
+Wire Wire Line
+	6580 5150 6960 5150
+Entry Wire Line
+	6480 5150 6580 5250
+Wire Wire Line
+	6580 5250 6960 5250
+Entry Wire Line
+	6480 5250 6580 5350
+Wire Wire Line
+	6580 5350 6960 5350
+Entry Wire Line
+	6480 5350 6580 5450
+Wire Wire Line
+	6580 5450 6960 5450
+Text Notes 5620 4270 0    50   ~ 0
+"No Цикла"
+Text Notes 5790 6400 0    50   ~ 0
+"Дата"
+Text Notes 7230 4520 0    50   ~ 0
+"No Смены"
+Wire Bus Line
+	7990 3920 7990 5590
+Wire Bus Line
+	2220 560  6480 560 
+Wire Bus Line
+	2220 3920 7990 3920
+Wire Bus Line
+	6480 560  6480 3020
+Wire Bus Line
+	3500 4020 3500 7240
+Wire Bus Line
+	6480 4020 6480 7140
+Wire Bus Line
+	2220 3920 2220 6690
+Wire Bus Line
+	3500 660  3500 3120
+Wire Bus Line
+	2220 560  2220 3440
 $EndSCHEMATC

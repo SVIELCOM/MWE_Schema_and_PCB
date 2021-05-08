@@ -135,7 +135,7 @@ F0 "MCU_Power_supply_clocking" 50
 F1 "MCU_Power_supply_clocking.sch" 50
 $EndSheet
 $Sheet
-S 1200 8020 1010 840 
+S 890  8000 1010 840 
 U 60D8A641
 F0 "Storage_and_memory" 50
 F1 "Storage_and_memory.sch" 50

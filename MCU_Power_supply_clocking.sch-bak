@@ -56,10 +56,10 @@ F 4 "" H 4500 6870 50  0001 C CNN "Type"
 $EndComp
 $Comp
 L SVIELCOM_Library:STM32H743ZIT6 U?
-U 1 1 60A2F6C1
+U 1 1 60A0FE7D
 P 1850 2600
-AR Path="/60A2F6C1" Ref="U?"  Part="1" 
-AR Path="/60A03F8A/60A2F6C1" Ref="U6"  Part="1" 
+AR Path="/60A0FE7D" Ref="U?"  Part="1" 
+AR Path="/60A03F8A/60A0FE7D" Ref="U6"  Part="1" 
 F 0 "U6" H 1850 4267 50  0000 C CNN
 F 1 "STM32H743ZIT6" H 1850 4176 50  0000 C CNN
 F 2 "QFP50P2200X2200X160-144N" H 1900 4200 50  0001 L BNN
@@ -87,10 +87,10 @@ Wire Wire Line
 	3520 3050 3760 3050
 $Comp
 L Device:C C?
-U 1 1 60A2F6CF
+U 1 1 60A0FE7E
 P 4310 2450
-AR Path="/60A2F6CF" Ref="C?"  Part="1" 
-AR Path="/60A03F8A/60A2F6CF" Ref="C21"  Part="1" 
+AR Path="/60A0FE7E" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FE7E" Ref="C21"  Part="1" 
 F 0 "C21" V 4180 2210 50  0000 L CNN
 F 1 "4,6pF" V 4250 2180 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4348 2300 50  0001 C CNN
@@ -101,10 +101,10 @@ F 4 "" H 4310 2450 50  0001 C CNN "Type"
 $EndComp
 $Comp
 L power:GNDREF #PWR?
-U 1 1 60A2F6D5
+U 1 1 60A0FE7F
 P 4630 2450
-AR Path="/60A2F6D5" Ref="#PWR?"  Part="1" 
-AR Path="/60A03F8A/60A2F6D5" Ref="#PWR021"  Part="1" 
+AR Path="/60A0FE7F" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FE7F" Ref="#PWR021"  Part="1" 
 F 0 "#PWR021" H 4630 2200 50  0001 C CNN
 F 1 "GNDREF" V 4635 2322 50  0001 R CNN
 F 2 "" H 4630 2450 50  0001 C CNN
@@ -114,10 +114,10 @@ F 3 "" H 4630 2450 50  0001 C CNN
 $EndComp
 $Comp
 L power:GNDREF #PWR?
-U 1 1 60A2F6DB
+U 1 1 60A0FE80
 P 4630 2150
-AR Path="/60A2F6DB" Ref="#PWR?"  Part="1" 
-AR Path="/60A03F8A/60A2F6DB" Ref="#PWR020"  Part="1" 
+AR Path="/60A0FE80" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FE80" Ref="#PWR020"  Part="1" 
 F 0 "#PWR020" H 4630 1900 50  0001 C CNN
 F 1 "GNDREF" V 4635 2022 50  0001 R CNN
 F 2 "" H 4630 2150 50  0001 C CNN
@@ -133,10 +133,10 @@ Wire Wire Line
 	3760 2750 3760 2650
 $Comp
 L Device:Crystal Y?
-U 1 1 60A2F6E4
+U 1 1 60A0FE81
 P 3760 2300
-AR Path="/60A2F6E4" Ref="Y?"  Part="1" 
-AR Path="/60A03F8A/60A2F6E4" Ref="Y2"  Part="1" 
+AR Path="/60A0FE81" Ref="Y?"  Part="1" 
+AR Path="/60A03F8A/60A0FE81" Ref="Y2"  Part="1" 
 F 0 "Y2" V 3860 2140 50  0000 C CNN
 F 1 "NX5032GA-8MHz" V 3970 2220 50  0000 C CNN
 F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering" H 3760 2300 50  0001 C CNN
@@ -154,10 +154,10 @@ Wire Wire Line
 Connection ~ 3760 2450
 $Comp
 L Device:C C?
-U 1 1 60A2F6F0
+U 1 1 60A0FE82
 P 4120 2650
-AR Path="/60A2F6F0" Ref="C?"  Part="1" 
-AR Path="/60A03F8A/60A2F6F0" Ref="C22"  Part="1" 
+AR Path="/60A0FE82" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FE82" Ref="C22"  Part="1" 
 F 0 "C22" V 4070 2720 50  0000 L CNN
 F 1 "2,7pF" V 4180 2720 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4158 2500 50  0001 C CNN
@@ -168,10 +168,10 @@ F 4 "CC0603BRNPO9BN2R7" H 4120 2650 50  0001 C CNN "Type"
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 60A2F6F7
+U 1 1 60A0FE83
 P 4100 3050
-AR Path="/60A2F6F7" Ref="C?"  Part="1" 
-AR Path="/60A03F8A/60A2F6F7" Ref="C23"  Part="1" 
+AR Path="/60A0FE83" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FE83" Ref="C23"  Part="1" 
 F 0 "C23" V 4050 3140 50  0000 L CNN
 F 1 "2,7pF" V 4160 3130 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4138 2900 50  0001 C CNN
@@ -188,10 +188,10 @@ Wire Wire Line
 Connection ~ 3760 2650
 $Comp
 L power:GNDREF #PWR?
-U 1 1 60A2F701
+U 1 1 60A0FE84
 P 4630 2650
-AR Path="/60A2F701" Ref="#PWR?"  Part="1" 
-AR Path="/60A03F8A/60A2F701" Ref="#PWR024"  Part="1" 
+AR Path="/60A0FE84" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FE84" Ref="#PWR024"  Part="1" 
 F 0 "#PWR024" H 4630 2400 50  0001 C CNN
 F 1 "GNDREF" V 4635 2522 50  0001 R CNN
 F 2 "" H 4630 2650 50  0001 C CNN
@@ -404,10 +404,10 @@ Wire Wire Line
 	2830 1750 3380 1750
 $Comp
 L Device:C C?
-U 1 1 60A2F795
+U 1 1 60A0FE8B
 P 4830 6870
-AR Path="/60A2F795" Ref="C?"  Part="1" 
-AR Path="/60A03F8A/60A2F795" Ref="C37"  Part="1" 
+AR Path="/60A0FE8B" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FE8B" Ref="C37"  Part="1" 
 F 0 "C37" H 4710 6770 50  0000 L CNN
 F 1 "2,2µF" H 4850 6980 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4868 6720 50  0001 C CNN
@@ -455,10 +455,10 @@ Text Label 4660 6270 3    50   ~ 0
 VCAP
 $Comp
 L Jumper:Jumper_3_Bridged12 JP?
-U 1 1 60A2F7AE
+U 1 1 60A0FE8D
 P 10200 5790
-AR Path="/60A2F7AE" Ref="JP?"  Part="1" 
-AR Path="/60A03F8A/60A2F7AE" Ref="JP4"  Part="1" 
+AR Path="/60A0FE8D" Ref="JP?"  Part="1" 
+AR Path="/60A03F8A/60A0FE8D" Ref="JP4"  Part="1" 
 F 0 "JP4" V 10000 5860 50  0000 L CNN
 F 1 "Jumper_3_Bridged12" V 10080 5860 50  0000 L CNN
 F 2 "" H 10200 5790 50  0001 C CNN
@@ -472,10 +472,10 @@ Wire Wire Line
 	3380 780  3380 880 
 $Comp
 L Device:Battery_Cell BT?
-U 1 1 60A2F7B6
+U 1 1 60A0FE8E
 P 10200 6240
-AR Path="/60A2F7B6" Ref="BT?"  Part="1" 
-AR Path="/60A03F8A/60A2F7B6" Ref="BT1"  Part="1" 
+AR Path="/60A0FE8E" Ref="BT?"  Part="1" 
+AR Path="/60A03F8A/60A0FE8E" Ref="BT1"  Part="1" 
 F 0 "BT1" H 10450 6330 50  0000 C CNN
 F 1 "CR2032" H 10440 6260 50  0000 C CNN
 F 2 "" V 10200 6300 50  0001 C CNN
@@ -485,10 +485,10 @@ F 3 "~" V 10200 6300 50  0001 C CNN
 $EndComp
 $Comp
 L power:GNDREF #PWR?
-U 1 1 60A2F7BC
+U 1 1 60A0FE8F
 P 10200 6340
-AR Path="/60A2F7BC" Ref="#PWR?"  Part="1" 
-AR Path="/60A03F8A/60A2F7BC" Ref="#PWR028"  Part="1" 
+AR Path="/60A0FE8F" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FE8F" Ref="#PWR028"  Part="1" 
 F 0 "#PWR028" H 10200 6090 50  0001 C CNN
 F 1 "GNDREF" V 10205 6212 50  0001 R CNN
 F 2 "" H 10200 6340 50  0001 C CNN
@@ -498,10 +498,10 @@ F 3 "" H 10200 6340 50  0001 C CNN
 $EndComp
 $Comp
 L SVIELCOM_Library:VDD_MCU #PWR?
-U 1 1 60A2F7C2
+U 1 1 60A0FE90
 P 3380 780
-AR Path="/60A2F7C2" Ref="#PWR?"  Part="1" 
-AR Path="/60A03F8A/60A2F7C2" Ref="#PWR014"  Part="1" 
+AR Path="/60A0FE90" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FE90" Ref="#PWR014"  Part="1" 
 F 0 "#PWR014" H 3380 630 50  0001 C CNN
 F 1 "VDD_MCU" H 3400 953 50  0000 C CNN
 F 2 "" H 3380 780 50  0001 C CNN
@@ -560,10 +560,10 @@ Wire Wire Line
 	5510 7310 5510 7020
 $Comp
 L power:GNDREF #PWR?
-U 1 1 60A2F7F0
+U 1 1 60A0FE93
 P 5340 7310
-AR Path="/60A2F7F0" Ref="#PWR?"  Part="1" 
-AR Path="/60A03F8A/60A2F7F0" Ref="#PWR034"  Part="1" 
+AR Path="/60A0FE93" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FE93" Ref="#PWR034"  Part="1" 
 F 0 "#PWR034" H 5340 7060 50  0001 C CNN
 F 1 "GNDREF" H 5345 7137 50  0001 C CNN
 F 2 "" H 5340 7310 50  0001 C CNN
@@ -608,10 +608,10 @@ Text Label 7140 4810 0    50   ~ 0
 BOOT0
 $Comp
 L Jumper:Jumper_3_Bridged12 JP?
-U 1 1 60A2F808
+U 1 1 60A0FE95
 P 8070 4810
-AR Path="/60A2F808" Ref="JP?"  Part="1" 
-AR Path="/60A03F8A/60A2F808" Ref="JP3"  Part="1" 
+AR Path="/60A0FE95" Ref="JP?"  Part="1" 
+AR Path="/60A03F8A/60A0FE95" Ref="JP3"  Part="1" 
 F 0 "JP3" V 8130 5030 50  0000 L CNN
 F 1 "Jumper_3_Bridged12" V 8060 4910 50  0000 L CNN
 F 2 "" H 8070 4810 50  0001 C CNN
@@ -623,10 +623,10 @@ Wire Wire Line
 	8070 4440 8070 4560
 $Comp
 L SVIELCOM_Library:VDD_MCU #PWR?
-U 1 1 60A2F80F
+U 1 1 60A0FE96
 P 8070 4440
-AR Path="/60A2F80F" Ref="#PWR?"  Part="1" 
-AR Path="/60A03F8A/60A2F80F" Ref="#PWR022"  Part="1" 
+AR Path="/60A0FE96" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FE96" Ref="#PWR022"  Part="1" 
 F 0 "#PWR022" H 8070 4290 50  0001 C CNN
 F 1 "VDD_MCU" H 8090 4613 50  0000 C CNN
 F 2 "" H 8070 4440 50  0001 C CNN
@@ -638,10 +638,10 @@ Wire Wire Line
 	7140 4810 7620 4810
 $Comp
 L power:GNDREF #PWR?
-U 1 1 60A2F816
+U 1 1 60A0FE97
 P 7770 6340
-AR Path="/60A2F816" Ref="#PWR?"  Part="1" 
-AR Path="/60A03F8A/60A2F816" Ref="#PWR030"  Part="1" 
+AR Path="/60A0FE97" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FE97" Ref="#PWR030"  Part="1" 
 F 0 "#PWR030" H 7770 6090 50  0001 C CNN
 F 1 "GNDREF" H 7775 6167 50  0001 C CNN
 F 2 "" H 7770 6340 50  0001 C CNN
@@ -731,10 +731,10 @@ F 4 "CL10B105KA8NNNC" H 5180 6870 50  0001 C CNN "Type"
 $EndComp
 $Comp
 L Device:CP C?
-U 1 1 60A4621E
+U 1 1 60A0FE9C
 P 5510 6870
-AR Path="/60A4621E" Ref="C?"  Part="1" 
-AR Path="/60A03F8A/60A4621E" Ref="C39"  Part="1" 
+AR Path="/60A0FE9C" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FE9C" Ref="C39"  Part="1" 
 F 0 "C39" H 5628 6916 50  0000 L CNN
 F 1 "10µF" H 5628 6825 50  0000 L CNN
 F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I" H 5548 6720 50  0001 C CNN
@@ -763,10 +763,10 @@ Wire Wire Line
 	6280 7310 6280 7020
 $Comp
 L power:GNDREF #PWR?
-U 1 1 60A56CBD
+U 1 1 60A0FE9D
 P 6110 7310
-AR Path="/60A56CBD" Ref="#PWR?"  Part="1" 
-AR Path="/60A03F8A/60A56CBD" Ref="#PWR035"  Part="1" 
+AR Path="/60A0FE9D" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FE9D" Ref="#PWR035"  Part="1" 
 F 0 "#PWR035" H 6110 7060 50  0001 C CNN
 F 1 "GNDREF" H 6115 7137 50  0001 C CNN
 F 2 "" H 6110 7310 50  0001 C CNN
@@ -786,10 +786,10 @@ Text Label 6110 6270 3    50   ~ 0
 Vref+
 $Comp
 L Device:C C?
-U 1 1 60A56CCA
+U 1 1 60A0FE9E
 P 5950 6870
-AR Path="/60A56CCA" Ref="C?"  Part="1" 
-AR Path="/60A03F8A/60A56CCA" Ref="C40"  Part="1" 
+AR Path="/60A0FE9E" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FE9E" Ref="C40"  Part="1" 
 F 0 "C40" H 5990 6960 50  0000 L CNN
 F 1 "1µF" H 5980 6760 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5988 6720 50  0001 C CNN
@@ -847,10 +847,10 @@ F 4 "CL10B105KA8NNNC" H 1270 5840 50  0001 C CNN "Type"
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 60A7106B
+U 1 1 60A0FEA2
 P 1550 5840
-AR Path="/60A7106B" Ref="C?"  Part="1" 
-AR Path="/60A03F8A/60A7106B" Ref="C26"  Part="1" 
+AR Path="/60A0FEA2" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FEA2" Ref="C26"  Part="1" 
 F 0 "C26" H 1590 5930 50  0000 L CNN
 F 1 "1µF" H 1580 5730 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1588 5690 50  0001 C CNN
@@ -861,10 +861,10 @@ F 4 "CL10B105KA8NNNC" H 1550 5840 50  0001 C CNN "Type"
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 60A72A28
+U 1 1 60A0FEA3
 P 1830 5840
-AR Path="/60A72A28" Ref="C?"  Part="1" 
-AR Path="/60A03F8A/60A72A28" Ref="C27"  Part="1" 
+AR Path="/60A0FEA3" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FEA3" Ref="C27"  Part="1" 
 F 0 "C27" H 1870 5930 50  0000 L CNN
 F 1 "1µF" H 1860 5730 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1868 5690 50  0001 C CNN
@@ -875,10 +875,10 @@ F 4 "CL10B105KA8NNNC" H 1830 5840 50  0001 C CNN "Type"
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 60A72E4B
+U 1 1 60A0FEA4
 P 2110 5840
-AR Path="/60A72E4B" Ref="C?"  Part="1" 
-AR Path="/60A03F8A/60A72E4B" Ref="C28"  Part="1" 
+AR Path="/60A0FEA4" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FEA4" Ref="C28"  Part="1" 
 F 0 "C28" H 2150 5930 50  0000 L CNN
 F 1 "1µF" H 2140 5730 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2148 5690 50  0001 C CNN
@@ -889,10 +889,10 @@ F 4 "CL10B105KA8NNNC" H 2110 5840 50  0001 C CNN "Type"
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 60A737AE
+U 1 1 60A0FEA5
 P 2390 5840
-AR Path="/60A737AE" Ref="C?"  Part="1" 
-AR Path="/60A03F8A/60A737AE" Ref="C29"  Part="1" 
+AR Path="/60A0FEA5" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FEA5" Ref="C29"  Part="1" 
 F 0 "C29" H 2430 5930 50  0000 L CNN
 F 1 "1µF" H 2420 5730 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2428 5690 50  0001 C CNN
@@ -959,10 +959,10 @@ F 4 "CL10B105KA8NNNC" H 3510 5840 50  0001 C CNN "Type"
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 60A7559F
+U 1 1 60A0FEAA
 P 3790 5840
-AR Path="/60A7559F" Ref="C?"  Part="1" 
-AR Path="/60A03F8A/60A7559F" Ref="C34"  Part="1" 
+AR Path="/60A0FEAA" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FEAA" Ref="C34"  Part="1" 
 F 0 "C34" H 3830 5930 50  0000 L CNN
 F 1 "1µF" H 3820 5730 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3828 5690 50  0001 C CNN
@@ -1089,10 +1089,10 @@ Wire Wire Line
 Connection ~ 3790 6100
 $Comp
 L power:GNDREF #PWR?
-U 1 1 60B2A2A1
+U 1 1 60A0FEB7
 P 1270 6190
-AR Path="/60B2A2A1" Ref="#PWR?"  Part="1" 
-AR Path="/60A03F8A/60B2A2A1" Ref="#PWR031"  Part="1" 
+AR Path="/60A0FEB7" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FEB7" Ref="#PWR031"  Part="1" 
 F 0 "#PWR031" H 1270 5940 50  0001 C CNN
 F 1 "GNDREF" H 1410 6020 50  0001 R CNN
 F 2 "" H 1270 6190 50  0001 C CNN
@@ -1138,10 +1138,10 @@ F 3 "~" H 9920 4580 50  0001 C CNN
 $EndComp
 $Comp
 L power:GNDREF #PWR?
-U 1 1 60B4CFEA
+U 1 1 60A0FEBA
 P 10220 4900
-AR Path="/60B4CFEA" Ref="#PWR?"  Part="1" 
-AR Path="/60A03F8A/60B4CFEA" Ref="#PWR019"  Part="1" 
+AR Path="/60A0FEBA" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FEBA" Ref="#PWR019"  Part="1" 
 F 0 "#PWR019" H 10220 4650 50  0001 C CNN
 F 1 "GNDREF" V 10225 4772 50  0001 R CNN
 F 2 "" H 10220 4900 50  0001 C CNN
@@ -1157,10 +1157,10 @@ Wire Wire Line
 	10220 4210 10220 4330
 $Comp
 L SVIELCOM_Library:VDD_MCU #PWR?
-U 1 1 60B4CFF9
+U 1 1 60A0FEBC
 P 10220 4210
-AR Path="/60B4CFF9" Ref="#PWR?"  Part="1" 
-AR Path="/60A03F8A/60B4CFF9" Ref="#PWR016"  Part="1" 
+AR Path="/60A0FEBC" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FEBC" Ref="#PWR016"  Part="1" 
 F 0 "#PWR016" H 10220 4060 50  0001 C CNN
 F 1 "VDD_MCU" H 10240 4383 50  0000 C CNN
 F 2 "" H 10220 4210 50  0001 C CNN
@@ -1172,10 +1172,10 @@ Wire Wire Line
 	9290 4580 9770 4580
 $Comp
 L Jumper:Jumper_3_Bridged12 JP?
-U 1 1 60B4CFF2
+U 1 1 60A0FEBB
 P 10220 4580
-AR Path="/60B4CFF2" Ref="JP?"  Part="1" 
-AR Path="/60A03F8A/60B4CFF2" Ref="JP2"  Part="1" 
+AR Path="/60A0FEBB" Ref="JP?"  Part="1" 
+AR Path="/60A03F8A/60A0FEBB" Ref="JP2"  Part="1" 
 F 0 "JP2" V 10280 4800 50  0000 L CNN
 F 1 "Jumper_3_Bridged12" V 10210 4680 50  0000 L CNN
 F 2 "" H 10220 4580 50  0001 C CNN
@@ -1185,10 +1185,10 @@ F 3 "~" H 10220 4580 50  0001 C CNN
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 60B93055
+U 1 1 60A0FEBD
 P 1260 7040
-AR Path="/60B93055" Ref="C?"  Part="1" 
-AR Path="/60A03F8A/60B93055" Ref="C42"  Part="1" 
+AR Path="/60A0FEBD" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FEBD" Ref="C42"  Part="1" 
 F 0 "C42" H 1300 7130 50  0000 L CNN
 F 1 "1µF" H 1290 6930 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1298 6890 50  0001 C CNN
@@ -1227,10 +1227,10 @@ F 4 "CL10B105KA8NNNC" H 1820 7040 50  0001 C CNN "Type"
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 60B9306A
+U 1 1 60A0FEC0
 P 2100 7040
-AR Path="/60B9306A" Ref="C?"  Part="1" 
-AR Path="/60A03F8A/60B9306A" Ref="C45"  Part="1" 
+AR Path="/60A0FEC0" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FEC0" Ref="C45"  Part="1" 
 F 0 "C45" H 2140 7130 50  0000 L CNN
 F 1 "1µF" H 2130 6930 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2138 6890 50  0001 C CNN
@@ -1255,10 +1255,10 @@ F 4 "CL10B105KA8NNNC" H 2380 7040 50  0001 C CNN "Type"
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 60B93078
+U 1 1 60A0FEC2
 P 2660 7040
-AR Path="/60B93078" Ref="C?"  Part="1" 
-AR Path="/60A03F8A/60B93078" Ref="C47"  Part="1" 
+AR Path="/60A0FEC2" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FEC2" Ref="C47"  Part="1" 
 F 0 "C47" H 2700 7130 50  0000 L CNN
 F 1 "1µF" H 2690 6930 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2698 6890 50  0001 C CNN
@@ -1449,6 +1449,1804 @@ Wire Wire Line
 Connection ~ 1260 6780
 $Comp
 L Regulator_Linear:LD1117S33TR_SOT223 U?
+U 1 1 60A0FE74
+P 6450 1180
+F 0 "U?" H 6450 1390 50  0000 C CNN
+F 1 "LD1117S33CTR" H 6460 1310 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6450 1380 50  0001 C CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 6550 930 50  0001 C CNN
+	1    6450 1180
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:+5V #PWR?
+U 1 1 60A0FE75
+P 5820 1030
+F 0 "#PWR?" H 5820 880 50  0001 C CNN
+F 1 "+5V" H 5835 1203 50  0000 C CNN
+F 2 "" H 5820 1030 50  0001 C CNN
+F 3 "" H 5820 1030 50  0001 C CNN
+	1    5820 1030
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5820 1180 5900 1180
+$Comp
+L Device:CP C?
+U 1 1 60A0FE76
+P 5900 1420
+AR Path="/60A0FE76" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FE76" Ref="C?"  Part="1" 
+F 0 "C?" H 5540 1400 50  0000 L CNN
+F 1 "47µFx16" H 5530 1300 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder" H 5938 1270 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/1995953.pdf" H 5900 1420 50  0001 C CNN
+F 4 "593D476X9016D2TE3" H 5900 1420 50  0001 C CNN "Type"
+	1    5900 1420
+	1    0    0    -1  
+$EndComp
+Connection ~ 5900 1180
+Wire Wire Line
+	5900 1180 6150 1180
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60A0FE77
+P 6450 1660
+AR Path="/60A0FE77" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FE77" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6450 1410 50  0001 C CNN
+F 1 "GNDREF" V 6455 1532 50  0001 R CNN
+F 2 "" H 6450 1660 50  0001 C CNN
+F 3 "" H 6450 1660 50  0001 C CNN
+	1    6450 1660
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 1270 5900 1180
+Wire Wire Line
+	5900 1570 5900 1600
+Wire Wire Line
+	5900 1600 6450 1600
+Wire Wire Line
+	6450 1600 6450 1480
+$Comp
+L SVIELCOM_Library:VDD_PER #PWR?
+U 1 1 60A0FE78
+P 6880 1030
+F 0 "#PWR?" H 6880 880 50  0001 C CNN
+F 1 "VDD_PER" H 6895 1203 50  0000 C CNN
+F 2 "" H 6880 1030 50  0001 C CNN
+F 3 "" H 6880 1030 50  0001 C CNN
+	1    6880 1030
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 1180 6880 1180
+$Comp
+L Device:CP C?
+U 1 1 60A0FE79
+P 6880 1420
+AR Path="/60A0FE79" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FE79" Ref="C?"  Part="1" 
+F 0 "C?" H 6600 1390 50  0000 L CNN
+F 1 "10µFx16" H 6510 1300 50  0000 L CNN
+F 2 "" H 6918 1270 50  0001 C CNN
+F 3 "" H 6880 1420 50  0001 C CNN
+F 4 "593D106X9016A2TE3" H 6880 1420 50  0001 C CNN "Type"
+	1    6880 1420
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 1600 6880 1600
+Wire Wire Line
+	6880 1600 6880 1570
+Connection ~ 6450 1600
+Wire Wire Line
+	6450 1660 6450 1600
+Wire Wire Line
+	6880 1270 6880 1180
+Connection ~ 6880 1180
+Wire Wire Line
+	6880 1180 6880 1030
+$Comp
+L Device:C C?
+U 1 1 60A43FC2
+P 7130 1420
+AR Path="/60A43FC2" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A43FC2" Ref="C?"  Part="1" 
+F 0 "C?" H 7170 1510 50  0000 L CNN
+F 1 "1µF" H 7160 1310 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7168 1270 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 7130 1420 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 7130 1420 50  0001 C CNN "Type"
+	1    7130 1420
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5820 1180 5820 1030
+Wire Wire Line
+	6880 1180 7130 1180
+Wire Wire Line
+	7130 1180 7130 1270
+Wire Wire Line
+	7130 1570 7130 1600
+Wire Wire Line
+	7130 1600 6880 1600
+Connection ~ 6880 1600
+$Comp
+L Regulator_Linear:LD1117S33TR_SOT223 U?
+U 1 1 60A0FEAB
+P 6450 2140
+F 0 "U?" H 6450 2350 50  0000 C CNN
+F 1 "LD1117S33CTR" H 6460 2270 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6450 2340 50  0001 C CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 6550 1890 50  0001 C CNN
+	1    6450 2140
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:+5V #PWR?
+U 1 1 60A0FEAC
+P 5820 1990
+F 0 "#PWR?" H 5820 1840 50  0001 C CNN
+F 1 "+5V" H 5835 2163 50  0000 C CNN
+F 2 "" H 5820 1990 50  0001 C CNN
+F 3 "" H 5820 1990 50  0001 C CNN
+	1    5820 1990
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5820 2140 5900 2140
+$Comp
+L Device:CP C?
+U 1 1 60A80B8D
+P 5900 2380
+AR Path="/60A80B8D" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A80B8D" Ref="C?"  Part="1" 
+F 0 "C?" H 5540 2360 50  0000 L CNN
+F 1 "47µFx16" H 5530 2260 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder" H 5938 2230 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/1995953.pdf" H 5900 2380 50  0001 C CNN
+F 4 "593D476X9016D2TE3" H 5900 2380 50  0001 C CNN "Type"
+	1    5900 2380
+	1    0    0    -1  
+$EndComp
+Connection ~ 5900 2140
+Wire Wire Line
+	5900 2140 6150 2140
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60A0FEAE
+P 6450 2620
+AR Path="/60A0FEAE" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FEAE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6450 2370 50  0001 C CNN
+F 1 "GNDREF" V 6455 2492 50  0001 R CNN
+F 2 "" H 6450 2620 50  0001 C CNN
+F 3 "" H 6450 2620 50  0001 C CNN
+	1    6450 2620
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2230 5900 2140
+Wire Wire Line
+	5900 2530 5900 2560
+Wire Wire Line
+	5900 2560 6450 2560
+Wire Wire Line
+	6450 2560 6450 2440
+Wire Wire Line
+	6750 2140 6880 2140
+$Comp
+L Device:CP C?
+U 1 1 60A0FEAF
+P 6880 2380
+AR Path="/60A0FEAF" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FEAF" Ref="C?"  Part="1" 
+F 0 "C?" H 6600 2350 50  0000 L CNN
+F 1 "10µFx16" H 6510 2260 50  0000 L CNN
+F 2 "" H 6918 2230 50  0001 C CNN
+F 3 "" H 6880 2380 50  0001 C CNN
+F 4 "593D106X9016A2TE3" H 6880 2380 50  0001 C CNN "Type"
+	1    6880 2380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 2560 6880 2560
+Wire Wire Line
+	6880 2560 6880 2530
+Connection ~ 6450 2560
+Wire Wire Line
+	6450 2620 6450 2560
+Wire Wire Line
+	6880 2230 6880 2140
+Connection ~ 6880 2140
+Wire Wire Line
+	6880 2140 6880 1990
+$Comp
+L Device:C C?
+U 1 1 60A0FEB0
+P 7130 2380
+AR Path="/60A0FEB0" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FEB0" Ref="C?"  Part="1" 
+F 0 "C?" H 7170 2470 50  0000 L CNN
+F 1 "1µF" H 7160 2270 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7168 2230 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 7130 2380 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 7130 2380 50  0001 C CNN "Type"
+	1    7130 2380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5820 2140 5820 1990
+Wire Wire Line
+	6880 2140 7130 2140
+Wire Wire Line
+	7130 2140 7130 2230
+Wire Wire Line
+	7130 2530 7130 2560
+Wire Wire Line
+	7130 2560 6880 2560
+Connection ~ 6880 2560
+$Comp
+L SVIELCOM_Library:VDD_MCU #PWR?
+U 1 1 60A8F51D
+P 6880 1990
+AR Path="/60A8F51D" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A8F51D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6880 1840 50  0001 C CNN
+F 1 "VDD_MCU" H 6900 2163 50  0000 C CNN
+F 2 "" H 6880 1990 50  0001 C CNN
+F 3 "" H 6880 1990 50  0001 C CNN
+	1    6880 1990
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:ST1L05APU33R U?
+U 1 1 60AB064A
+P 8060 1590
+F 0 "U?" H 8695 2177 60  0000 C CNN
+F 1 "ST1L05APU33R" H 8695 2071 60  0000 C CNN
+F 2 "DFN_5APU33R_STM" H 8860 2030 60  0001 C CNN
+F 3 "https://my.st.com/resource/en/datasheet/st1l05.pdf" H 8695 2071 60  0001 C CNN
+	1    8060 1590
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:+5V #PWR?
+U 1 1 60A0FEB3
+P 7890 1130
+F 0 "#PWR?" H 7890 980 50  0001 C CNN
+F 1 "+5V" H 7905 1303 50  0000 C CNN
+F 2 "" H 7890 1130 50  0001 C CNN
+F 3 "" H 7890 1130 50  0001 C CNN
+	1    7890 1130
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7890 1130 7890 1280
+Wire Wire Line
+	7890 1280 8260 1280
+Wire Wire Line
+	8260 1590 8170 1590
+Wire Wire Line
+	8170 1590 8170 1690
+Wire Wire Line
+	8170 1690 8260 1690
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60A0FEB4
+P 8170 1780
+AR Path="/60A0FEB4" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FEB4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8170 1530 50  0001 C CNN
+F 1 "GNDREF" V 8175 1652 50  0001 R CNN
+F 2 "" H 8170 1780 50  0001 C CNN
+F 3 "" H 8170 1780 50  0001 C CNN
+	1    8170 1780
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8170 1690 8170 1780
+Connection ~ 8170 1690
+$Comp
+L SVIELCOM_Library:VDD_MCU #PWR?
+U 1 1 60A0FEB5
+P 9310 1130
+AR Path="/60A0FEB5" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FEB5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9310 980 50  0001 C CNN
+F 1 "VDD_MCU" H 9330 1303 50  0000 C CNN
+F 2 "" H 9310 1130 50  0001 C CNN
+F 3 "" H 9310 1130 50  0001 C CNN
+	1    9310 1130
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9130 1280 9310 1280
+Wire Wire Line
+	9310 1280 9310 1130
+Wire Notes Line
+	7770 720  7770 1910
+Text Notes 8450 800  0    50   ~ 0
+Backup LDO
+$Comp
+L freetronics_schematic:JUMPER2 JP?
+U 1 1 60C9658E
+P 10040 1490
+F 0 "JP?" H 10018 1468 60  0000 L CNN
+F 1 "JUMPER2" H 10018 1377 40  0000 L CNN
+F 2 "" H 10040 1490 60  0000 C CNN
+F 3 "" H 10040 1490 60  0000 C CNN
+	1    10040 1490
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	10450 1910 10450 720 
+Wire Notes Line
+	7770 1910 10450 1910
+Wire Notes Line
+	7770 720  10450 720 
+$Comp
+L SVIELCOM_Library:VDD_MCU #PWR?
+U 1 1 60CBE851
+P 9740 1490
+AR Path="/60CBE851" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60CBE851" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9740 1340 50  0001 C CNN
+F 1 "VDD_MCU" H 9760 1663 50  0000 C CNN
+F 2 "" H 9740 1490 50  0001 C CNN
+F 3 "" H 9740 1490 50  0001 C CNN
+	1    9740 1490
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:VDD_PER #PWR?
+U 1 1 60A0FECB
+P 9740 1590
+F 0 "#PWR?" H 9740 1440 50  0001 C CNN
+F 1 "VDD_PER" V 9755 1718 50  0000 L CNN
+F 2 "" H 9740 1590 50  0001 C CNN
+F 3 "" H 9740 1590 50  0001 C CNN
+	1    9740 1590
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 60A0FE7A
+P 3760 2900
+AR Path="/60A0FE7A" Ref="Y?"  Part="1" 
+AR Path="/60A03F8A/60A0FE7A" Ref="Y3"  Part="1" 
+F 0 "Y3" V 4000 2900 50  0000 C CNN
+F 1 "NX3215SA-32.768K-STD-MUA-14" V 4100 3160 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm_HandSoldering" H 3760 2900 50  0001 C CNN
+F 3 "" H 3760 2900 50  0001 C CNN
+	1    3760 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A0FE7B
+P 4310 2150
+AR Path="/60A0FE7B" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FE7B" Ref="C20"  Part="1" 
+F 0 "C20" V 4190 1910 50  0000 L CNN
+F 1 "4,6pF" V 4260 1880 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4348 2000 50  0001 C CNN
+F 3 "" H 4310 2150 50  0001 C CNN
+F 4 "" H 4310 2150 50  0001 C CNN "Type"
+	1    4310 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A0FE7C
+P 4500 6870
+AR Path="/60A0FE7C" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FE7C" Ref="C36"  Part="1" 
+F 0 "C36" H 4540 6770 50  0000 L CNN
+F 1 "2,2µF" H 4530 6980 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4538 6720 50  0001 C CNN
+F 3 "" H 4500 6870 50  0001 C CNN
+F 4 "" H 4500 6870 50  0001 C CNN "Type"
+	1    4500 6870
+	-1   0    0    1   
+$EndComp
+$Comp
+L SVIELCOM_Library:STM32H743ZIT6 U?
+U 1 1 60A2F6C1
+P 1850 2600
+AR Path="/60A2F6C1" Ref="U?"  Part="1" 
+AR Path="/60A03F8A/60A2F6C1" Ref="U6"  Part="1" 
+F 0 "U6" H 1850 4267 50  0000 C CNN
+F 1 "STM32H743ZIT6" H 1850 4176 50  0000 C CNN
+F 2 "QFP50P2200X2200X160-144N" H 1900 4200 50  0001 L BNN
+F 3 "" H 1900 4600 50  0001 L BNN
+F 4 "STMicroelectronics" H 1900 4300 50  0001 L BNN "MANUFACTURER"
+F 5 "7" H 1900 4600 50  0001 L BNN "PARTREV"
+F 6 "1.6 mm" H 1900 4500 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 7 "IPC-7351B" H 1900 4400 50  0001 L BNN "STANDARD"
+	1    1850 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2350 3520 2350
+Wire Wire Line
+	3520 2350 3520 2150
+Wire Wire Line
+	2750 2450 3760 2450
+Wire Wire Line
+	2750 2650 3760 2650
+Wire Wire Line
+	2750 2750 3520 2750
+Wire Wire Line
+	3520 2750 3520 3050
+Wire Wire Line
+	3520 3050 3760 3050
+$Comp
+L Device:C C?
+U 1 1 60A2F6CF
+P 4310 2450
+AR Path="/60A2F6CF" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A2F6CF" Ref="C21"  Part="1" 
+F 0 "C21" V 4180 2210 50  0000 L CNN
+F 1 "4,6pF" V 4250 2180 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4348 2300 50  0001 C CNN
+F 3 "" H 4310 2450 50  0001 C CNN
+F 4 "" H 4310 2450 50  0001 C CNN "Type"
+	1    4310 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60A2F6D5
+P 4630 2450
+AR Path="/60A2F6D5" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A2F6D5" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 4630 2200 50  0001 C CNN
+F 1 "GNDREF" V 4635 2322 50  0001 R CNN
+F 2 "" H 4630 2450 50  0001 C CNN
+F 3 "" H 4630 2450 50  0001 C CNN
+	1    4630 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60A2F6DB
+P 4630 2150
+AR Path="/60A2F6DB" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A2F6DB" Ref="#PWR020"  Part="1" 
+F 0 "#PWR020" H 4630 1900 50  0001 C CNN
+F 1 "GNDREF" V 4635 2022 50  0001 R CNN
+F 2 "" H 4630 2150 50  0001 C CNN
+F 3 "" H 4630 2150 50  0001 C CNN
+	1    4630 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4630 2150 4460 2150
+Wire Wire Line
+	4460 2450 4630 2450
+Wire Wire Line
+	3760 2750 3760 2650
+$Comp
+L Device:Crystal Y?
+U 1 1 60A2F6E4
+P 3760 2300
+AR Path="/60A2F6E4" Ref="Y?"  Part="1" 
+AR Path="/60A03F8A/60A2F6E4" Ref="Y2"  Part="1" 
+F 0 "Y2" V 3860 2140 50  0000 C CNN
+F 1 "NX5032GA-8MHz" V 3970 2220 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering" H 3760 2300 50  0001 C CNN
+F 3 "" H 3760 2300 50  0001 C CNN
+	1    3760 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3520 2150 3760 2150
+Wire Wire Line
+	3760 2150 4160 2150
+Connection ~ 3760 2150
+Wire Wire Line
+	3760 2450 4160 2450
+Connection ~ 3760 2450
+$Comp
+L Device:C C?
+U 1 1 60A2F6F0
+P 4120 2650
+AR Path="/60A2F6F0" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A2F6F0" Ref="C22"  Part="1" 
+F 0 "C22" V 4070 2720 50  0000 L CNN
+F 1 "2,7pF" V 4180 2720 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4158 2500 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/447/Yageo_UPY-GP_NP0_16V-to-50V_9-1211922.pdf" H 4120 2650 50  0001 C CNN
+F 4 "CC0603BRNPO9BN2R7" H 4120 2650 50  0001 C CNN "Type"
+	1    4120 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A2F6F7
+P 4100 3050
+AR Path="/60A2F6F7" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A2F6F7" Ref="C23"  Part="1" 
+F 0 "C23" V 4050 3140 50  0000 L CNN
+F 1 "2,7pF" V 4160 3130 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4138 2900 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/447/Yageo_UPY-GP_NP0_16V-to-50V_9-1211922.pdf" H 4100 3050 50  0001 C CNN
+F 4 "CC0603BRNPO9BN2R7" H 4100 3050 50  0001 C CNN "Type"
+	1    4100 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3760 3050 3950 3050
+Connection ~ 3760 3050
+Wire Wire Line
+	3760 2650 3970 2650
+Connection ~ 3760 2650
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60A2F701
+P 4630 2650
+AR Path="/60A2F701" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A2F701" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 4630 2400 50  0001 C CNN
+F 1 "GNDREF" V 4635 2522 50  0001 R CNN
+F 2 "" H 4630 2650 50  0001 C CNN
+F 3 "" H 4630 2650 50  0001 C CNN
+	1    4630 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60A0FE85
+P 4630 3050
+AR Path="/60A0FE85" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FE85" Ref="#PWR025"  Part="1" 
+F 0 "#PWR025" H 4630 2800 50  0001 C CNN
+F 1 "GNDREF" V 4635 2922 50  0001 R CNN
+F 2 "" H 4630 3050 50  0001 C CNN
+F 3 "" H 4630 3050 50  0001 C CNN
+	1    4630 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4270 2650 4630 2650
+Wire Wire Line
+	4250 3050 4630 3050
+$Comp
+L Device:R R?
+U 1 1 60A0FE86
+P 7770 4810
+AR Path="/60A0FE86" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/60A0FE86" Ref="R26"  Part="1" 
+F 0 "R26" V 7680 4730 50  0000 C CNN
+F 1 "10K" V 7680 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7700 4810 50  0001 C CNN
+F 3 "~" H 7770 4810 50  0001 C CNN
+	1    7770 4810
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60A0FE87
+P 8070 5130
+AR Path="/60A0FE87" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FE87" Ref="#PWR026"  Part="1" 
+F 0 "#PWR026" H 8070 4880 50  0001 C CNN
+F 1 "GNDREF" V 8075 5002 50  0001 R CNN
+F 2 "" H 8070 5130 50  0001 C CNN
+F 3 "" H 8070 5130 50  0001 C CNN
+	1    8070 5130
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8070 5060 8070 5130
+Text Label 3230 3150 2    50   ~ 0
+BOOT0
+Wire Wire Line
+	3230 2950 2750 2950
+Text Label 3230 2950 2    50   ~ 0
+NRST
+Wire Wire Line
+	2910 1350 2750 1350
+Wire Wire Line
+	950  2250 710  2250
+Wire Wire Line
+	710  2250 710  2150
+Wire Wire Line
+	710  1250 950  1250
+Wire Wire Line
+	950  1350 710  1350
+Connection ~ 710  1350
+Wire Wire Line
+	710  1350 710  1250
+Wire Wire Line
+	950  1450 710  1450
+Connection ~ 710  1450
+Wire Wire Line
+	710  1450 710  1350
+Wire Wire Line
+	950  1550 710  1550
+Connection ~ 710  1550
+Wire Wire Line
+	710  1550 710  1450
+Wire Wire Line
+	950  1650 710  1650
+Connection ~ 710  1650
+Wire Wire Line
+	710  1650 710  1550
+Wire Wire Line
+	950  1750 710  1750
+Connection ~ 710  1750
+Wire Wire Line
+	710  1750 710  1650
+Wire Wire Line
+	950  1850 710  1850
+Connection ~ 710  1850
+Wire Wire Line
+	710  1850 710  1750
+Wire Wire Line
+	950  1950 710  1950
+Connection ~ 710  1950
+Wire Wire Line
+	710  1950 710  1850
+Wire Wire Line
+	950  2050 710  2050
+Connection ~ 710  2050
+Wire Wire Line
+	710  2050 710  1950
+Wire Wire Line
+	950  2150 710  2150
+Connection ~ 710  2150
+Wire Wire Line
+	710  2150 710  2050
+Wire Wire Line
+	950  2450 710  2450
+Wire Wire Line
+	710  2450 710  2550
+Wire Wire Line
+	710  3250 950  3250
+Wire Wire Line
+	950  2550 710  2550
+Connection ~ 710  2550
+Wire Wire Line
+	710  2550 710  2650
+Wire Wire Line
+	950  2650 710  2650
+Connection ~ 710  2650
+Wire Wire Line
+	710  2650 710  2750
+Wire Wire Line
+	950  2750 710  2750
+Connection ~ 710  2750
+Wire Wire Line
+	710  2750 710  2850
+Wire Wire Line
+	950  2850 710  2850
+Connection ~ 710  2850
+Wire Wire Line
+	710  2850 710  2950
+Wire Wire Line
+	950  2950 710  2950
+Connection ~ 710  2950
+Wire Wire Line
+	950  3050 710  3050
+Wire Wire Line
+	710  2950 710  3050
+Connection ~ 710  3050
+Wire Wire Line
+	710  3050 710  3150
+Wire Wire Line
+	950  3150 710  3150
+Connection ~ 710  3150
+Wire Wire Line
+	710  3150 710  3250
+$Comp
+L SVIELCOM_Library:VDD_MCU #PWR?
+U 1 1 60A0FE88
+P 710 1100
+AR Path="/60A0FE88" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FE88" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 710 950 50  0001 C CNN
+F 1 "VDD_MCU" H 730 1273 50  0000 C CNN
+F 2 "" H 710 1100 50  0001 C CNN
+F 3 "" H 710 1100 50  0001 C CNN
+	1    710  1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	710  1100 710  1250
+Connection ~ 710  1250
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60A0FE89
+P 710 3420
+AR Path="/60A0FE89" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FE89" Ref="#PWR027"  Part="1" 
+F 0 "#PWR027" H 710 3170 50  0001 C CNN
+F 1 "GNDREF" H 715 3247 50  0001 C CNN
+F 2 "" H 710 3420 50  0001 C CNN
+F 3 "" H 710 3420 50  0001 C CNN
+	1    710  3420
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	710  3420 710  3250
+Wire Wire Line
+	710  3250 720  3250
+Connection ~ 710  3250
+$Comp
+L SVIELCOM_Library:VDD_MCU #PWR?
+U 1 1 60A0FE8A
+P 3280 2000
+AR Path="/60A0FE8A" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FE8A" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 3280 1850 50  0001 C CNN
+F 1 "VDD_MCU" V 3210 1990 50  0000 L CNN
+F 2 "" H 3280 2000 50  0001 C CNN
+F 3 "" H 3280 2000 50  0001 C CNN
+	1    3280 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2750 2000 3280 2000
+Wire Wire Line
+	2750 1750 2830 1750
+Wire Wire Line
+	2750 1650 2830 1650
+Wire Wire Line
+	2830 1650 2830 1750
+Connection ~ 2830 1750
+Wire Wire Line
+	2830 1750 3380 1750
+$Comp
+L Device:C C?
+U 1 1 60A2F795
+P 4830 6870
+AR Path="/60A2F795" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A2F795" Ref="C37"  Part="1" 
+F 0 "C37" H 4710 6770 50  0000 L CNN
+F 1 "2,2µF" H 4850 6980 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4868 6720 50  0001 C CNN
+F 3 "" H 4830 6870 50  0001 C CNN
+F 4 "" H 4830 6870 50  0001 C CNN "Type"
+	1    4830 6870
+	-1   0    0    1   
+$EndComp
+Text Label 3380 1750 2    50   ~ 0
+VCAP
+Wire Wire Line
+	4500 6720 4500 6520
+Wire Wire Line
+	4500 6520 4660 6520
+Wire Wire Line
+	4830 6520 4830 6720
+Wire Wire Line
+	4500 7020 4500 7310
+Wire Wire Line
+	4500 7310 4660 7310
+Wire Wire Line
+	4830 7310 4830 7020
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60A0FE8C
+P 4660 7310
+AR Path="/60A0FE8C" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FE8C" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 4660 7060 50  0001 C CNN
+F 1 "GNDREF" H 4665 7137 50  0001 C CNN
+F 2 "" H 4660 7310 50  0001 C CNN
+F 3 "" H 4660 7310 50  0001 C CNN
+	1    4660 7310
+	1    0    0    -1  
+$EndComp
+Connection ~ 4660 7310
+Wire Wire Line
+	4660 7310 4830 7310
+Wire Wire Line
+	4660 6270 4660 6520
+Connection ~ 4660 6520
+Wire Wire Line
+	4660 6520 4830 6520
+Text Label 4660 6270 3    50   ~ 0
+VCAP
+$Comp
+L Jumper:Jumper_3_Bridged12 JP?
+U 1 1 60A2F7AE
+P 10200 5790
+AR Path="/60A2F7AE" Ref="JP?"  Part="1" 
+AR Path="/60A03F8A/60A2F7AE" Ref="JP4"  Part="1" 
+F 0 "JP4" V 10000 5860 50  0000 L CNN
+F 1 "Jumper_3_Bridged12" V 10080 5860 50  0000 L CNN
+F 2 "" H 10200 5790 50  0001 C CNN
+F 3 "~" H 10200 5790 50  0001 C CNN
+	1    10200 5790
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9570 5790 10050 5790
+Wire Wire Line
+	3380 780  3380 880 
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 60A2F7B6
+P 10200 6240
+AR Path="/60A2F7B6" Ref="BT?"  Part="1" 
+AR Path="/60A03F8A/60A2F7B6" Ref="BT1"  Part="1" 
+F 0 "BT1" H 10450 6330 50  0000 C CNN
+F 1 "CR2032" H 10440 6260 50  0000 C CNN
+F 2 "" V 10200 6300 50  0001 C CNN
+F 3 "~" V 10200 6300 50  0001 C CNN
+	1    10200 6240
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60A2F7BC
+P 10200 6340
+AR Path="/60A2F7BC" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A2F7BC" Ref="#PWR028"  Part="1" 
+F 0 "#PWR028" H 10200 6090 50  0001 C CNN
+F 1 "GNDREF" V 10205 6212 50  0001 R CNN
+F 2 "" H 10200 6340 50  0001 C CNN
+F 3 "" H 10200 6340 50  0001 C CNN
+	1    10200 6340
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:VDD_MCU #PWR?
+U 1 1 60A2F7C2
+P 3380 780
+AR Path="/60A2F7C2" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A2F7C2" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 3380 630 50  0001 C CNN
+F 1 "VDD_MCU" H 3400 953 50  0000 C CNN
+F 2 "" H 3380 780 50  0001 C CNN
+F 3 "" H 3380 780 50  0001 C CNN
+	1    3380 780 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 60A0FE91
+P 2910 1030
+AR Path="/60A0FE91" Ref="L?"  Part="1" 
+AR Path="/60A03F8A/60A0FE91" Ref="L4"  Part="1" 
+F 0 "L4" H 2962 1076 50  0000 L CNN
+F 1 "BEAD" H 2962 985 50  0000 L CNN
+F 2 "" H 2910 1030 50  0001 C CNN
+F 3 "~" H 2910 1030 50  0001 C CNN
+	1    2910 1030
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2910 1180 2910 1350
+Connection ~ 2910 1350
+Wire Wire Line
+	2910 880  3380 880 
+Wire Wire Line
+	10200 5420 10200 5540
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60A0FE92
+P 2970 1450
+AR Path="/60A0FE92" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FE92" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 2970 1200 50  0001 C CNN
+F 1 "GNDREF" V 2870 1420 50  0001 R CNN
+F 2 "" H 2970 1450 50  0001 C CNN
+F 3 "" H 2970 1450 50  0001 C CNN
+	1    2970 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 1450 2970 1450
+Text Label 3380 2100 2    50   ~ 0
+Vref+
+Wire Wire Line
+	5180 6720 5180 6520
+Wire Wire Line
+	5180 6520 5340 6520
+Wire Wire Line
+	5510 6520 5510 6720
+Wire Wire Line
+	5180 7020 5180 7310
+Wire Wire Line
+	5180 7310 5340 7310
+Wire Wire Line
+	5510 7310 5510 7020
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60A2F7F0
+P 5340 7310
+AR Path="/60A2F7F0" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A2F7F0" Ref="#PWR034"  Part="1" 
+F 0 "#PWR034" H 5340 7060 50  0001 C CNN
+F 1 "GNDREF" H 5345 7137 50  0001 C CNN
+F 2 "" H 5340 7310 50  0001 C CNN
+F 3 "" H 5340 7310 50  0001 C CNN
+	1    5340 7310
+	1    0    0    -1  
+$EndComp
+Connection ~ 5340 7310
+Wire Wire Line
+	5340 7310 5510 7310
+Wire Wire Line
+	5340 6270 5340 6520
+Connection ~ 5340 6520
+Wire Wire Line
+	5340 6520 5510 6520
+Text Label 5340 6270 3    50   ~ 0
+VDDA
+Wire Wire Line
+	3380 1250 2750 1250
+Text Label 3380 1250 2    50   ~ 0
+Vbat
+Text Label 9570 5790 0    50   ~ 0
+Vbat
+$Comp
+L SVIELCOM_Library:VDD_MCU #PWR?
+U 1 1 60A0FE94
+P 10200 5420
+AR Path="/60A0FE94" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FE94" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 10200 5270 50  0001 C CNN
+F 1 "VDD_MCU" H 10220 5593 50  0000 C CNN
+F 2 "" H 10200 5420 50  0001 C CNN
+F 3 "" H 10200 5420 50  0001 C CNN
+	1    10200 5420
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3150 3230 3150
+Text GLabel 7360 5570 0    50   Input ~ 0
+NRST
+Text Label 7140 4810 0    50   ~ 0
+BOOT0
+$Comp
+L Jumper:Jumper_3_Bridged12 JP?
+U 1 1 60A2F808
+P 8070 4810
+AR Path="/60A2F808" Ref="JP?"  Part="1" 
+AR Path="/60A03F8A/60A2F808" Ref="JP3"  Part="1" 
+F 0 "JP3" V 8130 5030 50  0000 L CNN
+F 1 "Jumper_3_Bridged12" V 8060 4910 50  0000 L CNN
+F 2 "" H 8070 4810 50  0001 C CNN
+F 3 "~" H 8070 4810 50  0001 C CNN
+	1    8070 4810
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8070 4440 8070 4560
+$Comp
+L SVIELCOM_Library:VDD_MCU #PWR?
+U 1 1 60A2F80F
+P 8070 4440
+AR Path="/60A2F80F" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A2F80F" Ref="#PWR022"  Part="1" 
+F 0 "#PWR022" H 8070 4290 50  0001 C CNN
+F 1 "VDD_MCU" H 8090 4613 50  0000 C CNN
+F 2 "" H 8070 4440 50  0001 C CNN
+F 3 "" H 8070 4440 50  0001 C CNN
+	1    8070 4440
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7140 4810 7620 4810
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60A2F816
+P 7770 6340
+AR Path="/60A2F816" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A2F816" Ref="#PWR030"  Part="1" 
+F 0 "#PWR030" H 7770 6090 50  0001 C CNN
+F 1 "GNDREF" H 7775 6167 50  0001 C CNN
+F 2 "" H 7770 6340 50  0001 C CNN
+F 3 "" H 7770 6340 50  0001 C CNN
+	1    7770 6340
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Pushbutton-Switches:KS-01Q-01_Obsolete S?
+U 1 1 60A0FE98
+P 8100 5670
+AR Path="/60A0FE98" Ref="S?"  Part="1" 
+AR Path="/60A03F8A/60A0FE98" Ref="S1"  Part="1" 
+F 0 "S1" H 8100 5995 50  0000 C CNN
+F 1 "KS-01Q-01_Obsolete" H 8100 5904 50  0000 C CNN
+F 2 "digikey-footprints:PushButton_Round_D12mm_THT_KS-01Q-01" H 8300 5870 50  0001 L CNN
+F 3 "http://spec_sheets.e-switch.com/specs/29-KS01Q01.pdf" H 8300 5970 60  0001 L CNN
+F 4 "EG4791-ND" H 8300 6070 60  0001 L CNN "Digi-Key_PN"
+F 5 "KS-01Q-01" H 8300 6170 60  0001 L CNN "MPN"
+F 6 "Switches" H 8300 6270 60  0001 L CNN "Category"
+F 7 "Pushbutton Switches" H 8300 6370 60  0001 L CNN "Family"
+F 8 "http://spec_sheets.e-switch.com/specs/29-KS01Q01.pdf" H 8300 6470 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/e-switch/KS-01Q-01/EG4791-ND/2116270" H 8300 6570 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH PUSH SPST-NO 0.01A 35V" H 8300 6670 60  0001 L CNN "Description"
+F 11 "E-Switch" H 8300 6770 60  0001 L CNN "Manufacturer"
+F 12 "Obsolete NonStock" H 8300 6870 60  0001 L CNN "Status"
+	1    8100 5670
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A0FE99
+P 7770 6030
+AR Path="/60A0FE99" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FE99" Ref="C24"  Part="1" 
+F 0 "C24" H 7810 5930 50  0000 L CNN
+F 1 "0,1µF" H 7800 6140 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7808 5880 50  0001 C CNN
+F 3 "" H 7770 6030 50  0001 C CNN
+F 4 "" H 7770 6030 50  0001 C CNN "Type"
+	1    7770 6030
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7900 5570 7770 5570
+Wire Wire Line
+	7770 5570 7770 5770
+Wire Wire Line
+	7900 5770 7770 5770
+Connection ~ 7770 5770
+Wire Wire Line
+	7770 5770 7770 5880
+Wire Wire Line
+	7360 5570 7770 5570
+Connection ~ 7770 5570
+Wire Wire Line
+	7770 6180 7770 6240
+Wire Wire Line
+	7770 6240 8430 6240
+Wire Wire Line
+	8430 6240 8430 5770
+Wire Wire Line
+	8430 5770 8300 5770
+Connection ~ 7770 6240
+Wire Wire Line
+	7770 6240 7770 6340
+Wire Wire Line
+	8300 5570 8430 5570
+Wire Wire Line
+	8430 5570 8430 5770
+Connection ~ 8430 5770
+Text Label 7360 5570 0    50   ~ 0
+NRST
+$Comp
+L Device:C C?
+U 1 1 60A0FE9A
+P 5180 6870
+AR Path="/60A0FE9A" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FE9A" Ref="C38"  Part="1" 
+F 0 "C38" H 5220 6960 50  0000 L CNN
+F 1 "1µF" H 5210 6760 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5218 6720 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 5180 6870 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 5180 6870 50  0001 C CNN "Type"
+	1    5180 6870
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 60A4621E
+P 5510 6870
+AR Path="/60A4621E" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A4621E" Ref="C39"  Part="1" 
+F 0 "C39" H 5628 6916 50  0000 L CNN
+F 1 "10µF" H 5628 6825 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I" H 5548 6720 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/593d-239975.pdf" H 5510 6870 50  0001 C CNN
+F 4 "593D106X9016A2TE3" H 5510 6870 50  0001 C CNN "Type"
+	1    5510 6870
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3380 1350 2910 1350
+Text Label 3380 1350 2    50   ~ 0
+VDDA
+Wire Wire Line
+	2750 2100 3380 2100
+Wire Wire Line
+	5950 6720 5950 6520
+Wire Wire Line
+	5950 6520 6110 6520
+Wire Wire Line
+	6280 6520 6280 6720
+Wire Wire Line
+	5950 7020 5950 7310
+Wire Wire Line
+	5950 7310 6110 7310
+Wire Wire Line
+	6280 7310 6280 7020
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60A56CBD
+P 6110 7310
+AR Path="/60A56CBD" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A56CBD" Ref="#PWR035"  Part="1" 
+F 0 "#PWR035" H 6110 7060 50  0001 C CNN
+F 1 "GNDREF" H 6115 7137 50  0001 C CNN
+F 2 "" H 6110 7310 50  0001 C CNN
+F 3 "" H 6110 7310 50  0001 C CNN
+	1    6110 7310
+	1    0    0    -1  
+$EndComp
+Connection ~ 6110 7310
+Wire Wire Line
+	6110 7310 6280 7310
+Wire Wire Line
+	6110 6270 6110 6520
+Connection ~ 6110 6520
+Wire Wire Line
+	6110 6520 6280 6520
+Text Label 6110 6270 3    50   ~ 0
+Vref+
+$Comp
+L Device:C C?
+U 1 1 60A56CCA
+P 5950 6870
+AR Path="/60A56CCA" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A56CCA" Ref="C40"  Part="1" 
+F 0 "C40" H 5990 6960 50  0000 L CNN
+F 1 "1µF" H 5980 6760 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5988 6720 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 5950 6870 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 5950 6870 50  0001 C CNN "Type"
+	1    5950 6870
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 60A0FE9F
+P 6280 6870
+AR Path="/60A0FE9F" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FE9F" Ref="C41"  Part="1" 
+F 0 "C41" H 6398 6916 50  0000 L CNN
+F 1 "10µF" H 6398 6825 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I" H 6318 6720 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/593d-239975.pdf" H 6280 6870 50  0001 C CNN
+F 4 "593D106X9016A2TE3" H 6280 6870 50  0001 C CNN "Type"
+	1    6280 6870
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Bridged JP1
+U 1 1 60A0FEA0
+P 8090 4080
+F 0 "JP1" H 8090 4275 50  0000 C CNN
+F 1 "Closed" H 8090 4184 50  0000 C CNN
+F 2 "" H 8090 4080 50  0001 C CNN
+F 3 "~" H 8090 4080 50  0001 C CNN
+	1    8090 4080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7680 4080 7890 4080
+Wire Wire Line
+	8500 4080 8290 4080
+Text Label 7680 4080 0    50   ~ 0
+VDDA
+Text Label 8500 4080 2    50   ~ 0
+Vref+
+$Comp
+L Device:C C?
+U 1 1 60A0FEA1
+P 1270 5840
+AR Path="/60A0FEA1" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FEA1" Ref="C25"  Part="1" 
+F 0 "C25" H 1310 5930 50  0000 L CNN
+F 1 "1µF" H 1300 5730 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1308 5690 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 1270 5840 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 1270 5840 50  0001 C CNN "Type"
+	1    1270 5840
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A7106B
+P 1550 5840
+AR Path="/60A7106B" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A7106B" Ref="C26"  Part="1" 
+F 0 "C26" H 1590 5930 50  0000 L CNN
+F 1 "1µF" H 1580 5730 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1588 5690 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 1550 5840 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 1550 5840 50  0001 C CNN "Type"
+	1    1550 5840
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A72A28
+P 1830 5840
+AR Path="/60A72A28" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A72A28" Ref="C27"  Part="1" 
+F 0 "C27" H 1870 5930 50  0000 L CNN
+F 1 "1µF" H 1860 5730 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1868 5690 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 1830 5840 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 1830 5840 50  0001 C CNN "Type"
+	1    1830 5840
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A72E4B
+P 2110 5840
+AR Path="/60A72E4B" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A72E4B" Ref="C28"  Part="1" 
+F 0 "C28" H 2150 5930 50  0000 L CNN
+F 1 "1µF" H 2140 5730 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2148 5690 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 2110 5840 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 2110 5840 50  0001 C CNN "Type"
+	1    2110 5840
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A737AE
+P 2390 5840
+AR Path="/60A737AE" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A737AE" Ref="C29"  Part="1" 
+F 0 "C29" H 2430 5930 50  0000 L CNN
+F 1 "1µF" H 2420 5730 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2428 5690 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 2390 5840 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 2390 5840 50  0001 C CNN "Type"
+	1    2390 5840
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A0FEA6
+P 2670 5840
+AR Path="/60A0FEA6" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FEA6" Ref="C30"  Part="1" 
+F 0 "C30" H 2710 5930 50  0000 L CNN
+F 1 "1µF" H 2700 5730 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2708 5690 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 2670 5840 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 2670 5840 50  0001 C CNN "Type"
+	1    2670 5840
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A0FEA7
+P 2950 5840
+AR Path="/60A0FEA7" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FEA7" Ref="C31"  Part="1" 
+F 0 "C31" H 2990 5930 50  0000 L CNN
+F 1 "1µF" H 2980 5730 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2988 5690 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 2950 5840 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 2950 5840 50  0001 C CNN "Type"
+	1    2950 5840
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A0FEA8
+P 3230 5840
+AR Path="/60A0FEA8" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FEA8" Ref="C32"  Part="1" 
+F 0 "C32" H 3270 5930 50  0000 L CNN
+F 1 "1µF" H 3260 5730 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3268 5690 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 3230 5840 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 3230 5840 50  0001 C CNN "Type"
+	1    3230 5840
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A0FEA9
+P 3510 5840
+AR Path="/60A0FEA9" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FEA9" Ref="C33"  Part="1" 
+F 0 "C33" H 3550 5930 50  0000 L CNN
+F 1 "1µF" H 3540 5730 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3548 5690 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 3510 5840 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 3510 5840 50  0001 C CNN "Type"
+	1    3510 5840
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A7559F
+P 3790 5840
+AR Path="/60A7559F" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A7559F" Ref="C34"  Part="1" 
+F 0 "C34" H 3830 5930 50  0000 L CNN
+F 1 "1µF" H 3820 5730 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3828 5690 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 3790 5840 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 3790 5840 50  0001 C CNN "Type"
+	1    3790 5840
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1270 6100 1270 5990
+Wire Wire Line
+	1550 6100 1550 5990
+Wire Wire Line
+	1830 6100 1830 5990
+Wire Wire Line
+	2110 6100 2110 5990
+Wire Wire Line
+	2390 6100 2390 5990
+Wire Wire Line
+	2670 6100 2670 5990
+Wire Wire Line
+	2950 6100 2950 5990
+Wire Wire Line
+	3230 6100 3230 5990
+Wire Wire Line
+	3510 6100 3510 5990
+Wire Wire Line
+	3790 6100 3790 5990
+Wire Wire Line
+	3790 6100 3510 6100
+Wire Wire Line
+	3510 6100 3230 6100
+Connection ~ 3510 6100
+Wire Wire Line
+	3230 6100 2950 6100
+Connection ~ 3230 6100
+Wire Wire Line
+	2950 6100 2670 6100
+Connection ~ 2950 6100
+Wire Wire Line
+	2670 6100 2390 6100
+Connection ~ 2670 6100
+Wire Wire Line
+	2390 6100 2110 6100
+Connection ~ 2390 6100
+Wire Wire Line
+	2110 6100 1830 6100
+Connection ~ 2110 6100
+Wire Wire Line
+	1830 6100 1550 6100
+Connection ~ 1830 6100
+Wire Wire Line
+	1550 6100 1270 6100
+Connection ~ 1550 6100
+Wire Wire Line
+	3790 5580 3790 5690
+Wire Wire Line
+	3510 5580 3510 5690
+Wire Wire Line
+	3230 5580 3230 5690
+Wire Wire Line
+	2950 5580 2950 5690
+Wire Wire Line
+	2670 5580 2670 5690
+Wire Wire Line
+	2390 5580 2390 5690
+Wire Wire Line
+	2110 5580 2110 5690
+Wire Wire Line
+	1830 5580 1830 5690
+Wire Wire Line
+	1550 5580 1550 5690
+Wire Wire Line
+	1270 5580 1270 5690
+Wire Wire Line
+	1270 5580 1550 5580
+Wire Wire Line
+	1550 5580 1830 5580
+Connection ~ 1550 5580
+Wire Wire Line
+	1830 5580 2110 5580
+Connection ~ 1830 5580
+Wire Wire Line
+	2110 5580 2390 5580
+Connection ~ 2110 5580
+Wire Wire Line
+	2390 5580 2670 5580
+Connection ~ 2390 5580
+Wire Wire Line
+	2670 5580 2950 5580
+Connection ~ 2670 5580
+Wire Wire Line
+	2950 5580 3230 5580
+Connection ~ 2950 5580
+Wire Wire Line
+	3230 5580 3510 5580
+Connection ~ 3230 5580
+Wire Wire Line
+	3510 5580 3790 5580
+Connection ~ 3510 5580
+$Comp
+L Device:CP C?
+U 1 1 60A0FEB6
+P 4070 5850
+AR Path="/60A0FEB6" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FEB6" Ref="C35"  Part="1" 
+F 0 "C35" H 4188 5896 50  0000 L CNN
+F 1 "10µF" H 4188 5805 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I" H 4108 5700 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/593d-239975.pdf" H 4070 5850 50  0001 C CNN
+F 4 "593D106X9016A2TE3" H 4070 5850 50  0001 C CNN "Type"
+	1    4070 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3790 5580 4070 5580
+Wire Wire Line
+	4070 5580 4070 5700
+Connection ~ 3790 5580
+Wire Wire Line
+	4070 6000 4070 6100
+Wire Wire Line
+	4070 6100 3790 6100
+Connection ~ 3790 6100
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60B2A2A1
+P 1270 6190
+AR Path="/60B2A2A1" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60B2A2A1" Ref="#PWR031"  Part="1" 
+F 0 "#PWR031" H 1270 5940 50  0001 C CNN
+F 1 "GNDREF" H 1410 6020 50  0001 R CNN
+F 2 "" H 1270 6190 50  0001 C CNN
+F 3 "" H 1270 6190 50  0001 C CNN
+	1    1270 6190
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1270 6190 1270 6100
+Connection ~ 1270 6100
+$Comp
+L SVIELCOM_Library:VDD_MCU #PWR?
+U 1 1 60A0FEB8
+P 1270 5430
+AR Path="/60A0FEB8" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FEB8" Ref="#PWR029"  Part="1" 
+F 0 "#PWR029" H 1270 5280 50  0001 C CNN
+F 1 "VDD_MCU" H 1110 5580 50  0000 L CNN
+F 2 "" H 1270 5430 50  0001 C CNN
+F 3 "" H 1270 5430 50  0001 C CNN
+	1    1270 5430
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1270 5430 1270 5580
+Connection ~ 1270 5580
+Text Label 3230 3250 2    50   ~ 0
+PDR_ON
+Wire Wire Line
+	2750 3250 3230 3250
+$Comp
+L Device:R R?
+U 1 1 60A0FEB9
+P 9920 4580
+AR Path="/60A0FEB9" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/60A0FEB9" Ref="R25"  Part="1" 
+F 0 "R25" V 9830 4500 50  0000 C CNN
+F 1 "10K" V 9830 4670 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9850 4580 50  0001 C CNN
+F 3 "~" H 9920 4580 50  0001 C CNN
+	1    9920 4580
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60B4CFEA
+P 10220 4900
+AR Path="/60B4CFEA" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60B4CFEA" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 10220 4650 50  0001 C CNN
+F 1 "GNDREF" V 10225 4772 50  0001 R CNN
+F 2 "" H 10220 4900 50  0001 C CNN
+F 3 "" H 10220 4900 50  0001 C CNN
+	1    10220 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10220 4830 10220 4900
+Text Label 9290 4580 0    50   ~ 0
+PDR_ON
+Wire Wire Line
+	10220 4210 10220 4330
+$Comp
+L SVIELCOM_Library:VDD_MCU #PWR?
+U 1 1 60B4CFF9
+P 10220 4210
+AR Path="/60B4CFF9" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60B4CFF9" Ref="#PWR016"  Part="1" 
+F 0 "#PWR016" H 10220 4060 50  0001 C CNN
+F 1 "VDD_MCU" H 10240 4383 50  0000 C CNN
+F 2 "" H 10220 4210 50  0001 C CNN
+F 3 "" H 10220 4210 50  0001 C CNN
+	1    10220 4210
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9290 4580 9770 4580
+$Comp
+L Jumper:Jumper_3_Bridged12 JP?
+U 1 1 60B4CFF2
+P 10220 4580
+AR Path="/60B4CFF2" Ref="JP?"  Part="1" 
+AR Path="/60A03F8A/60B4CFF2" Ref="JP2"  Part="1" 
+F 0 "JP2" V 10280 4800 50  0000 L CNN
+F 1 "Jumper_3_Bridged12" V 10210 4680 50  0000 L CNN
+F 2 "" H 10220 4580 50  0001 C CNN
+F 3 "~" H 10220 4580 50  0001 C CNN
+	1    10220 4580
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60B93055
+P 1260 7040
+AR Path="/60B93055" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60B93055" Ref="C42"  Part="1" 
+F 0 "C42" H 1300 7130 50  0000 L CNN
+F 1 "1µF" H 1290 6930 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1298 6890 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 1260 7040 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 1260 7040 50  0001 C CNN "Type"
+	1    1260 7040
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A0FEBE
+P 1540 7040
+AR Path="/60A0FEBE" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FEBE" Ref="C43"  Part="1" 
+F 0 "C43" H 1580 7130 50  0000 L CNN
+F 1 "1µF" H 1570 6930 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1578 6890 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 1540 7040 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 1540 7040 50  0001 C CNN "Type"
+	1    1540 7040
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A0FEBF
+P 1820 7040
+AR Path="/60A0FEBF" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FEBF" Ref="C44"  Part="1" 
+F 0 "C44" H 1860 7130 50  0000 L CNN
+F 1 "1µF" H 1850 6930 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1858 6890 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 1820 7040 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 1820 7040 50  0001 C CNN "Type"
+	1    1820 7040
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60B9306A
+P 2100 7040
+AR Path="/60B9306A" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60B9306A" Ref="C45"  Part="1" 
+F 0 "C45" H 2140 7130 50  0000 L CNN
+F 1 "1µF" H 2130 6930 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2138 6890 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 2100 7040 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 2100 7040 50  0001 C CNN "Type"
+	1    2100 7040
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A0FEC1
+P 2380 7040
+AR Path="/60A0FEC1" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FEC1" Ref="C46"  Part="1" 
+F 0 "C46" H 2420 7130 50  0000 L CNN
+F 1 "1µF" H 2410 6930 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2418 6890 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 2380 7040 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 2380 7040 50  0001 C CNN "Type"
+	1    2380 7040
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60B93078
+P 2660 7040
+AR Path="/60B93078" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60B93078" Ref="C47"  Part="1" 
+F 0 "C47" H 2700 7130 50  0000 L CNN
+F 1 "1µF" H 2690 6930 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2698 6890 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 2660 7040 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 2660 7040 50  0001 C CNN "Type"
+	1    2660 7040
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A0FEC3
+P 2940 7040
+AR Path="/60A0FEC3" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FEC3" Ref="C48"  Part="1" 
+F 0 "C48" H 2980 7130 50  0000 L CNN
+F 1 "1µF" H 2970 6930 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2978 6890 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 2940 7040 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 2940 7040 50  0001 C CNN "Type"
+	1    2940 7040
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A0FEC4
+P 3220 7040
+AR Path="/60A0FEC4" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FEC4" Ref="C49"  Part="1" 
+F 0 "C49" H 3260 7130 50  0000 L CNN
+F 1 "1µF" H 3250 6930 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3258 6890 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 3220 7040 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 3220 7040 50  0001 C CNN "Type"
+	1    3220 7040
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A0FEC5
+P 3500 7040
+AR Path="/60A0FEC5" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FEC5" Ref="C50"  Part="1" 
+F 0 "C50" H 3540 7130 50  0000 L CNN
+F 1 "1µF" H 3530 6930 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3538 6890 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 3500 7040 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 3500 7040 50  0001 C CNN "Type"
+	1    3500 7040
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A0FEC6
+P 3780 7040
+AR Path="/60A0FEC6" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FEC6" Ref="C51"  Part="1" 
+F 0 "C51" H 3820 7130 50  0000 L CNN
+F 1 "1µF" H 3810 6930 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3818 6890 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 3780 7040 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 3780 7040 50  0001 C CNN "Type"
+	1    3780 7040
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1260 7300 1260 7190
+Wire Wire Line
+	1540 7300 1540 7190
+Wire Wire Line
+	1820 7300 1820 7190
+Wire Wire Line
+	2100 7300 2100 7190
+Wire Wire Line
+	2380 7300 2380 7190
+Wire Wire Line
+	2660 7300 2660 7190
+Wire Wire Line
+	2940 7300 2940 7190
+Wire Wire Line
+	3220 7300 3220 7190
+Wire Wire Line
+	3500 7300 3500 7190
+Wire Wire Line
+	3780 7300 3780 7190
+Wire Wire Line
+	3780 7300 3500 7300
+Wire Wire Line
+	3500 7300 3220 7300
+Connection ~ 3500 7300
+Wire Wire Line
+	3220 7300 2940 7300
+Connection ~ 3220 7300
+Wire Wire Line
+	2940 7300 2660 7300
+Connection ~ 2940 7300
+Wire Wire Line
+	2660 7300 2380 7300
+Connection ~ 2660 7300
+Wire Wire Line
+	2380 7300 2100 7300
+Connection ~ 2380 7300
+Wire Wire Line
+	2100 7300 1820 7300
+Connection ~ 2100 7300
+Wire Wire Line
+	1820 7300 1540 7300
+Connection ~ 1820 7300
+Wire Wire Line
+	1540 7300 1260 7300
+Connection ~ 1540 7300
+Wire Wire Line
+	3780 6780 3780 6890
+Wire Wire Line
+	3500 6780 3500 6890
+Wire Wire Line
+	3220 6780 3220 6890
+Wire Wire Line
+	2940 6780 2940 6890
+Wire Wire Line
+	2660 6780 2660 6890
+Wire Wire Line
+	2380 6780 2380 6890
+Wire Wire Line
+	2100 6780 2100 6890
+Wire Wire Line
+	1820 6780 1820 6890
+Wire Wire Line
+	1540 6780 1540 6890
+Wire Wire Line
+	1260 6780 1260 6890
+Wire Wire Line
+	1260 6780 1540 6780
+Wire Wire Line
+	1540 6780 1820 6780
+Connection ~ 1540 6780
+Wire Wire Line
+	1820 6780 2100 6780
+Connection ~ 1820 6780
+Wire Wire Line
+	2100 6780 2380 6780
+Connection ~ 2100 6780
+Wire Wire Line
+	2380 6780 2660 6780
+Connection ~ 2380 6780
+Wire Wire Line
+	2660 6780 2940 6780
+Connection ~ 2660 6780
+Wire Wire Line
+	2940 6780 3220 6780
+Connection ~ 2940 6780
+Wire Wire Line
+	3220 6780 3500 6780
+Connection ~ 3220 6780
+Wire Wire Line
+	3500 6780 3780 6780
+Connection ~ 3500 6780
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60A0FEC7
+P 1260 7390
+AR Path="/60A0FEC7" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FEC7" Ref="#PWR036"  Part="1" 
+F 0 "#PWR036" H 1260 7140 50  0001 C CNN
+F 1 "GNDREF" H 1400 7220 50  0001 R CNN
+F 2 "" H 1260 7390 50  0001 C CNN
+F 3 "" H 1260 7390 50  0001 C CNN
+	1    1260 7390
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1260 7390 1260 7300
+Connection ~ 1260 7300
+$Comp
+L SVIELCOM_Library:VDD_MCU #PWR?
+U 1 1 60A0FEC8
+P 1260 6630
+AR Path="/60A0FEC8" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FEC8" Ref="#PWR032"  Part="1" 
+F 0 "#PWR032" H 1260 6480 50  0001 C CNN
+F 1 "VDD_MCU" H 1100 6780 50  0000 L CNN
+F 2 "" H 1260 6630 50  0001 C CNN
+F 3 "" H 1260 6630 50  0001 C CNN
+	1    1260 6630
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1260 6630 1260 6780
+Connection ~ 1260 6780
+$Comp
+L Regulator_Linear:LD1117S33TR_SOT223 U?
 U 1 1 609B3ECF
 P 6450 1180
 F 0 "U?" H 6450 1390 50  0000 C CNN
@@ -1458,6 +3256,18 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    6450 1180
 	1    0    0    -1  
 $EndComp
+$Comp
+L SVIELCOM_Library:ST1L05BPUR U?
+U 1 1 6096844B
+P 8540 2460
+F 0 "U?" H 9150 2847 60  0000 C CNN
+F 1 "ST1L05BPUR" H 9150 2741 60  0000 C CNN
+F 2 "SVIELCOM:ST1L05BPUR" H 9110 2010 60  0001 C CNN
+F 3 "https://my.st.com/resource/en/datasheet/st1l05.pdf" H 9150 2741 60  0001 C CNN
+	1    8540 2460
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9560 2760
 $Comp
 L SVIELCOM_Library:+5V #PWR?
 U 1 1 609C1BF5
@@ -1550,10 +3360,10 @@ Wire Wire Line
 	6880 1180 6880 1030
 $Comp
 L Device:C C?
-U 1 1 60A43FC2
+U 1 1 60A0FE9B
 P 7130 1420
-AR Path="/60A43FC2" Ref="C?"  Part="1" 
-AR Path="/60A03F8A/60A43FC2" Ref="C?"  Part="1" 
+AR Path="/60A0FE9B" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FE9B" Ref="C?"  Part="1" 
 F 0 "C?" H 7170 1510 50  0000 L CNN
 F 1 "1µF" H 7160 1310 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7168 1270 50  0001 C CNN
@@ -1599,10 +3409,10 @@ Wire Wire Line
 	5820 2140 5900 2140
 $Comp
 L Device:CP C?
-U 1 1 60A80B8D
+U 1 1 60A0FEAD
 P 5900 2380
-AR Path="/60A80B8D" Ref="C?"  Part="1" 
-AR Path="/60A03F8A/60A80B8D" Ref="C?"  Part="1" 
+AR Path="/60A0FEAD" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60A0FEAD" Ref="C?"  Part="1" 
 F 0 "C?" H 5540 2360 50  0000 L CNN
 F 1 "47µFx16" H 5530 2260 50  0000 L CNN
 F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder" H 5938 2230 50  0001 C CNN
@@ -1690,10 +3500,10 @@ Wire Wire Line
 Connection ~ 6880 2560
 $Comp
 L SVIELCOM_Library:VDD_MCU #PWR?
-U 1 1 60A8F51D
+U 1 1 60A0FEB1
 P 6880 1990
-AR Path="/60A8F51D" Ref="#PWR?"  Part="1" 
-AR Path="/60A03F8A/60A8F51D" Ref="#PWR?"  Part="1" 
+AR Path="/60A0FEB1" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FEB1" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6880 1840 50  0001 C CNN
 F 1 "VDD_MCU" H 6900 2163 50  0000 C CNN
 F 2 "" H 6880 1990 50  0001 C CNN
@@ -1703,7 +3513,7 @@ F 3 "" H 6880 1990 50  0001 C CNN
 $EndComp
 $Comp
 L SVIELCOM_Library:ST1L05APU33R U?
-U 1 1 60AB064A
+U 1 1 60A0FEB2
 P 8060 1590
 F 0 "U?" H 8695 2177 60  0000 C CNN
 F 1 "ST1L05APU33R" H 8695 2071 60  0000 C CNN
@@ -1771,8 +3581,189 @@ Wire Notes Line
 Text Notes 8450 800  0    50   ~ 0
 Backup LDO
 $Comp
+L power:GNDREF #PWR?
+U 1 1 60B41EE3
+P 8650 3000
+AR Path="/60B41EE3" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60B41EE3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8650 2750 50  0001 C CNN
+F 1 "GNDREF" V 8655 2872 50  0001 R CNN
+F 2 "" H 8650 3000 50  0001 C CNN
+F 3 "" H 8650 3000 50  0001 C CNN
+	1    8650 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 3000 8650 2960
+Wire Wire Line
+	8650 2660 8740 2660
+Wire Wire Line
+	8740 2760 8650 2760
+Connection ~ 8650 2760
+Wire Wire Line
+	8650 2760 8650 2660
+$Comp
+L SVIELCOM_Library:+5V #PWR?
+U 1 1 60B6234A
+P 8330 2360
+F 0 "#PWR?" H 8330 2210 50  0001 C CNN
+F 1 "+5V" H 8345 2533 50  0000 C CNN
+F 2 "" H 8330 2360 50  0001 C CNN
+F 3 "" H 8330 2360 50  0001 C CNN
+	1    8330 2360
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60B72F6C
+P 8090 2460
+AR Path="/60B72F6C" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/60B72F6C" Ref="R?"  Part="1" 
+F 0 "R?" V 8000 2380 50  0000 C CNN
+F 1 "1K" V 8000 2520 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8020 2460 50  0001 C CNN
+F 3 "~" H 8090 2460 50  0001 C CNN
+	1    8090 2460
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 60B74100
+P 8420 2700
+AR Path="/60B74100" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60B74100" Ref="C?"  Part="1" 
+F 0 "C?" H 8140 2670 50  0000 L CNN
+F 1 "10µFx16" H 8050 2580 50  0000 L CNN
+F 2 "" H 8458 2550 50  0001 C CNN
+F 3 "" H 8420 2700 50  0001 C CNN
+F 4 "593D106X9016A2TE3" H 8420 2700 50  0001 C CNN "Type"
+	1    8420 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:VDD_MCU #PWR?
+U 1 1 60BA614F
+P 7940 2460
+AR Path="/60BA614F" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60BA614F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7940 2310 50  0001 C CNN
+F 1 "VDD_MCU" H 7960 2633 50  0000 C CNN
+F 2 "" H 7940 2460 50  0001 C CNN
+F 3 "" H 7940 2460 50  0001 C CNN
+	1    7940 2460
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8240 2460 8740 2460
+$Comp
+L Device:R R?
+U 1 1 60BBA878
+P 9920 2600
+AR Path="/60BBA878" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/60BBA878" Ref="R?"  Part="1" 
+F 0 "R?" V 9750 2600 50  0000 C CNN
+F 1 "22K[1%]" V 9820 2620 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9850 2600 50  0001 C CNN
+F 3 "~" H 9920 2600 50  0001 C CNN
+	1    9920 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60BBB173
+P 9670 2910
+AR Path="/60BBB173" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/60BBB173" Ref="R?"  Part="1" 
+F 0 "R?" V 9750 2950 50  0000 C CNN
+F 1 "16K[1%]" V 9570 2910 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9600 2910 50  0001 C CNN
+F 3 "~" H 9670 2910 50  0001 C CNN
+	1    9670 2910
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9560 2600 9670 2600
+Wire Wire Line
+	9670 2760 9670 2600
+Connection ~ 9670 2600
+Wire Wire Line
+	9670 2600 9770 2600
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60BED935
+P 9670 3150
+AR Path="/60BED935" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60BED935" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9670 2900 50  0001 C CNN
+F 1 "GNDREF" V 9675 3022 50  0001 R CNN
+F 2 "" H 9670 3150 50  0001 C CNN
+F 3 "" H 9670 3150 50  0001 C CNN
+	1    9670 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9670 3150 9670 3110
+Wire Wire Line
+	9560 2360 10160 2360
+Wire Wire Line
+	10160 2360 10160 2600
+Wire Wire Line
+	10160 2600 10070 2600
+$Comp
+L Device:CP C?
+U 1 1 60C10398
+P 10160 2860
+AR Path="/60C10398" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60C10398" Ref="C?"  Part="1" 
+F 0 "C?" H 10200 2960 50  0000 L CNN
+F 1 "10µFx16" H 10200 2760 50  0000 L CNN
+F 2 "" H 10198 2710 50  0001 C CNN
+F 3 "" H 10160 2860 50  0001 C CNN
+F 4 "593D106X9016A2TE3" H 10160 2860 50  0001 C CNN "Type"
+	1    10160 2860
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10160 2710 10160 2600
+Connection ~ 10160 2600
+Wire Wire Line
+	9670 3110 10160 3110
+Wire Wire Line
+	10160 3110 10160 3010
+Connection ~ 9670 3110
+Wire Wire Line
+	9670 3110 9670 3060
+$Comp
+L SVIELCOM_Library:+2.9V_SD #PWR?
+U 1 1 60C4B601
+P 10220 2360
+F 0 "#PWR?" H 10220 2210 50  0001 C CNN
+F 1 "+2.9V_SD" H 10235 2533 50  0000 C CNN
+F 2 "" H 10220 2360 50  0001 C CNN
+F 3 "" H 10220 2360 50  0001 C CNN
+	1    10220 2360
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10160 2360 10220 2360
+Connection ~ 10160 2360
+Wire Wire Line
+	8330 2360 8420 2360
+Wire Wire Line
+	8420 2550 8420 2360
+Connection ~ 8420 2360
+Wire Wire Line
+	8420 2360 8740 2360
+Wire Wire Line
+	8420 2960 8650 2960
+Connection ~ 8650 2960
+Wire Wire Line
+	8650 2960 8650 2760
+Wire Wire Line
+	8420 2850 8420 2960
+$Comp
 L freetronics_schematic:JUMPER2 JP?
-U 1 1 60C9658E
+U 1 1 60A0FEC9
 P 10040 1490
 F 0 "JP?" H 10018 1468 60  0000 L CNN
 F 1 "JUMPER2" H 10018 1377 40  0000 L CNN
@@ -1789,10 +3780,10 @@ Wire Notes Line
 	7770 720  10450 720 
 $Comp
 L SVIELCOM_Library:VDD_MCU #PWR?
-U 1 1 60CBE851
+U 1 1 60A0FECA
 P 9740 1490
-AR Path="/60CBE851" Ref="#PWR?"  Part="1" 
-AR Path="/60A03F8A/60CBE851" Ref="#PWR?"  Part="1" 
+AR Path="/60A0FECA" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A0FECA" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 9740 1340 50  0001 C CNN
 F 1 "VDD_MCU" H 9760 1663 50  0000 C CNN
 F 2 "" H 9740 1490 50  0001 C CNN

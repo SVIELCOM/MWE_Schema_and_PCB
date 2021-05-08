@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 7
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "QuadSPI Flash and SD Card storage"
+Date "2021-05-08"
+Rev "0.1"
+Comp "SVIELCOM"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -16,18 +16,18 @@ $EndDescr
 $Comp
 L Схема-и-печатная-плата-rescue:W25Q256JVFIQ-Memory_Flash U?
 U 1 1 60D8B67A
-P 3050 5530
-F 0 "U?" H 3600 5795 50  0000 C CNN
-F 1 "W25Q256JVFIQ" H 3600 5704 50  0000 C CNN
-F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 3050 5930 50  0001 L CNN
-F 3 "http://www.winbond.com/resource-files/w25q256jv%20spi%20reve%2002102017.pdf" H 3050 6030 50  0001 L CNN
-F 4 "IC" H 3050 6130 50  0001 L CNN "category"
-F 5 "IC FLASH 256MBIT 104MHZ 16WSOIC" H 3050 6230 50  0001 L CNN "digikey description"
-F 6 "Winbond" H 3050 6730 50  0001 L CNN "manufacturer"
-F 7 "yes" H 3050 6930 50  0001 L CNN "rohs"
-F 8 "+85°C" H 3050 7030 50  0001 L CNN "temperature range high"
-F 9 "-40°C" H 3050 7130 50  0001 L CNN "temperature range low"
-	1    3050 5530
+P 4270 4710
+F 0 "U?" H 4820 4975 50  0000 C CNN
+F 1 "W25Q256JVFIQ" H 4820 4884 50  0000 C CNN
+F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 4270 5110 50  0001 L CNN
+F 3 "http://www.winbond.com/resource-files/w25q256jv%20spi%20reve%2002102017.pdf" H 4270 5210 50  0001 L CNN
+F 4 "IC" H 4270 5310 50  0001 L CNN "category"
+F 5 "IC FLASH 256MBIT 104MHZ 16WSOIC" H 4270 5410 50  0001 L CNN "digikey description"
+F 6 "Winbond" H 4270 5910 50  0001 L CNN "manufacturer"
+F 7 "yes" H 4270 6110 50  0001 L CNN "rohs"
+F 8 "+85°C" H 4270 6210 50  0001 L CNN "temperature range high"
+F 9 "-40°C" H 4270 6310 50  0001 L CNN "temperature range low"
+	1    4270 4710
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -143,17 +143,6 @@ Wire Wire Line
 Connection ~ 5680 1890
 Wire Wire Line
 	5680 1890 5940 1890
-$Comp
-L SVIELCOM_Library:VDD_PER #PWR?
-U 1 1 60995939
-P 3480 1060
-F 0 "#PWR?" H 3480 910 50  0001 C CNN
-F 1 "VDD_PER" H 3495 1233 50  0000 C CNN
-F 2 "" H 3480 1060 50  0001 C CNN
-F 3 "" H 3480 1060 50  0001 C CNN
-	1    3480 1060
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3480 1060 3480 1200
 Wire Wire Line
@@ -260,18 +249,177 @@ Wire Wire Line
 	2940 2390 3900 2390
 Wire Wire Line
 	2940 2490 3900 2490
-Text HLabel 2940 1790 0    50   Input ~ 0
+Text HLabel 2940 1790 0    50   BiDi ~ 0
 SDMMC1_D0
-Text HLabel 2940 1890 0    50   Input ~ 0
+Text HLabel 2940 1890 0    50   BiDi ~ 0
 SDMMC1_D1
-Text HLabel 2940 1990 0    50   Input ~ 0
+Text HLabel 2940 1990 0    50   BiDi ~ 0
 SDMMC1_D2
-Text HLabel 2940 2090 0    50   Input ~ 0
+Text HLabel 2940 2090 0    50   BiDi ~ 0
 SDMMC1_D3
-Text HLabel 2940 2290 0    50   Input ~ 0
+Text HLabel 2940 2290 0    50   BiDi ~ 0
 SDMMC1_CMD
 Text HLabel 2940 2390 0    50   Input ~ 0
 SDMMC1_CK
-Text HLabel 2940 2490 0    50   Input ~ 0
+Text HLabel 2940 2490 0    50   Output ~ 0
 SDMMC1_CKIN
+Text Label 3060 1790 0    50   ~ 0
+PC8
+Text Label 3060 1890 0    50   ~ 0
+PC9
+Text Label 3060 1990 0    50   ~ 0
+PC10
+Text Label 3060 2090 0    50   ~ 0
+PC11
+Text Label 3060 2290 0    50   ~ 0
+PD2
+Text Label 3060 2390 0    50   ~ 0
+PC12
+Text Label 3060 2490 0    50   ~ 0
+PB8
+$Comp
+L SVIELCOM_Library:VDD_MCU #PWR?
+U 1 1 60A156B1
+P 3480 1060
+F 0 "#PWR?" H 3480 910 50  0001 C CNN
+F 1 "VDD_MCU" H 3495 1233 50  0000 C CNN
+F 2 "" H 3480 1060 50  0001 C CNN
+F 3 "" H 3480 1060 50  0001 C CNN
+	1    3480 1060
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:VDD_MCU #PWR?
+U 1 1 60A15E6C
+P 4030 4590
+F 0 "#PWR?" H 4030 4440 50  0001 C CNN
+F 1 "VDD_MCU" H 4045 4763 50  0000 C CNN
+F 2 "" H 4030 4590 50  0001 C CNN
+F 3 "" H 4030 4590 50  0001 C CNN
+	1    4030 4590
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4030 4590 4030 4710
+Wire Wire Line
+	4030 4710 4270 4710
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60A17165
+P 5500 5470
+AR Path="/60A17165" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60A17165" Ref="#PWR?"  Part="1" 
+AR Path="/60D8A641/60A17165" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5500 5220 50  0001 C CNN
+F 1 "GNDREF" V 5505 5342 50  0001 R CNN
+F 2 "" H 5500 5470 50  0001 C CNN
+F 3 "" H 5500 5470 50  0001 C CNN
+	1    5500 5470
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5370 5310 5500 5310
+Wire Wire Line
+	5500 5310 5500 5470
+$Comp
+L Device:R R?
+U 1 1 60A1C3E5
+P 5790 4710
+AR Path="/60A1C3E5" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/60A1C3E5" Ref="R?"  Part="1" 
+AR Path="/60D8A641/60A1C3E5" Ref="R?"  Part="1" 
+F 0 "R?" V 5740 4530 50  0000 C CNN
+F 1 "33" V 5750 4910 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5720 4710 50  0001 C CNN
+F 3 "~" H 5790 4710 50  0001 C CNN
+	1    5790 4710
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5370 4710 5640 4710
+$Comp
+L Device:R R?
+U 1 1 60A1DE64
+P 5790 4810
+AR Path="/60A1DE64" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/60A1DE64" Ref="R?"  Part="1" 
+AR Path="/60D8A641/60A1DE64" Ref="R?"  Part="1" 
+F 0 "R?" V 5750 4630 50  0000 C CNN
+F 1 "33" V 5750 5010 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5720 4810 50  0001 C CNN
+F 3 "~" H 5790 4810 50  0001 C CNN
+	1    5790 4810
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5370 4810 5640 4810
+$Comp
+L Device:R R?
+U 1 1 60A1EB77
+P 5790 5010
+AR Path="/60A1EB77" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/60A1EB77" Ref="R?"  Part="1" 
+AR Path="/60D8A641/60A1EB77" Ref="R?"  Part="1" 
+F 0 "R?" V 5700 4930 50  0000 C CNN
+F 1 "33" V 5700 5070 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5720 5010 50  0001 C CNN
+F 3 "~" H 5790 5010 50  0001 C CNN
+	1    5790 5010
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5370 5010 5640 5010
+$Comp
+L Device:R R?
+U 1 1 60A1F94D
+P 5790 5110
+AR Path="/60A1F94D" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/60A1F94D" Ref="R?"  Part="1" 
+AR Path="/60D8A641/60A1F94D" Ref="R?"  Part="1" 
+F 0 "R?" V 5880 5030 50  0000 C CNN
+F 1 "33" V 5880 5170 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5720 5110 50  0001 C CNN
+F 3 "~" H 5790 5110 50  0001 C CNN
+	1    5790 5110
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5370 5110 5640 5110
+NoConn ~ 4270 4910
+Wire Wire Line
+	3710 5110 4270 5110
+Wire Wire Line
+	3710 5310 4270 5310
+Text HLabel 3710 5110 0    50   Input ~ 0
+QUADSPI_BK1_NCS
+Text HLabel 3710 5310 0    50   Input ~ 0
+QUADSPI_CLK
+Wire Wire Line
+	6450 4710 5940 4710
+Wire Wire Line
+	6450 4810 5940 4810
+Wire Wire Line
+	6450 5010 5940 5010
+Wire Wire Line
+	6450 5110 5940 5110
+Text HLabel 6450 4710 2    50   BiDi ~ 0
+QUADPSI_BK1_IO2
+Text HLabel 6450 4810 2    50   BiDi ~ 0
+QUADPSI_BK1_IO3
+Text HLabel 6450 5010 2    50   BiDi ~ 0
+QUADPSI_BK1_IO0
+Text HLabel 6450 5110 2    50   BiDi ~ 0
+QUADPSI_BK1_IO1
+Text Label 6210 4710 0    50   ~ 0
+PF7
+Text Label 6210 4810 0    50   ~ 0
+PF6
+Text Label 6210 5010 0    50   ~ 0
+PF8
+Text Label 6210 5110 0    50   ~ 0
+PF9
+Text Label 3770 5310 0    50   ~ 0
+PF10
+Text Label 3770 5110 0    50   ~ 0
+PB6
 $EndSCHEMATC

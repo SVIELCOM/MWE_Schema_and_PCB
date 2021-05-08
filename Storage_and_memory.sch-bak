@@ -194,4 +194,38 @@ F 3 "" H 3250 1590 50  0001 C CNN
 	1    3250 1590
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60998CBA
+P 3860 2910
+AR Path="/60998CBA" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60998CBA" Ref="#PWR?"  Part="1" 
+AR Path="/60D8A641/60998CBA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3860 2660 50  0001 C CNN
+F 1 "GNDREF" V 3865 2782 50  0001 R CNN
+F 2 "" H 3860 2910 50  0001 C CNN
+F 3 "" H 3860 2910 50  0001 C CNN
+	1    3860 2910
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2790 3860 2790
+Wire Wire Line
+	3860 2790 3860 2910
+$Comp
+L power:GNDREF #PWR?
+U 1 1 609998AA
+P 7640 2910
+AR Path="/609998AA" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/609998AA" Ref="#PWR?"  Part="1" 
+AR Path="/60D8A641/609998AA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7640 2660 50  0001 C CNN
+F 1 "GNDREF" V 7645 2782 50  0001 R CNN
+F 2 "" H 7640 2910 50  0001 C CNN
+F 3 "" H 7640 2910 50  0001 C CNN
+	1    7640 2910
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7640 2490 7640 2910
 $EndSCHEMATC

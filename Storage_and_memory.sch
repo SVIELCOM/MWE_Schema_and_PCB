@@ -228,4 +228,50 @@ F 3 "" H 7640 2910 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7640 2490 7640 2910
+$Comp
+L SVIELCOM_Library:+2.9V_SD #PWR?
+U 1 1 6099AF71
+P 5430 1060
+F 0 "#PWR?" H 5430 910 50  0001 C CNN
+F 1 "+2.9V_SD" H 5445 1233 50  0000 C CNN
+F 2 "" H 5430 1060 50  0001 C CNN
+F 3 "" H 5430 1060 50  0001 C CNN
+	1    5430 1060
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5430 1890 5430 1060
+Wire Wire Line
+	3480 1590 3480 2690
+Wire Wire Line
+	3480 2690 3900 2690
+Connection ~ 3480 1590
+Wire Wire Line
+	2940 1790 3900 1790
+Wire Wire Line
+	2940 1890 3900 1890
+Wire Wire Line
+	2940 1990 3900 1990
+Wire Wire Line
+	2940 2090 3900 2090
+Wire Wire Line
+	2940 2290 3900 2290
+Wire Wire Line
+	2940 2390 3900 2390
+Wire Wire Line
+	2940 2490 3900 2490
+Text HLabel 2940 1790 0    50   Input ~ 0
+SDMMC1_D0
+Text HLabel 2940 1890 0    50   Input ~ 0
+SDMMC1_D1
+Text HLabel 2940 1990 0    50   Input ~ 0
+SDMMC1_D2
+Text HLabel 2940 2090 0    50   Input ~ 0
+SDMMC1_D3
+Text HLabel 2940 2290 0    50   Input ~ 0
+SDMMC1_CMD
+Text HLabel 2940 2390 0    50   Input ~ 0
+SDMMC1_CK
+Text HLabel 2940 2490 0    50   Input ~ 0
+SDMMC1_CKIN
 $EndSCHEMATC

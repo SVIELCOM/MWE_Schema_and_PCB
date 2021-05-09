@@ -15,25 +15,12 @@ Comment4 ""
 $EndDescr
 $Comp
 L Driver_LED:MAX7219 U?
-U 1 1 608F051E
-P 1880 2970
-AR Path="/608F051E" Ref="U?"  Part="1" 
-AR Path="/608C8099/608F051E" Ref="U9"  Part="1" 
-F 0 "U9" H 1880 4151 50  0000 C CNN
-F 1 "MAX7219EWG+T" H 1880 4060 50  0000 C CNN
-F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 1830 3020 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf" H 1930 2820 50  0001 C CNN
-	1    1880 2970
-	1    0    0    -1  
-$EndComp
-$Comp
-L Driver_LED:MAX7219 U?
 U 1 1 608F1867
 P 1880 6270
 AR Path="/608F1867" Ref="U?"  Part="1" 
 AR Path="/608C8099/608F1867" Ref="U12"  Part="1" 
-F 0 "U12" H 1880 7451 50  0000 C CNN
-F 1 "MAX7219EWG+T" H 1880 7360 50  0000 C CNN
+F 0 "U12" H 2080 7240 50  0000 C CNN
+F 1 "MAX7219EWG+T" H 2280 5280 50  0000 C CNN
 F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 1830 6320 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf" H 1930 6120 50  0001 C CNN
 	1    1880 6270
@@ -75,13 +62,13 @@ $EndComp
 $Comp
 L Device:LED D2
 U 1 1 609B4BF3
-P 7970 1540
-F 0 "D2" H 7963 1757 50  0000 C CNN
-F 1 "L-1154ID" H 7963 1666 50  0000 C CNN
-F 2 "LED_THT:LED_D3.0mm" H 7970 1540 50  0001 C CNN
-F 3 "https://www.kingbright.com/attachments/file/psearch/000/00/00/L-1154ID(Ver.17A).pdf" H 7970 1540 50  0001 C CNN
-	1    7970 1540
-	1    0    0    -1  
+P 10170 2250
+F 0 "D2" V 10230 2120 50  0000 C CNN
+F 1 "L-1154ID" V 10140 1990 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 10170 2250 50  0001 C CNN
+F 3 "https://www.kingbright.com/attachments/file/psearch/000/00/00/L-1154ID(Ver.17A).pdf" H 10170 2250 50  0001 C CNN
+	1    10170 2250
+	0    -1   -1   0   
 $EndComp
 $Comp
 L SVIELCOM_Library:CC56-12SURKWA U?
@@ -593,6 +580,515 @@ Text Label 4070 6820 0    50   ~ 0
 A2
 Text Label 7060 4930 0    50   ~ 0
 A2
+Text Label 2340 5570 0    50   ~ 0
+B2
+Text Label 2340 5670 0    50   ~ 0
+C2
+Text Label 2340 5770 0    50   ~ 0
+D2
+Text Label 2340 5870 0    50   ~ 0
+E2
+Text Label 2340 5970 0    50   ~ 0
+F2
+Text Label 2340 6070 0    50   ~ 0
+G2
+Text Label 2310 6170 0    50   ~ 0
+DP2
+Text Label 2310 6270 0    50   ~ 0
+2C0
+Text Label 2310 6370 0    50   ~ 0
+2C1
+Text Label 2310 6470 0    50   ~ 0
+2C2
+Text Label 2310 6570 0    50   ~ 0
+2C3
+Text Label 2310 6670 0    50   ~ 0
+2C4
+Text Label 2310 6770 0    50   ~ 0
+2C5
+Text Label 2310 6870 0    50   ~ 0
+2C6
+Text Label 2310 6970 0    50   ~ 0
+2C7
+Text Label 4070 4930 0    50   ~ 0
+B2
+Text Label 7060 5030 0    50   ~ 0
+B2
+Text Label 4060 6920 0    50   ~ 0
+B2
+Text Label 4070 5230 0    50   ~ 0
+C2
+Text Label 4060 7020 0    50   ~ 0
+C2
+Text Label 7060 5130 0    50   ~ 0
+C2
+Text Label 4060 7120 0    50   ~ 0
+D2
+Text Label 4070 5530 0    50   ~ 0
+D2
+Text Label 7060 5230 0    50   ~ 0
+D2
+Text Label 4060 7220 0    50   ~ 0
+E2
+Text Label 6480 4630 0    50   ~ 0
+E2
+Text Label 7060 5330 0    50   ~ 0
+E2
+Text Label 4060 7320 0    50   ~ 0
+F2
+Text Label 6480 4930 0    50   ~ 0
+F2
+Text Label 7060 5430 0    50   ~ 0
+F2
+Text Label 4060 7420 0    50   ~ 0
+G2
+Text Label 6480 5230 0    50   ~ 0
+G2
+Text Label 7060 5530 0    50   ~ 0
+G2
+Text Label 4040 7520 0    50   ~ 0
+DP2
+Text Label 7040 5630 0    50   ~ 0
+DP2
+Text Label 6460 5530 0    50   ~ 0
+DP2
+Text Label 6480 6820 0    50   ~ 0
+2C7
+Text Label 6480 7020 0    50   ~ 0
+2C6
+Text Label 6480 7220 0    50   ~ 0
+2C5
+Text Label 6480 7420 0    50   ~ 0
+2C4
+Text Label 8060 5530 0    50   ~ 0
+2C3
+Text Label 4050 5830 0    50   ~ 0
+2C2
+Text Label 6470 5830 0    50   ~ 0
+2C1
+Text Label 6470 5930 0    50   ~ 0
+2C0
+Text Label 2340 2170 0    50   ~ 0
+A1
+Text Label 2340 2270 0    50   ~ 0
+B1
+Text Label 2340 2370 0    50   ~ 0
+C1
+Text Label 2340 2470 0    50   ~ 0
+D1
+Text Label 2340 2570 0    50   ~ 0
+E1
+Text Label 2340 2670 0    50   ~ 0
+F1
+Text Label 2340 2770 0    50   ~ 0
+G1
+Text Label 2300 2870 0    50   ~ 0
+DP1
+Text Label 2300 2970 0    50   ~ 0
+1C0
+Text Label 2300 3070 0    50   ~ 0
+1C1
+Text Label 2300 3170 0    50   ~ 0
+1C2
+Text Label 2300 3270 0    50   ~ 0
+1C3
+Text Label 2300 3370 0    50   ~ 0
+1C4
+Text Label 2300 3470 0    50   ~ 0
+1C5
+Text Label 2300 3570 0    50   ~ 0
+1C6
+Text Label 2300 3670 0    50   ~ 0
+1C7
+Text Label 4040 1450 0    50   ~ 0
+A1
+Text Label 4040 2650 0    50   ~ 0
+A1
+Text Label 4030 1550 0    50   ~ 0
+B1
+Text Label 4030 2750 0    50   ~ 0
+B1
+Text Label 4030 1650 0    50   ~ 0
+C1
+Text Label 4030 2850 0    50   ~ 0
+C1
+Text Label 4030 1750 0    50   ~ 0
+D1
+Text Label 4030 2950 0    50   ~ 0
+D1
+Text Label 4030 1850 0    50   ~ 0
+E1
+Text Label 4030 3050 0    50   ~ 0
+E1
+Text Label 4030 1950 0    50   ~ 0
+F1
+Text Label 4030 3150 0    50   ~ 0
+F1
+Text Label 4030 2050 0    50   ~ 0
+G1
+Text Label 4030 3250 0    50   ~ 0
+G1
+Text Label 4030 2150 0    50   ~ 0
+DP1
+Text Label 4030 3350 0    50   ~ 0
+DP1
+Text Label 6460 1450 0    50   ~ 0
+1C7
+Text Label 6460 1650 0    50   ~ 0
+1C6
+Text Label 6460 1850 0    50   ~ 0
+1C5
+Text Label 6460 2050 0    50   ~ 0
+1C4
+Text Label 6460 2650 0    50   ~ 0
+1C3
+Text Label 6460 2850 0    50   ~ 0
+1C2
+Text Label 6460 3050 0    50   ~ 0
+1C1
+Text Label 6460 3250 0    50   ~ 0
+1C0
+Wire Wire Line
+	2280 3770 2410 3770
+Wire Wire Line
+	2410 3770 2410 4470
+Wire Wire Line
+	2410 4470 1350 4470
+Wire Wire Line
+	1350 4470 1350 7070
+Wire Wire Line
+	1350 7070 1480 7070
+Wire Wire Line
+	1480 6970 1220 6970
+Wire Wire Line
+	1220 6970 1220 3670
+Wire Wire Line
+	1220 3670 1480 3670
+Wire Wire Line
+	1480 6870 1080 6870
+Wire Wire Line
+	1080 6870 1080 3570
+Wire Wire Line
+	1080 3570 1480 3570
+$Comp
+L Device:R R?
+U 1 1 60C51BAE
+P 1460 5250
+AR Path="/60C51BAE" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/60C51BAE" Ref="R?"  Part="1" 
+AR Path="/608C8099/60C51BAE" Ref="R?"  Part="1" 
+F 0 "R?" H 1580 5330 50  0000 C CNN
+F 1 "17,1K" H 1640 5240 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1390 5250 50  0001 C CNN
+F 3 "~" H 1460 5250 50  0001 C CNN
+	1    1460 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:+5V #PWR?
+U 1 1 60C625DC
+P 1880 4950
+F 0 "#PWR?" H 1880 4800 50  0001 C CNN
+F 1 "+5V" H 1895 5123 50  0000 C CNN
+F 2 "" H 1880 4950 50  0001 C CNN
+F 3 "" H 1880 4950 50  0001 C CNN
+	1    1880 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1460 5400 1460 5470
+Wire Wire Line
+	1460 5470 1480 5470
+Wire Wire Line
+	1880 4950 1880 5020
+Wire Wire Line
+	1460 5100 1460 5020
+Wire Wire Line
+	1460 5020 1880 5020
+Connection ~ 1880 5020
+Wire Wire Line
+	1880 5020 1880 5270
+$Comp
+L Device:R R?
+U 1 1 60C90DD1
+P 1450 1950
+AR Path="/60C90DD1" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/60C90DD1" Ref="R?"  Part="1" 
+AR Path="/608C8099/60C90DD1" Ref="R?"  Part="1" 
+F 0 "R?" H 1570 2030 50  0000 C CNN
+F 1 "17,1K" H 1630 1940 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1380 1950 50  0001 C CNN
+F 3 "~" H 1450 1950 50  0001 C CNN
+	1    1450 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 1800 1450 1720
+Wire Wire Line
+	1450 1720 1880 1720
+$Comp
+L SVIELCOM_Library:+5V #PWR?
+U 1 1 60C9A9E7
+P 1880 1650
+F 0 "#PWR?" H 1880 1500 50  0001 C CNN
+F 1 "+5V" H 1895 1823 50  0000 C CNN
+F 2 "" H 1880 1650 50  0001 C CNN
+F 3 "" H 1880 1650 50  0001 C CNN
+	1    1880 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1880 1650 1880 1720
+$Comp
+L Driver_LED:MAX7219 U?
+U 1 1 608F051E
+P 1880 2970
+AR Path="/608F051E" Ref="U?"  Part="1" 
+AR Path="/608C8099/608F051E" Ref="U9"  Part="1" 
+F 0 "U9" H 2070 3920 50  0000 C CNN
+F 1 "MAX7219EWG+T" H 1250 2810 50  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 1830 3020 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf" H 1930 2820 50  0001 C CNN
+	1    1880 2970
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 2100 1450 2170
+Wire Wire Line
+	1450 2170 1480 2170
+Wire Wire Line
+	1880 1970 1880 1720
+Connection ~ 1880 1720
+NoConn ~ 2280 7070
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60CD686B
+P 1880 4080
+AR Path="/60CD686B" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60CD686B" Ref="#PWR?"  Part="1" 
+AR Path="/608C8099/60CD686B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1880 3830 50  0001 C CNN
+F 1 "GNDREF" V 1885 3952 50  0001 R CNN
+F 2 "" H 1880 4080 50  0001 C CNN
+F 3 "" H 1880 4080 50  0001 C CNN
+	1    1880 4080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1880 3970 1880 4080
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60CE9A00
+P 1880 7380
+AR Path="/60CE9A00" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60CE9A00" Ref="#PWR?"  Part="1" 
+AR Path="/608C8099/60CE9A00" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1880 7130 50  0001 C CNN
+F 1 "GNDREF" V 1885 7252 50  0001 R CNN
+F 2 "" H 1880 7380 50  0001 C CNN
+F 3 "" H 1880 7380 50  0001 C CNN
+	1    1880 7380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1880 7270 1880 7380
+Text HLabel 980  3570 0    50   Input ~ 0
+SPI6_CS
+Wire Wire Line
+	980  3570 1080 3570
+Connection ~ 1080 3570
+Text Label 1240 3570 0    50   ~ 0
+PG15
+Text HLabel 980  3670 0    50   Input ~ 0
+SPI6_SCK
+Wire Wire Line
+	980  3670 1220 3670
+Connection ~ 1220 3670
+Text HLabel 980  3770 0    50   Input ~ 0
+SPI6_MOSI
+Wire Wire Line
+	980  3770 1480 3770
+Text Label 1240 3670 0    50   ~ 0
+PG13
+Text Label 1240 3770 0    50   ~ 0
+PG14
+$Comp
+L Device:LED D?
+U 1 1 60D12378
+P 10170 4180
+F 0 "D?" V 10230 4040 50  0000 C CNN
+F 1 "L-1154ID" V 10140 3900 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 10170 4180 50  0001 C CNN
+F 3 "https://www.kingbright.com/attachments/file/psearch/000/00/00/L-1154ID(Ver.17A).pdf" H 10170 4180 50  0001 C CNN
+	1    10170 4180
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:BC817-25LT1G Q?
+U 1 1 60D173AB
+P 10070 4630
+F 0 "Q?" H 9900 4810 60  0000 L CNN
+F 1 "BC817-25LT1G" H 9420 4410 60  0000 L CNN
+F 2 "digikey-footprints:SOT-23-3" H 10270 4830 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BC817-16LT1-D.PDF" H 10270 4930 60  0001 L CNN
+F 4 "BC817-25LT1GOSCT-ND" H 10270 5030 60  0001 L CNN "Digi-Key_PN"
+F 5 "BC817-25LT1G" H 10270 5130 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 10270 5230 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 10270 5330 60  0001 L CNN "Family"
+F 8 "https://www.onsemi.com/pub/Collateral/BC817-16LT1-D.PDF" H 10270 5430 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/BC817-25LT1G/BC817-25LT1GOSCT-ND/917829" H 10270 5530 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 0.5A SOT23" H 10270 5630 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 10270 5730 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10270 5830 60  0001 L CNN "Status"
+	1    10070 4630
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:BC817-25LT1G Q?
+U 1 1 60D194A1
+P 10070 2700
+F 0 "Q?" H 10258 2753 60  0000 L CNN
+F 1 "BC817-25LT1G" H 10258 2647 60  0000 L CNN
+F 2 "digikey-footprints:SOT-23-3" H 10270 2900 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BC817-16LT1-D.PDF" H 10270 3000 60  0001 L CNN
+F 4 "BC817-25LT1GOSCT-ND" H 10270 3100 60  0001 L CNN "Digi-Key_PN"
+F 5 "BC817-25LT1G" H 10270 3200 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 10270 3300 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 10270 3400 60  0001 L CNN "Family"
+F 8 "https://www.onsemi.com/pub/Collateral/BC817-16LT1-D.PDF" H 10270 3500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/BC817-25LT1G/BC817-25LT1GOSCT-ND/917829" H 10270 3600 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 0.5A SOT23" H 10270 3700 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 10270 3800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10270 3900 60  0001 L CNN "Status"
+	1    10070 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10170 2500 10170 2400
+Wire Wire Line
+	10170 4430 10170 4330
+$Comp
+L Device:R R?
+U 1 1 60D3CAE8
+P 10170 3780
+AR Path="/60D3CAE8" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/60D3CAE8" Ref="R?"  Part="1" 
+AR Path="/608C8099/60D3CAE8" Ref="R?"  Part="1" 
+F 0 "R?" H 10290 3860 50  0000 C CNN
+F 1 "100" H 10310 3770 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10100 3780 50  0001 C CNN
+F 3 "~" H 10170 3780 50  0001 C CNN
+	1    10170 3780
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60D3D796
+P 10170 1850
+AR Path="/60D3D796" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/60D3D796" Ref="R?"  Part="1" 
+AR Path="/608C8099/60D3D796" Ref="R?"  Part="1" 
+F 0 "R?" H 10290 1930 50  0000 C CNN
+F 1 "100" H 10300 1840 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10100 1850 50  0001 C CNN
+F 3 "~" H 10170 1850 50  0001 C CNN
+	1    10170 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10170 4030 10170 3930
+Wire Wire Line
+	10170 2000 10170 2100
+Wire Wire Line
+	10170 3630 10170 3590
+Wire Wire Line
+	10170 1650 10170 1700
+Wire Wire Line
+	10170 4830 10170 4890
+Wire Wire Line
+	10170 2960 10170 2900
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60D66B48
+P 10170 2960
+AR Path="/60D66B48" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60D66B48" Ref="#PWR?"  Part="1" 
+AR Path="/608C8099/60D66B48" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10170 2710 50  0001 C CNN
+F 1 "GNDREF" V 10175 2832 50  0001 R CNN
+F 2 "" H 10170 2960 50  0001 C CNN
+F 3 "" H 10170 2960 50  0001 C CNN
+	1    10170 2960
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:+5V #PWR?
+U 1 1 60D69A05
+P 10170 1650
+F 0 "#PWR?" H 10170 1500 50  0001 C CNN
+F 1 "+5V" H 10185 1823 50  0000 C CNN
+F 2 "" H 10170 1650 50  0001 C CNN
+F 3 "" H 10170 1650 50  0001 C CNN
+	1    10170 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60D74293
+P 9720 2700
+AR Path="/60D74293" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/60D74293" Ref="R?"  Part="1" 
+AR Path="/608C8099/60D74293" Ref="R?"  Part="1" 
+F 0 "R?" V 9630 2660 50  0000 C CNN
+F 1 "5,1K" V 9820 2670 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9650 2700 50  0001 C CNN
+F 3 "~" H 9720 2700 50  0001 C CNN
+	1    9720 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60D74E3B
+P 9720 4630
+AR Path="/60D74E3B" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/60D74E3B" Ref="R?"  Part="1" 
+AR Path="/608C8099/60D74E3B" Ref="R?"  Part="1" 
+F 0 "R?" V 9630 4590 50  0000 C CNN
+F 1 "5,1K" V 9820 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9650 4630 50  0001 C CNN
+F 3 "~" H 9720 4630 50  0001 C CNN
+	1    9720 4630
+	0    1    1    0   
+$EndComp
+$Comp
+L SVIELCOM_Library:+5V #PWR?
+U 1 1 60D8BCE0
+P 10170 3590
+F 0 "#PWR?" H 10170 3440 50  0001 C CNN
+F 1 "+5V" H 10185 3763 50  0000 C CNN
+F 2 "" H 10170 3590 50  0001 C CNN
+F 3 "" H 10170 3590 50  0001 C CNN
+	1    10170 3590
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60DA0F1A
+P 10170 4890
+AR Path="/60DA0F1A" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60DA0F1A" Ref="#PWR?"  Part="1" 
+AR Path="/608C8099/60DA0F1A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10170 4640 50  0001 C CNN
+F 1 "GNDREF" V 10175 4762 50  0001 R CNN
+F 2 "" H 10170 4890 50  0001 C CNN
+F 3 "" H 10170 4890 50  0001 C CNN
+	1    10170 4890
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9180 2700 9570 2700
+Wire Wire Line
+	9180 4630 9570 4630
 Wire Bus Line
 	2550 690  6810 690 
 Wire Bus Line
@@ -609,34 +1105,12 @@ Wire Bus Line
 	3830 790  3830 3250
 Wire Bus Line
 	2550 690  2550 3570
-Text Label 2340 5570 0    50   ~ 0
-B2
-Text Label 2340 5670 0    50   ~ 0
-C2
-Text Label 2340 5770 0    50   ~ 0
-D2
-Text Label 2340 5870 0    50   ~ 0
-E2
-Text Label 2340 5970 0    50   ~ 0
-F2
-Text Label 2340 6070 0    50   ~ 0
-G2
-Text Label 2310 6170 0    50   ~ 0
-DP2
-Text Label 2310 6270 0    50   ~ 0
-CC0
-Text Label 2310 6370 0    50   ~ 0
-CC1
-Text Label 2310 6470 0    50   ~ 0
-CC2
-Text Label 2310 6570 0    50   ~ 0
-CC3
-Text Label 2310 6670 0    50   ~ 0
-CC4
-Text Label 2310 6770 0    50   ~ 0
-CC5
-Text Label 2310 6870 0    50   ~ 0
-CC6
-Text Label 2310 6970 0    50   ~ 0
-CC7
+Text HLabel 9180 2700 0    50   Input ~ 0
+EAST_SKIP_LED
+Text HLabel 9180 4630 0    50   Input ~ 0
+WEST_SKIP_LED
+Text Label 9250 2700 0    50   ~ 0
+PF2
+Text Label 9250 4630 0    50   ~ 0
+PF3
 $EndSCHEMATC

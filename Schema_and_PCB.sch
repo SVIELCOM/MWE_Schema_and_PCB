@@ -135,15 +135,4 @@ U 60D8C564
 F0 "Analog_and_digital_IO" 50
 F1 "Analog_and_digital_IO.sch" 50
 $EndSheet
-$Comp
-L Converter_DCDC:IA2415S PS1
-U 1 1 6062DF49
-P 9430 2970
-F 0 "PS1" H 9430 3337 50  0000 C CNN
-F 1 "TMH2415S" H 9430 3246 50  0000 C CNN
-F 2 "Converter_DCDC:Converter_DCDC_XP_POWER-IAxxxxS_THT" H 8380 2720 50  0001 L CNN
-F 3 "https://www.terraelectronica.ru/pdf/show?pdf_file=%252Fds%252Fpdf%252FT%252FTMH.pdf" H 10480 2670 50  0001 L CNN
-	1    9430 2970
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

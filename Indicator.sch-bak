@@ -1089,6 +1089,14 @@ Wire Wire Line
 	9180 2700 9570 2700
 Wire Wire Line
 	9180 4630 9570 4630
+Text HLabel 9180 2700 0    50   Input ~ 0
+EAST_SKIP_LED
+Text HLabel 9180 4630 0    50   Input ~ 0
+WEST_SKIP_LED
+Text Label 9250 2700 0    50   ~ 0
+PF2
+Text Label 9250 4630 0    50   ~ 0
+PF3
 Wire Bus Line
 	2550 690  6810 690 
 Wire Bus Line
@@ -1105,12 +1113,4 @@ Wire Bus Line
 	3830 790  3830 3250
 Wire Bus Line
 	2550 690  2550 3570
-Text HLabel 9180 2700 0    50   Input ~ 0
-EAST_SKIP_LED
-Text HLabel 9180 4630 0    50   Input ~ 0
-WEST_SKIP_LED
-Text Label 9250 2700 0    50   ~ 0
-PF2
-Text Label 9250 4630 0    50   ~ 0
-PF3
 $EndSCHEMATC

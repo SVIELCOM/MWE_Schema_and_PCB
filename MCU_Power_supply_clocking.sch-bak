@@ -1869,20 +1869,6 @@ F 7 "IPC-7351B" H 1900 4400 50  0001 L BNN "STANDARD"
 	1    1850 2600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2750 2350 3520 2350
-Wire Wire Line
-	3520 2350 3520 2150
-Wire Wire Line
-	2750 2450 3760 2450
-Wire Wire Line
-	2750 2650 3760 2650
-Wire Wire Line
-	2750 2750 3520 2750
-Wire Wire Line
-	3520 2750 3520 3050
-Wire Wire Line
-	3520 3050 3760 3050
 $Comp
 L Device:C C?
 U 1 1 60A2F6CF
@@ -1923,12 +1909,6 @@ F 3 "" H 4630 2150 50  0001 C CNN
 	1    4630 2150
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4630 2150 4460 2150
-Wire Wire Line
-	4460 2450 4630 2450
-Wire Wire Line
-	3760 2750 3760 2650
 $Comp
 L Device:Crystal Y?
 U 1 1 60A2F6E4
@@ -1942,14 +1922,6 @@ F 3 "" H 3760 2300 50  0001 C CNN
 	1    3760 2300
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3520 2150 3760 2150
-Wire Wire Line
-	3760 2150 4160 2150
-Connection ~ 3760 2150
-Wire Wire Line
-	3760 2450 4160 2450
-Connection ~ 3760 2450
 $Comp
 L Device:C C?
 U 1 1 60A2F6F0
@@ -1978,12 +1950,6 @@ F 4 "CC0603BRNPO9BN2R7" H 4100 3050 50  0001 C CNN "Type"
 	1    4100 3050
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3760 3050 3950 3050
-Connection ~ 3760 3050
-Wire Wire Line
-	3760 2650 3970 2650
-Connection ~ 3760 2650
 $Comp
 L power:GNDREF #PWR?
 U 1 1 60A2F701
@@ -2010,10 +1976,6 @@ F 3 "" H 4630 3050 50  0001 C CNN
 	1    4630 3050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4270 2650 4630 2650
-Wire Wire Line
-	4250 3050 4630 3050
 $Comp
 L Device:R R?
 U 1 1 60A0FE86
@@ -2040,108 +2002,10 @@ F 3 "" H 8070 5130 50  0001 C CNN
 	1    8070 5130
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8070 5060 8070 5130
 Text Label 3230 3150 2    50   ~ 0
 BOOT0
-Wire Wire Line
-	3230 2950 2750 2950
 Text Label 3230 2950 2    50   ~ 0
 NRST
-Wire Wire Line
-	2910 1350 2750 1350
-Wire Wire Line
-	950  2250 710  2250
-Wire Wire Line
-	710  2250 710  2150
-Wire Wire Line
-	710  1250 950  1250
-Wire Wire Line
-	950  1350 710  1350
-Connection ~ 710  1350
-Wire Wire Line
-	710  1350 710  1250
-Wire Wire Line
-	950  1450 710  1450
-Connection ~ 710  1450
-Wire Wire Line
-	710  1450 710  1350
-Wire Wire Line
-	950  1550 710  1550
-Connection ~ 710  1550
-Wire Wire Line
-	710  1550 710  1450
-Wire Wire Line
-	950  1650 710  1650
-Connection ~ 710  1650
-Wire Wire Line
-	710  1650 710  1550
-Wire Wire Line
-	950  1750 710  1750
-Connection ~ 710  1750
-Wire Wire Line
-	710  1750 710  1650
-Wire Wire Line
-	950  1850 710  1850
-Connection ~ 710  1850
-Wire Wire Line
-	710  1850 710  1750
-Wire Wire Line
-	950  1950 710  1950
-Connection ~ 710  1950
-Wire Wire Line
-	710  1950 710  1850
-Wire Wire Line
-	950  2050 710  2050
-Connection ~ 710  2050
-Wire Wire Line
-	710  2050 710  1950
-Wire Wire Line
-	950  2150 710  2150
-Connection ~ 710  2150
-Wire Wire Line
-	710  2150 710  2050
-Wire Wire Line
-	950  2450 710  2450
-Wire Wire Line
-	710  2450 710  2550
-Wire Wire Line
-	710  3250 950  3250
-Wire Wire Line
-	950  2550 710  2550
-Connection ~ 710  2550
-Wire Wire Line
-	710  2550 710  2650
-Wire Wire Line
-	950  2650 710  2650
-Connection ~ 710  2650
-Wire Wire Line
-	710  2650 710  2750
-Wire Wire Line
-	950  2750 710  2750
-Connection ~ 710  2750
-Wire Wire Line
-	710  2750 710  2850
-Wire Wire Line
-	950  2850 710  2850
-Connection ~ 710  2850
-Wire Wire Line
-	710  2850 710  2950
-Wire Wire Line
-	950  2950 710  2950
-Connection ~ 710  2950
-Wire Wire Line
-	950  3050 710  3050
-Wire Wire Line
-	710  2950 710  3050
-Connection ~ 710  3050
-Wire Wire Line
-	710  3050 710  3150
-Wire Wire Line
-	950  3150 710  3150
-Connection ~ 710  3150
-Wire Wire Line
-	710  3150 710  3250
 $Comp
 L SVIELCOM_Library:VDD_MCU #PWR?
 U 1 1 60A0FE88
@@ -2155,9 +2019,6 @@ F 3 "" H 710 1100 50  0001 C CNN
 	1    710  1100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	710  1100 710  1250
-Connection ~ 710  1250
 $Comp
 L power:GNDREF #PWR?
 U 1 1 60A0FE89
@@ -2171,11 +2032,6 @@ F 3 "" H 710 3420 50  0001 C CNN
 	1    710  3420
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	710  3420 710  3250
-Wire Wire Line
-	710  3250 720  3250
-Connection ~ 710  3250
 $Comp
 L SVIELCOM_Library:VDD_MCU #PWR?
 U 1 1 60A0FE8A
@@ -2189,17 +2045,6 @@ F 3 "" H 3280 2000 50  0001 C CNN
 	1    3280 2000
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2750 2000 3280 2000
-Wire Wire Line
-	2750 1750 2830 1750
-Wire Wire Line
-	2750 1650 2830 1650
-Wire Wire Line
-	2830 1650 2830 1750
-Connection ~ 2830 1750
-Wire Wire Line
-	2830 1750 3380 1750
 $Comp
 L Device:C C?
 U 1 1 60A2F795
@@ -2216,18 +2061,6 @@ F 4 "" H 4830 6870 50  0001 C CNN "Type"
 $EndComp
 Text Label 3380 1750 2    50   ~ 0
 VCAP
-Wire Wire Line
-	4500 6720 4500 6520
-Wire Wire Line
-	4500 6520 4660 6520
-Wire Wire Line
-	4830 6520 4830 6720
-Wire Wire Line
-	4500 7020 4500 7310
-Wire Wire Line
-	4500 7310 4660 7310
-Wire Wire Line
-	4830 7310 4830 7020
 $Comp
 L power:GNDREF #PWR?
 U 1 1 60A0FE8C
@@ -2241,14 +2074,6 @@ F 3 "" H 4660 7310 50  0001 C CNN
 	1    4660 7310
 	1    0    0    -1  
 $EndComp
-Connection ~ 4660 7310
-Wire Wire Line
-	4660 7310 4830 7310
-Wire Wire Line
-	4660 6270 4660 6520
-Connection ~ 4660 6520
-Wire Wire Line
-	4660 6520 4830 6520
 Text Label 4660 6270 3    50   ~ 0
 VCAP
 $Comp
@@ -2264,10 +2089,6 @@ F 3 "~" H 10200 5790 50  0001 C CNN
 	1    10200 5790
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	9570 5790 10050 5790
-Wire Wire Line
-	3380 780  3380 880 
 $Comp
 L Device:Battery_Cell BT?
 U 1 1 60A2F7B6
@@ -2320,13 +2141,6 @@ F 3 "~" H 2910 1030 50  0001 C CNN
 	1    2910 1030
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2910 1180 2910 1350
-Connection ~ 2910 1350
-Wire Wire Line
-	2910 880  3380 880 
-Wire Wire Line
-	10200 5420 10200 5540
 $Comp
 L power:GNDREF #PWR?
 U 1 1 60A0FE92
@@ -2340,22 +2154,8 @@ F 3 "" H 2970 1450 50  0001 C CNN
 	1    2970 1450
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2750 1450 2970 1450
 Text Label 3380 2100 2    50   ~ 0
 Vref+
-Wire Wire Line
-	5180 6720 5180 6520
-Wire Wire Line
-	5180 6520 5340 6520
-Wire Wire Line
-	5510 6520 5510 6720
-Wire Wire Line
-	5180 7020 5180 7310
-Wire Wire Line
-	5180 7310 5340 7310
-Wire Wire Line
-	5510 7310 5510 7020
 $Comp
 L power:GNDREF #PWR?
 U 1 1 60A2F7F0
@@ -2369,18 +2169,8 @@ F 3 "" H 5340 7310 50  0001 C CNN
 	1    5340 7310
 	1    0    0    -1  
 $EndComp
-Connection ~ 5340 7310
-Wire Wire Line
-	5340 7310 5510 7310
-Wire Wire Line
-	5340 6270 5340 6520
-Connection ~ 5340 6520
-Wire Wire Line
-	5340 6520 5510 6520
 Text Label 5340 6270 3    50   ~ 0
 VDDA
-Wire Wire Line
-	3380 1250 2750 1250
 Text Label 3380 1250 2    50   ~ 0
 Vbat
 Text Label 9570 5790 0    50   ~ 0
@@ -2398,8 +2188,6 @@ F 3 "" H 10200 5420 50  0001 C CNN
 	1    10200 5420
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2750 3150 3230 3150
 Text GLabel 7360 5570 0    50   Input ~ 0
 NRST
 Text Label 7140 4810 0    50   ~ 0
@@ -2417,8 +2205,6 @@ F 3 "~" H 8070 4810 50  0001 C CNN
 	1    8070 4810
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	8070 4440 8070 4560
 $Comp
 L SVIELCOM_Library:VDD_MCU #PWR?
 U 1 1 60A2F80F
@@ -2432,8 +2218,6 @@ F 3 "" H 8070 4440 50  0001 C CNN
 	1    8070 4440
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7140 4810 7620 4810
 $Comp
 L power:GNDREF #PWR?
 U 1 1 60A2F816
@@ -2483,34 +2267,6 @@ F 4 "" H 7770 6030 50  0001 C CNN "Type"
 	1    7770 6030
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	7900 5570 7770 5570
-Wire Wire Line
-	7770 5570 7770 5770
-Wire Wire Line
-	7900 5770 7770 5770
-Connection ~ 7770 5770
-Wire Wire Line
-	7770 5770 7770 5880
-Wire Wire Line
-	7360 5570 7770 5570
-Connection ~ 7770 5570
-Wire Wire Line
-	7770 6180 7770 6240
-Wire Wire Line
-	7770 6240 8430 6240
-Wire Wire Line
-	8430 6240 8430 5770
-Wire Wire Line
-	8430 5770 8300 5770
-Connection ~ 7770 6240
-Wire Wire Line
-	7770 6240 7770 6340
-Wire Wire Line
-	8300 5570 8430 5570
-Wire Wire Line
-	8430 5570 8430 5770
-Connection ~ 8430 5770
 Text Label 7360 5570 0    50   ~ 0
 NRST
 $Comp
@@ -2541,24 +2297,8 @@ F 4 "593D106X9016A2TE3" H 5510 6870 50  0001 C CNN "Type"
 	1    5510 6870
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3380 1350 2910 1350
 Text Label 3380 1350 2    50   ~ 0
 VDDA
-Wire Wire Line
-	2750 2100 3380 2100
-Wire Wire Line
-	5950 6720 5950 6520
-Wire Wire Line
-	5950 6520 6110 6520
-Wire Wire Line
-	6280 6520 6280 6720
-Wire Wire Line
-	5950 7020 5950 7310
-Wire Wire Line
-	5950 7310 6110 7310
-Wire Wire Line
-	6280 7310 6280 7020
 $Comp
 L power:GNDREF #PWR?
 U 1 1 60A56CBD
@@ -2572,14 +2312,6 @@ F 3 "" H 6110 7310 50  0001 C CNN
 	1    6110 7310
 	1    0    0    -1  
 $EndComp
-Connection ~ 6110 7310
-Wire Wire Line
-	6110 7310 6280 7310
-Wire Wire Line
-	6110 6270 6110 6520
-Connection ~ 6110 6520
-Wire Wire Line
-	6110 6520 6280 6520
 Text Label 6110 6270 3    50   ~ 0
 Vref+
 $Comp
@@ -2621,10 +2353,6 @@ F 3 "~" H 8090 4080 50  0001 C CNN
 	1    8090 4080
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7680 4080 7890 4080
-Wire Wire Line
-	8500 4080 8290 4080
 Text Label 7680 4080 0    50   ~ 0
 VDDA
 Text Label 8500 4080 2    50   ~ 0
@@ -2769,98 +2497,6 @@ F 4 "CL10B105KA8NNNC" H 3790 5840 50  0001 C CNN "Type"
 	1    3790 5840
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1270 6100 1270 5990
-Wire Wire Line
-	1550 6100 1550 5990
-Wire Wire Line
-	1830 6100 1830 5990
-Wire Wire Line
-	2110 6100 2110 5990
-Wire Wire Line
-	2390 6100 2390 5990
-Wire Wire Line
-	2670 6100 2670 5990
-Wire Wire Line
-	2950 6100 2950 5990
-Wire Wire Line
-	3230 6100 3230 5990
-Wire Wire Line
-	3510 6100 3510 5990
-Wire Wire Line
-	3790 6100 3790 5990
-Wire Wire Line
-	3790 6100 3510 6100
-Wire Wire Line
-	3510 6100 3230 6100
-Connection ~ 3510 6100
-Wire Wire Line
-	3230 6100 2950 6100
-Connection ~ 3230 6100
-Wire Wire Line
-	2950 6100 2670 6100
-Connection ~ 2950 6100
-Wire Wire Line
-	2670 6100 2390 6100
-Connection ~ 2670 6100
-Wire Wire Line
-	2390 6100 2110 6100
-Connection ~ 2390 6100
-Wire Wire Line
-	2110 6100 1830 6100
-Connection ~ 2110 6100
-Wire Wire Line
-	1830 6100 1550 6100
-Connection ~ 1830 6100
-Wire Wire Line
-	1550 6100 1270 6100
-Connection ~ 1550 6100
-Wire Wire Line
-	3790 5580 3790 5690
-Wire Wire Line
-	3510 5580 3510 5690
-Wire Wire Line
-	3230 5580 3230 5690
-Wire Wire Line
-	2950 5580 2950 5690
-Wire Wire Line
-	2670 5580 2670 5690
-Wire Wire Line
-	2390 5580 2390 5690
-Wire Wire Line
-	2110 5580 2110 5690
-Wire Wire Line
-	1830 5580 1830 5690
-Wire Wire Line
-	1550 5580 1550 5690
-Wire Wire Line
-	1270 5580 1270 5690
-Wire Wire Line
-	1270 5580 1550 5580
-Wire Wire Line
-	1550 5580 1830 5580
-Connection ~ 1550 5580
-Wire Wire Line
-	1830 5580 2110 5580
-Connection ~ 1830 5580
-Wire Wire Line
-	2110 5580 2390 5580
-Connection ~ 2110 5580
-Wire Wire Line
-	2390 5580 2670 5580
-Connection ~ 2390 5580
-Wire Wire Line
-	2670 5580 2950 5580
-Connection ~ 2670 5580
-Wire Wire Line
-	2950 5580 3230 5580
-Connection ~ 2950 5580
-Wire Wire Line
-	3230 5580 3510 5580
-Connection ~ 3230 5580
-Wire Wire Line
-	3510 5580 3790 5580
-Connection ~ 3510 5580
 $Comp
 L Device:CP C?
 U 1 1 60A0FEB6
@@ -2875,16 +2511,6 @@ F 4 "593D106X9016A2TE3" H 4070 5850 50  0001 C CNN "Type"
 	1    4070 5850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3790 5580 4070 5580
-Wire Wire Line
-	4070 5580 4070 5700
-Connection ~ 3790 5580
-Wire Wire Line
-	4070 6000 4070 6100
-Wire Wire Line
-	4070 6100 3790 6100
-Connection ~ 3790 6100
 $Comp
 L power:GNDREF #PWR?
 U 1 1 60B2A2A1
@@ -2898,9 +2524,6 @@ F 3 "" H 1270 6190 50  0001 C CNN
 	1    1270 6190
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1270 6190 1270 6100
-Connection ~ 1270 6100
 $Comp
 L SVIELCOM_Library:VDD_MCU #PWR?
 U 1 1 60A0FEB8
@@ -2914,13 +2537,8 @@ F 3 "" H 1270 5430 50  0001 C CNN
 	1    1270 5430
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1270 5430 1270 5580
-Connection ~ 1270 5580
 Text Label 3230 3250 2    50   ~ 0
 PDR_ON
-Wire Wire Line
-	2750 3250 3230 3250
 $Comp
 L Device:R R?
 U 1 1 60A0FEB9
@@ -2947,12 +2565,8 @@ F 3 "" H 10220 4900 50  0001 C CNN
 	1    10220 4900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10220 4830 10220 4900
 Text Label 9290 4580 0    50   ~ 0
 PDR_ON
-Wire Wire Line
-	10220 4210 10220 4330
 $Comp
 L SVIELCOM_Library:VDD_MCU #PWR?
 U 1 1 60B4CFF9
@@ -2966,8 +2580,6 @@ F 3 "" H 10220 4210 50  0001 C CNN
 	1    10220 4210
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9290 4580 9770 4580
 $Comp
 L Jumper:Jumper_3_Bridged12 JP?
 U 1 1 60B4CFF2
@@ -3121,98 +2733,6 @@ F 4 "CL10B105KA8NNNC" H 3780 7040 50  0001 C CNN "Type"
 	1    3780 7040
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1260 7300 1260 7190
-Wire Wire Line
-	1540 7300 1540 7190
-Wire Wire Line
-	1820 7300 1820 7190
-Wire Wire Line
-	2100 7300 2100 7190
-Wire Wire Line
-	2380 7300 2380 7190
-Wire Wire Line
-	2660 7300 2660 7190
-Wire Wire Line
-	2940 7300 2940 7190
-Wire Wire Line
-	3220 7300 3220 7190
-Wire Wire Line
-	3500 7300 3500 7190
-Wire Wire Line
-	3780 7300 3780 7190
-Wire Wire Line
-	3780 7300 3500 7300
-Wire Wire Line
-	3500 7300 3220 7300
-Connection ~ 3500 7300
-Wire Wire Line
-	3220 7300 2940 7300
-Connection ~ 3220 7300
-Wire Wire Line
-	2940 7300 2660 7300
-Connection ~ 2940 7300
-Wire Wire Line
-	2660 7300 2380 7300
-Connection ~ 2660 7300
-Wire Wire Line
-	2380 7300 2100 7300
-Connection ~ 2380 7300
-Wire Wire Line
-	2100 7300 1820 7300
-Connection ~ 2100 7300
-Wire Wire Line
-	1820 7300 1540 7300
-Connection ~ 1820 7300
-Wire Wire Line
-	1540 7300 1260 7300
-Connection ~ 1540 7300
-Wire Wire Line
-	3780 6780 3780 6890
-Wire Wire Line
-	3500 6780 3500 6890
-Wire Wire Line
-	3220 6780 3220 6890
-Wire Wire Line
-	2940 6780 2940 6890
-Wire Wire Line
-	2660 6780 2660 6890
-Wire Wire Line
-	2380 6780 2380 6890
-Wire Wire Line
-	2100 6780 2100 6890
-Wire Wire Line
-	1820 6780 1820 6890
-Wire Wire Line
-	1540 6780 1540 6890
-Wire Wire Line
-	1260 6780 1260 6890
-Wire Wire Line
-	1260 6780 1540 6780
-Wire Wire Line
-	1540 6780 1820 6780
-Connection ~ 1540 6780
-Wire Wire Line
-	1820 6780 2100 6780
-Connection ~ 1820 6780
-Wire Wire Line
-	2100 6780 2380 6780
-Connection ~ 2100 6780
-Wire Wire Line
-	2380 6780 2660 6780
-Connection ~ 2380 6780
-Wire Wire Line
-	2660 6780 2940 6780
-Connection ~ 2660 6780
-Wire Wire Line
-	2940 6780 3220 6780
-Connection ~ 2940 6780
-Wire Wire Line
-	3220 6780 3500 6780
-Connection ~ 3220 6780
-Wire Wire Line
-	3500 6780 3780 6780
-Connection ~ 3500 6780
 $Comp
 L power:GNDREF #PWR?
 U 1 1 60A0FEC7
@@ -3226,9 +2746,6 @@ F 3 "" H 1260 7390 50  0001 C CNN
 	1    1260 7390
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1260 7390 1260 7300
-Connection ~ 1260 7300
 $Comp
 L SVIELCOM_Library:VDD_MCU #PWR?
 U 1 1 60A0FEC8
@@ -3242,9 +2759,6 @@ F 3 "" H 1260 6630 50  0001 C CNN
 	1    1260 6630
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1260 6630 1260 6780
-Connection ~ 1260 6780
 $Comp
 L Regulator_Linear:LD1117S33TR_SOT223 U?
 U 1 1 609B3ECF
@@ -3279,8 +2793,6 @@ F 3 "" H 5820 1030 50  0001 C CNN
 	1    5820 1030
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5820 1180 5900 1180
 $Comp
 L Device:CP C?
 U 1 1 609D07C7
@@ -3295,9 +2807,6 @@ F 4 "593D476X9016D2TE3" H 5900 1420 50  0001 C CNN "Type"
 	1    5900 1420
 	1    0    0    -1  
 $EndComp
-Connection ~ 5900 1180
-Wire Wire Line
-	5900 1180 6150 1180
 $Comp
 L power:GNDREF #PWR?
 U 1 1 609DC7E5
@@ -3311,14 +2820,6 @@ F 3 "" H 6450 1660 50  0001 C CNN
 	1    6450 1660
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5900 1270 5900 1180
-Wire Wire Line
-	5900 1570 5900 1600
-Wire Wire Line
-	5900 1600 6450 1600
-Wire Wire Line
-	6450 1600 6450 1480
 $Comp
 L SVIELCOM_Library:VDD_PER #PWR?
 U 1 1 60A02FCB
@@ -3330,8 +2831,6 @@ F 3 "" H 6880 1030 50  0001 C CNN
 	1    6880 1030
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6750 1180 6880 1180
 $Comp
 L Device:CP C?
 U 1 1 60A10D8C
@@ -3346,18 +2845,6 @@ F 4 "593D106X9016A2TE3" H 6880 1420 50  0001 C CNN "Type"
 	1    6880 1420
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6450 1600 6880 1600
-Wire Wire Line
-	6880 1600 6880 1570
-Connection ~ 6450 1600
-Wire Wire Line
-	6450 1660 6450 1600
-Wire Wire Line
-	6880 1270 6880 1180
-Connection ~ 6880 1180
-Wire Wire Line
-	6880 1180 6880 1030
 $Comp
 L Device:C C?
 U 1 1 60A0FE9B
@@ -3372,17 +2859,6 @@ F 4 "CL10B105KA8NNNC" H 7130 1420 50  0001 C CNN "Type"
 	1    7130 1420
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5820 1180 5820 1030
-Wire Wire Line
-	6880 1180 7130 1180
-Wire Wire Line
-	7130 1180 7130 1270
-Wire Wire Line
-	7130 1570 7130 1600
-Wire Wire Line
-	7130 1600 6880 1600
-Connection ~ 6880 1600
 $Comp
 L Regulator_Linear:LD1117S33TR_SOT223 U?
 U 1 1 60A80B7F
@@ -3405,8 +2881,6 @@ F 3 "" H 5820 1990 50  0001 C CNN
 	1    5820 1990
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5820 2140 5900 2140
 $Comp
 L Device:CP C?
 U 1 1 60A0FEAD
@@ -3421,9 +2895,6 @@ F 4 "593D476X9016D2TE3" H 5900 2380 50  0001 C CNN "Type"
 	1    5900 2380
 	1    0    0    -1  
 $EndComp
-Connection ~ 5900 2140
-Wire Wire Line
-	5900 2140 6150 2140
 $Comp
 L power:GNDREF #PWR?
 U 1 1 60A80B95
@@ -3437,16 +2908,6 @@ F 3 "" H 6450 2620 50  0001 C CNN
 	1    6450 2620
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5900 2230 5900 2140
-Wire Wire Line
-	5900 2530 5900 2560
-Wire Wire Line
-	5900 2560 6450 2560
-Wire Wire Line
-	6450 2560 6450 2440
-Wire Wire Line
-	6750 2140 6880 2140
 $Comp
 L Device:CP C?
 U 1 1 60A80BA7
@@ -3461,18 +2922,6 @@ F 4 "593D106X9016A2TE3" H 6880 2380 50  0001 C CNN "Type"
 	1    6880 2380
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6450 2560 6880 2560
-Wire Wire Line
-	6880 2560 6880 2530
-Connection ~ 6450 2560
-Wire Wire Line
-	6450 2620 6450 2560
-Wire Wire Line
-	6880 2230 6880 2140
-Connection ~ 6880 2140
-Wire Wire Line
-	6880 2140 6880 1990
 $Comp
 L Device:C C?
 U 1 1 60A80BB5
@@ -3487,17 +2936,6 @@ F 4 "CL10B105KA8NNNC" H 7130 2380 50  0001 C CNN "Type"
 	1    7130 2380
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5820 2140 5820 1990
-Wire Wire Line
-	6880 2140 7130 2140
-Wire Wire Line
-	7130 2140 7130 2230
-Wire Wire Line
-	7130 2530 7130 2560
-Wire Wire Line
-	7130 2560 6880 2560
-Connection ~ 6880 2560
 $Comp
 L SVIELCOM_Library:VDD_MCU #PWR?
 U 1 1 60A0FEB1
@@ -3533,16 +2971,6 @@ F 3 "" H 7890 1130 50  0001 C CNN
 	1    7890 1130
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7890 1130 7890 1280
-Wire Wire Line
-	7890 1280 8260 1280
-Wire Wire Line
-	8260 1590 8170 1590
-Wire Wire Line
-	8170 1590 8170 1690
-Wire Wire Line
-	8170 1690 8260 1690
 $Comp
 L power:GNDREF #PWR?
 U 1 1 60AEEE0C
@@ -3556,9 +2984,6 @@ F 3 "" H 8170 1780 50  0001 C CNN
 	1    8170 1780
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8170 1690 8170 1780
-Connection ~ 8170 1690
 $Comp
 L SVIELCOM_Library:VDD_MCU #PWR?
 U 1 1 60AFF7D8
@@ -3572,12 +2997,6 @@ F 3 "" H 9310 1130 50  0001 C CNN
 	1    9310 1130
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9130 1280 9310 1280
-Wire Wire Line
-	9310 1280 9310 1130
-Wire Notes Line
-	7770 720  7770 1910
 Text Notes 8450 800  0    50   ~ 0
 Backup LDO
 $Comp
@@ -3772,12 +3191,6 @@ F 3 "" H 10040 1490 60  0000 C CNN
 	1    10040 1490
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	10450 1910 10450 720 
-Wire Notes Line
-	7770 1910 10450 1910
-Wire Notes Line
-	7770 720  10450 720 
 $Comp
 L SVIELCOM_Library:VDD_MCU #PWR?
 U 1 1 60A0FECA

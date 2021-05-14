@@ -16,14 +16,14 @@ $EndDescr
 $Comp
 L Isolator:ISO1211 U?
 U 1 1 60D8FFFC
-P 13900 3710
+P 13900 3700
 AR Path="/60D8FFFC" Ref="U?"  Part="1" 
 AR Path="/60D8C564/60D8FFFC" Ref="U?"  Part="1" 
-F 0 "U?" H 13900 4191 50  0000 C CNN
-F 1 "ISO1211DR" H 13900 4100 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 13900 2960 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/iso1211.pdf" H 13850 3760 50  0001 C CNN
-	1    13900 3710
+F 0 "U?" H 13550 4050 50  0000 C CNN
+F 1 "ISO1211DR" H 13670 3970 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 13900 2950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/iso1211.pdf" H 13850 3750 50  0001 C CNN
+	1    13900 3700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2550,6 +2550,137 @@ F 1 "TestPoint" H 8870 2420 50  0001 L CNN
 F 2 "" H 9010 2220 50  0001 C CNN
 F 3 "~" H 9010 2220 50  0001 C CNN
 	1    8810 2220
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12200 4000 11180 4000
+Wire Wire Line
+	11180 3200 11580 3200
+$Comp
+L Device:R R?
+U 1 1 60B676E2
+P 13250 3700
+AR Path="/60B676E2" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/60B676E2" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60B676E2" Ref="R?"  Part="1" 
+F 0 "R?" V 13470 3720 50  0000 C CNN
+F 1 "560" V 13390 3720 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 13180 3700 50  0001 C CNN
+F 3 "~" H 13250 3700 50  0001 C CNN
+	1    13250 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12600 3600 12640 3600
+Wire Wire Line
+	13100 3700 13010 3700
+Wire Wire Line
+	13010 3700 13010 3600
+Connection ~ 13010 3600
+Wire Wire Line
+	13010 3600 13400 3600
+Wire Wire Line
+	13400 4100 13400 3900
+NoConn ~ 13400 3800
+$Comp
+L Device:C C?
+U 1 1 60BE1F29
+P 13010 3900
+AR Path="/60BE1F29" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60BE1F29" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60BE1F29" Ref="C?"  Part="1" 
+F 0 "C?" H 13190 3870 50  0000 L CNN
+F 1 "0,1µF" H 13110 3790 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 13048 3750 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 13010 3900 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 13010 3900 50  0001 C CNN "Type"
+	1    13010 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13010 4050 13010 4100
+Connection ~ 13010 4100
+Wire Wire Line
+	13010 4100 13400 4100
+Wire Wire Line
+	13010 3750 13010 3700
+Connection ~ 13010 3700
+$Comp
+L Device:R R?
+U 1 1 60B0A699
+P 11730 3200
+AR Path="/60B0A699" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/60B0A699" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60B0A699" Ref="R?"  Part="1" 
+F 0 "R?" V 11890 3210 50  0000 C CNN
+F 1 "82K" V 11820 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 11660 3200 50  0001 C CNN
+F 3 "~" H 11730 3200 50  0001 C CNN
+	1    11730 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2A5C4
+P 12640 3860
+AR Path="/60C2A5C4" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/60C2A5C4" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60C2A5C4" Ref="R?"  Part="1" 
+F 0 "R?" H 12450 3890 50  0000 C CNN
+F 1 "15K" H 12470 3820 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 12570 3860 50  0001 C CNN
+F 3 "~" H 12640 3860 50  0001 C CNN
+	1    12640 3860
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12640 3710 12640 3600
+Connection ~ 12640 3600
+Wire Wire Line
+	12640 3600 12810 3600
+Wire Wire Line
+	12640 4010 12640 4100
+Connection ~ 12640 4100
+Wire Wire Line
+	12640 4100 12810 4100
+$Comp
+L Diode:1N47xxA D?
+U 1 1 60C5B600
+P 12810 3870
+F 0 "D?" V 13110 3830 50  0000 L CNN
+F 1 "BZV85-C56.113" V 13190 3550 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 12810 3695 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 12810 3870 50  0001 C CNN
+	1    12810 3870
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12810 3720 12810 3600
+Connection ~ 12810 3600
+Wire Wire Line
+	12810 3600 13010 3600
+Wire Wire Line
+	12810 4020 12810 4100
+Connection ~ 12810 4100
+Wire Wire Line
+	12810 4100 13010 4100
+Wire Wire Line
+	11880 3200 12200 3200
+Wire Wire Line
+	11800 3600 11800 4100
+Wire Wire Line
+	11800 4100 12640 4100
+$Comp
+L SVIELCOM_Library:2W10G D?
+U 1 1 60DE8FAC
+P 12200 3600
+F 0 "D?" H 12260 3940 50  0000 L CNN
+F 1 "2W10G-E4/51" H 12250 3870 50  0000 L CNN
+F 2 "Diode_THT:Diode_Bridge_Round_D9.8mm" H 12400 3800 60  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2047189.pdf" H 12400 3900 60  0001 L CNN
+F 4 "Diodes - Bridge Rectifiers" H 12400 4300 60  0001 L CNN "Family"
+F 5 "BRIDGE RECT 1P 1000V" H 12400 4600 60  0001 L CNN "Description"
+	1    12200 3600
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

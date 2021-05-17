@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 10
+Sheet 2 9
 Title ""
 Date ""
 Rev ""
@@ -817,8 +817,6 @@ F 3 "~" H 1530 3590 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1130 3590 1380 3590
-Text HLabel 1130 3590 0    50   BiDi ~ 0
-RMII_CRS_DV
 Wire Wire Line
 	1680 3590 2410 3590
 $Comp
@@ -834,8 +832,6 @@ F 3 "~" H 1530 3490 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1130 3490 1380 3490
-Text HLabel 1130 3490 0    50   BiDi ~ 0
-RMII_CRS_DV
 Wire Wire Line
 	1680 3490 2130 3490
 $Comp
@@ -1001,4 +997,8 @@ Wire Wire Line
 Connection ~ 9220 2100
 Wire Wire Line
 	10120 2490 10120 2590
+Text HLabel 1130 3490 0    50   BiDi ~ 0
+RMII_RXD0
+Text HLabel 1130 3590 0    50   BiDi ~ 0
+RMII_RXD1
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 10
+Sheet 4 9
 Title ""
 Date ""
 Rev ""
@@ -247,9 +247,9 @@ Wire Wire Line
 Wire Wire Line
 	3240 3850 3650 3850
 Text HLabel 2610 3850 0    50   BiDi ~ 0
-USB_FS_P
+USB_FS_DP
 Text HLabel 2610 3950 0    50   BiDi ~ 0
-USB_FS_N
+USB_FS_DN
 $Comp
 L power:GNDREF #PWR?
 U 1 1 60D4C56E
@@ -411,4 +411,8 @@ Wire Wire Line
 	3310 3530 3310 3650
 Wire Wire Line
 	3310 3650 3650 3650
+Text Label 2650 3850 0    50   ~ 0
+PA12
+Text Label 2650 3950 0    50   ~ 0
+PA11
 $EndSCHEMATC

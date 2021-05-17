@@ -62,12 +62,12 @@ $EndComp
 $Comp
 L Device:LED D2
 U 1 1 609B4BF3
-P 10170 2250
-F 0 "D2" V 10230 2120 50  0000 C CNN
-F 1 "L-1154ID" V 10140 1990 50  0000 C CNN
-F 2 "LED_THT:LED_D3.0mm" H 10170 2250 50  0001 C CNN
-F 3 "https://www.kingbright.com/attachments/file/psearch/000/00/00/L-1154ID(Ver.17A).pdf" H 10170 2250 50  0001 C CNN
-	1    10170 2250
+P 10320 1490
+F 0 "D2" V 10380 1360 50  0000 C CNN
+F 1 "L-1154ID" V 10290 1230 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 10320 1490 50  0001 C CNN
+F 3 "https://www.kingbright.com/attachments/file/psearch/000/00/00/L-1154ID(Ver.17A).pdf" H 10320 1490 50  0001 C CNN
+	1    10320 1490
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -915,188 +915,192 @@ PG14
 $Comp
 L Device:LED D?
 U 1 1 60D12378
-P 10170 4180
-F 0 "D?" V 10230 4040 50  0000 C CNN
-F 1 "L-1154ID" V 10140 3900 50  0000 C CNN
-F 2 "LED_THT:LED_D3.0mm" H 10170 4180 50  0001 C CNN
-F 3 "https://www.kingbright.com/attachments/file/psearch/000/00/00/L-1154ID(Ver.17A).pdf" H 10170 4180 50  0001 C CNN
-	1    10170 4180
+P 8590 1480
+F 0 "D?" V 8650 1340 50  0000 C CNN
+F 1 "L-1154ID" V 8560 1200 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 8590 1480 50  0001 C CNN
+F 3 "https://www.kingbright.com/attachments/file/psearch/000/00/00/L-1154ID(Ver.17A).pdf" H 8590 1480 50  0001 C CNN
+	1    8590 1480
 	0    -1   -1   0   
 $EndComp
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:BC817-25LT1G Q?
 U 1 1 60D173AB
-P 10070 4630
-F 0 "Q?" H 9900 4810 60  0000 L CNN
-F 1 "BC817-25LT1G" H 9420 4410 60  0000 L CNN
-F 2 "digikey-footprints:SOT-23-3" H 10270 4830 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/BC817-16LT1-D.PDF" H 10270 4930 60  0001 L CNN
-F 4 "BC817-25LT1GOSCT-ND" H 10270 5030 60  0001 L CNN "Digi-Key_PN"
-F 5 "BC817-25LT1G" H 10270 5130 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 10270 5230 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 10270 5330 60  0001 L CNN "Family"
-F 8 "https://www.onsemi.com/pub/Collateral/BC817-16LT1-D.PDF" H 10270 5430 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/BC817-25LT1G/BC817-25LT1GOSCT-ND/917829" H 10270 5530 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 0.5A SOT23" H 10270 5630 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 10270 5730 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 10270 5830 60  0001 L CNN "Status"
-	1    10070 4630
+P 8490 1930
+F 0 "Q?" H 8320 2110 60  0000 L CNN
+F 1 "BC817-25LT1G" H 7840 1710 60  0000 L CNN
+F 2 "digikey-footprints:SOT-23-3" H 8690 2130 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BC817-16LT1-D.PDF" H 8690 2230 60  0001 L CNN
+F 4 "BC817-25LT1GOSCT-ND" H 8690 2330 60  0001 L CNN "Digi-Key_PN"
+F 5 "BC817-25LT1G" H 8690 2430 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 8690 2530 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 8690 2630 60  0001 L CNN "Family"
+F 8 "https://www.onsemi.com/pub/Collateral/BC817-16LT1-D.PDF" H 8690 2730 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/BC817-25LT1G/BC817-25LT1GOSCT-ND/917829" H 8690 2830 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 0.5A SOT23" H 8690 2930 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 8690 3030 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8690 3130 60  0001 L CNN "Status"
+	1    8490 1930
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:BC817-25LT1G Q?
 U 1 1 60D194A1
-P 10070 2700
-F 0 "Q?" H 10258 2753 60  0000 L CNN
-F 1 "BC817-25LT1G" H 10258 2647 60  0000 L CNN
-F 2 "digikey-footprints:SOT-23-3" H 10270 2900 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/BC817-16LT1-D.PDF" H 10270 3000 60  0001 L CNN
-F 4 "BC817-25LT1GOSCT-ND" H 10270 3100 60  0001 L CNN "Digi-Key_PN"
-F 5 "BC817-25LT1G" H 10270 3200 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 10270 3300 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 10270 3400 60  0001 L CNN "Family"
-F 8 "https://www.onsemi.com/pub/Collateral/BC817-16LT1-D.PDF" H 10270 3500 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/BC817-25LT1G/BC817-25LT1GOSCT-ND/917829" H 10270 3600 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 45V 0.5A SOT23" H 10270 3700 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 10270 3800 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 10270 3900 60  0001 L CNN "Status"
-	1    10070 2700
+P 10220 1940
+F 0 "Q?" H 9930 1780 60  0000 L CNN
+F 1 "BC817-25LT1G" H 9570 1700 60  0000 L CNN
+F 2 "digikey-footprints:SOT-23-3" H 10420 2140 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BC817-16LT1-D.PDF" H 10420 2240 60  0001 L CNN
+F 4 "BC817-25LT1GOSCT-ND" H 10420 2340 60  0001 L CNN "Digi-Key_PN"
+F 5 "BC817-25LT1G" H 10420 2440 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 10420 2540 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 10420 2640 60  0001 L CNN "Family"
+F 8 "https://www.onsemi.com/pub/Collateral/BC817-16LT1-D.PDF" H 10420 2740 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/BC817-25LT1G/BC817-25LT1GOSCT-ND/917829" H 10420 2840 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 0.5A SOT23" H 10420 2940 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 10420 3040 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10420 3140 60  0001 L CNN "Status"
+	1    10220 1940
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10170 2500 10170 2400
+	10320 1740 10320 1640
 Wire Wire Line
-	10170 4430 10170 4330
+	8590 1730 8590 1630
 $Comp
 L Device:R R?
 U 1 1 60D3CAE8
-P 10170 3780
+P 8590 1080
 AR Path="/60D3CAE8" Ref="R?"  Part="1" 
 AR Path="/60A03F8A/60D3CAE8" Ref="R?"  Part="1" 
 AR Path="/608C8099/60D3CAE8" Ref="R?"  Part="1" 
-F 0 "R?" H 10290 3860 50  0000 C CNN
-F 1 "100" H 10310 3770 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10100 3780 50  0001 C CNN
-F 3 "~" H 10170 3780 50  0001 C CNN
-	1    10170 3780
+F 0 "R?" H 8710 1160 50  0000 C CNN
+F 1 "100" H 8730 1070 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8520 1080 50  0001 C CNN
+F 3 "~" H 8590 1080 50  0001 C CNN
+	1    8590 1080
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 60D3D796
-P 10170 1850
+P 10320 1090
 AR Path="/60D3D796" Ref="R?"  Part="1" 
 AR Path="/60A03F8A/60D3D796" Ref="R?"  Part="1" 
 AR Path="/608C8099/60D3D796" Ref="R?"  Part="1" 
-F 0 "R?" H 10290 1930 50  0000 C CNN
-F 1 "100" H 10300 1840 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10100 1850 50  0001 C CNN
-F 3 "~" H 10170 1850 50  0001 C CNN
-	1    10170 1850
+F 0 "R?" H 10440 1170 50  0000 C CNN
+F 1 "100" H 10450 1080 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10250 1090 50  0001 C CNN
+F 3 "~" H 10320 1090 50  0001 C CNN
+	1    10320 1090
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10170 4030 10170 3930
+	8590 1330 8590 1230
 Wire Wire Line
-	10170 2000 10170 2100
+	10320 1240 10320 1340
 Wire Wire Line
-	10170 3630 10170 3590
+	8590 930  8590 890 
 Wire Wire Line
-	10170 1650 10170 1700
+	10320 890  10320 940 
 Wire Wire Line
-	10170 4830 10170 4890
+	8590 2130 8590 2190
 Wire Wire Line
-	10170 2960 10170 2900
+	10320 2200 10320 2140
 $Comp
 L power:GNDREF #PWR?
 U 1 1 60D66B48
-P 10170 2960
+P 10320 2200
 AR Path="/60D66B48" Ref="#PWR?"  Part="1" 
 AR Path="/60A03F8A/60D66B48" Ref="#PWR?"  Part="1" 
 AR Path="/608C8099/60D66B48" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10170 2710 50  0001 C CNN
-F 1 "GNDREF" V 10175 2832 50  0001 R CNN
-F 2 "" H 10170 2960 50  0001 C CNN
-F 3 "" H 10170 2960 50  0001 C CNN
-	1    10170 2960
+F 0 "#PWR?" H 10320 1950 50  0001 C CNN
+F 1 "GNDREF" V 10325 2072 50  0001 R CNN
+F 2 "" H 10320 2200 50  0001 C CNN
+F 3 "" H 10320 2200 50  0001 C CNN
+	1    10320 2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L SVIELCOM_Library:+5V #PWR?
 U 1 1 60D69A05
-P 10170 1650
-F 0 "#PWR?" H 10170 1500 50  0001 C CNN
-F 1 "+5V" H 10185 1823 50  0000 C CNN
-F 2 "" H 10170 1650 50  0001 C CNN
-F 3 "" H 10170 1650 50  0001 C CNN
-	1    10170 1650
+P 10320 890
+F 0 "#PWR?" H 10320 740 50  0001 C CNN
+F 1 "+5V" H 10335 1063 50  0000 C CNN
+F 2 "" H 10320 890 50  0001 C CNN
+F 3 "" H 10320 890 50  0001 C CNN
+	1    10320 890 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 60D74293
-P 9720 2700
+P 9870 1940
 AR Path="/60D74293" Ref="R?"  Part="1" 
 AR Path="/60A03F8A/60D74293" Ref="R?"  Part="1" 
 AR Path="/608C8099/60D74293" Ref="R?"  Part="1" 
-F 0 "R?" V 9630 2660 50  0000 C CNN
-F 1 "5,1K" V 9820 2670 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9650 2700 50  0001 C CNN
-F 3 "~" H 9720 2700 50  0001 C CNN
-	1    9720 2700
+F 0 "R?" V 9780 1900 50  0000 C CNN
+F 1 "5,1K" V 9970 1910 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9800 1940 50  0001 C CNN
+F 3 "~" H 9870 1940 50  0001 C CNN
+	1    9870 1940
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 60D74E3B
-P 9720 4630
+P 8140 1930
 AR Path="/60D74E3B" Ref="R?"  Part="1" 
 AR Path="/60A03F8A/60D74E3B" Ref="R?"  Part="1" 
 AR Path="/608C8099/60D74E3B" Ref="R?"  Part="1" 
-F 0 "R?" V 9630 4590 50  0000 C CNN
-F 1 "5,1K" V 9820 4600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9650 4630 50  0001 C CNN
-F 3 "~" H 9720 4630 50  0001 C CNN
-	1    9720 4630
+F 0 "R?" V 8050 1890 50  0000 C CNN
+F 1 "5,1K" V 8240 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8070 1930 50  0001 C CNN
+F 3 "~" H 8140 1930 50  0001 C CNN
+	1    8140 1930
 	0    1    1    0   
 $EndComp
 $Comp
 L SVIELCOM_Library:+5V #PWR?
 U 1 1 60D8BCE0
-P 10170 3590
-F 0 "#PWR?" H 10170 3440 50  0001 C CNN
-F 1 "+5V" H 10185 3763 50  0000 C CNN
-F 2 "" H 10170 3590 50  0001 C CNN
-F 3 "" H 10170 3590 50  0001 C CNN
-	1    10170 3590
+P 8590 890
+F 0 "#PWR?" H 8590 740 50  0001 C CNN
+F 1 "+5V" H 8605 1063 50  0000 C CNN
+F 2 "" H 8590 890 50  0001 C CNN
+F 3 "" H 8590 890 50  0001 C CNN
+	1    8590 890 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDREF #PWR?
 U 1 1 60DA0F1A
-P 10170 4890
+P 8590 2190
 AR Path="/60DA0F1A" Ref="#PWR?"  Part="1" 
 AR Path="/60A03F8A/60DA0F1A" Ref="#PWR?"  Part="1" 
 AR Path="/608C8099/60DA0F1A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10170 4640 50  0001 C CNN
-F 1 "GNDREF" V 10175 4762 50  0001 R CNN
-F 2 "" H 10170 4890 50  0001 C CNN
-F 3 "" H 10170 4890 50  0001 C CNN
-	1    10170 4890
+F 0 "#PWR?" H 8590 1940 50  0001 C CNN
+F 1 "GNDREF" V 8595 2062 50  0001 R CNN
+F 2 "" H 8590 2190 50  0001 C CNN
+F 3 "" H 8590 2190 50  0001 C CNN
+	1    8590 2190
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9180 2700 9570 2700
+	9510 1940 9720 1940
 Wire Wire Line
-	9180 4630 9570 4630
-Text HLabel 9180 2700 0    50   Input ~ 0
+	7770 1930 7990 1930
+Text HLabel 9510 1940 0    50   Input ~ 0
 EAST_SKIP_LED
-Text HLabel 9180 4630 0    50   Input ~ 0
+Text HLabel 7770 1930 0    50   Input ~ 0
 WEST_SKIP_LED
-Text Label 9250 2700 0    50   ~ 0
+Text Label 9540 1940 0    50   ~ 0
 PF2
-Text Label 9250 4630 0    50   ~ 0
+Text Label 7810 1930 0    50   ~ 0
 PF3
+Text Notes 8770 1640 0    50   ~ 0
+"WEST"
+Text Notes 10460 1640 0    50   ~ 0
+"EAST"
 Wire Bus Line
 	2550 690  6810 690 
 Wire Bus Line

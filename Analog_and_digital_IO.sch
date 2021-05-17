@@ -2990,4 +2990,16 @@ Wire Wire Line
 Connection ~ 13560 4310
 Wire Wire Line
 	13560 4310 13560 4440
+Text Label 9050 2220 0    50   ~ 0
+PF12
+Text Label 9040 5280 0    50   ~ 0
+PF13
+Text Label 9120 8840 0    50   ~ 0
+PF5
+Text Label 7820 9740 0    50   ~ 0
+PF4
+Text Label 7560 3120 0    50   ~ 0
+PF11
+Text Label 7640 6180 0    50   ~ 0
+PF14
 $EndSCHEMATC

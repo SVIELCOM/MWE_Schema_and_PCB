@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 7
+Sheet 1 9
 Title "ШВУ"
 Date "2021-03-25"
 Rev "pre.alpha"
@@ -134,5 +134,23 @@ S 2880 8020 1310 1020
 U 60D8C564
 F0 "Analog_and_digital_IO" 50
 F1 "Analog_and_digital_IO.sch" 50
+$EndSheet
+$Sheet
+S 950  9860 1160 960 
+U 60CDB738
+F0 "Microcontroller" 50
+F1 "Microcontroller.sch" 50
+$EndSheet
+$Sheet
+S 3010 9870 1380 950 
+U 60CDBB10
+F0 "Main_power" 50
+F1 "Main_power.sch" 50
+$EndSheet
+$Sheet
+S 5030 9870 1290 950 
+U 60CDBD15
+F0 "Buttons" 50
+F1 "Buttons.sch" 50
 $EndSheet
 $EndSCHEMATC

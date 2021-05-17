@@ -2943,4 +2943,16 @@ Wire Wire Line
 	13560 4290 13560 4440
 Wire Wire Line
 	14760 1740 15280 1740
+Text HLabel 15280 1740 2    50   Output ~ 0
+LEVEL_SWITCH
+Text HLabel 14900 2480 2    50   Output ~ 0
+SKIP_N_UNL_REL_NC
+Text HLabel 14900 2600 2    50   Output ~ 0
+SKIP_N_UNL_REL_NO
+Text HLabel 14900 3470 2    50   Output ~ 0
+SKIP_N_UNL_REL_SW
+Text HLabel 11540 1240 0    50   Input ~ 0
+220V_Phase
+Text HLabel 11540 2040 0    50   Input ~ 0
+LEVEL_SWITCH_AC
 $EndSCHEMATC

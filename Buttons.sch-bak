@@ -546,28 +546,4 @@ Text Notes 7110 3760 0    50   ~ 0
 "p/H"
 Text Notes 7110 4190 0    50   ~ 0
 "Func"
-Text HLabel 3670 2030 0    50   Output ~ 0
-Button_+
-Text HLabel 3670 2470 0    50   Output ~ 0
-Button_-
-Text HLabel 3670 2910 0    50   Output ~ 0
-Button_Emh
-Text HLabel 3670 3350 0    50   Output ~ 0
-Button_clock
-Text HLabel 3670 3790 0    50   Output ~ 0
-Button_pH
-Text HLabel 3670 4230 0    50   Output ~ 0
-Button_Func
-Text Label 3820 2030 0    50   ~ 0
-PG2
-Text Label 3820 2470 0    50   ~ 0
-PG3
-Text Label 3820 2910 0    50   ~ 0
-PG4
-Text Label 3820 3350 0    50   ~ 0
-PG5
-Text Label 3820 3790 0    50   ~ 0
-PG6
-Text Label 3820 4230 0    50   ~ 0
-PG7
 $EndSCHEMATC

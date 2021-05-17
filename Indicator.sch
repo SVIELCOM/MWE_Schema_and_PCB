@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 9
+Sheet 3 10
 Title ""
 Date ""
 Rev ""
@@ -1040,7 +1040,7 @@ AR Path="/60D74293" Ref="R?"  Part="1"
 AR Path="/60A03F8A/60D74293" Ref="R?"  Part="1" 
 AR Path="/608C8099/60D74293" Ref="R?"  Part="1" 
 F 0 "R?" V 9780 1900 50  0000 C CNN
-F 1 "5,1K" V 9970 1910 50  0000 C CNN
+F 1 "47K" V 9970 1910 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9800 1940 50  0001 C CNN
 F 3 "~" H 9870 1940 50  0001 C CNN
 	1    9870 1940
@@ -1054,7 +1054,7 @@ AR Path="/60D74E3B" Ref="R?"  Part="1"
 AR Path="/60A03F8A/60D74E3B" Ref="R?"  Part="1" 
 AR Path="/608C8099/60D74E3B" Ref="R?"  Part="1" 
 F 0 "R?" V 8050 1890 50  0000 C CNN
-F 1 "5,1K" V 8240 1900 50  0000 C CNN
+F 1 "47K" V 8240 1900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8070 1930 50  0001 C CNN
 F 3 "~" H 8140 1930 50  0001 C CNN
 	1    8140 1930

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 5 10
 Title "Power_and_MCU_clock"
 Date "2021-04-29"
 Rev ""
@@ -824,10 +824,10 @@ F 3 "~" H 8090 4080 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7680 4080 7890 4080
+	7380 4080 7590 4080
 Wire Wire Line
 	8500 4080 8290 4080
-Text Label 7680 4080 0    50   ~ 0
+Text Label 7380 4080 0    50   ~ 0
 VDDA
 Text Label 8500 4080 2    50   ~ 0
 Vref+
@@ -2353,7 +2353,7 @@ F 3 "~" H 8090 4080 50  0001 C CNN
 	1    8090 4080
 	1    0    0    -1  
 $EndComp
-Text Label 7680 4080 0    50   ~ 0
+Text Label 7380 4080 0    50   ~ 0
 VDDA
 Text Label 8500 4080 2    50   ~ 0
 Vref+
@@ -3145,4 +3145,17 @@ F 3 "" H 9610 3240 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9010 3240 9010 3200
+$Comp
+L Device:R R?
+U 1 1 60D1EBF4
+P 7740 4080
+AR Path="/60D1EBF4" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/60D1EBF4" Ref="R?"  Part="1" 
+F 0 "R?" V 7650 4080 50  0000 C CNN
+F 1 "47" V 7830 4080 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7670 4080 50  0001 C CNN
+F 3 "~" H 7740 4080 50  0001 C CNN
+	1    7740 4080
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

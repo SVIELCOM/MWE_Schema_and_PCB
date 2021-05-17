@@ -2791,8 +2791,8 @@ F 3 "~" H 13110 3660 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	12750 3660 12960 3660
-Text HLabel 12750 3660 0    50   Input ~ 0
+	12250 3660 12960 3660
+Text HLabel 12250 3660 0    50   Input ~ 0
 SKIP_N_UNLOADED_REL
 $Comp
 L SVIELCOM_Library:G2RL-1-E-DC5 RL?
@@ -2912,8 +2912,8 @@ F 3 "~" H 13110 4900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	12750 4900 12960 4900
-Text HLabel 12750 4900 0    50   Input ~ 0
+	12270 4900 12960 4900
+Text HLabel 12270 4900 0    50   Input ~ 0
 SKIP_N_UNLOADED_BEEPER
 $Comp
 L Device:Speaker_Crystal LS?
@@ -3002,4 +3002,10 @@ Text Label 7560 3120 0    50   ~ 0
 PF11
 Text Label 7640 6180 0    50   ~ 0
 PF14
+Text Label 12370 3660 0    50   ~ 0
+PD10
+Text Label 12370 4900 0    50   ~ 0
+PD14
+Text Label 15050 1740 0    50   ~ 0
+PD9
 $EndSCHEMATC

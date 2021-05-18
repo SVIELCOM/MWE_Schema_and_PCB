@@ -3,12 +3,12 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 9
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Sheet 9 9
+Title "ШВУ"
+Date "2021-03-25"
+Rev "V0.1"
+Comp "ЦВЕТМЕТНАЛАДКА"
+Comment1 "Шустов В.И."
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -18,8 +18,8 @@ L SVIELCOM_Library:STM32H743ZIT6 U?
 U 2 1 60CDFA10
 P 2630 2710
 AR Path="/60CDFA10" Ref="U?"  Part="2" 
-AR Path="/60CDB738/60CDFA10" Ref="U?"  Part="2" 
-F 0 "U?" H 2680 4377 50  0000 C CNN
+AR Path="/60CDB738/60CDFA10" Ref="U11"  Part="2" 
+F 0 "U11" H 2680 4377 50  0000 C CNN
 F 1 "STM32H743ZIT6" H 2680 4286 50  0000 C CNN
 F 2 "QFP50P2200X2200X160-144N" H 2680 4310 50  0001 L BNN
 F 3 "" H 2680 4710 50  0001 L BNN
@@ -31,10 +31,10 @@ F 7 "IPC-7351B" H 2680 4510 50  0001 L BNN "STANDARD"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SVIELCOM_Library:STM32H743ZIT6 U?
+L SVIELCOM_Library:STM32H743ZIT6 U11
 U 3 1 60FFD5D4
 P 7540 2710
-F 0 "U?" H 7540 4377 50  0000 C CNN
+F 0 "U11" H 7540 4377 50  0000 C CNN
 F 1 "STM32H743ZIT6" H 7540 4286 50  0000 C CNN
 F 2 "QFP50P2200X2200X160-144N" H 7590 4310 50  0001 L BNN
 F 3 "" H 7590 4710 50  0001 L BNN
@@ -46,10 +46,10 @@ F 7 "IPC-7351B" H 7590 4510 50  0001 L BNN "STANDARD"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SVIELCOM_Library:STM32H743ZIT6 U?
+L SVIELCOM_Library:STM32H743ZIT6 U11
 U 4 1 6100866D
 P 7540 5640
-F 0 "U?" H 7540 7307 50  0000 C CNN
+F 0 "U11" H 7540 7307 50  0000 C CNN
 F 1 "STM32H743ZIT6" H 7540 7216 50  0000 C CNN
 F 2 "QFP50P2200X2200X160-144N" H 7590 7240 50  0001 L BNN
 F 3 "" H 7590 7640 50  0001 L BNN
@@ -341,4 +341,213 @@ Text HLabel 8950 5640 2    50   Output ~ 0
 SPI6_MOSI
 NoConn ~ 8440 5040
 NoConn ~ 8440 5740
+Wire Wire Line
+	1350 6660 1980 6660
+Wire Wire Line
+	1350 6760 1980 6760
+Wire Wire Line
+	1350 6560 1980 6560
+$Comp
+L power:GNDREF #PWR?
+U 1 1 6129E864
+P 1490 7010
+AR Path="/6129E864" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/6129E864" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/6129E864" Ref="#PWR?"  Part="1" 
+AR Path="/60CDB738/6129E864" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 1490 6760 50  0001 C CNN
+F 1 "GNDREF" V 1495 6882 50  0001 R CNN
+F 2 "" H 1490 7010 50  0001 C CNN
+F 3 "" H 1490 7010 50  0001 C CNN
+	1    1490 7010
+	1    0    0    -1  
+$EndComp
+Text Label 1980 6560 2    50   ~ 0
+SWO
+Text Label 1980 6760 2    50   ~ 0
+SWCLK
+Text Label 1980 6660 2    50   ~ 0
+SWDIO
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:640456-3 J13
+U 1 1 612A6373
+P 1250 5920
+F 0 "J13" V 1560 5880 50  0000 C CNN
+F 1 "640456-3" V 1120 5910 50  0000 C CNN
+F 2 "digikey-footprints:PinHeader_1x3_P2.54_Drill1.1mm" H 1450 6120 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 1450 6220 60  0001 L CNN
+F 4 "A19470-ND" H 1450 6320 60  0001 L CNN "Digi-Key_PN"
+F 5 "640456-3" H 1450 6420 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1450 6520 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 1450 6620 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 1450 6720 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-amp-connectors/640456-3/A19470-ND/259010" H 1450 6820 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 3POS 2.54MM" H 1450 6920 60  0001 L CNN "Description"
+F 11 "TE Connectivity AMP Connectors" H 1450 7020 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1450 7120 60  0001 L CNN "Status"
+	1    1250 5920
+	0    1    -1   0   
+$EndComp
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:0022232041 J15
+U 1 1 612AA072
+P 1250 6860
+F 0 "J15" V 1650 6820 50  0000 C CNN
+F 1 "0022232041" V 1140 6820 50  0000 C CNN
+F 2 "digikey-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 1450 7060 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 1450 7160 60  0001 L CNN
+F 4 "WM4202-ND" H 1450 7260 60  0001 L CNN "Digi-Key_PN"
+F 5 "0022232041" H 1450 7360 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1450 7460 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 1450 7560 60  0001 L CNN "Family"
+F 8 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 1450 7660 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/0022232041/WM4202-ND/26671" H 1450 7760 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 4POS 2.54MM" H 1450 7860 60  0001 L CNN "Description"
+F 11 "Molex" H 1450 7960 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1450 8060 60  0001 L CNN "Status"
+	1    1250 6860
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1350 6860 1490 6860
+Wire Wire Line
+	1490 6860 1490 7010
+$Comp
+L power:GNDREF #PWR?
+U 1 1 612B668B
+P 1490 6070
+AR Path="/612B668B" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/612B668B" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/612B668B" Ref="#PWR?"  Part="1" 
+AR Path="/60CDB738/612B668B" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 1490 5820 50  0001 C CNN
+F 1 "GNDREF" V 1495 5942 50  0001 R CNN
+F 2 "" H 1490 6070 50  0001 C CNN
+F 3 "" H 1490 6070 50  0001 C CNN
+	1    1490 6070
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 5920 1490 5920
+Wire Wire Line
+	1490 5920 1490 6070
+Wire Wire Line
+	1350 5720 1980 5720
+Wire Wire Line
+	1350 5820 1980 5820
+Text Label 1980 5820 2    50   ~ 0
+BOOT0_TX
+Text Label 1980 5720 2    50   ~ 0
+BOOT0_RX
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:640456-3 J14
+U 1 1 612C1C26
+P 2430 5920
+F 0 "J14" V 2740 5880 50  0000 C CNN
+F 1 "640456-3" V 2300 5910 50  0000 C CNN
+F 2 "digikey-footprints:PinHeader_1x3_P2.54_Drill1.1mm" H 2630 6120 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 2630 6220 60  0001 L CNN
+F 4 "A19470-ND" H 2630 6320 60  0001 L CNN "Digi-Key_PN"
+F 5 "640456-3" H 2630 6420 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 2630 6520 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 2630 6620 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 2630 6720 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-amp-connectors/640456-3/A19470-ND/259010" H 2630 6820 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 3POS 2.54MM" H 2630 6920 60  0001 L CNN "Description"
+F 11 "TE Connectivity AMP Connectors" H 2630 7020 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2630 7120 60  0001 L CNN "Status"
+	1    2430 5920
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 612C1C2C
+P 2670 6070
+AR Path="/612C1C2C" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/612C1C2C" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/612C1C2C" Ref="#PWR?"  Part="1" 
+AR Path="/60CDB738/612C1C2C" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 2670 5820 50  0001 C CNN
+F 1 "GNDREF" V 2675 5942 50  0001 R CNN
+F 2 "" H 2670 6070 50  0001 C CNN
+F 3 "" H 2670 6070 50  0001 C CNN
+	1    2670 6070
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2530 5920 2670 5920
+Wire Wire Line
+	2670 5920 2670 6070
+Wire Wire Line
+	2530 5720 3160 5720
+Wire Wire Line
+	2530 5820 3160 5820
+Text Label 3160 5820 2    50   ~ 0
+USART2_TX
+Text Label 3160 5720 2    50   ~ 0
+USART2_RX
+Wire Wire Line
+	2530 6660 3160 6660
+Wire Wire Line
+	2530 6760 3160 6760
+Wire Wire Line
+	2530 6560 3160 6560
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:0022232041 J16
+U 1 1 612D50A7
+P 2430 6860
+F 0 "J16" V 2830 6820 50  0000 C CNN
+F 1 "0022232041" V 2280 6800 50  0000 C CNN
+F 2 "digikey-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 2630 7060 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 2630 7160 60  0001 L CNN
+F 4 "WM4202-ND" H 2630 7260 60  0001 L CNN "Digi-Key_PN"
+F 5 "0022232041" H 2630 7360 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 2630 7460 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 2630 7560 60  0001 L CNN "Family"
+F 8 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 2630 7660 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/0022232041/WM4202-ND/26671" H 2630 7760 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 4POS 2.54MM" H 2630 7860 60  0001 L CNN "Description"
+F 11 "Molex" H 2630 7960 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2630 8060 60  0001 L CNN "Status"
+	1    2430 6860
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2530 6860 3160 6860
+Text Label 3160 6860 2    50   ~ 0
+SPI4_SCK
+Text Label 3160 6760 2    50   ~ 0
+SPI4_NSS
+Text Label 3160 6660 2    50   ~ 0
+SPI4_MISO
+Text Label 3160 6560 2    50   ~ 0
+SPI4_MOSI
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:640456-2 J12
+U 1 1 612E235D
+P 3580 5720
+F 0 "J12" V 3460 5660 50  0000 C CNN
+F 1 "640456-2" V 3900 5740 50  0000 C CNN
+F 2 "digikey-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm" H 3780 5920 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 3780 6020 60  0001 L CNN
+F 4 "A1921-ND" H 3780 6120 60  0001 L CNN "Digi-Key_PN"
+F 5 "640456-2" H 3780 6220 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 3780 6320 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 3780 6420 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 3780 6520 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-amp-connectors/640456-2/A1921-ND/109003" H 3780 6620 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 2POS 2.54MM" H 3780 6720 60  0001 L CNN "Description"
+F 11 "TE Connectivity AMP Connectors" H 3780 6820 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3780 6920 60  0001 L CNN "Status"
+	1    3580 5720
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3680 5720 4310 5720
+Wire Wire Line
+	3680 5820 4310 5820
+Text Label 4310 5720 2    50   ~ 0
+I2C2_SDA
+Text Label 4310 5820 2    50   ~ 0
+I2C2_SCL
 $EndSCHEMATC

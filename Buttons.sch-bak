@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 9
+Sheet 9 9
 Title ""
 Date ""
 Rev ""
@@ -549,13 +549,13 @@ Text Notes 7110 3760 0    50   ~ 0
 Text Notes 7110 4190 0    50   ~ 0
 "Func"
 Text HLabel 3670 2030 0    50   Output ~ 0
-Button_+
+Button_Plus
 Text HLabel 3670 2470 0    50   Output ~ 0
-Button_-
+Button_Minus
 Text HLabel 3670 2910 0    50   Output ~ 0
 Button_Emh
 Text HLabel 3670 3350 0    50   Output ~ 0
-Button_clock
+Button_Clock
 Text HLabel 3670 3790 0    50   Output ~ 0
 Button_pH
 Text HLabel 3670 4230 0    50   Output ~ 0

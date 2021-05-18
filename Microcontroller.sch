@@ -61,15 +61,15 @@ F 7 "IPC-7351B" H 7590 7440 50  0001 L BNN "STANDARD"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1780 1310
-Text HLabel 1780 1410 0    50   BiDi ~ 0
+Text HLabel 1270 1410 0    50   BiDi ~ 0
 RMII_REF_CLK
-Text HLabel 1780 1510 0    50   BiDi ~ 0
+Text HLabel 1270 1510 0    50   BiDi ~ 0
 RMII_MDIO
 NoConn ~ 1780 1610
 NoConn ~ 1780 1710
 NoConn ~ 1780 1810
 NoConn ~ 1780 1910
-Text HLabel 1780 2010 0    50   BiDi ~ 0
+Text HLabel 1270 2010 0    50   BiDi ~ 0
 RMII_CRS_DV
 NoConn ~ 1780 2110
 Wire Wire Line
@@ -80,9 +80,9 @@ Text Label 1270 2210 0    50   ~ 0
 BOOT0_TX
 Text Label 1270 2310 0    50   ~ 0
 BOOT0_RX
-Text HLabel 1780 2410 0    50   BiDi ~ 0
+Text HLabel 1270 2410 0    50   BiDi ~ 0
 USB_FS_DN
-Text HLabel 1780 2510 0    50   BiDi ~ 0
+Text HLabel 1270 2510 0    50   BiDi ~ 0
 USB_FS_DP
 Wire Wire Line
 	1270 2610 1780 2610
@@ -102,19 +102,243 @@ Text Label 1270 3310 0    50   ~ 0
 SWO
 NoConn ~ 1780 3410
 NoConn ~ 1780 3510
-Text HLabel 1780 3610 0    50   BiDi ~ 0
+Text HLabel 1270 3610 0    50   BiDi ~ 0
 QUADSPI_BK1_NCS
 NoConn ~ 1780 3710
-Text HLabel 1780 3810 0    50   BiDi ~ 0
+Text HLabel 1270 3810 0    50   Input ~ 0
 SDMMC1_CKIN
 NoConn ~ 1780 3910
 NoConn ~ 1780 4010
-Text HLabel 1780 4110 0    50   BiDi ~ 0
+Text HLabel 1270 4110 0    50   BiDi ~ 0
 RMII_TX_EN
-Text HLabel 1780 4210 0    50   BiDi ~ 0
+Text HLabel 1270 4210 0    50   BiDi ~ 0
 RMII_TXD0
-Text HLabel 1780 4310 0    50   BiDi ~ 0
+Text HLabel 1270 4310 0    50   BiDi ~ 0
 RMII_TXD1
 NoConn ~ 1780 4410
 NoConn ~ 1780 4510
+Wire Wire Line
+	1270 1410 1780 1410
+Wire Wire Line
+	1270 1510 1780 1510
+Wire Wire Line
+	1270 2010 1780 2010
+Wire Wire Line
+	1270 2410 1780 2410
+Wire Wire Line
+	1270 2510 1780 2510
+Wire Wire Line
+	1270 3610 1780 3610
+Wire Wire Line
+	1270 3810 1780 3810
+Wire Wire Line
+	1270 4110 1780 4110
+Wire Wire Line
+	1270 4210 1780 4210
+Wire Wire Line
+	1780 4310 1270 4310
+NoConn ~ 3580 1310
+Wire Wire Line
+	3580 1410 4090 1410
+NoConn ~ 3580 1510
+NoConn ~ 3580 1610
+Wire Wire Line
+	3580 1710 4090 1710
+Wire Wire Line
+	3580 1810 4090 1810
+NoConn ~ 3580 1910
+NoConn ~ 3580 2010
+Text HLabel 4090 1410 2    50   BiDi ~ 0
+RMII_MDC
+Text HLabel 4090 1710 2    50   BiDi ~ 0
+RMII_RXD0
+Text HLabel 4090 1810 2    50   BiDi ~ 0
+RMII_RXD1
+Wire Wire Line
+	3580 2110 4090 2110
+Text HLabel 4090 2110 2    50   BiDi ~ 0
+SDMMC1_D0
+Wire Wire Line
+	3580 2210 4090 2210
+Text HLabel 4090 2210 2    50   BiDi ~ 0
+SDMMC1_D1
+Wire Wire Line
+	3580 2310 4090 2310
+Text HLabel 4090 2310 2    50   BiDi ~ 0
+SDMMC1_D2
+Wire Wire Line
+	3580 2410 4090 2410
+Text HLabel 4090 2410 2    50   BiDi ~ 0
+SDMMC1_D3
+Wire Wire Line
+	3580 2510 4090 2510
+Text HLabel 4090 2510 2    50   Output ~ 0
+SDMMC1_CK
+NoConn ~ 3580 2610
+NoConn ~ 6640 1310
+NoConn ~ 6640 1410
+Wire Wire Line
+	6640 1510 6130 1510
+Text HLabel 6130 1510 0    50   BiDi ~ 0
+SDMMC1_CMD
+NoConn ~ 6640 1610
+NoConn ~ 6640 1710
+Wire Wire Line
+	6130 1810 6640 1810
+Text Label 6130 1810 0    50   ~ 0
+USART2_TX
+Wire Wire Line
+	6130 1910 6640 1910
+Text Label 6130 1910 0    50   ~ 0
+USART2_RX
+NoConn ~ 6640 2010
+NoConn ~ 6640 2110
+Text HLabel 6130 2210 0    50   Input ~ 0
+LEVEL_SWITCH
+Wire Wire Line
+	6130 2210 6640 2210
+Text HLabel 6130 2310 0    50   Output ~ 0
+SKIP_N_UNLOADED_REL
+Wire Wire Line
+	6130 2310 6640 2310
+NoConn ~ 6640 2410
+NoConn ~ 6640 2510
+NoConn ~ 6640 2610
+Text HLabel 6130 2710 0    50   Output ~ 0
+SKIP_N_UNLOADED_BEEPER
+Wire Wire Line
+	6130 2710 6640 2710
+NoConn ~ 6640 2810
+NoConn ~ 8440 1310
+NoConn ~ 8440 1410
+Wire Wire Line
+	8950 1510 8440 1510
+Text Label 8950 1510 2    50   ~ 0
+SPI4_SCK
+NoConn ~ 8440 1610
+Wire Wire Line
+	8950 1710 8440 1710
+Text Label 8950 1710 2    50   ~ 0
+SPI4_NSS
+Wire Wire Line
+	8950 1810 8440 1810
+Text Label 8950 1810 2    50   ~ 0
+SPI4_MISO
+Wire Wire Line
+	8950 1910 8440 1910
+Text Label 8950 1910 2    50   ~ 0
+SPI4_MOSI
+NoConn ~ 8440 2010
+NoConn ~ 8440 2110
+NoConn ~ 8440 2210
+NoConn ~ 8440 2310
+NoConn ~ 8440 2810
+NoConn ~ 8440 2710
+NoConn ~ 8440 2610
+NoConn ~ 8440 2510
+NoConn ~ 8440 2410
+Wire Wire Line
+	6130 4240 6640 4240
+Text Label 6130 4240 0    50   ~ 0
+I2C2_SDA
+Wire Wire Line
+	6130 4340 6640 4340
+Text Label 6130 4340 0    50   ~ 0
+I2C2_SCL
+Text HLabel 6130 4440 0    50   Output ~ 0
+EAST_SKIP_LED
+Wire Wire Line
+	6640 4440 6130 4440
+Text HLabel 6130 4540 0    50   Output ~ 0
+WEST_SKIP_LED
+Wire Wire Line
+	6640 4540 6130 4540
+Text HLabel 6130 4640 0    50   Input ~ 0
+A_CH3_FAULT
+Wire Wire Line
+	6130 4640 6640 4640
+Text HLabel 6130 4740 0    50   Input ~ 0
+ADC3_P
+Wire Wire Line
+	6130 4740 6640 4740
+Text HLabel 6130 4840 0    50   BiDi ~ 0
+QUADSPI_BK1_IO3
+Wire Wire Line
+	6130 4840 6640 4840
+Text HLabel 6130 4940 0    50   BiDi ~ 0
+QUADSPI_BK1_IO2
+Wire Wire Line
+	6130 4940 6640 4940
+Text HLabel 6130 5040 0    50   BiDi ~ 0
+QUADSPI_BK1_IO0
+Wire Wire Line
+	6130 5040 6640 5040
+Text HLabel 6130 5140 0    50   BiDi ~ 0
+QUADSPI_BK1_IO1
+Wire Wire Line
+	6130 5140 6640 5140
+Text HLabel 6130 5240 0    50   Output ~ 0
+QUADSPI_CLK
+Wire Wire Line
+	6130 5240 6640 5240
+Text HLabel 6130 5340 0    50   Input ~ 0
+A_CH1_FAULT
+Wire Wire Line
+	6130 5340 6640 5340
+Text HLabel 6130 5440 0    50   Input ~ 0
+ADC1_P
+Wire Wire Line
+	6130 5440 6640 5440
+Text HLabel 6130 5540 0    50   Input ~ 0
+ADC2_P
+Wire Wire Line
+	6130 5540 6640 5540
+Text HLabel 6130 5640 0    50   Input ~ 0
+A_CH2_FAULT
+Wire Wire Line
+	6130 5640 6640 5640
+NoConn ~ 6640 5740
+NoConn ~ 8440 4340
+NoConn ~ 8440 4240
+Wire Wire Line
+	8440 4440 8950 4440
+Text HLabel 8950 4440 2    50   Input ~ 0
+Button_Plus
+Wire Wire Line
+	8440 4540 8950 4540
+Text HLabel 8950 4540 2    50   Input ~ 0
+Button_Minus
+Wire Wire Line
+	8440 4640 8950 4640
+Text HLabel 8950 4640 2    50   Input ~ 0
+Button_Emh
+Wire Wire Line
+	8440 4740 8950 4740
+Text HLabel 8950 4740 2    50   Input ~ 0
+Button_Clock
+Wire Wire Line
+	8440 4840 8950 4840
+Text HLabel 8950 4840 2    50   Input ~ 0
+Button_pH
+Wire Wire Line
+	8440 4940 8950 4940
+Text HLabel 8950 4940 2    50   Input ~ 0
+Button_Func
+Wire Wire Line
+	8440 5440 8950 5440
+Text HLabel 8950 5440 2    50   Output ~ 0
+SPI6_CS
+NoConn ~ 8440 5140
+NoConn ~ 8440 5240
+NoConn ~ 8440 5340
+Wire Wire Line
+	8440 5540 8950 5540
+Text HLabel 8950 5540 2    50   Output ~ 0
+SPI6_SCK
+Wire Wire Line
+	8440 5640 8950 5640
+Text HLabel 8950 5640 2    50   Output ~ 0
+SPI6_MOSI
+NoConn ~ 8440 5040
+NoConn ~ 8440 5740
 $EndSCHEMATC

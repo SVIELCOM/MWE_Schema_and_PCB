@@ -13,77 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Device:C C5
-U 1 1 606157F0
-P -580 6480
-F 0 "C5" H -465 6526 50  0000 L CNN
-F 1 "1µF" H -465 6435 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H -542 6330 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2710676.pdf" H -580 6480 50  0001 C CNN
-F 4 "CL10B105KA8NNNC" H -580 6480 50  0001 C CNN "Type"
-	1    -580 6480
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP C4
-U 1 1 6061539B
-P -580 5830
-F 0 "C4" H -462 5876 50  0000 L CNN
-F 1 "10µF" H -462 5785 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I" H -542 5680 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/427/593d-239975.pdf" H -580 5830 50  0001 C CNN
-F 4 "593D106X9016A2TE3" H -580 5830 50  0001 C CNN "Type"
-	1    -580 5830
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP C3
-U 1 1 6061A793
-P -580 5130
-F 0 "C3" H -462 5176 50  0000 L CNN
-F 1 "47µFx25" H -462 5085 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder" H -542 4980 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/1878216.pdf" H -580 5130 50  0001 C CNN
-F 4 "TR3D476K025C0150" H -580 5130 50  0001 C CNN "Type"
-	1    -580 5130
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C2
-U 1 1 60633F0C
-P -580 4630
-F 0 "C2" H -465 4676 50  0000 L CNN
-F 1 "1µF" H -465 4585 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H -542 4480 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/2048520.pdf" H -580 4630 50  0001 C CNN
-F 4 "GRM188R7YA105KA12D" H -580 4630 50  0001 C CNN "Type"
-	1    -580 4630
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP C1
-U 1 1 60634752
-P -580 4080
-F 0 "C1" H -462 4126 50  0000 L CNN
-F 1 "47µFx16" H -462 4035 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder" H -542 3930 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/1995953.pdf" H -580 4080 50  0001 C CNN
-F 4 "593D476X9016D2TE3" H -580 4080 50  0001 C CNN "Type"
-	1    -580 4080
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_DPDT_x2 SW1
-U 1 1 6063E7A3
-P -480 3330
-F 0 "SW1" H -480 3615 50  0000 C CNN
-F 1 "PST-11A" H -480 3524 50  0000 C CNN
-F 2 "" H -480 3330 50  0001 C CNN
-F 3 "https://www.terraelectronica.ru/product/45953" H -480 3330 50  0001 C CNN
-	1    -480 3330
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 8599 3000 1100 950 
 U 608C8099
@@ -312,19 +241,6 @@ Wire Wire Line
 	4599 5750 5599 5750
 Wire Wire Line
 	4599 5850 5599 5850
-NoConn ~ -280 3430
-NoConn ~ -280 3230
-NoConn ~ -680 3330
-NoConn ~ -580 3930
-NoConn ~ -580 4230
-NoConn ~ -580 4480
-NoConn ~ -580 4780
-NoConn ~ -580 4980
-NoConn ~ -580 5280
-NoConn ~ -580 5680
-NoConn ~ -580 5980
-NoConn ~ -580 6330
-NoConn ~ -580 6630
 Wire Wire Line
 	4599 2850 5599 2850
 Wire Wire Line

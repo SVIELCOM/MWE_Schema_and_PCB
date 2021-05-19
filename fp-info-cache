@@ -1,4 +1,4 @@
-20251697707299631
+20253319719290631
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -76356,6 +76356,13 @@ rotary encoder
 5
 4
 SVIELCOM
+BAT_BS-7
+
+
+0
+2
+2
+SVIELCOM
 BC56-11SURKWA
 https://www.kingbrightusa.com/images/catalog/SPEC/BC56-11SURKWA.pdf
 Three digit seven segment super bright red LED display
@@ -76370,12 +76377,12 @@ Integrated Circuit
 20
 20
 SVIELCOM
-LT1129CST-5-PBF
-
+HRS_DM3AT-SF-PEJM5
+Micro SD card holder with push-to-eject feature.
 
 0
-3
-3
+14
+14
 SVIELCOM
 REF1933AIDDCT
 

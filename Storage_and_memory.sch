@@ -30,17 +30,6 @@ F 9 "-40°C" H 4270 6310 50  0001 L CNN "temperature range low"
 	1    4270 4710
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Micro_SD_Card_Det J4
-U 1 1 60912CF3
-P 6840 1990
-F 0 "J4" H 6790 2807 50  0000 C CNN
-F 1 "Micro_SD_Card_Det" H 6790 2716 50  0000 C CNN
-F 2 "" H 8890 2690 50  0001 C CNN
-F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 6840 2090 50  0001 C CNN
-	1    6840 1990
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5300 1590 5940 1590
 Wire Wire Line
@@ -73,7 +62,6 @@ Wire Wire Line
 NoConn ~ 5300 2690
 Wire Wire Line
 	5300 1890 5430 1890
-NoConn ~ 5940 2390
 $Comp
 L power:GNDREF #PWR?
 U 1 1 6098D661
@@ -97,8 +85,8 @@ U 1 1 6099014F
 P 5430 2610
 AR Path="/6099014F" Ref="C?"  Part="1" 
 AR Path="/60A03F8A/6099014F" Ref="C?"  Part="1" 
-AR Path="/60D8A641/6099014F" Ref="C51"  Part="1" 
-F 0 "C51" H 5450 2500 50  0000 L CNN
+AR Path="/60D8A641/6099014F" Ref="C46"  Part="1" 
+F 0 "C46" H 5450 2500 50  0000 L CNN
 F 1 "1µF" H 5370 2360 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5468 2460 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 5430 2610 50  0001 C CNN
@@ -112,8 +100,8 @@ U 1 1 60990581
 P 5680 2610
 AR Path="/60990581" Ref="C?"  Part="1" 
 AR Path="/60A03F8A/60990581" Ref="C?"  Part="1" 
-AR Path="/60D8A641/60990581" Ref="C52"  Part="1" 
-F 0 "C52" H 5710 2500 50  0000 L CNN
+AR Path="/60D8A641/60990581" Ref="C47"  Part="1" 
+F 0 "C47" H 5710 2500 50  0000 L CNN
 F 1 "1µF" H 5680 2360 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5718 2460 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 5680 2610 50  0001 C CNN
@@ -153,8 +141,8 @@ U 1 1 60996784
 P 3250 1440
 AR Path="/60996784" Ref="C?"  Part="1" 
 AR Path="/60A03F8A/60996784" Ref="C?"  Part="1" 
-AR Path="/60D8A641/60996784" Ref="C50"  Part="1" 
-F 0 "C50" H 3050 1530 50  0000 L CNN
+AR Path="/60D8A641/60996784" Ref="C45"  Part="1" 
+F 0 "C45" H 3050 1530 50  0000 L CNN
 F 1 "1µF" H 3080 1340 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3288 1290 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 3250 1440 50  0001 C CNN
@@ -204,19 +192,19 @@ Wire Wire Line
 $Comp
 L power:GNDREF #PWR?
 U 1 1 609998AA
-P 7640 2910
+P 6940 2910
 AR Path="/609998AA" Ref="#PWR?"  Part="1" 
 AR Path="/60A03F8A/609998AA" Ref="#PWR?"  Part="1" 
 AR Path="/60D8A641/609998AA" Ref="#PWR061"  Part="1" 
-F 0 "#PWR061" H 7640 2660 50  0001 C CNN
-F 1 "GNDREF" V 7645 2782 50  0001 R CNN
-F 2 "" H 7640 2910 50  0001 C CNN
-F 3 "" H 7640 2910 50  0001 C CNN
-	1    7640 2910
+F 0 "#PWR061" H 6940 2660 50  0001 C CNN
+F 1 "GNDREF" V 6945 2782 50  0001 R CNN
+F 2 "" H 6940 2910 50  0001 C CNN
+F 3 "" H 6940 2910 50  0001 C CNN
+	1    6940 2910
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7640 2490 7640 2910
+	6940 2490 6940 2910
 $Comp
 L SVIELCOM_Library:+2.9V_SD #PWR057
 U 1 1 6099AF71
@@ -422,4 +410,33 @@ Text Label 3770 5310 0    50   ~ 0
 PF10
 Text Label 3770 5110 0    50   ~ 0
 PB6
+$Comp
+L SVIELCOM_Library:DM3AT-SF-PEJM5 J?
+U 1 1 61644FF6
+P 6440 2190
+F 0 "J?" H 6480 3100 50  0000 C CNN
+F 1 "DM3AT-SF-PEJM5" H 6480 3000 50  0000 C CNN
+F 2 "SVIELCOM:HRS_DM3AT-SF-PEJM5" H 6740 2840 50  0001 L BNN
+F 3 "https://www.terraelectronica.ru/pdf/show?pdf_file=%252Fds%252Fpdf%252FD%252FDM3AT-SF-PEJM5.pdf" H 6440 2190 50  0001 L BNN
+F 4 "DM3 RA SMT microSD memory card push/push" H 6740 2740 50  0001 L BNN "DESCRIPTION"
+F 5 "DM3AT-SF-PEJM5" H 6740 2640 50  0001 L BNN "MP"
+	1    6440 2190
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 6164845D
+P 5940 2810
+AR Path="/6164845D" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/6164845D" Ref="#PWR?"  Part="1" 
+AR Path="/60D8A641/6164845D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5940 2560 50  0001 C CNN
+F 1 "GNDREF" V 5945 2682 50  0001 R CNN
+F 2 "" H 5940 2810 50  0001 C CNN
+F 3 "" H 5940 2810 50  0001 C CNN
+	1    5940 2810
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5940 2390 5940 2810
 $EndSCHEMATC

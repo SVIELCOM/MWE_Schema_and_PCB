@@ -168,8 +168,8 @@ L Device:C C?
 U 1 1 60D39D51
 P 5150 4880
 AR Path="/60D39D51" Ref="C?"  Part="1" 
-AR Path="/6099558B/60D39D51" Ref="C9"  Part="1" 
-F 0 "C9" H 4870 4910 50  0000 L CNN
+AR Path="/6099558B/60D39D51" Ref="C4"  Part="1" 
+F 0 "C4" H 4870 4910 50  0000 L CNN
 F 1 "1µF" H 4870 4830 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5188 4730 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2048520.pdf" H 5150 4880 50  0001 C CNN
@@ -182,8 +182,8 @@ L Device:C C?
 U 1 1 60D3AA9C
 P 4720 4880
 AR Path="/60D3AA9C" Ref="C?"  Part="1" 
-AR Path="/6099558B/60D3AA9C" Ref="C8"  Part="1" 
-F 0 "C8" H 4440 4910 50  0000 L CNN
+AR Path="/6099558B/60D3AA9C" Ref="C3"  Part="1" 
+F 0 "C3" H 4440 4910 50  0000 L CNN
 F 1 "1µF" H 4440 4830 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4758 4730 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2048520.pdf" H 4720 4880 50  0001 C CNN
@@ -211,8 +211,8 @@ L Device:C C?
 U 1 1 60D3F7A8
 P 3560 4880
 AR Path="/60D3F7A8" Ref="C?"  Part="1" 
-AR Path="/6099558B/60D3F7A8" Ref="C7"  Part="1" 
-F 0 "C7" H 3675 4926 50  0000 L CNN
+AR Path="/6099558B/60D3F7A8" Ref="C2"  Part="1" 
+F 0 "C2" H 3675 4926 50  0000 L CNN
 F 1 "1µF" H 3675 4835 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3598 4730 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2048520.pdf" H 3560 4880 50  0001 C CNN
@@ -366,8 +366,8 @@ L Device:CP C?
 U 1 1 60D855B5
 P 3150 4880
 AR Path="/60D855B5" Ref="C?"  Part="1" 
-AR Path="/6099558B/60D855B5" Ref="C6"  Part="1" 
-F 0 "C6" H 3268 4926 50  0000 L CNN
+AR Path="/6099558B/60D855B5" Ref="C1"  Part="1" 
+F 0 "C1" H 3268 4926 50  0000 L CNN
 F 1 "10µF" H 3268 4835 50  0000 L CNN
 F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I" H 3188 4730 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/427/593d-239975.pdf" H 3150 4880 50  0001 C CNN

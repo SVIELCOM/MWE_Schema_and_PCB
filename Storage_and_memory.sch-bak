@@ -97,8 +97,8 @@ U 1 1 6099014F
 P 5430 2610
 AR Path="/6099014F" Ref="C?"  Part="1" 
 AR Path="/60A03F8A/6099014F" Ref="C?"  Part="1" 
-AR Path="/60D8A641/6099014F" Ref="C51"  Part="1" 
-F 0 "C51" H 5450 2500 50  0000 L CNN
+AR Path="/60D8A641/6099014F" Ref="C46"  Part="1" 
+F 0 "C46" H 5450 2500 50  0000 L CNN
 F 1 "1µF" H 5370 2360 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5468 2460 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 5430 2610 50  0001 C CNN
@@ -112,8 +112,8 @@ U 1 1 60990581
 P 5680 2610
 AR Path="/60990581" Ref="C?"  Part="1" 
 AR Path="/60A03F8A/60990581" Ref="C?"  Part="1" 
-AR Path="/60D8A641/60990581" Ref="C52"  Part="1" 
-F 0 "C52" H 5710 2500 50  0000 L CNN
+AR Path="/60D8A641/60990581" Ref="C47"  Part="1" 
+F 0 "C47" H 5710 2500 50  0000 L CNN
 F 1 "1µF" H 5680 2360 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5718 2460 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 5680 2610 50  0001 C CNN
@@ -153,8 +153,8 @@ U 1 1 60996784
 P 3250 1440
 AR Path="/60996784" Ref="C?"  Part="1" 
 AR Path="/60A03F8A/60996784" Ref="C?"  Part="1" 
-AR Path="/60D8A641/60996784" Ref="C50"  Part="1" 
-F 0 "C50" H 3050 1530 50  0000 L CNN
+AR Path="/60D8A641/60996784" Ref="C45"  Part="1" 
+F 0 "C45" H 3050 1530 50  0000 L CNN
 F 1 "1µF" H 3080 1340 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3288 1290 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 3250 1440 50  0001 C CNN

@@ -352,8 +352,8 @@ P 1490 7010
 AR Path="/6129E864" Ref="#PWR?"  Part="1" 
 AR Path="/60A03F8A/6129E864" Ref="#PWR?"  Part="1" 
 AR Path="/60D8C564/6129E864" Ref="#PWR?"  Part="1" 
-AR Path="/60CDB738/6129E864" Ref="#PWR0118"  Part="1" 
-F 0 "#PWR0118" H 1490 6760 50  0001 C CNN
+AR Path="/60CDB738/6129E864" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 1490 6760 50  0001 C CNN
 F 1 "GNDREF" V 1495 6882 50  0001 R CNN
 F 2 "" H 1490 7010 50  0001 C CNN
 F 3 "" H 1490 7010 50  0001 C CNN
@@ -367,10 +367,10 @@ SWCLK
 Text Label 1980 6660 2    50   ~ 0
 SWDIO
 $Comp
-L dk_Rectangular-Connectors-Headers-Male-Pins:640456-3 J13
+L dk_Rectangular-Connectors-Headers-Male-Pins:640456-3 J14
 U 1 1 612A6373
 P 1250 5920
-F 0 "J13" V 1560 5880 50  0000 C CNN
+F 0 "J14" V 1560 5880 50  0000 C CNN
 F 1 "640456-3" V 1120 5910 50  0000 C CNN
 F 2 "digikey-footprints:PinHeader_1x3_P2.54_Drill1.1mm" H 1450 6120 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 1450 6220 60  0001 L CNN
@@ -387,10 +387,10 @@ F 12 "Active" H 1450 7120 60  0001 L CNN "Status"
 	0    1    -1   0   
 $EndComp
 $Comp
-L dk_Rectangular-Connectors-Headers-Male-Pins:0022232041 J15
+L dk_Rectangular-Connectors-Headers-Male-Pins:0022232041 J16
 U 1 1 612AA072
 P 1250 6860
-F 0 "J15" V 1650 6820 50  0000 C CNN
+F 0 "J16" V 1650 6820 50  0000 C CNN
 F 1 "0022232041" V 1140 6820 50  0000 C CNN
 F 2 "digikey-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 1450 7060 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 1450 7160 60  0001 L CNN
@@ -417,8 +417,8 @@ P 1490 6070
 AR Path="/612B668B" Ref="#PWR?"  Part="1" 
 AR Path="/60A03F8A/612B668B" Ref="#PWR?"  Part="1" 
 AR Path="/60D8C564/612B668B" Ref="#PWR?"  Part="1" 
-AR Path="/60CDB738/612B668B" Ref="#PWR0116"  Part="1" 
-F 0 "#PWR0116" H 1490 5820 50  0001 C CNN
+AR Path="/60CDB738/612B668B" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 1490 5820 50  0001 C CNN
 F 1 "GNDREF" V 1495 5942 50  0001 R CNN
 F 2 "" H 1490 6070 50  0001 C CNN
 F 3 "" H 1490 6070 50  0001 C CNN
@@ -438,10 +438,10 @@ BOOT0_TX
 Text Label 1980 5720 2    50   ~ 0
 BOOT0_RX
 $Comp
-L dk_Rectangular-Connectors-Headers-Male-Pins:640456-3 J14
+L dk_Rectangular-Connectors-Headers-Male-Pins:640456-3 J15
 U 1 1 612C1C26
 P 2430 5920
-F 0 "J14" V 2740 5880 50  0000 C CNN
+F 0 "J15" V 2740 5880 50  0000 C CNN
 F 1 "640456-3" V 2300 5910 50  0000 C CNN
 F 2 "digikey-footprints:PinHeader_1x3_P2.54_Drill1.1mm" H 2630 6120 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 2630 6220 60  0001 L CNN
@@ -464,8 +464,8 @@ P 2670 6070
 AR Path="/612C1C2C" Ref="#PWR?"  Part="1" 
 AR Path="/60A03F8A/612C1C2C" Ref="#PWR?"  Part="1" 
 AR Path="/60D8C564/612C1C2C" Ref="#PWR?"  Part="1" 
-AR Path="/60CDB738/612C1C2C" Ref="#PWR0117"  Part="1" 
-F 0 "#PWR0117" H 2670 5820 50  0001 C CNN
+AR Path="/60CDB738/612C1C2C" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 2670 5820 50  0001 C CNN
 F 1 "GNDREF" V 2675 5942 50  0001 R CNN
 F 2 "" H 2670 6070 50  0001 C CNN
 F 3 "" H 2670 6070 50  0001 C CNN
@@ -491,10 +491,10 @@ Wire Wire Line
 Wire Wire Line
 	2530 6560 3160 6560
 $Comp
-L dk_Rectangular-Connectors-Headers-Male-Pins:0022232041 J16
+L dk_Rectangular-Connectors-Headers-Male-Pins:0022232041 J17
 U 1 1 612D50A7
 P 2430 6860
-F 0 "J16" V 2830 6820 50  0000 C CNN
+F 0 "J17" V 2830 6820 50  0000 C CNN
 F 1 "0022232041" V 2280 6800 50  0000 C CNN
 F 2 "digikey-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 2630 7060 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 2630 7160 60  0001 L CNN
@@ -521,10 +521,10 @@ SPI4_MISO
 Text Label 3160 6560 2    50   ~ 0
 SPI4_MOSI
 $Comp
-L dk_Rectangular-Connectors-Headers-Male-Pins:640456-2 J12
+L dk_Rectangular-Connectors-Headers-Male-Pins:640456-2 J13
 U 1 1 612E235D
 P 3580 5720
-F 0 "J12" V 3460 5660 50  0000 C CNN
+F 0 "J13" V 3460 5660 50  0000 C CNN
 F 1 "640456-2" V 3900 5740 50  0000 C CNN
 F 2 "digikey-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm" H 3780 5920 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 3780 6020 60  0001 L CNN

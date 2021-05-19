@@ -3084,4 +3084,343 @@ Wire Wire Line
 	12380 2040 12560 2040
 Wire Wire Line
 	11160 2040 12380 2040
+$Comp
+L Isolator:ISO1211 U?
+U 1 1 61301286
+P 14020 7200
+AR Path="/61301286" Ref="U?"  Part="1" 
+AR Path="/60D8C564/61301286" Ref="U?"  Part="1" 
+F 0 "U?" H 13670 7550 50  0000 C CNN
+F 1 "ISO1211DR" H 13790 7470 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 14020 6450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/iso1211.pdf" H 13970 7250 50  0001 C CNN
+	1    14020 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6130128C
+P 13370 7200
+AR Path="/6130128C" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/6130128C" Ref="R?"  Part="1" 
+AR Path="/60D8C564/6130128C" Ref="R?"  Part="1" 
+F 0 "R?" V 13590 7220 50  0000 C CNN
+F 1 "560" V 13510 7220 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 13300 7200 50  0001 C CNN
+F 3 "~" H 13370 7200 50  0001 C CNN
+	1    13370 7200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13220 7200 13130 7200
+Wire Wire Line
+	13130 7200 13130 7100
+Connection ~ 13130 7100
+Wire Wire Line
+	13130 7100 13520 7100
+Wire Wire Line
+	13520 7600 13520 7400
+NoConn ~ 13520 7300
+$Comp
+L Device:C C?
+U 1 1 6130129A
+P 13130 7400
+AR Path="/6130129A" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/6130129A" Ref="C?"  Part="1" 
+AR Path="/60D8C564/6130129A" Ref="C?"  Part="1" 
+F 0 "C?" H 13260 7450 50  0000 L CNN
+F 1 "0,1µF" H 13240 7360 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 13168 7250 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 13130 7400 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 13130 7400 50  0001 C CNN "Type"
+F 5 "[N/A]" H 13330 7260 50  0000 C CNN "Field5"
+	1    13130 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13130 7550 13130 7600
+Connection ~ 13130 7600
+Wire Wire Line
+	13130 7600 13520 7600
+Wire Wire Line
+	13130 7250 13130 7200
+Connection ~ 13130 7200
+$Comp
+L Device:R R?
+U 1 1 613012A5
+P 12760 7360
+AR Path="/613012A5" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/613012A5" Ref="R?"  Part="1" 
+AR Path="/60D8C564/613012A5" Ref="R?"  Part="1" 
+F 0 "R?" H 12570 7390 50  0000 C CNN
+F 1 "10K" H 12590 7320 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 12690 7360 50  0001 C CNN
+F 3 "~" H 12760 7360 50  0001 C CNN
+	1    12760 7360
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12760 7210 12760 7100
+Connection ~ 12760 7100
+Wire Wire Line
+	12760 7100 12930 7100
+Wire Wire Line
+	12760 7510 12760 7600
+Connection ~ 12760 7600
+Wire Wire Line
+	12760 7600 12930 7600
+$Comp
+L Diode:1N47xxA D?
+U 1 1 613012B1
+P 12930 7370
+F 0 "D?" V 13230 7330 50  0000 L CNN
+F 1 "BZV85-C56.113" V 13310 7050 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 12930 7195 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 12930 7370 50  0001 C CNN
+	1    12930 7370
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12930 7220 12930 7100
+Connection ~ 12930 7100
+Wire Wire Line
+	12930 7100 13130 7100
+Wire Wire Line
+	12930 7520 12930 7600
+Connection ~ 12930 7600
+Wire Wire Line
+	12930 7600 13130 7600
+$Comp
+L power:GNDREF #PWR?
+U 1 1 613012BE
+P 14120 7600
+AR Path="/613012BE" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/613012BE" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/613012BE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14120 7350 50  0001 C CNN
+F 1 "GNDREF" V 14125 7472 50  0001 R CNN
+F 2 "" H 14120 7600 50  0001 C CNN
+F 3 "" H 14120 7600 50  0001 C CNN
+	1    14120 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:VDD_PER #PWR?
+U 1 1 613012C4
+P 14120 6820
+F 0 "#PWR?" H 14120 6670 50  0001 C CNN
+F 1 "VDD_PER" H 14135 6993 50  0000 C CNN
+F 2 "" H 14120 6820 50  0001 C CNN
+F 3 "" H 14120 6820 50  0001 C CNN
+	1    14120 6820
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14120 6900 14120 6860
+Wire Wire Line
+	14120 6860 14660 6860
+Wire Wire Line
+	14660 6860 14660 7400
+Wire Wire Line
+	14660 7400 14520 7400
+Connection ~ 14120 6860
+Wire Wire Line
+	14120 6860 14120 6820
+Wire Wire Line
+	14520 7200 15040 7200
+Text HLabel 15040 7200 2    50   Output ~ 0
+ENCODER_A
+Text Label 14810 7200 0    50   ~ 0
+PC6
+$Comp
+L Isolator:ISO1211 U?
+U 1 1 6137487F
+P 14020 8470
+AR Path="/6137487F" Ref="U?"  Part="1" 
+AR Path="/60D8C564/6137487F" Ref="U?"  Part="1" 
+F 0 "U?" H 13670 8820 50  0000 C CNN
+F 1 "ISO1211DR" H 13790 8740 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 14020 7720 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/iso1211.pdf" H 13970 8520 50  0001 C CNN
+	1    14020 8470
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61374885
+P 13370 8470
+AR Path="/61374885" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/61374885" Ref="R?"  Part="1" 
+AR Path="/60D8C564/61374885" Ref="R?"  Part="1" 
+F 0 "R?" V 13590 8490 50  0000 C CNN
+F 1 "560" V 13510 8490 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 13300 8470 50  0001 C CNN
+F 3 "~" H 13370 8470 50  0001 C CNN
+	1    13370 8470
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12720 8370 12760 8370
+Wire Wire Line
+	13220 8470 13130 8470
+Wire Wire Line
+	13130 8470 13130 8370
+Connection ~ 13130 8370
+Wire Wire Line
+	13130 8370 13520 8370
+Wire Wire Line
+	13520 8870 13520 8670
+NoConn ~ 13520 8570
+$Comp
+L Device:C C?
+U 1 1 61374894
+P 13130 8670
+AR Path="/61374894" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/61374894" Ref="C?"  Part="1" 
+AR Path="/60D8C564/61374894" Ref="C?"  Part="1" 
+F 0 "C?" H 13260 8720 50  0000 L CNN
+F 1 "0,1µF" H 13240 8630 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 13168 8520 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 13130 8670 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 13130 8670 50  0001 C CNN "Type"
+F 5 "[N/A]" H 13330 8530 50  0000 C CNN "Field5"
+	1    13130 8670
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13130 8820 13130 8870
+Connection ~ 13130 8870
+Wire Wire Line
+	13130 8870 13520 8870
+Wire Wire Line
+	13130 8520 13130 8470
+Connection ~ 13130 8470
+$Comp
+L Device:R R?
+U 1 1 6137489F
+P 12760 8630
+AR Path="/6137489F" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/6137489F" Ref="R?"  Part="1" 
+AR Path="/60D8C564/6137489F" Ref="R?"  Part="1" 
+F 0 "R?" H 12570 8660 50  0000 C CNN
+F 1 "10K" H 12590 8590 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 12690 8630 50  0001 C CNN
+F 3 "~" H 12760 8630 50  0001 C CNN
+	1    12760 8630
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12760 8480 12760 8370
+Connection ~ 12760 8370
+Wire Wire Line
+	12760 8370 12930 8370
+Wire Wire Line
+	12760 8780 12760 8870
+Connection ~ 12760 8870
+Wire Wire Line
+	12760 8870 12930 8870
+$Comp
+L Diode:1N47xxA D?
+U 1 1 613748AB
+P 12930 8640
+F 0 "D?" V 13230 8600 50  0000 L CNN
+F 1 "BZV85-C56.113" V 13310 8320 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 12930 8465 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 12930 8640 50  0001 C CNN
+	1    12930 8640
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12930 8490 12930 8370
+Connection ~ 12930 8370
+Wire Wire Line
+	12930 8370 13130 8370
+Wire Wire Line
+	12930 8790 12930 8870
+Connection ~ 12930 8870
+Wire Wire Line
+	12930 8870 13130 8870
+Wire Wire Line
+	12350 8870 12760 8870
+$Comp
+L power:GNDREF #PWR?
+U 1 1 613748B8
+P 14120 8870
+AR Path="/613748B8" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/613748B8" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/613748B8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14120 8620 50  0001 C CNN
+F 1 "GNDREF" V 14125 8742 50  0001 R CNN
+F 2 "" H 14120 8870 50  0001 C CNN
+F 3 "" H 14120 8870 50  0001 C CNN
+	1    14120 8870
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:VDD_PER #PWR?
+U 1 1 613748BE
+P 14120 8090
+F 0 "#PWR?" H 14120 7940 50  0001 C CNN
+F 1 "VDD_PER" H 14135 8263 50  0000 C CNN
+F 2 "" H 14120 8090 50  0001 C CNN
+F 3 "" H 14120 8090 50  0001 C CNN
+	1    14120 8090
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14120 8170 14120 8130
+Wire Wire Line
+	14120 8130 14660 8130
+Wire Wire Line
+	14660 8130 14660 8670
+Wire Wire Line
+	14660 8670 14520 8670
+Connection ~ 14120 8130
+Wire Wire Line
+	14120 8130 14120 8090
+Wire Wire Line
+	14520 8470 15040 8470
+Text HLabel 15040 8470 2    50   Output ~ 0
+ENCODER_B
+Text Label 14810 8470 0    50   ~ 0
+PC7
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:0022232031 J?
+U 1 1 6139B5AD
+P 11580 8080
+F 0 "J?" V 11310 8130 50  0000 C CNN
+F 1 "0022232031" V 11410 8130 50  0000 C CNN
+F 2 "digikey-footprints:PinHeader_1x3_P2.54mm_Drill1.02mm" H 11780 8280 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022232031_sd.pdf" H 11780 8380 60  0001 L CNN
+F 4 "WM4201-ND" H 11780 8480 60  0001 L CNN "Digi-Key_PN"
+F 5 "0022232031" H 11780 8580 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 11780 8680 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 11780 8780 60  0001 L CNN "Family"
+F 8 "https://www.molex.com/pdm_docs/sd/022232031_sd.pdf" H 11780 8880 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/0022232031/WM4201-ND/26669" H 11780 8980 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 3POS 2.54MM" H 11780 9080 60  0001 L CNN "Description"
+F 11 "Molex" H 11780 9180 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 11780 9280 60  0001 L CNN "Status"
+	1    11580 8080
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12350 8870 12350 8280
+Wire Wire Line
+	12350 7600 12760 7600
+Wire Wire Line
+	11680 8280 12350 8280
+Connection ~ 12350 8280
+Wire Wire Line
+	12350 8280 12350 7600
+Wire Wire Line
+	11680 8180 12720 8180
+Wire Wire Line
+	12720 8180 12720 8370
+Wire Wire Line
+	11680 8080 12200 8080
+Wire Wire Line
+	12200 8080 12200 7100
+Wire Wire Line
+	12200 7100 12760 7100
 $EndSCHEMATC

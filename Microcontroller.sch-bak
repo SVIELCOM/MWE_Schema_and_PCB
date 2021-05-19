@@ -146,8 +146,6 @@ Wire Wire Line
 	3580 1710 4090 1710
 Wire Wire Line
 	3580 1810 4090 1810
-NoConn ~ 3580 1910
-NoConn ~ 3580 2010
 Text HLabel 4090 1410 2    50   BiDi ~ 0
 RMII_MDC
 Text HLabel 4090 1710 2    50   BiDi ~ 0
@@ -550,4 +548,12 @@ Text Label 4310 5720 2    50   ~ 0
 I2C2_SDA
 Text Label 4310 5820 2    50   ~ 0
 I2C2_SCL
+Wire Wire Line
+	3580 1910 4090 1910
+Text HLabel 4090 1910 2    50   Input ~ 0
+ENCODER_A
+Wire Wire Line
+	3580 2010 4090 2010
+Text HLabel 4090 2010 2    50   Input ~ 0
+ENCODER_B
 $EndSCHEMATC

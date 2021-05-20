@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 9
 Title "ШВУ"
 Date "2021-03-25"
-Rev "V0.2"
+Rev "V0.3"
 Comp "ЦВЕТМЕТНАЛАДКА"
 Comment1 "Шустов В.И."
 Comment2 ""

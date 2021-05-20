@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 3 9
 Title "ШВУ"
 Date "2021-03-25"
-Rev "V0.1"
+Rev "V0.3"
 Comp "ЦВЕТМЕТНАЛАДКА"
 Comment1 "Шустов В.И."
 Comment2 ""
@@ -24,21 +24,6 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/21/07/2
 	1    5730 5050
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:USB_C_Receptacle_USB2.0 J1
-U 1 1 609A5203
-P 7090 3740
-F 0 "J1" H 7160 4600 50  0000 R CNN
-F 1 "USB_C_Receptacle_USB2.0" H 7590 4510 50  0000 R CNN
-F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 7240 3740 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 7240 3740 50  0001 C CNN
-	1    7090 3740
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	6490 3840 6490 3850
-Wire Wire Line
-	6490 3640 6490 3740
 Wire Wire Line
 	5630 4750 5630 3850
 Wire Wire Line
@@ -61,8 +46,8 @@ L Device:R R?
 U 1 1 60CFFF64
 P 6130 5040
 AR Path="/608C7842/60CFFF64" Ref="R?"  Part="1" 
-AR Path="/6099558B/60CFFF64" Ref="R12"  Part="1" 
-F 0 "R12" H 6190 5090 50  0000 L CNN
+AR Path="/6099558B/60CFFF64" Ref="R14"  Part="1" 
+F 0 "R14" H 6190 5090 50  0000 L CNN
 F 1 "5,1K" H 6190 5000 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6060 5040 50  0001 C CNN
 F 3 "~" H 6130 5040 50  0001 C CNN
@@ -74,8 +59,8 @@ L Device:R R?
 U 1 1 60D0043D
 P 6420 5040
 AR Path="/608C7842/60D0043D" Ref="R?"  Part="1" 
-AR Path="/6099558B/60D0043D" Ref="R13"  Part="1" 
-F 0 "R13" H 6480 5090 50  0000 L CNN
+AR Path="/6099558B/60D0043D" Ref="R15"  Part="1" 
+F 0 "R15" H 6480 5090 50  0000 L CNN
 F 1 "5,1K" H 6480 5000 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6350 5040 50  0001 C CNN
 F 3 "~" H 6420 5040 50  0001 C CNN
@@ -89,8 +74,8 @@ L Device:R R?
 U 1 1 60D017E8
 P 4930 3850
 AR Path="/608C7842/60D017E8" Ref="R?"  Part="1" 
-AR Path="/6099558B/60D017E8" Ref="R9"  Part="1" 
-F 0 "R9" V 4770 3800 50  0000 L CNN
+AR Path="/6099558B/60D017E8" Ref="R11"  Part="1" 
+F 0 "R11" V 4770 3800 50  0000 L CNN
 F 1 "24" V 4840 3800 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4860 3850 50  0001 C CNN
 F 3 "~" H 4930 3850 50  0001 C CNN
@@ -102,8 +87,8 @@ L Device:R R?
 U 1 1 60D02204
 P 4930 3950
 AR Path="/608C7842/60D02204" Ref="R?"  Part="1" 
-AR Path="/6099558B/60D02204" Ref="R11"  Part="1" 
-F 0 "R11" V 5020 3900 50  0000 L CNN
+AR Path="/6099558B/60D02204" Ref="R13"  Part="1" 
+F 0 "R13" V 5020 3900 50  0000 L CNN
 F 1 "24" V 5090 3900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4860 3950 50  0001 C CNN
 F 3 "~" H 4930 3950 50  0001 C CNN
@@ -128,30 +113,20 @@ Wire Wire Line
 Wire Wire Line
 	6130 5190 6130 5460
 Wire Wire Line
-	6490 3340 6130 3340
+	6650 4090 6130 4090
 Wire Wire Line
-	6420 3440 6490 3440
+	6420 4190 6650 4190
 Wire Wire Line
-	6420 3440 6420 4890
+	6420 4190 6420 4890
 Wire Wire Line
-	6130 3340 6130 4890
-Connection ~ 6490 3850
+	6130 4090 6130 4890
 Wire Wire Line
-	6490 3850 6490 3940
+	6900 5460 6900 4540
 Wire Wire Line
-	5830 3950 5830 3740
+	7050 4540 7050 5460
 Wire Wire Line
-	5830 3740 6490 3740
-Connection ~ 6490 3740
-NoConn ~ 6490 4240
-NoConn ~ 6490 4340
-Wire Wire Line
-	7090 5460 7090 4640
-Wire Wire Line
-	7390 4640 7390 5460
-Wire Wire Line
-	7390 5460 7090 5460
-Connection ~ 7090 5460
+	7050 5460 6900 5460
+Connection ~ 6900 5460
 Wire Wire Line
 	4650 3550 4720 3550
 Wire Wire Line
@@ -296,9 +271,9 @@ AR Path="/60A03F8A/60D586A1" Ref="L?"  Part="1"
 AR Path="/608C7842/60D586A1" Ref="L?"  Part="1" 
 AR Path="/6099558B/60D586A1" Ref="L1"  Part="1" 
 F 0 "L1" H 3792 2906 50  0000 L CNN
-F 1 "600R@100MHz" H 3792 2815 50  0000 L CNN
-F 2 "" H 3740 2860 50  0001 C CNN
-F 3 "~" H 3740 2860 50  0001 C CNN
+F 1 "600R@100MHz [BK2125HS601-T]" H 3792 2815 50  0000 L CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3740 2860 50  0001 C CNN
+F 3 "https://www.terraelectronica.ru/pdf/show?pdf_file=http%253A%252F%252Fwww.mouser.com%252Fds%252F2%252F396%252Fmlci07_e-9531.pdf" H 3740 2860 50  0001 C CNN
 	1    3740 2860
 	1    0    0    -1  
 $EndComp
@@ -307,8 +282,8 @@ L Device:R R?
 U 1 1 60D5DE57
 P 3090 3850
 AR Path="/608C7842/60D5DE57" Ref="R?"  Part="1" 
-AR Path="/6099558B/60D5DE57" Ref="R8"  Part="1" 
-F 0 "R8" V 2930 3800 50  0000 L CNN
+AR Path="/6099558B/60D5DE57" Ref="R10"  Part="1" 
+F 0 "R10" V 2930 3800 50  0000 L CNN
 F 1 "24" V 3000 3800 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3020 3850 50  0001 C CNN
 F 3 "~" H 3090 3850 50  0001 C CNN
@@ -320,8 +295,8 @@ L Device:R R?
 U 1 1 60D5DE5D
 P 3090 3950
 AR Path="/608C7842/60D5DE5D" Ref="R?"  Part="1" 
-AR Path="/6099558B/60D5DE5D" Ref="R10"  Part="1" 
-F 0 "R10" V 3180 3900 50  0000 L CNN
+AR Path="/6099558B/60D5DE5D" Ref="R12"  Part="1" 
+F 0 "R12" V 3180 3900 50  0000 L CNN
 F 1 "24" V 3250 3900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3020 3950 50  0001 C CNN
 F 3 "~" H 3090 3950 50  0001 C CNN
@@ -334,13 +309,10 @@ Wire Wire Line
 	2610 3850 2940 3850
 Connection ~ 6420 5460
 Wire Wire Line
-	6420 5460 7090 5460
+	6420 5460 6900 5460
 Connection ~ 6130 5460
 Wire Wire Line
 	6130 5460 6420 5460
-Connection ~ 5630 3850
-Wire Wire Line
-	5630 3850 6490 3850
 Connection ~ 5730 5460
 Wire Wire Line
 	5730 5460 6130 5460
@@ -392,8 +364,8 @@ L Device:R R?
 U 1 1 60926224
 P 3310 3380
 AR Path="/608C7842/60926224" Ref="R?"  Part="1" 
-AR Path="/6099558B/60926224" Ref="R7"  Part="1" 
-F 0 "R7" H 3150 3370 50  0000 L CNN
+AR Path="/6099558B/60926224" Ref="R9"  Part="1" 
+F 0 "R9" H 3150 3370 50  0000 L CNN
 F 1 "10K" H 3100 3450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3240 3380 50  0001 C CNN
 F 3 "~" H 3310 3380 50  0001 C CNN
@@ -430,7 +402,7 @@ F 3 "~" H 5440 3140 50  0001 C CNN
 $EndComp
 Connection ~ 5440 3140
 Wire Wire Line
-	5440 3140 6490 3140
+	5440 3140 6650 3140
 $Comp
 L power:PWR_FLAG #FLG03
 U 1 1 610CA697
@@ -456,4 +428,44 @@ F 3 "~" H 3560 3140 50  0001 C CNN
 	1    3560 3140
 	1    0    0    -1  
 $EndComp
+$Comp
+L SVIELCOM_Library:USB4085-GF-A_REVA J1
+U 1 1 617291D1
+P 6950 3740
+F 0 "J1" H 6750 4610 50  0000 L CNN
+F 1 "USB4085-GF-A_REVA" H 6560 4500 50  0000 L CNN
+F 2 "SVIELCOM:GCT_USB4085-GF-A_REVA" H 7200 4390 50  0001 L BNN
+F 3 "https://www.farnell.com/cad/2648880.pdf" H 6950 3740 50  0001 L BNN
+F 4 "A2" H 7200 4490 50  0001 L BNN "PARTREV"
+F 5 "3.46mm" H 7200 4040 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "Manufacturer Recommendations" H 7200 4290 50  0001 L BNN "STANDARD"
+F 7 "Global Connector Technology" H 7200 4190 50  0001 L BNN "MANUFACTURER"
+	1    6950 3740
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3340 6460 3340
+Wire Wire Line
+	6650 3540 6460 3540
+Wire Wire Line
+	5630 3540 5630 3850
+Connection ~ 5630 3850
+Wire Wire Line
+	6650 3640 6460 3640
+Wire Wire Line
+	6460 3640 6460 3540
+Connection ~ 6460 3540
+Wire Wire Line
+	6460 3540 5630 3540
+Wire Wire Line
+	5830 3340 5830 3950
+Wire Wire Line
+	6650 3440 6460 3440
+Wire Wire Line
+	6460 3440 6460 3340
+Connection ~ 6460 3340
+Wire Wire Line
+	6460 3340 5830 3340
+NoConn ~ 6650 3840
+NoConn ~ 6650 3940
 $EndSCHEMATC

@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 2 9
 Title "ШВУ"
 Date "2021-03-25"
-Rev "V0.1"
+Rev "V0.3"
 Comp "ЦВЕТМЕТНАЛАДКА"
 Comment1 "Шустов В.И."
 Comment2 ""
@@ -753,7 +753,7 @@ Wire Wire Line
 Wire Wire Line
 	2410 3770 2410 4470
 Wire Wire Line
-	2410 4470 1350 4470
+	2410 4470 1540 4470
 Wire Wire Line
 	1350 4470 1350 7070
 Wire Wire Line
@@ -761,29 +761,15 @@ Wire Wire Line
 Wire Wire Line
 	1480 6970 1220 6970
 Wire Wire Line
-	1220 6970 1220 3670
+	1220 6970 1220 4140
 Wire Wire Line
 	1220 3670 1480 3670
 Wire Wire Line
 	1480 6870 1080 6870
 Wire Wire Line
-	1080 6870 1080 3570
+	1080 6870 1080 4140
 Wire Wire Line
 	1080 3570 1480 3570
-$Comp
-L Device:R R?
-U 1 1 60C51BAE
-P 1460 5250
-AR Path="/60C51BAE" Ref="R?"  Part="1" 
-AR Path="/60A03F8A/60C51BAE" Ref="R?"  Part="1" 
-AR Path="/608C8099/60C51BAE" Ref="R6"  Part="1" 
-F 0 "R6" H 1580 5330 50  0000 C CNN
-F 1 "17,1K" H 1640 5240 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1390 5250 50  0001 C CNN
-F 3 "~" H 1460 5250 50  0001 C CNN
-	1    1460 5250
-	1    0    0    -1  
-$EndComp
 $Comp
 L SVIELCOM_Library:+5V #PWR07
 U 1 1 60C625DC
@@ -799,33 +785,21 @@ Wire Wire Line
 	1460 5400 1460 5470
 Wire Wire Line
 	1460 5470 1480 5470
-Wire Wire Line
-	1880 4950 1880 5020
-Wire Wire Line
-	1460 5100 1460 5020
-Wire Wire Line
-	1460 5020 1880 5020
-Connection ~ 1880 5020
-Wire Wire Line
-	1880 5020 1880 5270
 $Comp
 L Device:R R?
 U 1 1 60C90DD1
 P 1450 1950
 AR Path="/60C90DD1" Ref="R?"  Part="1" 
 AR Path="/60A03F8A/60C90DD1" Ref="R?"  Part="1" 
-AR Path="/608C8099/60C90DD1" Ref="R5"  Part="1" 
-F 0 "R5" H 1570 2030 50  0000 C CNN
-F 1 "17,1K" H 1630 1940 50  0000 C CNN
+AR Path="/608C8099/60C90DD1" Ref="R6"  Part="1" 
+F 0 "R6" H 1320 2040 50  0000 C CNN
+F 1 "16,9K" H 1280 1940 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1380 1950 50  0001 C CNN
 F 3 "~" H 1450 1950 50  0001 C CNN
+F 4 "RC0805FR-0716K9L" H 1450 1950 50  0001 C CNN "Order"
 	1    1450 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1450 1800 1450 1720
-Wire Wire Line
-	1450 1720 1880 1720
 $Comp
 L SVIELCOM_Library:+5V #PWR03
 U 1 1 60C9A9E7
@@ -837,8 +811,6 @@ F 3 "" H 1880 1650 50  0001 C CNN
 	1    1880 1650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1880 1650 1880 1720
 $Comp
 L Driver_LED:MAX7219 U?
 U 1 1 608F051E
@@ -856,9 +828,6 @@ Wire Wire Line
 	1450 2100 1450 2170
 Wire Wire Line
 	1450 2170 1480 2170
-Wire Wire Line
-	1880 1970 1880 1720
-Connection ~ 1880 1720
 NoConn ~ 2280 7070
 $Comp
 L power:GNDREF #PWR?
@@ -907,7 +876,7 @@ Connection ~ 1220 3670
 Text HLabel 980  3770 0    50   Input ~ 0
 SPI6_MOSI
 Wire Wire Line
-	980  3770 1480 3770
+	980  3770 1450 3770
 Text Label 1240 3670 0    50   ~ 0
 PG13
 Text Label 1240 3770 0    50   ~ 0
@@ -1038,8 +1007,8 @@ U 1 1 60D74293
 P 9870 1940
 AR Path="/60D74293" Ref="R?"  Part="1" 
 AR Path="/60A03F8A/60D74293" Ref="R?"  Part="1" 
-AR Path="/608C8099/60D74293" Ref="R4"  Part="1" 
-F 0 "R4" V 9780 1900 50  0000 C CNN
+AR Path="/608C8099/60D74293" Ref="R5"  Part="1" 
+F 0 "R5" V 9780 1900 50  0000 C CNN
 F 1 "47K" V 9970 1910 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9800 1940 50  0001 C CNN
 F 3 "~" H 9870 1940 50  0001 C CNN
@@ -1052,8 +1021,8 @@ U 1 1 60D74E3B
 P 8140 1930
 AR Path="/60D74E3B" Ref="R?"  Part="1" 
 AR Path="/60A03F8A/60D74E3B" Ref="R?"  Part="1" 
-AR Path="/608C8099/60D74E3B" Ref="R3"  Part="1" 
-F 0 "R3" V 8050 1890 50  0000 C CNN
+AR Path="/608C8099/60D74E3B" Ref="R4"  Part="1" 
+F 0 "R4" V 8050 1890 50  0000 C CNN
 F 1 "47K" V 8240 1900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8070 1930 50  0001 C CNN
 F 3 "~" H 8140 1930 50  0001 C CNN
@@ -1101,6 +1070,115 @@ Text Notes 8770 1640 0    50   ~ 0
 "WEST"
 Text Notes 10460 1640 0    50   ~ 0
 "EAST"
+Wire Wire Line
+	1880 1650 1880 1720
+$Comp
+L Device:R R?
+U 1 1 618A3C48
+P 1670 1720
+AR Path="/618A3C48" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/618A3C48" Ref="R?"  Part="1" 
+AR Path="/608C8099/618A3C48" Ref="R3"  Part="1" 
+F 0 "R3" V 1560 1610 50  0000 C CNN
+F 1 "200" V 1560 1800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1600 1720 50  0001 C CNN
+F 3 "~" H 1670 1720 50  0001 C CNN
+F 4 "ERJ6ENF2000V" H 1670 1720 50  0001 C CNN "Order"
+	1    1670 1720
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1450 1800 1450 1720
+Wire Wire Line
+	1450 1720 1520 1720
+Wire Wire Line
+	1820 1720 1880 1720
+Connection ~ 1880 1720
+Wire Wire Line
+	1880 1720 1880 1970
+Wire Wire Line
+	1880 4950 1880 5020
+$Comp
+L Device:R R?
+U 1 1 618BA407
+P 1460 5250
+AR Path="/618BA407" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/618BA407" Ref="R?"  Part="1" 
+AR Path="/608C8099/618BA407" Ref="R8"  Part="1" 
+F 0 "R8" H 1570 5320 50  0000 C CNN
+F 1 "16,9K" H 1620 5240 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1390 5250 50  0001 C CNN
+F 3 "~" H 1460 5250 50  0001 C CNN
+F 4 "RC0805FR-0716K9L" H 1460 5250 50  0001 C CNN "Order"
+	1    1460 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618BA40E
+P 1680 5020
+AR Path="/618BA40E" Ref="R?"  Part="1" 
+AR Path="/60A03F8A/618BA40E" Ref="R?"  Part="1" 
+AR Path="/608C8099/618BA40E" Ref="R7"  Part="1" 
+F 0 "R7" V 1570 4910 50  0000 C CNN
+F 1 "200" V 1570 5100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1610 5020 50  0001 C CNN
+F 3 "~" H 1680 5020 50  0001 C CNN
+F 4 "ERJ6ENF2000V" H 1680 5020 50  0001 C CNN "Order"
+	1    1680 5020
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1460 5100 1460 5020
+Wire Wire Line
+	1460 5020 1530 5020
+Wire Wire Line
+	1830 5020 1880 5020
+Connection ~ 1880 5020
+Wire Wire Line
+	1880 5020 1880 5270
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61C03EE6
+P 1540 4470
+AR Path="/60D8C564/61C03EE6" Ref="TP?"  Part="1" 
+AR Path="/608C8099/61C03EE6" Ref="TP4"  Part="1" 
+F 0 "TP4" H 1490 4680 50  0000 L CNN
+F 1 "TestPoint" H 1600 4670 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1740 4470 50  0001 C CNN
+F 3 "~" H 1740 4470 50  0001 C CNN
+	1    1540 4470
+	1    0    0    -1  
+$EndComp
+Connection ~ 1540 4470
+Wire Wire Line
+	1540 4470 1350 4470
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61C0EE07
+P 1080 4140
+AR Path="/60D8C564/61C0EE07" Ref="TP?"  Part="1" 
+AR Path="/608C8099/61C0EE07" Ref="TP2"  Part="1" 
+F 0 "TP2" H 1030 4350 50  0000 L CNN
+F 1 "TestPoint" H 1140 4340 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1280 4140 50  0001 C CNN
+F 3 "~" H 1280 4140 50  0001 C CNN
+	1    1080 4140
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61C19E94
+P 1220 4140
+AR Path="/60D8C564/61C19E94" Ref="TP?"  Part="1" 
+AR Path="/608C8099/61C19E94" Ref="TP3"  Part="1" 
+F 0 "TP3" H 1170 4350 50  0000 L CNN
+F 1 "TestPoint" H 1280 4340 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1420 4140 50  0001 C CNN
+F 3 "~" H 1420 4140 50  0001 C CNN
+	1    1220 4140
+	0    1    1    0   
+$EndComp
 Wire Bus Line
 	2550 690  6810 690 
 Wire Bus Line
@@ -1117,4 +1195,26 @@ Wire Bus Line
 	3830 790  3830 3250
 Wire Bus Line
 	2550 690  2550 3570
+Connection ~ 1220 4140
+Wire Wire Line
+	1220 4140 1220 3670
+Connection ~ 1080 4140
+Wire Wire Line
+	1080 4140 1080 3570
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61C24CDA
+P 1450 3770
+AR Path="/60D8C564/61C24CDA" Ref="TP?"  Part="1" 
+AR Path="/608C8099/61C24CDA" Ref="TP1"  Part="1" 
+F 0 "TP1" H 1400 3980 50  0000 L CNN
+F 1 "TestPoint" H 1510 3970 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1650 3770 50  0001 C CNN
+F 3 "~" H 1650 3770 50  0001 C CNN
+	1    1450 3770
+	-1   0    0    1   
+$EndComp
+Connection ~ 1450 3770
+Wire Wire Line
+	1450 3770 1480 3770
 $EndSCHEMATC

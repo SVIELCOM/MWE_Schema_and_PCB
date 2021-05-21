@@ -1,4 +1,4 @@
-update=Пт 21 мая 2021 11:08:44
+update=Пт 21 мая 2021 14:02:44
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Схема и печатная плата.net
+LastNetListRead=PCB.net
 CopperLayerCount=4
 BoardThickness=2
 AllowMicroVias=0

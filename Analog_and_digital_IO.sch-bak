@@ -47,7 +47,7 @@ AR Path="/60D90026" Ref="U?"  Part="1"
 AR Path="/60D8C564/60D90026" Ref="U18"  Part="1" 
 F 0 "U18" H 4390 2185 50  0000 C CNN
 F 1 "ISO224ADWVR" H 4390 2094 50  0000 C CNN
-F 2 "Texas_Instruments-DWV0008A-0-0-*" H 3740 2320 50  0001 L CNN
+F 2 "SVIELCOM:Texas_Instruments-DWV0008A-0-0-IPC_A" H 3740 2320 50  0001 L CNN
 F 3 "https://www.ti.com/lit/ds/symlink/iso224.pdf" H 3740 2420 50  0001 L CNN
 F 4 "+125°C" H 3740 2520 50  0001 L CNN "ambient temperature range high"
 F 5 "-55°C" H 3740 2620 50  0001 L CNN "ambient temperature range low"
@@ -828,7 +828,7 @@ AR Path="/60B39259" Ref="U?"  Part="1"
 AR Path="/60D8C564/60B39259" Ref="U21"  Part="1" 
 F 0 "U21" H 4440 5245 50  0000 C CNN
 F 1 "ISO224ADWVR" H 4440 5154 50  0000 C CNN
-F 2 "Texas_Instruments-DWV0008A-0-0-*" H 3790 5380 50  0001 L CNN
+F 2 "SVIELCOM:Texas_Instruments-DWV0008A-0-0-IPC_A" H 3790 5380 50  0001 L CNN
 F 3 "https://www.ti.com/lit/ds/symlink/iso224.pdf" H 3790 5480 50  0001 L CNN
 F 4 "+125°C" H 3790 5580 50  0001 L CNN "ambient temperature range high"
 F 5 "-55°C" H 3790 5680 50  0001 L CNN "ambient temperature range low"
@@ -1502,7 +1502,7 @@ AR Path="/60BB246B" Ref="U?"  Part="1"
 AR Path="/60D8C564/60BB246B" Ref="U27"  Part="1" 
 F 0 "U27" H 4550 8805 50  0000 C CNN
 F 1 "ISO224ADWVR" H 4550 8714 50  0000 C CNN
-F 2 "Texas_Instruments-DWV0008A-0-0-*" H 3900 8940 50  0001 L CNN
+F 2 "SVIELCOM:Texas_Instruments-DWV0008A-0-0-IPC_A" H 3900 8940 50  0001 L CNN
 F 3 "https://www.ti.com/lit/ds/symlink/iso224.pdf" H 3900 9040 50  0001 L CNN
 F 4 "+125°C" H 3900 9140 50  0001 L CNN "ambient temperature range high"
 F 5 "-55°C" H 3900 9240 50  0001 L CNN "ambient temperature range low"

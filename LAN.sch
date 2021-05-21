@@ -21,7 +21,7 @@ AR Path="/6091F45D" Ref="U?"  Part="1"
 AR Path="/608C7842/6091F45D" Ref="U30"  Part="1" 
 F 0 "U30" H 4790 3535 50  0000 C CNN
 F 1 "LAN8742A-CZ-TR" H 4790 3444 50  0000 C CNN
-F 2 "LAN8742:Microchip-C04-143B-S4QFN-0-0-*" H 3290 3670 50  0001 L CNN
+F 2 "SVIELCOM:Microchip-C04-143B-S4QFN-0-0-IPC_A" H 3290 3670 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/DS_LAN8742_00001989A.pdf" H 3290 3770 50  0001 L CNN
 F 4 "+70°C" H 3290 3870 50  0001 L CNN "ambient temperature range high"
 F 5 "0°C" H 3290 3970 50  0001 L CNN "ambient temperature range low"

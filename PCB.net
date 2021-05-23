@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/home/cableman/Documents/ШВУ/New project/Schema_and_PCB/Schema_and_PCB.sch")
-    (date "Пт 21 мая 2021 14:02:16")
+    (date "Пт 21 мая 2021 14:06:21")
     (tool "Eeschema 5.1.10-88a1d61d58~88~ubuntu20.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -2407,7 +2407,7 @@
       (tstamp 60D719AD))
     (comp (ref U30)
       (value LAN8742A-CZ-TR)
-      (footprint LAN8742:Microchip-C04-143B-S4QFN-0-0-*)
+      (footprint SVIELCOM:Microchip-C04-143B-S4QFN-0-0-IPC_A)
       (datasheet http://ww1.microchip.com/downloads/en/DeviceDoc/DS_LAN8742_00001989A.pdf)
       (fields
         (field (name "ambient temperature range high") +70°C)

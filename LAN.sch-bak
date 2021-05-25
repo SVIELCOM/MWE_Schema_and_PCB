@@ -548,21 +548,6 @@ Wire Wire Line
 	1130 4940 1380 4940
 Text HLabel 1130 4940 0    50   BiDi ~ 0
 RMII_REF_CLK
-$Comp
-L Device:L L?
-U 1 1 609E3A1C
-P 6120 1830
-AR Path="/609E3A1C" Ref="L?"  Part="1" 
-AR Path="/60A03F8A/609E3A1C" Ref="L?"  Part="1" 
-AR Path="/608C7842/609E3A1C" Ref="L6"  Part="1" 
-F 0 "L6" H 6172 1876 50  0000 L CNN
-F 1 "600R@100MHz" H 6172 1785 50  0000 L CNN
-F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6120 1830 50  0001 C CNN
-F 3 "~" H 6120 1830 50  0001 C CNN
-F 4 "BK2125HS601-T" H 6120 1830 50  0001 C CNN "Type"
-	1    6120 1830
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6120 1980 6120 2100
 Connection ~ 6120 2100
@@ -1074,4 +1059,19 @@ $EndComp
 Connection ~ 10020 4820
 Wire Wire Line
 	10020 4820 10020 4660
+$Comp
+L Device:L L?
+U 1 1 609E3A1C
+P 6120 1830
+AR Path="/609E3A1C" Ref="L?"  Part="1" 
+AR Path="/60A03F8A/609E3A1C" Ref="L?"  Part="1" 
+AR Path="/608C7842/609E3A1C" Ref="L6"  Part="1" 
+F 0 "L6" H 6172 1876 50  0000 L CNN
+F 1 "600R@100MHz" H 6172 1785 50  0000 L CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6120 1830 50  0001 C CNN
+F 3 "~" H 6120 1830 50  0001 C CNN
+F 4 "BK2125HS601-T" H 6120 1830 50  0001 C CNN "Type"
+	1    6120 1830
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

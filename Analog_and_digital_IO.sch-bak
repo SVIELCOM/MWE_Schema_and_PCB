@@ -36,6 +36,7 @@ F 0 "L3" H 1740 2501 50  0000 C CNN
 F 1 "B82790C0225N265" H 1550 2420 50  0000 C CNN
 F 2 "Inductor_SMD:L_CommonMode_Delevan_4222" H 1740 2220 50  0001 C CNN
 F 3 "https://www.terraelectronica.ru/pdf/show?pdf_file=%252Fds%252Fpdf%252FB%252FB82790.pdf" H 1740 2220 50  0001 C CNN
+F 4 "B82790C0225N265" H 1740 2220 50  0001 C CNN "Type"
 	1    1740 2220
 	1    0    0    -1  
 $EndComp
@@ -829,6 +830,7 @@ F 0 "L4" H 1790 5561 50  0000 C CNN
 F 1 "B82790C0225N265" H 1600 5480 50  0000 C CNN
 F 2 "Inductor_SMD:L_CommonMode_Delevan_4222" H 1790 5280 50  0001 C CNN
 F 3 "https://www.terraelectronica.ru/pdf/show?pdf_file=%252Fds%252Fpdf%252FB%252FB82790.pdf" H 1790 5280 50  0001 C CNN
+F 4 "B82790C0225N265" H 1790 5280 50  0001 C CNN "Type"
 	1    1790 5280
 	1    0    0    -1  
 $EndComp
@@ -1513,6 +1515,7 @@ F 0 "L5" H 1900 9121 50  0000 C CNN
 F 1 "B82790C0225N265" H 1710 9040 50  0000 C CNN
 F 2 "Inductor_SMD:L_CommonMode_Delevan_4222" H 1900 8840 50  0001 C CNN
 F 3 "https://www.terraelectronica.ru/pdf/show?pdf_file=%252Fds%252Fpdf%252FB%252FB82790.pdf" H 1900 8840 50  0001 C CNN
+F 4 "B82790C0225N265" H 1900 8840 50  0001 C CNN "Type"
 	1    1900 8840
 	1    0    0    -1  
 $EndComp

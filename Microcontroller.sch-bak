@@ -100,14 +100,11 @@ Wire Wire Line
 	1270 3310 1780 3310
 Text Label 1270 3310 0    50   ~ 0
 SWO
-NoConn ~ 1780 3410
-NoConn ~ 1780 3510
-Text HLabel 1270 3610 0    50   BiDi ~ 0
+Text HLabel 1270 3610 0    50   Output ~ 0
 QUADSPI_BK1_NCS
 NoConn ~ 1780 3710
 Text HLabel 1270 3810 0    50   Input ~ 0
 SDMMC1_CKIN
-NoConn ~ 1780 3910
 NoConn ~ 1780 4010
 Text HLabel 1270 4110 0    50   BiDi ~ 0
 RMII_TX_EN
@@ -179,8 +176,6 @@ Wire Wire Line
 	6640 1510 6130 1510
 Text HLabel 6130 1510 0    50   BiDi ~ 0
 SDMMC1_CMD
-NoConn ~ 6640 1610
-NoConn ~ 6640 1710
 Wire Wire Line
 	6130 1810 6640 1810
 Text Label 6130 1810 0    50   ~ 0
@@ -550,10 +545,30 @@ Text Label 4310 5820 2    50   ~ 0
 I2C2_SCL
 Wire Wire Line
 	3580 1910 4090 1910
-Text HLabel 4090 1910 2    50   Input ~ 0
+Text HLabel 1270 3410 0    50   Input ~ 0
 ENCODER_A
 Wire Wire Line
 	3580 2010 4090 2010
-Text HLabel 4090 2010 2    50   Input ~ 0
+Text HLabel 1270 3510 0    50   Input ~ 0
 ENCODER_B
+Text HLabel 4090 1910 2    50   Output ~ 0
+SDMMC1_D0DIR
+Text HLabel 4090 2010 2    50   Output ~ 0
+SDMMC1_D123DIR
+Text HLabel 1270 3910 0    50   Output ~ 0
+SDMMC1_CDIR
+Wire Wire Line
+	1270 3910 1780 3910
+Text HLabel 6130 1710 0    50   Input ~ 0
+SD_CARD_INS
+Text HLabel 6130 1610 0    50   Output ~ 0
+SD_CARD_CS
+Wire Wire Line
+	6130 1610 6640 1610
+Wire Wire Line
+	6640 1710 6130 1710
+Wire Wire Line
+	1270 3410 1780 3410
+Wire Wire Line
+	1780 3510 1270 3510
 $EndSCHEMATC

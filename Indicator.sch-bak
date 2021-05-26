@@ -1183,22 +1183,6 @@ F 3 "~" H 1420 4140 50  0001 C CNN
 	1    1220 4140
 	0    1    1    0   
 $EndComp
-Wire Bus Line
-	2550 690  6810 690 
-Wire Bus Line
-	2550 4100 8320 4100
-Wire Bus Line
-	6810 690  6810 3150
-Wire Bus Line
-	3830 4200 3830 7420
-Wire Bus Line
-	6810 4200 6810 7320
-Wire Bus Line
-	2550 4100 2550 6870
-Wire Bus Line
-	3830 790  3830 3250
-Wire Bus Line
-	2550 690  2550 3570
 Connection ~ 1220 4140
 Wire Wire Line
 	1220 4140 1220 3670
@@ -1221,4 +1205,20 @@ $EndComp
 Connection ~ 1450 3770
 Wire Wire Line
 	1450 3770 1480 3770
+Wire Bus Line
+	2550 690  6810 690 
+Wire Bus Line
+	2550 4100 8320 4100
+Wire Bus Line
+	6810 690  6810 3150
+Wire Bus Line
+	3830 4200 3830 7420
+Wire Bus Line
+	6810 4200 6810 7320
+Wire Bus Line
+	2550 4100 2550 6870
+Wire Bus Line
+	3830 790  3830 3250
+Wire Bus Line
+	2550 690  2550 3570
 $EndSCHEMATC

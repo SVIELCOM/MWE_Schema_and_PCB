@@ -3116,7 +3116,7 @@ Wire Wire Line
 Text HLabel 15040 7200 2    50   Output ~ 0
 ENCODER_A
 Text Label 14810 7200 0    50   ~ 0
-PC6
+PB4
 $Comp
 L Isolator:ISO1211 U?
 U 1 1 6137487F
@@ -3269,7 +3269,7 @@ Wire Wire Line
 Text HLabel 15040 8470 2    50   Output ~ 0
 ENCODER_B
 Text Label 14810 8470 0    50   ~ 0
-PC7
+PB5
 $Comp
 L dk_Rectangular-Connectors-Headers-Male-Pins:0022232031 J9
 U 1 1 6139B5AD

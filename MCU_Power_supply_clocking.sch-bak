@@ -1964,26 +1964,6 @@ $EndComp
 Wire Wire Line
 	2750 1250 3490 1250
 $Comp
-L dk_Terminal-Blocks-Wire-to-Board:OSTTC020162 J3
-U 1 1 60F32F26
-P 9040 6170
-F 0 "J3" H 9218 6299 50  0000 L CNN
-F 1 "OSTTC020162" H 9218 6208 50  0000 L CNN
-F 2 "digikey-footprints:Term_Block_1x2_P5mm" H 9240 6370 60  0001 L CNN
-F 3 "http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf" H 9240 6470 60  0001 L CNN
-F 4 "ED2600-ND" H 9240 6570 60  0001 L CNN "Digi-Key_PN"
-F 5 "OSTTC020162" H 9240 6670 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 9240 6770 60  0001 L CNN "Category"
-F 7 "Terminal Blocks - Wire to Board" H 9240 6870 60  0001 L CNN "Family"
-F 8 "http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf" H 9240 6970 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-shore-technology-inc/OSTTC020162/ED2600-ND/614549" H 9240 7070 60  0001 L CNN "DK_Detail_Page"
-F 10 "TERM BLK 2POS SIDE ENTRY 5MM PCB" H 9240 7170 60  0001 L CNN "Description"
-F 11 "On Shore Technology Inc." H 9240 7270 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9240 7370 60  0001 L CNN "Status"
-	1    9040 6170
-	1    0    0    -1  
-$EndComp
-$Comp
 L dk_Terminal-Blocks-Wire-to-Board:OSTTC020162 J2
 U 1 1 60F35197
 P 8160 6170
@@ -2005,8 +1985,6 @@ F 12 "Active" H 8360 7370 60  0001 L CNN "Status"
 $EndComp
 Text Notes 7890 6320 0    50   ~ 0
 5V_from_main_PSU
-Text Notes 8810 6320 0    50   ~ 0
-24V_from_main_PSU
 $Comp
 L power:GNDREF #PWR?
 U 1 1 60F367E2
@@ -2021,19 +1999,6 @@ F 3 "" H 8160 5970 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GNDREF #PWR?
-U 1 1 60F37626
-P 9040 5970
-AR Path="/60F37626" Ref="#PWR?"  Part="1" 
-AR Path="/60A03F8A/60F37626" Ref="#PWR047"  Part="1" 
-F 0 "#PWR047" H 9040 5720 50  0001 C CNN
-F 1 "GNDREF" H 9045 5797 50  0001 C CNN
-F 2 "" H 9040 5970 50  0001 C CNN
-F 3 "" H 9040 5970 50  0001 C CNN
-	1    9040 5970
-	-1   0    0    1   
-$EndComp
-$Comp
 L SVIELCOM_Library:+5V #PWR046
 U 1 1 60F37D7B
 P 8260 5970
@@ -2042,17 +2007,6 @@ F 1 "+5V" H 8275 6143 50  0000 C CNN
 F 2 "" H 8260 5970 50  0001 C CNN
 F 3 "" H 8260 5970 50  0001 C CNN
 	1    8260 5970
-	1    0    0    -1  
-$EndComp
-$Comp
-L SVIELCOM_Library:+24V #PWR048
-U 1 1 60F390D1
-P 9140 5970
-F 0 "#PWR048" H 9290 6020 50  0001 C CNN
-F 1 "+24V" H 9155 6143 50  0000 C CNN
-F 2 "" H 9140 5970 50  0001 C CNN
-F 3 "" H 9140 5970 50  0001 C CNN
-	1    9140 5970
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2077,18 +2031,6 @@ F 3 "~" H 8260 5970 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 8260 5970
-$Comp
-L power:PWR_FLAG #FLG08
-U 1 1 610E04FC
-P 9140 5970
-F 0 "#FLG08" H 9140 6045 50  0001 C CNN
-F 1 "PWR_FLAG" V 9140 6098 50  0001 L CNN
-F 2 "" H 9140 5970 50  0001 C CNN
-F 3 "~" H 9140 5970 50  0001 C CNN
-	1    9140 5970
-	0    1    1    0   
-$EndComp
-Connection ~ 9140 5970
 $Comp
 L power:PWR_FLAG #FLG04
 U 1 1 61140523

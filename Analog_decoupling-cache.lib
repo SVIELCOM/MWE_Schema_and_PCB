@@ -285,6 +285,76 @@ X ~ 2 100 100 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# dk_Rectangular-Connectors-Headers-Male-Pins_302-S101
+#
+DEF dk_Rectangular-Connectors-Headers-Male-Pins_302-S101 J 0 40 Y Y 1 F N
+F0 "J" -100 300 50 H V L CNN
+F1 "dk_Rectangular-Connectors-Headers-Male-Pins_302-S101" 0 -300 50 H V C CNN
+F2 "digikey-footprints:PinHeader_2x5_P2.54mm_Drill1.2mm" 200 200 60 H I L CNN
+F3 "http://www.on-shore.com/wp-content/uploads/2018/04/302-SXX1.pdf" 200 300 60 V I L CNN
+F4 "ED1543-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "302-S101" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Rectangular Connectors - Headers, Male Pins" 200 700 60 H I L CNN "Family"
+F8 "http://www.on-shore.com/wp-content/uploads/2018/04/302-SXX1.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/on-shore-technology-inc/302-S101/ED1543-ND/2178422" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN HEADER VERT 10POS 2.54MM" 200 1000 60 H I L CNN "Description"
+F11 "On Shore Technology Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -100 250 100 -250 1 1 0 f
+S -60 -190 -40 -210 1 1 0 F
+S -60 -90 -40 -110 1 1 0 F
+S -60 10 -40 -10 1 1 0 F
+S -60 110 -40 90 1 1 0 F
+S -60 210 -40 190 1 1 0 F
+S 40 -190 60 -210 1 1 0 F
+S 40 -90 60 -110 1 1 0 F
+S 40 10 60 -10 1 1 0 F
+S 40 110 60 90 1 1 0 F
+S 40 210 60 190 1 1 0 F
+X ~ 1 -200 200 100 R 50 50 1 1 P
+X ~ 10 200 -200 100 L 50 50 1 1 P
+X ~ 2 200 200 100 L 50 50 1 1 P
+X ~ 3 -200 100 100 R 50 50 1 1 P
+X ~ 4 200 100 100 L 50 50 1 1 P
+X ~ 5 -200 0 100 R 50 50 1 1 P
+X ~ 6 200 0 100 L 50 50 1 1 P
+X ~ 7 -200 -100 100 R 50 50 1 1 P
+X ~ 8 200 -100 100 L 50 50 1 1 P
+X ~ 9 -200 -200 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Terminal-Blocks-Wire-to-Board_OSTTC020162
+#
+DEF dk_Terminal-Blocks-Wire-to-Board_OSTTC020162 J 0 40 Y Y 1 F N
+F0 "J" -100 50 50 H V R CNN
+F1 "dk_Terminal-Blocks-Wire-to-Board_OSTTC020162" 50 -100 50 H V C CNN
+F2 "digikey-footprints:Term_Block_1x2_P5mm" 200 200 60 H I L CNN
+F3 "http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf" 200 300 60 H I L CNN
+F4 "ED2600-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "OSTTC020162" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Terminal Blocks - Wire to Board" 200 700 60 H I L CNN "Family"
+F8 "http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/on-shore-technology-inc/OSTTC020162/ED2600-ND/614549" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "TERM BLK 2POS SIDE ENTRY 5MM PCB" 200 1000 60 H I L CNN "Description"
+F11 "On Shore Technology Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C 0 0 25 1 1 0 N
+C 100 0 25 1 1 0 N
+S -50 100 150 -50 1 1 0 f
+P 2 1 1 0 0 25 0 -25 N
+P 2 1 1 0 25 0 -25 0 N
+P 2 1 1 0 75 0 125 0 N
+P 2 1 1 0 100 25 100 -25 N
+X ~ 1 0 200 100 D 50 50 1 1 P
+X ~ 2 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # power_GNDREF
 #
 DEF power_GNDREF #PWR 0 0 Y Y 1 F P

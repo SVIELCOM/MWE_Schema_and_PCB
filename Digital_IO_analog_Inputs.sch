@@ -1011,4 +1011,169 @@ $EndComp
 Connection ~ 7920 4280
 Wire Wire Line
 	7920 4280 7920 4410
+Text HLabel 3350 5450 2    50   Output ~ 0
+ADC1_P
+Text HLabel 3350 5750 2    50   Output ~ 0
+A_CH1_FAULT
+Text HLabel 3350 5550 2    50   Output ~ 0
+ADC2_P
+Text HLabel 1550 5850 0    50   Output ~ 0
+A_CH2_FAULT
+Text HLabel 3350 5650 2    50   Output ~ 0
+ADC3_P
+Text HLabel 3350 5850 2    50   Output ~ 0
+A_CH3_FAULT
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:302-S101 J3
+U 1 1 60B0C96F
+P 2150 5650
+F 0 "J3" H 2150 6100 50  0000 C CNN
+F 1 "302-S101" H 2150 6000 50  0000 C CNN
+F 2 "digikey-footprints:PinHeader_2x5_P2.54mm_Drill1.2mm" H 2350 5850 60  0001 L CNN
+F 3 "http://www.on-shore.com/wp-content/uploads/2018/04/302-SXX1.pdf" V 2350 5950 60  0001 L CNN
+F 4 "ED1543-ND" H 2350 6050 60  0001 L CNN "Digi-Key_PN"
+F 5 "302-S101" H 2350 6150 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 2350 6250 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 2350 6350 60  0001 L CNN "Family"
+F 8 "http://www.on-shore.com/wp-content/uploads/2018/04/302-SXX1.pdf" H 2350 6450 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-shore-technology-inc/302-S101/ED1543-ND/2178422" H 2350 6550 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 10POS 2.54MM" H 2350 6650 60  0001 L CNN "Description"
+F 11 "On Shore Technology Inc." H 2350 6750 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2350 6850 60  0001 L CNN "Status"
+	1    2150 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 5850 1550 5850
+Wire Wire Line
+	2350 5450 2500 5450
+Wire Wire Line
+	1950 5450 1850 5450
+Wire Wire Line
+	1850 5450 1850 5550
+Wire Wire Line
+	1950 5550 1850 5550
+Connection ~ 1850 5550
+Wire Wire Line
+	1850 5550 1850 5650
+Wire Wire Line
+	1950 5650 1850 5650
+Connection ~ 1850 5650
+Wire Wire Line
+	1850 5650 1850 5750
+Wire Wire Line
+	1950 5750 1850 5750
+Connection ~ 1850 5750
+Wire Wire Line
+	1850 5750 1850 6250
+$Comp
+L Device:C C?
+U 1 1 60B910A1
+P 2500 6100
+AR Path="/60B910A1" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60B910A1" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60B910A1" Ref="C48"  Part="1" 
+F 0 "C48" H 2350 6200 50  0000 L CNN
+F 1 "330pF" H 2250 5900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2538 5950 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 2500 6100 50  0001 C CNN
+F 4 "GRM188R71H331KA01D" H 2500 6100 50  0001 C CNN "Type"
+	1    2500 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 5950 2500 5450
+$Comp
+L Device:C C?
+U 1 1 60B9DA68
+P 2750 6100
+AR Path="/60B9DA68" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60B9DA68" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60B9DA68" Ref="C49"  Part="1" 
+F 0 "C49" H 2600 6200 50  0000 L CNN
+F 1 "330pF" H 2500 5900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2788 5950 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 2750 6100 50  0001 C CNN
+F 4 "GRM188R71H331KA01D" H 2750 6100 50  0001 C CNN "Type"
+	1    2750 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60B9DF75
+P 3000 6100
+AR Path="/60B9DF75" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60B9DF75" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60B9DF75" Ref="C50"  Part="1" 
+F 0 "C50" H 2850 6200 50  0000 L CNN
+F 1 "330pF" H 2750 5900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3038 5950 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 3000 6100 50  0001 C CNN
+F 4 "GRM188R71H331KA01D" H 3000 6100 50  0001 C CNN "Type"
+	1    3000 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 5950 2750 5550
+Wire Wire Line
+	2750 5550 2350 5550
+Wire Wire Line
+	3000 5950 3000 5750
+Wire Wire Line
+	2350 5650 3000 5650
+Wire Wire Line
+	3000 5650 3350 5650
+Wire Wire Line
+	2350 5750 3000 5750
+Wire Wire Line
+	2350 5850 3350 5850
+Wire Wire Line
+	2750 5550 3350 5550
+Wire Wire Line
+	2500 5450 3350 5450
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60BCDF96
+P 1850 6350
+AR Path="/60BCDF96" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60BCDF96" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60BCDF96" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 1850 6100 50  0001 C CNN
+F 1 "GNDREF" V 1855 6222 50  0001 R CNN
+F 2 "" H 1850 6350 50  0001 C CNN
+F 3 "" H 1850 6350 50  0001 C CNN
+	1    1850 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 6250 2500 6250
+Connection ~ 1850 6250
+Wire Wire Line
+	1850 6250 1850 6350
+Connection ~ 2500 6250
+Wire Wire Line
+	2500 6250 2750 6250
+Connection ~ 2750 6250
+Wire Wire Line
+	2750 6250 3000 6250
+Text Label 3150 5650 0    50   ~ 0
+PF5
+Text Label 3150 5850 0    50   ~ 0
+PF4
+Text Label 3100 5550 0    50   ~ 0
+PF13
+Text Label 1600 5850 0    50   ~ 0
+PF14
+Text Label 3100 5450 0    50   ~ 0
+PF12
+Text Label 3100 5750 0    50   ~ 0
+PF11
+Connection ~ 3000 5750
+Wire Wire Line
+	3000 5750 3000 5650
+Wire Wire Line
+	3000 5750 3350 5750
+Connection ~ 2500 5450
+Connection ~ 2750 5550
+Connection ~ 3000 5650
 $EndSCHEMATC

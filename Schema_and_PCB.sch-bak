@@ -65,8 +65,8 @@ $EndSheet
 $Sheet
 S 3429 850  1171 1300
 U 60D8C564
-F0 "Analog_and_digital_IO" 50
-F1 "Analog_and_digital_IO.sch" 50
+F0 "Digital_IO_analog_Inputs" 50
+F1 "Digital_IO_analog_Inputs.sch" 50
 F2 "ADC1_P" O R 4600 950 50 
 F3 "A_CH1_FAULT" O R 4600 1050 50 
 F4 "ADC2_P" O R 4600 1200 50 

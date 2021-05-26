@@ -764,49 +764,14 @@ F 4 "RC0805FR-071K1L" V 8550 2220 50  0001 C CNN "Type"
 	1    8550 2220
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:C C9
-U 1 1 60ADF23E
-P 8810 2530
-AR Path="/60ADF23E" Ref="C9"  Part="1" 
-AR Path="/60A03F8A/60ADF23E" Ref="C?"  Part="1" 
-AR Path="/60D8C564/60ADF23E" Ref="C?"  Part="1" 
-F 0 "C9" H 8540 2640 50  0000 L CNN
-F 1 "330pF" H 8450 2560 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8848 2380 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 8810 2530 50  0001 C CNN
-F 4 "GRM188R71H331KA01D" H 8810 2530 50  0001 C CNN "Type"
-	1    8810 2530
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8700 2220 8810 2220
 Wire Wire Line
-	8810 2220 8810 2380
-$Comp
-L power:GNDREF #PWR06
-U 1 1 60AE2E2B
-P 8810 2680
-AR Path="/60AE2E2B" Ref="#PWR06"  Part="1" 
-AR Path="/60A03F8A/60AE2E2B" Ref="#PWR?"  Part="1" 
-AR Path="/60D8C564/60AE2E2B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR06" H 8810 2430 50  0001 C CNN
-F 1 "GNDREF" V 8815 2552 50  0001 R CNN
-F 2 "" H 8810 2680 50  0001 C CNN
-F 3 "" H 8810 2680 50  0001 C CNN
-	1    8810 2680
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9540 2220 8810 2220
+	9740 2220 8810 2220
 Connection ~ 8810 2220
-Text HLabel 9540 2220 2    50   Output ~ 0
-ADC1_P
 Wire Wire Line
 	7890 3120 7320 3120
 Connection ~ 7320 3120
-Text HLabel 7890 3120 2    50   Output ~ 0
-A_CH1_FAULT
 $Comp
 L Device:L_Core_Ferrite_Coupled L2
 U 1 1 60B39235
@@ -1417,49 +1382,14 @@ F 4 "RC0805FR-071K1L" V 8600 5280 50  0001 C CNN "Type"
 	1    8600 5280
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:C C16
-U 1 1 60B393D6
-P 8860 5590
-AR Path="/60B393D6" Ref="C16"  Part="1" 
-AR Path="/60A03F8A/60B393D6" Ref="C?"  Part="1" 
-AR Path="/60D8C564/60B393D6" Ref="C?"  Part="1" 
-F 0 "C16" H 8590 5700 50  0000 L CNN
-F 1 "330pF" H 8500 5620 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8898 5440 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 8860 5590 50  0001 C CNN
-F 4 "GRM188R71H331KA01D" H 8860 5590 50  0001 C CNN "Type"
-	1    8860 5590
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8750 5280 8860 5280
 Wire Wire Line
-	8860 5280 8860 5440
-$Comp
-L power:GNDREF #PWR015
-U 1 1 60B393DE
-P 8860 5740
-AR Path="/60B393DE" Ref="#PWR015"  Part="1" 
-AR Path="/60A03F8A/60B393DE" Ref="#PWR?"  Part="1" 
-AR Path="/60D8C564/60B393DE" Ref="#PWR?"  Part="1" 
-F 0 "#PWR015" H 8860 5490 50  0001 C CNN
-F 1 "GNDREF" V 8865 5612 50  0001 R CNN
-F 2 "" H 8860 5740 50  0001 C CNN
-F 3 "" H 8860 5740 50  0001 C CNN
-	1    8860 5740
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9590 5280 8860 5280
+	9800 5280 8860 5280
 Connection ~ 8860 5280
-Text HLabel 9590 5280 2    50   Output ~ 0
-ADC2_P
 Wire Wire Line
 	7940 6180 7370 6180
 Connection ~ 7370 6180
-Text HLabel 7940 6180 2    50   Output ~ 0
-A_CH2_FAULT
 Wire Wire Line
 	5200 4980 6510 4980
 $Comp
@@ -2104,49 +2034,14 @@ F 4 "RC0805FR-071K1L" V 8710 8840 50  0001 C CNN "Type"
 	1    8710 8840
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:C C25
-U 1 1 60BB25B9
-P 8970 9150
-AR Path="/60BB25B9" Ref="C25"  Part="1" 
-AR Path="/60A03F8A/60BB25B9" Ref="C?"  Part="1" 
-AR Path="/60D8C564/60BB25B9" Ref="C?"  Part="1" 
-F 0 "C25" H 8700 9260 50  0000 L CNN
-F 1 "330pF" H 8610 9180 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9008 9000 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 8970 9150 50  0001 C CNN
-F 4 "GRM188R71H331KA01D" H 8970 9150 50  0001 C CNN "Type"
-	1    8970 9150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8860 8840 8970 8840
 Wire Wire Line
-	8970 8840 8970 9000
-$Comp
-L power:GNDREF #PWR028
-U 1 1 60BB25C1
-P 8970 9300
-AR Path="/60BB25C1" Ref="#PWR028"  Part="1" 
-AR Path="/60A03F8A/60BB25C1" Ref="#PWR?"  Part="1" 
-AR Path="/60D8C564/60BB25C1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR028" H 8970 9050 50  0001 C CNN
-F 1 "GNDREF" V 8975 9172 50  0001 R CNN
-F 2 "" H 8970 9300 50  0001 C CNN
-F 3 "" H 8970 9300 50  0001 C CNN
-	1    8970 9300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	9700 8840 8970 8840
 Connection ~ 8970 8840
-Text HLabel 9700 8840 2    50   Output ~ 0
-ADC3_P
 Wire Wire Line
 	8050 9740 7480 9740
 Connection ~ 7480 9740
-Text HLabel 8050 9740 2    50   Output ~ 0
-A_CH3_FAULT
 Wire Wire Line
 	5310 8540 6620 8540
 $Comp
@@ -2435,18 +2330,16 @@ F 3 "~" H 9010 2220 50  0001 C CNN
 	1    8810 2220
 	1    0    0    -1  
 $EndComp
-Text Label 9050 2220 0    50   ~ 0
-PF12
-Text Label 9040 5280 0    50   ~ 0
-PF13
-Text Label 9120 8840 0    50   ~ 0
-PF5
-Text Label 7820 9740 0    50   ~ 0
-PF4
-Text Label 7560 3120 0    50   ~ 0
-PF11
-Text Label 7640 6180 0    50   ~ 0
-PF14
+Text Label 9740 2220 2    50   ~ 0
+ADC1_P
+Text Label 9800 5280 2    50   ~ 0
+ADC2_P
+Text Label 9700 8840 2    50   ~ 0
+ADC3_P
+Text Label 8050 9740 2    50   ~ 0
+A_CH3_FAULT
+Text Label 7890 3120 2    50   ~ 0
+A_CH1_FAULT
 $Comp
 L Device:CP C21
 U 1 1 60BB24BE
@@ -2731,4 +2624,140 @@ F 3 "~" H 7680 9740 50  0001 C CNN
 	1    7480 9740
 	1    0    0    -1  
 $EndComp
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:302-S101 J4
+U 1 1 60B387F8
+P 13850 6390
+F 0 "J4" H 13890 6840 50  0000 C CNN
+F 1 "302-S101" H 13890 6740 50  0000 C CNN
+F 2 "digikey-footprints:PinHeader_2x5_P2.54mm_Drill1.2mm" H 14050 6590 60  0001 L CNN
+F 3 "http://www.on-shore.com/wp-content/uploads/2018/04/302-SXX1.pdf" V 14050 6690 60  0001 L CNN
+F 4 "ED1543-ND" H 14050 6790 60  0001 L CNN "Digi-Key_PN"
+F 5 "302-S101" H 14050 6890 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 14050 6990 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 14050 7090 60  0001 L CNN "Family"
+F 8 "http://www.on-shore.com/wp-content/uploads/2018/04/302-SXX1.pdf" H 14050 7190 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-shore-technology-inc/302-S101/ED1543-ND/2178422" H 14050 7290 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 10POS 2.54MM" H 14050 7390 60  0001 L CNN "Description"
+F 11 "On Shore Technology Inc." H 14050 7490 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 14050 7590 60  0001 L CNN "Status"
+	1    13850 6390
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR06
+U 1 1 60B3A1E6
+P 13470 6760
+AR Path="/60B3A1E6" Ref="#PWR06"  Part="1" 
+AR Path="/60A03F8A/60B3A1E6" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60B3A1E6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR06" H 13470 6510 50  0001 C CNN
+F 1 "GNDREF" V 13475 6632 50  0001 R CNN
+F 2 "" H 13470 6760 50  0001 C CNN
+F 3 "" H 13470 6760 50  0001 C CNN
+	1    13470 6760
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13470 6760 13470 6490
+Wire Wire Line
+	13470 6190 13650 6190
+Wire Wire Line
+	13650 6290 13470 6290
+Connection ~ 13470 6290
+Wire Wire Line
+	13470 6290 13470 6190
+Wire Wire Line
+	13650 6390 13470 6390
+Connection ~ 13470 6390
+Wire Wire Line
+	13470 6390 13470 6290
+Wire Wire Line
+	13650 6490 13470 6490
+Connection ~ 13470 6490
+Wire Wire Line
+	13470 6490 13470 6390
+Wire Wire Line
+	12930 6590 13650 6590
+Wire Wire Line
+	14050 6190 14680 6190
+Wire Wire Line
+	14050 6290 14680 6290
+Wire Wire Line
+	14050 6390 14680 6390
+Wire Wire Line
+	14050 6490 14680 6490
+Wire Wire Line
+	14050 6590 14680 6590
+Text Label 14680 6190 2    50   ~ 0
+ADC1_P
+Text Label 14680 6290 2    50   ~ 0
+ADC2_P
+Text Label 14680 6390 2    50   ~ 0
+ADC3_P
+Text Label 14680 6490 2    50   ~ 0
+A_CH1_FAULT
+Text Label 14680 6590 2    50   ~ 0
+A_CH3_FAULT
+Text Label 12930 6590 0    50   ~ 0
+A_CH2_FAULT
+$Comp
+L dk_Terminal-Blocks-Wire-to-Board:OSTTC020162 J5
+U 1 1 60C63E05
+P 13730 7990
+F 0 "J5" H 13560 8030 50  0000 L CNN
+F 1 "OSTTC020162" H 13500 7880 50  0000 L CNN
+F 2 "digikey-footprints:Term_Block_1x2_P5mm" H 13930 8190 60  0001 L CNN
+F 3 "http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf" H 13930 8290 60  0001 L CNN
+F 4 "ED2600-ND" H 13930 8390 60  0001 L CNN "Digi-Key_PN"
+F 5 "OSTTC020162" H 13930 8490 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 13930 8590 60  0001 L CNN "Category"
+F 7 "Terminal Blocks - Wire to Board" H 13930 8690 60  0001 L CNN "Family"
+F 8 "http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf" H 13930 8790 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-shore-technology-inc/OSTTC020162/ED2600-ND/614549" H 13930 8890 60  0001 L CNN "DK_Detail_Page"
+F 10 "TERM BLK 2POS SIDE ENTRY 5MM PCB" H 13930 8990 60  0001 L CNN "Description"
+F 11 "On Shore Technology Inc." H 13930 9090 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 13930 9190 60  0001 L CNN "Status"
+	1    13730 7990
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0101
+U 1 1 60C64714
+P 13730 7790
+AR Path="/60C64714" Ref="#PWR0101"  Part="1" 
+AR Path="/60A03F8A/60C64714" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60C64714" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0101" H 13730 7540 50  0001 C CNN
+F 1 "GNDREF" V 13735 7662 50  0001 R CNN
+F 2 "" H 13730 7790 50  0001 C CNN
+F 3 "" H 13730 7790 50  0001 C CNN
+	1    13730 7790
+	-1   0    0    1   
+$EndComp
+$Comp
+L SVIELCOM_Library:+24V #PWR0102
+U 1 1 60C6601C
+P 13830 7790
+F 0 "#PWR0102" H 13980 7840 50  0001 C CNN
+F 1 "+24V" H 13820 7950 50  0000 C CNN
+F 2 "" H 13830 7790 50  0001 C CNN
+F 3 "" H 13830 7790 50  0001 C CNN
+	1    13830 7790
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 60C67E1D
+P 13830 7790
+F 0 "#FLG0101" H 13830 7865 50  0001 C CNN
+F 1 "PWR_FLAG" V 13800 7940 50  0001 L CNN
+F 2 "" H 13830 7790 50  0001 C CNN
+F 3 "~" H 13830 7790 50  0001 C CNN
+	1    13830 7790
+	0    1    1    0   
+$EndComp
+Connection ~ 13830 7790
+Text Label 7940 6180 2    50   ~ 0
+A_CH2_FAULT
 $EndSCHEMATC

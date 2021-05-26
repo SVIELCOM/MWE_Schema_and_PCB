@@ -1024,10 +1024,10 @@ ADC3_P
 Text HLabel 3350 5850 2    50   Output ~ 0
 A_CH3_FAULT
 $Comp
-L dk_Rectangular-Connectors-Headers-Male-Pins:302-S101 J?
+L dk_Rectangular-Connectors-Headers-Male-Pins:302-S101 J3
 U 1 1 60B0C96F
 P 2150 5650
-F 0 "J?" H 2150 6100 50  0000 C CNN
+F 0 "J3" H 2150 6100 50  0000 C CNN
 F 1 "302-S101" H 2150 6000 50  0000 C CNN
 F 2 "digikey-footprints:PinHeader_2x5_P2.54mm_Drill1.2mm" H 2350 5850 60  0001 L CNN
 F 3 "http://www.on-shore.com/wp-content/uploads/2018/04/302-SXX1.pdf" V 2350 5950 60  0001 L CNN
@@ -1072,8 +1072,8 @@ U 1 1 60B910A1
 P 2500 6100
 AR Path="/60B910A1" Ref="C?"  Part="1" 
 AR Path="/60A03F8A/60B910A1" Ref="C?"  Part="1" 
-AR Path="/60D8C564/60B910A1" Ref="C9"  Part="1" 
-F 0 "C9" H 2350 6200 50  0000 L CNN
+AR Path="/60D8C564/60B910A1" Ref="C48"  Part="1" 
+F 0 "C48" H 2350 6200 50  0000 L CNN
 F 1 "330pF" H 2250 5900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2538 5950 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 2500 6100 50  0001 C CNN
@@ -1089,8 +1089,8 @@ U 1 1 60B9DA68
 P 2750 6100
 AR Path="/60B9DA68" Ref="C?"  Part="1" 
 AR Path="/60A03F8A/60B9DA68" Ref="C?"  Part="1" 
-AR Path="/60D8C564/60B9DA68" Ref="C16"  Part="1" 
-F 0 "C16" H 2600 6200 50  0000 L CNN
+AR Path="/60D8C564/60B9DA68" Ref="C49"  Part="1" 
+F 0 "C49" H 2600 6200 50  0000 L CNN
 F 1 "330pF" H 2500 5900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2788 5950 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 2750 6100 50  0001 C CNN
@@ -1104,8 +1104,8 @@ U 1 1 60B9DF75
 P 3000 6100
 AR Path="/60B9DF75" Ref="C?"  Part="1" 
 AR Path="/60A03F8A/60B9DF75" Ref="C?"  Part="1" 
-AR Path="/60D8C564/60B9DF75" Ref="C25"  Part="1" 
-F 0 "C25" H 2850 6200 50  0000 L CNN
+AR Path="/60D8C564/60B9DF75" Ref="C50"  Part="1" 
+F 0 "C50" H 2850 6200 50  0000 L CNN
 F 1 "330pF" H 2750 5900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3038 5950 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 3000 6100 50  0001 C CNN
@@ -1137,8 +1137,8 @@ U 1 1 60BCDF96
 P 1850 6350
 AR Path="/60BCDF96" Ref="#PWR?"  Part="1" 
 AR Path="/60A03F8A/60BCDF96" Ref="#PWR?"  Part="1" 
-AR Path="/60D8C564/60BCDF96" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1850 6100 50  0001 C CNN
+AR Path="/60D8C564/60BCDF96" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 1850 6100 50  0001 C CNN
 F 1 "GNDREF" V 1855 6222 50  0001 R CNN
 F 2 "" H 1850 6350 50  0001 C CNN
 F 3 "" H 1850 6350 50  0001 C CNN

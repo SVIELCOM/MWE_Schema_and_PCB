@@ -556,7 +556,7 @@ Wire Wire Line
 Wire Wire Line
 	8140 5060 8140 5090
 Wire Wire Line
-	8140 5090 8690 5090
+	8140 5090 8360 5090
 Wire Wire Line
 	8690 5090 8690 4970
 Wire Wire Line
@@ -2073,4 +2073,18 @@ $EndComp
 Connection ~ 5030 5860
 Wire Wire Line
 	5030 5860 5150 5860
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 60C26B49
+P 8360 5090
+F 0 "#FLG?" H 8360 5165 50  0001 C CNN
+F 1 "PWR_FLAG" V 8360 5218 50  0001 L CNN
+F 2 "" H 8360 5090 50  0001 C CNN
+F 3 "~" H 8360 5090 50  0001 C CNN
+	1    8360 5090
+	-1   0    0    1   
+$EndComp
+Connection ~ 8360 5090
+Wire Wire Line
+	8360 5090 8690 5090
 $EndSCHEMATC

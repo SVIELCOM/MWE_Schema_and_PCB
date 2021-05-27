@@ -477,11 +477,6 @@ Wire Wire Line
 Connection ~ 10790 6300
 Wire Wire Line
 	10790 6300 10790 6340
-Wire Wire Line
-	10970 5900 10970 5660
-Wire Wire Line
-	10970 5660 10790 5660
-Connection ~ 10790 5660
 $Comp
 L SVIELCOM_Library:+2.9V_SD #PWR0127
 U 1 1 60C22009
@@ -821,4 +816,9 @@ Wire Wire Line
 	4240 4030 4400 4030
 Wire Wire Line
 	4400 4030 4400 4260
+Wire Wire Line
+	10790 5560 10970 5560
+Wire Wire Line
+	10970 5560 10970 5900
+Connection ~ 10790 5560
 $EndSCHEMATC

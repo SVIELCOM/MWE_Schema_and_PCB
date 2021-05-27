@@ -1,0 +1,149 @@
+
+(rules PCB PCB
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (eu.mihosoft.freerouting.autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 117)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.6)
+      (against_preferred_direction_trace_costs 3.6)
+    )
+    (layer_rule In2.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.5)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.6)
+      (against_preferred_direction_trace_costs 3.6)
+    )
+  )
+  (rule
+    (width 200.0)
+    (clear 200.2)
+    (clear 100.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-3]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_600:300_um" "Via[0-3]_600:300_um" default
+  )
+  (via 
+    "Via[0-3]_600:300_um-kicad_default" "Via[0-3]_600:300_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_600:300_um-Power" "Via[0-3]_600:300_um" Power
+  )
+  (via 
+    "Via[0-3]_600:300_um-Thin" "Via[0-3]_600:300_um" Thin
+  )
+  (via_rule
+    default "Via[0-3]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_600:300_um-kicad_default"
+  )
+  (via_rule
+    Power "Via[0-3]_600:300_um-Power"
+  )
+  (via_rule
+    Thin "Via[0-3]_600:300_um-Thin"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(U26-Pad5)" "Net-(U24-Pad5)" "Net-(C1-Pad1)" GNDREF "Net-(C3-Pad1)" "Net-(C5-Pad2)" "Net-(C6-Pad2)" "Net-(C7-Pad2)"
+    +5V +2,9V "Net-(C10-Pad2)" "VDD_PER" NRST "VDD_MCU" "/MCU_Power_supply_clocking/VCAP" "/MCU_Power_supply_clocking/VDDA"
+    "/MCU_Power_supply_clocking/Vref+" "Net-(C54-Pad2)" "Net-(C54-Pad1)" "Net-(C66-Pad1)" "Net-(C66-Pad2)" "Net-(C74-Pad1)" "/Buttons/Button_Plus" "/Buttons/Button_Minus"
+    "/Buttons/Button_Emh" "/Buttons/Button_Clock" "/Buttons/Button_pH" "/Buttons/Button_Func" "Net-(C85-Pad2)" "Net-(C92-Pad1)" "Net-(C93-Pad1)" "Net-(C95-Pad1)"
+    "Net-(D1-Pad1)" "Net-(D1-Pad2)" "Net-(D2-Pad2)" "Net-(D2-Pad1)" "Net-(D3-Pad1)" "Net-(D3-Pad6)" "Net-(D4-Pad3)" "Net-(D8-Pad2)"
+    "/LAN/RD_P" "/LAN/TD_P" "/LAN/TD_N" "/LAN/RD_N" "Net-(J1-PadA5)" "Net-(J1-PadA8)" "Net-(J1-PadB5)" "Net-(J1-PadB8)"
+    "Net-(J4-Pad1)" "Net-(J4-Pad2)" "Net-(J4-Pad3)" "Net-(J4-Pad5)" "Net-(J4-Pad7)" "Net-(J4-Pad8)" "Net-(J7-Pad1)" "Net-(J7-Pad2)"
+    "Net-(J7-Pad3)" "Net-(J11-Pad1)" "Net-(J11-Pad2)" "Net-(J11-Pad9)" "Net-(J11-Pad10)" GNDS "/Microcontroller/I2C2_SCL" "/Microcontroller/I2C2_SDA"
+    "/Microcontroller/BOOT0_TX" "/Microcontroller/BOOT0_RX" "/Microcontroller/USART2_RX" "/Microcontroller/USART2_TX" /Microcontroller/SWCLK /Microcontroller/SWDIO /Microcontroller/SWO "/Microcontroller/SPI4_MOSI"
+    "/Microcontroller/SPI4_MISO" "/Microcontroller/SPI4_NSS" "/Microcontroller/SPI4_SCK" "/MCU_Power_supply_clocking/Vbat" "Net-(BT1-Pad1)" "Net-(JP3-Pad2)" "Net-(JP4-Pad2)" "Net-(JP5-Pad1)"
+    "Net-(LS1-Pad2)" "Net-(Q1-Pad1)" "Net-(Q2-Pad1)" "Net-(Q3-Pad1)" "Net-(Q4-Pad1)" "Net-(R3-Pad2)" "/Indicator/WEST_SKIP_LED" "/Indicator/EAST_SKIP_LED"
+    "Net-(R6-Pad2)" "Net-(R7-Pad2)" "Net-(R8-Pad2)" "Net-(R9-Pad1)" "/Microcontroller/USB_FS_DP" "Net-(R10-Pad1)" "Net-(R11-Pad2)" "/Microcontroller/USB_FS_DN"
+    "Net-(R12-Pad1)" "Net-(R13-Pad2)" "/MCU_Power_supply_clocking/BOOT0" "/MCU_Power_supply_clocking/PDR_ON" "Net-(R19-Pad2)" "/Storage_and_memory/QUADPSI_BK1_IO2" "/Storage_and_memory/QUADPSI_BK1_IO3" "Net-(R20-Pad2)"
+    "/Storage_and_memory/QUADPSI_BK1_IO0" "Net-(R21-Pad2)" "Net-(R22-Pad2)" "/Storage_and_memory/QUADPSI_BK1_IO1" "Net-(R26-Pad2)" "Net-(R56-Pad2)" "Net-(R60-Pad2)" "Net-(R80-Pad2)"
+    "Net-(R81-Pad2)" "Net-(R82-Pad2)" "Net-(R83-Pad2)" "Net-(R84-Pad2)" "Net-(R85-Pad2)" "Net-(R86-Pad2)" "Net-(R87-Pad2)" "Net-(R101-Pad2)"
+    "/LAN/RMII_MDIO" "Net-(R102-Pad2)" "/LAN/RMII_RXD0" "/LAN/RMII_RXD1" "Net-(R100-Pad1)" "/LAN/RMII_CRS_DV" "/LAN/RMII_REF_CLK" "Net-(R103-Pad1)"
+    "/Indicator/SPI6_MOSI" "/Indicator/SPI6_CS" "/Indicator/SPI6_SCK" "Net-(TP4-Pad1)" /Indicator/E1 /Indicator/D1 /Indicator/DP1 /Indicator/C1
+    /Indicator/G1 /Indicator/1C4 /Indicator/B1 /Indicator/1C5 /Indicator/1C6 /Indicator/F1 /Indicator/A1 /Indicator/1C7
+    /Indicator/1C3 /Indicator/1C2 /Indicator/1C1 /Indicator/1C0 /Indicator/E2 /Indicator/D2 /Indicator/2C2 /Indicator/C2
+    /Indicator/DP2 /Indicator/B2 /Indicator/A2 /Indicator/G2 /Indicator/F2 /Indicator/2C1 /Indicator/2C0 /Indicator/2C3
+    /Indicator/2C4 /Indicator/2C6 /Indicator/2C7 /Indicator/2C5 "Net-(U6-Pad24)" "Net-(U9-Pad1)" "Net-(U9-Pad4)" "Net-(U9-Pad5)"
+    "Net-(U10-Pad4)" "Net-(U11-Pad37)" "Net-(U11-Pad40)" "Net-(U11-Pad41)" "Net-(U11-Pad42)" "Net-(U11-Pad46)" "Net-(U11-Pad47)" "Net-(U11-Pad48)"
+    "Net-(U11-Pad55)" "Net-(U11-Pad56)" "Net-(U11-Pad57)" "Net-(U11-Pad58)" "Net-(U11-Pad59)" "Net-(U11-Pad60)" "Net-(U11-Pad63)" "Net-(U11-Pad64)"
+    "Net-(U11-Pad65)" "Net-(U11-Pad66)" "Net-(U11-Pad67)" "Net-(U11-Pad68)" "Net-(U11-Pad69)" "/LAN/RMII_TX_EN" "Net-(U11-Pad110)" "/Microcontroller/SDMMC1_D2"
+    "/Microcontroller/SDMMC1_D3" "/Microcontroller/SDMMC1_CK" "Net-(U11-Pad114)" "Net-(U11-Pad115)" "/Microcontroller/SDMMC1_CMD" "Net-(U11-Pad123)" "Net-(U11-Pad124)" "Net-(U11-Pad125)"
+    "Net-(U11-Pad126)" "Net-(U11-Pad132)" "/Microcontroller/QUADSPI_BK1_NCS" "Net-(U11-Pad137)" "/Microcontroller/SDMMC1_CKIN" "Net-(U11-Pad141)" "Net-(U11-Pad142)" "Net-(U11-Pad2)"
+    "Net-(U11-Pad7)" "/Microcontroller/QUADSPI_CLK" "Net-(U11-Pad26)" "/LAN/RMII_MDC" "Net-(U11-Pad28)" "Net-(U11-Pad29)" "Net-(U11-Pad34)" "/LAN/RMII_TXD0"
+    "/LAN/RMII_TXD1" "Net-(U11-Pad75)" "Net-(U11-Pad76)" "Net-(U11-Pad77)" "Net-(U11-Pad80)" "Net-(U11-Pad81)" "Net-(U11-Pad82)" "Net-(U11-Pad86)"
+    "Net-(U11-Pad93)" "/Microcontroller/SDMMC1_D0" "/Microcontroller/SDMMC1_D1" "Net-(U11-Pad100)" "Net-(U15-Pad3)" "Net-(U17-Pad5)" "/Microcontroller/SD_CARD_INS" "/Microcontroller/SD_CARD_CS"
+    "/Microcontroller/SDMMC1_CDIR" "/Microcontroller/SDMMC1_D0DIR" "/Microcontroller/SDMMC1_D123DIR" "Net-(U14-Pad21)" "Net-(U14-Pad26)" "Net-(U14-Pad27)" "Net-(U14-Pad28)" "Net-(U14-Pad29)"
+    "Net-(U14-Pad32)" "Net-(U14-Pad33)" "Net-(U14-Pad34)" "Net-(U14-Pad35)" "/Digital_IO_analog_Inputs/ADC1_P" "/Digital_IO_analog_Inputs/ADC2_P" "/Digital_IO_analog_Inputs/ADC3_P" "/Digital_IO_analog_Inputs/LEVEL_SWITCH_AC"
+    "/Digital_IO_analog_Inputs/A_CH2_FAULT" "/Digital_IO_analog_Inputs/A_CH3_FAULT" "/Digital_IO_analog_Inputs/220V_Phase" "/Digital_IO_analog_Inputs/SKIP_N_UNLOADED_REL" "/Digital_IO_analog_Inputs/SKIP_N_UNLOADED_BEEPER" "/Digital_IO_analog_Inputs/LEVEL_SWITCH" "/Digital_IO_analog_Inputs/ENCODER_A" "/Digital_IO_analog_Inputs/ENCODER_B"
+    "/Digital_IO_analog_Inputs/A_CH1_FAULT" "Net-(C51-Pad1)" "/USB/USB_GND" "/USB/USB_VBUS" "/USB/USB_DP" "/USB/USB_DN"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu In2.Cu B.Cu)
+    )
+  )
+  (class Power
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 400.0)
+    )
+    (circuit 
+      (use_layer F.Cu In2.Cu B.Cu)
+    )
+  )
+  (class Thin
+    (clearance_class Thin)
+    (via_rule Thin)
+    (rule
+      (width 150.0)
+    )
+    (circuit 
+      (use_layer F.Cu In2.Cu B.Cu)
+    )
+  )
+)

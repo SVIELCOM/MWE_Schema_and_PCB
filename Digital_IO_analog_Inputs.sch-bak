@@ -1164,7 +1164,7 @@ Wire Wire Line
 Connection ~ 9610 3250
 Connection ~ 9610 4000
 Wire Wire Line
-	9610 2710 9610 2360
+	9610 2710 9610 2450
 Connection ~ 9610 2710
 $Comp
 L Device:C C?
@@ -1197,4 +1197,37 @@ F 3 "" H 9800 3550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9610 3250 9800 3250
+$Comp
+L Device:CP C?
+U 1 1 60CFD521
+P 10120 2600
+AR Path="/60CFD521" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60CFD521" Ref="C?"  Part="1" 
+F 0 "C?" H 9840 2570 50  0000 L CNN
+F 1 "10µFx16" H 9750 2480 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I" H 10158 2450 50  0001 C CNN
+F 3 "" H 10120 2600 50  0001 C CNN
+F 4 "593D106X9016A2TE3" H 10120 2600 50  0001 C CNN "Type"
+	1    10120 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9610 2450 10120 2450
+Connection ~ 9610 2450
+Wire Wire Line
+	9610 2450 9610 2360
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60D09CB9
+P 10120 2750
+AR Path="/60D09CB9" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60D09CB9" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60D09CB9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10120 2500 50  0001 C CNN
+F 1 "GNDREF" V 10125 2622 50  0001 R CNN
+F 2 "" H 10120 2750 50  0001 C CNN
+F 3 "" H 10120 2750 50  0001 C CNN
+	1    10120 2750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

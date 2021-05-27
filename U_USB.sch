@@ -476,4 +476,6 @@ Wire Wire Line
 	6460 3340 5830 3340
 NoConn ~ 6650 3840
 NoConn ~ 6650 3940
+Text Label 6490 5460 0    50   ~ 0
+USB_GND
 $EndSCHEMATC

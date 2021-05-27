@@ -427,17 +427,7 @@ Wire Wire Line
 Wire Wire Line
 	3220 7300 3220 7190
 Wire Wire Line
-	3500 7300 3500 7190
-Wire Wire Line
-	3780 7300 3780 7190
-Wire Wire Line
-	3780 7300 3500 7300
-Wire Wire Line
-	3500 7300 3220 7300
-Connection ~ 3500 7300
-Wire Wire Line
 	3220 7300 2940 7300
-Connection ~ 3220 7300
 Wire Wire Line
 	2940 7300 2660 7300
 Connection ~ 2940 7300
@@ -456,10 +446,6 @@ Connection ~ 1820 7300
 Wire Wire Line
 	1540 7300 1260 7300
 Connection ~ 1540 7300
-Wire Wire Line
-	3780 6780 3780 6890
-Wire Wire Line
-	3500 6780 3500 6890
 Wire Wire Line
 	3220 6780 3220 6890
 Wire Wire Line
@@ -496,12 +482,6 @@ Connection ~ 2660 6780
 Wire Wire Line
 	2940 6780 3220 6780
 Connection ~ 2940 6780
-Wire Wire Line
-	3220 6780 3500 6780
-Connection ~ 3220 6780
-Wire Wire Line
-	3500 6780 3780 6780
-Connection ~ 3500 6780
 Wire Wire Line
 	1260 7390 1260 7300
 Connection ~ 1260 7300
@@ -1460,20 +1440,6 @@ F 4 "CL10B105KA8NNNC" H 3220 7040 50  0001 C CNN "Type"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
-U 1 1 60A0FEC5
-P 3500 7040
-AR Path="/60A0FEC5" Ref="C?"  Part="1" 
-AR Path="/60A03F8A/60A0FEC5" Ref="C43"  Part="1" 
-F 0 "C43" H 3540 7130 50  0000 L CNN
-F 1 "1µF" H 3530 6930 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3538 6890 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 3500 7040 50  0001 C CNN
-F 4 "CL10B105KA8NNNC" H 3500 7040 50  0001 C CNN "Type"
-	1    3500 7040
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GNDREF #PWR?
 U 1 1 60A0FEC7
 P 1260 7390
@@ -1917,20 +1883,6 @@ F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1298 6890 50  
 F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 1260 7040 50  0001 C CNN
 F 4 "CL10B105KA8NNNC" H 1260 7040 50  0001 C CNN "Type"
 	1    1260 7040
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 60A0FEC6
-P 3780 7040
-AR Path="/60A0FEC6" Ref="C?"  Part="1" 
-AR Path="/60A03F8A/60A0FEC6" Ref="C44"  Part="1" 
-F 0 "C44" H 3820 7130 50  0000 L CNN
-F 1 "1µF" H 3810 6930 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3818 6890 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 3780 7040 50  0001 C CNN
-F 4 "CL10B105KA8NNNC" H 3780 7040 50  0001 C CNN "Type"
-	1    3780 7040
 	1    0    0    -1  
 $EndComp
 $Comp

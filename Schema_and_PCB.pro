@@ -1,4 +1,4 @@
-update=Чт 27 мая 2021 15:04:49
+update=Чт 27 мая 2021 16:29:49
 version=1
 last_client=kicad
 [general]
@@ -87,8 +87,8 @@ Name=F.Cu
 Type=2
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=In1.Cu
-Type=3
+Name=GNDREF
+Type=2
 Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu

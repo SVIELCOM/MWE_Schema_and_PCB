@@ -1058,4 +1058,6 @@ F 3 "~" H 10060 5970 50  0001 C CNN
 	1    10060 5970
 	0    -1   -1   0   
 $EndComp
+Text Label 7860 2100 0    50   ~ 0
+LAN_PWR
 $EndSCHEMATC

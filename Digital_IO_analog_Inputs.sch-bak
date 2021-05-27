@@ -1118,10 +1118,6 @@ Wire Wire Line
 Wire Wire Line
 	2750 5550 2350 5550
 Wire Wire Line
-	3000 5950 3000 5750
-Wire Wire Line
-	2350 5750 3000 5750
-Wire Wire Line
 	2350 5850 3350 5850
 Wire Wire Line
 	2750 5550 3350 5550
@@ -1164,11 +1160,15 @@ Text Label 3100 5450 0    50   ~ 0
 PF12
 Text Label 3100 5750 0    50   ~ 0
 PF11
-Connection ~ 3000 5750
-Wire Wire Line
-	3000 5750 3350 5750
 Connection ~ 2500 5450
 Connection ~ 2750 5550
 Wire Wire Line
-	2350 5650 3350 5650
+	2350 5650 3000 5650
+Wire Wire Line
+	2350 5750 3350 5750
+Wire Wire Line
+	3000 5650 3000 5950
+Connection ~ 3000 5650
+Wire Wire Line
+	3000 5650 3350 5650
 $EndSCHEMATC

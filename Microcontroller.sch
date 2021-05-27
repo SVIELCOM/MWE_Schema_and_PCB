@@ -367,7 +367,7 @@ U 1 1 612A6373
 P 1250 5920
 F 0 "J14" V 1560 5880 50  0000 C CNN
 F 1 "640456-3" V 1120 5910 50  0000 C CNN
-F 2 "digikey-footprints:PinHeader_1x3_P2.54_Drill1.1mm" H 1450 6120 60  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1450 6120 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 1450 6220 60  0001 L CNN
 F 4 "A19470-ND" H 1450 6320 60  0001 L CNN "Digi-Key_PN"
 F 5 "640456-3" H 1450 6420 60  0001 L CNN "MPN"
@@ -387,7 +387,7 @@ U 1 1 612AA072
 P 1250 6860
 F 0 "J16" V 1650 6820 50  0000 C CNN
 F 1 "0022232041" V 1140 6820 50  0000 C CNN
-F 2 "digikey-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 1450 7060 60  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1450 7060 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 1450 7160 60  0001 L CNN
 F 4 "WM4202-ND" H 1450 7260 60  0001 L CNN "Digi-Key_PN"
 F 5 "0022232041" H 1450 7360 60  0001 L CNN "MPN"
@@ -438,7 +438,7 @@ U 1 1 612C1C26
 P 2430 5920
 F 0 "J15" V 2740 5880 50  0000 C CNN
 F 1 "640456-3" V 2300 5910 50  0000 C CNN
-F 2 "digikey-footprints:PinHeader_1x3_P2.54_Drill1.1mm" H 2630 6120 60  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2630 6120 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 2630 6220 60  0001 L CNN
 F 4 "A19470-ND" H 2630 6320 60  0001 L CNN "Digi-Key_PN"
 F 5 "640456-3" H 2630 6420 60  0001 L CNN "MPN"
@@ -491,7 +491,7 @@ U 1 1 612D50A7
 P 2430 6860
 F 0 "J17" V 2830 6820 50  0000 C CNN
 F 1 "0022232041" V 2280 6800 50  0000 C CNN
-F 2 "digikey-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 2630 7060 60  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2630 7060 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 2630 7160 60  0001 L CNN
 F 4 "WM4202-ND" H 2630 7260 60  0001 L CNN "Digi-Key_PN"
 F 5 "0022232041" H 2630 7360 60  0001 L CNN "MPN"
@@ -521,7 +521,7 @@ U 1 1 612E235D
 P 3580 5720
 F 0 "J13" V 3460 5660 50  0000 C CNN
 F 1 "640456-2" V 3900 5740 50  0000 C CNN
-F 2 "digikey-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm" H 3780 5920 60  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3780 5920 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 3780 6020 60  0001 L CNN
 F 4 "A1921-ND" H 3780 6120 60  0001 L CNN "Digi-Key_PN"
 F 5 "640456-2" H 3780 6220 60  0001 L CNN "MPN"

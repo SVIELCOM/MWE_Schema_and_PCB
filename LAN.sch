@@ -1006,26 +1006,6 @@ RMII_RXD1
 Text GLabel 1130 5090 0    50   Input ~ 0
 NRST
 $Comp
-L dk_Terminal-Blocks-Wire-to-Board:OSTTC020162 J12
-U 1 1 6119E96E
-P 10110 5930
-F 0 "J12" H 10020 5920 50  0000 R CNN
-F 1 "OSTTC020162" H 10020 6020 50  0000 R CNN
-F 2 "digikey-footprints:Term_Block_1x2_P5mm" H 10310 6130 60  0001 L CNN
-F 3 "http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf" H 10310 6230 60  0001 L CNN
-F 4 "ED2600-ND" H 10310 6330 60  0001 L CNN "Digi-Key_PN"
-F 5 "OSTTC020162" H 10310 6430 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 10310 6530 60  0001 L CNN "Category"
-F 7 "Terminal Blocks - Wire to Board" H 10310 6630 60  0001 L CNN "Family"
-F 8 "http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf" H 10310 6730 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-shore-technology-inc/OSTTC020162/ED2600-ND/614549" H 10310 6830 60  0001 L CNN "DK_Detail_Page"
-F 10 "TERM BLK 2POS SIDE ENTRY 5MM PCB" H 10310 6930 60  0001 L CNN "Description"
-F 11 "On Shore Technology Inc." H 10310 7030 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 10310 7130 60  0001 L CNN "Status"
-	1    10110 5930
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GNDS #PWR0122
 U 1 1 611A0752
 P 10060 6210
@@ -1036,15 +1016,6 @@ F 3 "" H 10060 6210 50  0001 C CNN
 	1    10060 6210
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10010 6130 10010 6210
-Wire Wire Line
-	10010 6210 10060 6210
-Wire Wire Line
-	10110 6130 10110 6210
-Wire Wire Line
-	10110 6210 10060 6210
-Connection ~ 10060 6210
 $Comp
 L power:PWR_FLAG #FLG013
 U 1 1 612900D5
@@ -1073,5 +1044,18 @@ F 3 "~" H 6120 1830 50  0001 C CNN
 F 4 "BK2125HS601-T" H 6120 1830 50  0001 C CNN "Type"
 	1    6120 1830
 	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10060 6170 10060 6210
+$Comp
+L Connector_Generic:Conn_01x01 J12
+U 1 1 60B6A384
+P 10060 5970
+F 0 "J12" V 10030 5880 50  0000 R CNN
+F 1 "Ground" V 9930 5930 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10060 5970 50  0001 C CNN
+F 3 "~" H 10060 5970 50  0001 C CNN
+	1    10060 5970
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

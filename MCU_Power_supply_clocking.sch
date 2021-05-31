@@ -1748,7 +1748,7 @@ U 1 1 60A0FEC9
 P 10040 1490
 F 0 "JP2" H 10018 1468 60  0000 L CNN
 F 1 "JUMPER2" H 10018 1377 40  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 10040 1490 60  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10040 1490 60  0001 C CNN
 F 3 "" H 10040 1490 60  0000 C CNN
 	1    10040 1490
 	1    0    0    -1  

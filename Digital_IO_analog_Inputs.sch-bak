@@ -1106,9 +1106,9 @@ Wire Wire Line
 Connection ~ 2750 6250
 Wire Wire Line
 	2750 6250 3000 6250
-Text Label 3150 5650 0    50   ~ 0
-PF5
-Text Label 3150 5850 0    50   ~ 0
+Text Label 3090 5650 0    50   ~ 0
+PC3_C
+Text Label 3110 5850 0    50   ~ 0
 PF4
 Text Label 3100 5550 0    50   ~ 0
 PF13
@@ -1231,4 +1231,10 @@ F 3 "" H 10120 2750 50  0001 C CNN
 	1    10120 2750
 	1    0    0    -1  
 $EndComp
+Text Label 7210 5420 2    50   ~ 0
+COM_ENCODER
+Text Label 7150 4340 3    50   ~ 0
+ENCODER_IN_A
+Text Label 7300 4740 3    50   ~ 0
+ENCODER_IN_B
 $EndSCHEMATC

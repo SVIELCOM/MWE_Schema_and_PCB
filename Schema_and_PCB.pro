@@ -1,4 +1,4 @@
-update=Чт 27 мая 2021 16:29:49
+update=Пт 28 мая 2021 12:48:41
 version=1
 last_client=kicad
 [general]
@@ -58,6 +58,9 @@ ViaDrill3=0.5
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
+dPairWidth2=0.15
+dPairGap2=0.32
+dPairViaGap2=0.8
 SilkLineWidth=0.15
 SilkTextSizeV=1
 SilkTextSizeH=1
@@ -87,11 +90,11 @@ Name=F.Cu
 Type=2
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=GNDREF
+Name=GND
 Type=2
 Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=In2.Cu
+Name=POWER
 Type=2
 Enabled=1
 [pcbnew/Layer.In3.Cu]

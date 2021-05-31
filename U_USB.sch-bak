@@ -481,7 +481,7 @@ USB_GND
 Text Label 5660 3140 0    50   ~ 0
 USB_VBUS
 Text Label 5900 3340 0    50   ~ 0
-USB_DN
+USB_D_N
 Text Label 5900 3540 0    50   ~ 0
-USB_DP
+USB_D_P
 $EndSCHEMATC

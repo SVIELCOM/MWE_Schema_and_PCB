@@ -138,7 +138,6 @@ NoConn ~ 3580 1310
 Wire Wire Line
 	3580 1410 4090 1410
 NoConn ~ 3580 1510
-NoConn ~ 3580 1610
 Wire Wire Line
 	3580 1710 4090 1710
 Wire Wire Line
@@ -250,10 +249,8 @@ Text HLabel 6130 4640 0    50   Input ~ 0
 A_CH3_FAULT
 Wire Wire Line
 	6130 4640 6640 4640
-Text HLabel 6130 4740 0    50   Input ~ 0
+Text HLabel 4090 1610 2    50   Input ~ 0
 ADC3_P
-Wire Wire Line
-	6130 4740 6640 4740
 Text HLabel 6130 4840 0    50   BiDi ~ 0
 QUADSPI_BK1_IO3
 Wire Wire Line
@@ -571,4 +568,7 @@ Wire Wire Line
 	1270 3410 1780 3410
 Wire Wire Line
 	1780 3510 1270 3510
+NoConn ~ 6640 4740
+Wire Wire Line
+	3580 1610 4090 1610
 $EndSCHEMATC

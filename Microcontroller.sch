@@ -556,9 +556,9 @@ Text HLabel 1270 3910 0    50   Output ~ 0
 SDMMC1_CDIR
 Wire Wire Line
 	1270 3910 1780 3910
-Text HLabel 6130 1710 0    50   Input ~ 0
+Text HLabel 6130 1610 0    50   Input ~ 0
 SD_CARD_INS
-Text HLabel 6130 1610 0    50   Output ~ 0
+Text HLabel 6130 1710 0    50   Output ~ 0
 SD_CARD_CS
 Wire Wire Line
 	6130 1610 6640 1610

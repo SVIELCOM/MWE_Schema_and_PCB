@@ -950,7 +950,7 @@ P 4590 3890
 AR Path="/60A2F808" Ref="JP?"  Part="1" 
 AR Path="/60A03F8A/60A2F808" Ref="JP3"  Part="1" 
 F 0 "JP3" V 4650 3970 50  0000 L CNN
-F 1 "Jumper_3_Bridged12" V 4580 3990 50  0001 L CNN
+F 1 "BOOT0" V 4580 3990 50  0001 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 4590 3890 50  0001 C CNN
 F 3 "~" H 4590 3890 50  0001 C CNN
 	1    4590 3890

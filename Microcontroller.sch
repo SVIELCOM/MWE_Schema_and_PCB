@@ -511,7 +511,7 @@ L dk_Rectangular-Connectors-Headers-Male-Pins:640456-2 J13
 U 1 1 612E235D
 P 3580 5720
 F 0 "J13" V 3460 5660 50  0000 C CNN
-F 1 "640456-2" V 3900 5740 50  0000 C CNN
+F 1 "I2C" V 3786 5666 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3780 5920 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 3780 6020 60  0001 L CNN
 F 4 "A1921-ND" H 3780 6120 60  0001 L CNN "Digi-Key_PN"

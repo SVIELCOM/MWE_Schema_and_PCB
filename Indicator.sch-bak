@@ -773,12 +773,12 @@ Wire Wire Line
 $Comp
 L SVIELCOM_Library:+5V #PWR07
 U 1 1 60C625DC
-P 1880 4950
-F 0 "#PWR07" H 1880 4800 50  0001 C CNN
-F 1 "+5V" H 1895 5123 50  0000 C CNN
-F 2 "" H 1880 4950 50  0001 C CNN
-F 3 "" H 1880 4950 50  0001 C CNN
-	1    1880 4950
+P 1880 4730
+F 0 "#PWR07" H 1880 4580 50  0001 C CNN
+F 1 "+5V" H 1895 4903 50  0000 C CNN
+F 2 "" H 1880 4730 50  0001 C CNN
+F 3 "" H 1880 4730 50  0001 C CNN
+	1    1880 4730
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -803,12 +803,12 @@ $EndComp
 $Comp
 L SVIELCOM_Library:+5V #PWR03
 U 1 1 60C9A9E7
-P 1880 1650
-F 0 "#PWR03" H 1880 1500 50  0001 C CNN
-F 1 "+5V" H 1895 1823 50  0000 C CNN
-F 2 "" H 1880 1650 50  0001 C CNN
-F 3 "" H 1880 1650 50  0001 C CNN
-	1    1880 1650
+P 1880 1410
+F 0 "#PWR03" H 1880 1260 50  0001 C CNN
+F 1 "+5V" H 1895 1583 50  0000 C CNN
+F 2 "" H 1880 1410 50  0001 C CNN
+F 3 "" H 1880 1410 50  0001 C CNN
+	1    1880 1410
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1075,7 +1075,7 @@ Text Notes 8770 1640 0    50   ~ 0
 Text Notes 10460 1640 0    50   ~ 0
 "EAST"
 Wire Wire Line
-	1880 1650 1880 1720
+	1880 1410 1880 1460
 $Comp
 L Device:R R?
 U 1 1 618A3C48
@@ -1101,7 +1101,7 @@ Connection ~ 1880 1720
 Wire Wire Line
 	1880 1720 1880 1970
 Wire Wire Line
-	1880 4950 1880 5020
+	1880 4730 1880 4770
 $Comp
 L Device:R R?
 U 1 1 618BA407
@@ -1205,6 +1205,82 @@ $EndComp
 Connection ~ 1450 3770
 Wire Wire Line
 	1450 3770 1480 3770
+$Comp
+L Device:C C?
+U 1 1 60F62724
+P 2140 1660
+AR Path="/60F62724" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60F62724" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60F62724" Ref="C?"  Part="1" 
+AR Path="/608C8099/60F62724" Ref="C43"  Part="1" 
+F 0 "C43" H 2260 1710 50  0000 L CNN
+F 1 "1µF" H 2280 1610 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2178 1510 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 2140 1660 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 2140 1660 50  0001 C CNN "Type"
+	1    2140 1660
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60F6272A
+P 2140 1810
+AR Path="/60F6272A" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60F6272A" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60F6272A" Ref="#PWR?"  Part="1" 
+AR Path="/608C8099/60F6272A" Ref="#PWR047"  Part="1" 
+F 0 "#PWR047" H 2140 1560 50  0001 C CNN
+F 1 "GNDREF" V 2145 1682 50  0001 R CNN
+F 2 "" H 2140 1810 50  0001 C CNN
+F 3 "" H 2140 1810 50  0001 C CNN
+	1    2140 1810
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1880 1460 2140 1460
+Wire Wire Line
+	2140 1460 2140 1510
+Connection ~ 1880 1460
+Wire Wire Line
+	1880 1460 1880 1720
+$Comp
+L Device:C C?
+U 1 1 60F85DF0
+P 2140 4970
+AR Path="/60F85DF0" Ref="C?"  Part="1" 
+AR Path="/60A03F8A/60F85DF0" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60F85DF0" Ref="C?"  Part="1" 
+AR Path="/608C8099/60F85DF0" Ref="C44"  Part="1" 
+F 0 "C44" H 2260 5020 50  0000 L CNN
+F 1 "1µF" H 2280 4920 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2178 4820 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 2140 4970 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 2140 4970 50  0001 C CNN "Type"
+	1    2140 4970
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60F85DF6
+P 2140 5120
+AR Path="/60F85DF6" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60F85DF6" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60F85DF6" Ref="#PWR?"  Part="1" 
+AR Path="/608C8099/60F85DF6" Ref="#PWR048"  Part="1" 
+F 0 "#PWR048" H 2140 4870 50  0001 C CNN
+F 1 "GNDREF" V 2145 4992 50  0001 R CNN
+F 2 "" H 2140 5120 50  0001 C CNN
+F 3 "" H 2140 5120 50  0001 C CNN
+	1    2140 5120
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1880 4770 2140 4770
+Wire Wire Line
+	2140 4770 2140 4820
+Connection ~ 1880 4770
+Wire Wire Line
+	1880 4770 1880 5020
 Wire Bus Line
 	2550 690  6810 690 
 Wire Bus Line

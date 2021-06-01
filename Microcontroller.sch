@@ -92,7 +92,6 @@ Wire Wire Line
 	1270 2710 1780 2710
 Text Label 1270 2710 0    50   ~ 0
 SWCLK
-NoConn ~ 1780 2810
 NoConn ~ 1780 3010
 NoConn ~ 1780 3110
 NoConn ~ 1780 3210
@@ -112,8 +111,6 @@ Text HLabel 1270 4210 0    50   BiDi ~ 0
 RMII_TXD0
 Text HLabel 1270 4310 0    50   BiDi ~ 0
 RMII_TXD1
-NoConn ~ 1780 4410
-NoConn ~ 1780 4510
 Wire Wire Line
 	1270 1410 1780 1410
 Wire Wire Line
@@ -184,25 +181,22 @@ Wire Wire Line
 Text Label 6130 1910 0    50   ~ 0
 USART2_RX
 NoConn ~ 6640 2010
-NoConn ~ 6640 2110
-Text HLabel 6130 2210 0    50   Input ~ 0
+Text HLabel 1270 2810 0    50   Input ~ 0
 LEVEL_SWITCH
 Wire Wire Line
-	6130 2210 6640 2210
-Text HLabel 6130 2310 0    50   Output ~ 0
+	1270 2810 1780 2810
+Text HLabel 8950 1310 2    50   Output ~ 0
 SKIP_N_UNLOADED_REL
 Wire Wire Line
-	6130 2310 6640 2310
+	8950 1310 8440 1310
 NoConn ~ 6640 2410
 NoConn ~ 6640 2510
 NoConn ~ 6640 2610
-Text HLabel 6130 2710 0    50   Output ~ 0
+Text HLabel 8950 1410 2    50   Output ~ 0
 SKIP_N_UNLOADED_BEEPER
 Wire Wire Line
-	6130 2710 6640 2710
+	8440 1410 8950 1410
 NoConn ~ 6640 2810
-NoConn ~ 8440 1310
-NoConn ~ 8440 1410
 Wire Wire Line
 	8950 1510 8440 1510
 Text Label 8950 1510 2    50   ~ 0
@@ -245,10 +239,10 @@ Text HLabel 6130 4540 0    50   Output ~ 0
 WEST_SKIP_LED
 Wire Wire Line
 	6640 4540 6130 4540
-Text HLabel 6130 4640 0    50   Input ~ 0
+Text HLabel 1270 4510 0    50   Input ~ 0
 A_CH3_FAULT
 Wire Wire Line
-	6130 4640 6640 4640
+	1270 4510 1780 4510
 Text HLabel 4090 1610 2    50   Input ~ 0
 ADC3_P
 Text HLabel 6130 4840 0    50   BiDi ~ 0
@@ -271,10 +265,10 @@ Text HLabel 6130 5240 0    50   Output ~ 0
 QUADSPI_CLK
 Wire Wire Line
 	6130 5240 6640 5240
-Text HLabel 6130 5340 0    50   Input ~ 0
+Text HLabel 6130 2110 0    50   Input ~ 0
 A_CH1_FAULT
 Wire Wire Line
-	6130 5340 6640 5340
+	6130 2110 6640 2110
 Text HLabel 6130 5440 0    50   Input ~ 0
 ADC1_P
 Wire Wire Line
@@ -283,10 +277,10 @@ Text HLabel 6130 5540 0    50   Input ~ 0
 ADC2_P
 Wire Wire Line
 	6130 5540 6640 5540
-Text HLabel 6130 5640 0    50   Input ~ 0
+Text HLabel 1270 4410 0    50   Input ~ 0
 A_CH2_FAULT
 Wire Wire Line
-	6130 5640 6640 5640
+	1270 4410 1780 4410
 NoConn ~ 6640 5740
 NoConn ~ 8440 4340
 NoConn ~ 8440 4240
@@ -300,19 +294,19 @@ Text HLabel 8950 4540 2    50   Input ~ 0
 Button_Minus
 Wire Wire Line
 	8440 4640 8950 4640
-Text HLabel 8950 4640 2    50   Input ~ 0
+Text HLabel 8950 4940 2    50   Input ~ 0
 Button_Emh
 Wire Wire Line
 	8440 4740 8950 4740
-Text HLabel 8950 4740 2    50   Input ~ 0
+Text HLabel 8950 4840 2    50   Input ~ 0
 Button_Clock
 Wire Wire Line
 	8440 4840 8950 4840
-Text HLabel 8950 4840 2    50   Input ~ 0
+Text HLabel 8950 4740 2    50   Input ~ 0
 Button_pH
 Wire Wire Line
 	8440 4940 8950 4940
-Text HLabel 8950 4940 2    50   Input ~ 0
+Text HLabel 8950 4640 2    50   Input ~ 0
 Button_Func
 Wire Wire Line
 	8440 5440 8950 5440
@@ -571,4 +565,9 @@ Wire Wire Line
 NoConn ~ 6640 4740
 Wire Wire Line
 	3580 1610 4090 1610
+NoConn ~ 6640 2310
+NoConn ~ 6640 2210
+NoConn ~ 6640 5640
+NoConn ~ 6640 5340
+NoConn ~ 6640 4640
 $EndSCHEMATC

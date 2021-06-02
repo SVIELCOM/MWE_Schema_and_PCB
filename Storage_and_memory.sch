@@ -526,9 +526,9 @@ Wire Wire Line
 Text HLabel 1680 2180 0    50   Input ~ 0
 SD_CARD_CS
 Text Label 1800 2180 0    50   ~ 0
-PD3
-Text Label 6100 3250 0    50   ~ 0
 PD4
+Text Label 6100 3250 0    50   ~ 0
+PD3
 $Comp
 L Device:R R?
 U 1 1 60C41870

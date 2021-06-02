@@ -798,8 +798,8 @@ $Comp
 L dk_Rectangular-Connectors-Headers-Male-Pins:0022232031 J9
 U 1 1 6139B5AD
 P 6530 5220
-F 0 "J9" V 6260 5270 50  0000 C CNN
-F 1 "0022232031" V 6360 5270 50  0000 C CNN
+F 0 "J9" V 6420 5170 50  0000 C CNN
+F 1 "0022232031" V 6360 5270 50  0001 C CNN
 F 2 "digikey-footprints:PinHeader_1x3_P2.54mm_Drill1.02mm" H 6730 5420 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/022232031_sd.pdf" H 6730 5520 60  0001 L CNN
 F 4 "WM4201-ND" H 6730 5620 60  0001 L CNN "Digi-Key_PN"
@@ -1235,6 +1235,6 @@ Text Label 7210 5420 2    50   ~ 0
 COM_ENCODER
 Text Label 7150 4340 3    50   ~ 0
 ENCODER_IN_A
-Text Label 7300 4740 3    50   ~ 0
+Text Label 6654 5320 0    50   ~ 0
 ENCODER_IN_B
 $EndSCHEMATC

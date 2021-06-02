@@ -564,13 +564,13 @@ PG2
 Text Label 3820 2470 0    50   ~ 0
 PG3
 Text Label 3820 2910 0    50   ~ 0
-PG4
-Text Label 3820 3350 0    50   ~ 0
-PG5
-Text Label 3820 3790 0    50   ~ 0
-PG6
-Text Label 3820 4230 0    50   ~ 0
 PG7
+Text Label 3820 3350 0    50   ~ 0
+PG6
+Text Label 3820 3790 0    50   ~ 0
+PG5
+Text Label 3820 4230 0    50   ~ 0
+PG4
 $Comp
 L SVIELCOM_Library:VDD_MCU #PWR0107
 U 1 1 60E7C828

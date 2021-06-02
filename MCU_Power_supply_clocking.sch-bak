@@ -215,33 +215,15 @@ Wire Wire Line
 Wire Wire Line
 	5340 6520 5510 6520
 Wire Wire Line
-	1430 3770 1300 3770
-Wire Wire Line
-	1300 3770 1300 3970
-Wire Wire Line
-	1430 3970 1300 3970
-Connection ~ 1300 3970
-Wire Wire Line
-	1300 3970 1300 4080
-Wire Wire Line
 	890  3770 1300 3770
 Connection ~ 1300 3770
 Wire Wire Line
 	1300 4380 1300 4440
 Wire Wire Line
 	1300 4440 1960 4440
-Wire Wire Line
-	1960 4440 1960 3970
-Wire Wire Line
-	1960 3970 1830 3970
 Connection ~ 1300 4440
 Wire Wire Line
 	1300 4440 1300 4540
-Wire Wire Line
-	1830 3770 1960 3770
-Wire Wire Line
-	1960 3770 1960 3970
-Connection ~ 1960 3970
 Wire Wire Line
 	3380 1350 2910 1350
 Wire Wire Line
@@ -950,7 +932,7 @@ P 4590 3890
 AR Path="/60A2F808" Ref="JP?"  Part="1" 
 AR Path="/60A03F8A/60A2F808" Ref="JP3"  Part="1" 
 F 0 "JP3" V 4650 3970 50  0000 L CNN
-F 1 "Jumper_3_Bridged12" V 4580 3990 50  0001 L CNN
+F 1 "BOOT0" V 4580 3990 50  0001 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 4590 3890 50  0001 C CNN
 F 3 "~" H 4590 3890 50  0001 C CNN
 	1    4590 3890
@@ -980,28 +962,6 @@ F 1 "GNDREF" H 1305 4367 50  0001 C CNN
 F 2 "" H 1300 4540 50  0001 C CNN
 F 3 "" H 1300 4540 50  0001 C CNN
 	1    1300 4540
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_Pushbutton-Switches:KS-01Q-01_Obsolete S?
-U 1 1 60A0FE98
-P 1630 3870
-AR Path="/60A0FE98" Ref="S?"  Part="1" 
-AR Path="/60A03F8A/60A0FE98" Ref="S1"  Part="1" 
-F 0 "S1" H 1630 4195 50  0000 C CNN
-F 1 "KS-01Q-01_Obsolete" H 1630 4104 50  0000 C CNN
-F 2 "digikey-footprints:PushButton_Round_D12mm_THT_KS-01Q-01" H 1830 4070 50  0001 L CNN
-F 3 "http://spec_sheets.e-switch.com/specs/29-KS01Q01.pdf" H 1830 4170 60  0001 L CNN
-F 4 "EG4791-ND" H 1830 4270 60  0001 L CNN "Digi-Key_PN"
-F 5 "KS-01Q-01" H 1830 4370 60  0001 L CNN "MPN"
-F 6 "Switches" H 1830 4470 60  0001 L CNN "Category"
-F 7 "Pushbutton Switches" H 1830 4570 60  0001 L CNN "Family"
-F 8 "http://spec_sheets.e-switch.com/specs/29-KS01Q01.pdf" H 1830 4670 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/e-switch/KS-01Q-01/EG4791-ND/2116270" H 1830 4770 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH PUSH SPST-NO 0.01A 35V" H 1830 4870 60  0001 L CNN "Description"
-F 11 "E-Switch" H 1830 4970 60  0001 L CNN "Manufacturer"
-F 12 "Obsolete NonStock" H 1830 5070 60  0001 L CNN "Status"
-	1    1630 3870
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2039,4 +1999,23 @@ $EndComp
 Connection ~ 8360 5090
 Wire Wire Line
 	8360 5090 8690 5090
+$Comp
+L Switch:SW_Push SW7
+U 1 1 60CC4AC1
+P 1630 3770
+F 0 "SW7" H 1650 4090 50  0000 C CNN
+F 1 "RESET" H 1650 3990 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1630 3970 50  0001 C CNN
+F 3 "~" H 1630 3970 50  0001 C CNN
+	1    1630 3770
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 3770 1430 3770
+Wire Wire Line
+	1960 3770 1960 4440
+Wire Wire Line
+	1300 3770 1300 4080
+Wire Wire Line
+	1830 3770 1960 3770
 $EndSCHEMATC

@@ -506,26 +506,6 @@ Text Label 3160 6660 2    50   ~ 0
 SPI4_MISO
 Text Label 3160 6560 2    50   ~ 0
 SPI4_MOSI
-$Comp
-L dk_Rectangular-Connectors-Headers-Male-Pins:640456-2 J13
-U 1 1 612E235D
-P 3580 5720
-F 0 "J13" V 3460 5660 50  0000 C CNN
-F 1 "640456-2" V 3900 5740 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3780 5920 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 3780 6020 60  0001 L CNN
-F 4 "A1921-ND" H 3780 6120 60  0001 L CNN "Digi-Key_PN"
-F 5 "640456-2" H 3780 6220 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 3780 6320 60  0001 L CNN "Category"
-F 7 "Rectangular Connectors - Headers, Male Pins" H 3780 6420 60  0001 L CNN "Family"
-F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 3780 6520 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/te-connectivity-amp-connectors/640456-2/A1921-ND/109003" H 3780 6620 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN HEADER VERT 2POS 2.54MM" H 3780 6720 60  0001 L CNN "Description"
-F 11 "TE Connectivity AMP Connectors" H 3780 6820 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 3780 6920 60  0001 L CNN "Status"
-	1    3580 5720
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3680 5720 4310 5720
 Wire Wire Line
@@ -570,4 +550,43 @@ NoConn ~ 6640 2210
 NoConn ~ 6640 5640
 NoConn ~ 6640 5340
 NoConn ~ 6640 4640
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:640456-3 J13
+U 1 1 60D551B2
+P 3580 5720
+F 0 "J13" V 3472 5672 50  0000 C CNN
+F 1 "640456-3" V 3898 5672 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3780 5920 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 3780 6020 60  0001 L CNN
+F 4 "A19470-ND" H 3780 6120 60  0001 L CNN "Digi-Key_PN"
+F 5 "640456-3" H 3780 6220 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 3780 6320 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 3780 6420 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 3780 6520 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-amp-connectors/640456-3/A19470-ND/259010" H 3780 6620 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 3POS 2.54MM" H 3780 6720 60  0001 L CNN "Description"
+F 11 "TE Connectivity AMP Connectors" H 3780 6820 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3780 6920 60  0001 L CNN "Status"
+	1    3580 5720
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60D5728A
+P 3820 6070
+AR Path="/60D5728A" Ref="#PWR?"  Part="1" 
+AR Path="/60A03F8A/60D5728A" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60D5728A" Ref="#PWR?"  Part="1" 
+AR Path="/60CDB738/60D5728A" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 3820 5820 50  0001 C CNN
+F 1 "GNDREF" V 3825 5942 50  0001 R CNN
+F 2 "" H 3820 6070 50  0001 C CNN
+F 3 "" H 3820 6070 50  0001 C CNN
+	1    3820 6070
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3680 5920 3820 5920
+Wire Wire Line
+	3820 5920 3820 6070
 $EndSCHEMATC

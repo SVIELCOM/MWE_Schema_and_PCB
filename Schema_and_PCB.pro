@@ -1,4 +1,4 @@
-update=Пт 04 июн 2021 14:57:43
+update=Вс 06 июн 2021 13:43:38
 version=1
 last_client=kicad
 [general]
@@ -81,20 +81,20 @@ OthersTextSizeH=1
 OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
-SolderMaskClearance=0.0571
+SolderMaskClearance=0.052
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
-Name=F.Cu
+Name=Top
 Type=2
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=GND
+Name=GND.Internal
 Type=2
 Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=POWER
+Name=POWER.Internal
 Type=2
 Enabled=1
 [pcbnew/Layer.In3.Cu]
@@ -210,7 +210,7 @@ Name=In30.Cu
 Type=0
 Enabled=0
 [pcbnew/Layer.B.Cu]
-Name=B.Cu
+Name=Bottom
 Type=2
 Enabled=1
 [pcbnew/Layer.B.Adhes]
@@ -254,7 +254,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.15
+Clearance=0.2
 TrackWidth=0.2
 ViaDiameter=0.701
 ViaDrill=0.3

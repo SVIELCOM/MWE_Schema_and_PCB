@@ -1,4 +1,4 @@
-update=Ср 26 мая 2021 14:01:10
+update=Вт 08 июн 2021 11:41:51
 version=1
 last_client=kicad
 [general]
@@ -41,8 +41,18 @@ MinHoleToHole=0.25
 TrackWidth1=0.2
 TrackWidth2=0.2
 TrackWidth3=0.4
-ViaDiameter1=0.6
+TrackWidth4=0.6
+TrackWidth5=0.8
+TrackWidth6=1
+TrackWidth7=1.2
+TrackWidth8=1.5
+TrackWidth9=2.5
+ViaDiameter1=0.7
 ViaDrill1=0.3
+ViaDiameter2=0.7
+ViaDrill2=0.3
+ViaDiameter3=0.9
+ViaDrill3=0.5
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -59,19 +69,19 @@ CopperTextThickness=0.3
 CopperTextItalic=0
 CopperTextUpright=1
 EdgeCutLineWidth=0.09999999999999999
-CourtyardLineWidth=0.12
+CourtyardLineWidth=0.05
 OthersLineWidth=0.15
 OthersTextSizeV=1
 OthersTextSizeH=1
 OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
-SolderMaskClearance=0
-SolderMaskMinWidth=0
+SolderMaskClearance=0.051
+SolderMaskMinWidth=0.2
 SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
-Name=F.Cu
+Name=F.Cu-TOP
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
@@ -195,7 +205,7 @@ Name=In30.Cu
 Type=0
 Enabled=0
 [pcbnew/Layer.B.Cu]
-Name=B.Cu
+Name=B.Cu-BOTTOM
 Type=0
 Enabled=1
 [pcbnew/Layer.B.Adhes]
@@ -239,9 +249,9 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.2
+Clearance=0.4
 TrackWidth=0.2
-ViaDiameter=0.6
+ViaDiameter=0.7
 ViaDrill=0.3
 uViaDiameter=0.3
 uViaDrill=0.1
@@ -250,10 +260,10 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Power
-Clearance=0.2
+Clearance=0.4
 TrackWidth=0.4
-ViaDiameter=0.7
-ViaDrill=0.4
+ViaDiameter=0.9
+ViaDrill=0.5
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2

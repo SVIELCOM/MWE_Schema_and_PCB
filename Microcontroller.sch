@@ -372,26 +372,6 @@ F 12 "Active" H 1450 7120 60  0001 L CNN "Status"
 	1    1250 5920
 	0    1    -1   0   
 $EndComp
-$Comp
-L dk_Rectangular-Connectors-Headers-Male-Pins:0022232041 J16
-U 1 1 612AA072
-P 1250 6860
-F 0 "J16" V 1650 6820 50  0000 C CNN
-F 1 "0022232041" V 1140 6820 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1450 7060 60  0001 L CNN
-F 3 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 1450 7160 60  0001 L CNN
-F 4 "WM4202-ND" H 1450 7260 60  0001 L CNN "Digi-Key_PN"
-F 5 "0022232041" H 1450 7360 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 1450 7460 60  0001 L CNN "Category"
-F 7 "Rectangular Connectors - Headers, Male Pins" H 1450 7560 60  0001 L CNN "Family"
-F 8 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 1450 7660 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/molex/0022232041/WM4202-ND/26671" H 1450 7760 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN HEADER VERT 4POS 2.54MM" H 1450 7860 60  0001 L CNN "Description"
-F 11 "Molex" H 1450 7960 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 1450 8060 60  0001 L CNN "Status"
-	1    1250 6860
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	1350 6860 1490 6860
 Wire Wire Line
@@ -589,4 +569,33 @@ Wire Wire Line
 	3680 5920 3820 5920
 Wire Wire Line
 	3820 5920 3820 6070
+NoConn ~ 6640 2710
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:B5B-XH-A_LF__SN_ J16
+U 1 1 60C6DEE0
+P 1250 6860
+F 0 "J16" V 1750 6820 50  0000 C CNN
+F 1 "B5B-XH-A_LF__SN_" V 1080 6900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1450 7060 60  0001 L CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 1450 7160 60  0001 L CNN
+F 4 "455-2270-ND" H 1450 7260 60  0001 L CNN "Digi-Key_PN"
+F 5 "B5B-XH-A(LF)(SN)" H 1450 7360 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1450 7460 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 1450 7560 60  0001 L CNN "Family"
+F 8 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 1450 7660 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/jst-sales-america-inc/B5B-XH-A(LF)(SN)/455-2270-ND/1530483" H 1450 7760 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 5POS 2.5MM" H 1450 7860 60  0001 L CNN "Description"
+F 11 "JST Sales America Inc." H 1450 7960 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1450 8060 60  0001 L CNN "Status"
+	1    1250 6860
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1350 6460 1650 6460
+Text GLabel 1750 6430 2    50   Output ~ 0
+NRST
+Wire Wire Line
+	1650 6460 1650 6430
+Wire Wire Line
+	1650 6430 1750 6430
 $EndSCHEMATC

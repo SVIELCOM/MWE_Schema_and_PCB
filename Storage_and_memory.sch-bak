@@ -296,7 +296,7 @@ Wire Wire Line
 	4280 7010 4550 7010
 NoConn ~ 3180 6810
 Wire Wire Line
-	2620 7010 3180 7010
+	2620 7010 2940 7010
 Wire Wire Line
 	2620 7210 3180 7210
 Text HLabel 2620 7010 0    50   Input ~ 0
@@ -821,4 +821,24 @@ Wire Wire Line
 Wire Wire Line
 	10970 5560 10970 5900
 Connection ~ 10790 5560
+$Comp
+L Device:R R?
+U 1 1 60C3CFB3
+P 2940 6760
+AR Path="/608C7842/60C3CFB3" Ref="R?"  Part="1" 
+AR Path="/60D8A641/60C3CFB3" Ref="R24"  Part="1" 
+F 0 "R24" V 3020 6670 50  0000 L CNN
+F 1 "10K" V 2850 6680 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2870 6760 50  0001 C CNN
+F 3 "~" H 2940 6760 50  0001 C CNN
+F 4 "RC0805FR-0710KL" H 2940 6760 50  0001 C CNN "Type"
+	1    2940 6760
+	-1   0    0    -1  
+$EndComp
+Connection ~ 2940 6610
+Wire Wire Line
+	2940 6910 2940 7010
+Connection ~ 2940 7010
+Wire Wire Line
+	2940 7010 3180 7010
 $EndSCHEMATC

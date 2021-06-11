@@ -172,7 +172,7 @@ $EndComp
 Wire Wire Line
 	9070 2750 9070 2710
 Wire Wire Line
-	9070 2710 9610 2710
+	9070 2710 9360 2710
 Wire Wire Line
 	9610 2710 9610 3250
 Wire Wire Line
@@ -419,11 +419,11 @@ $EndComp
 Wire Wire Line
 	2930 3000 3170 3000
 Text Label 1980 2350 0    50   ~ 0
-PD10
+PE0
 Text Label 1980 3590 0    50   ~ 0
-PD14
+PE1
 Text Label 9760 3050 0    50   ~ 0
-PD9
+PA15
 $Comp
 L dk_Terminal-Blocks-Wire-to-Board:OSTTC020162 J5
 U 1 1 611B6E3A
@@ -1109,15 +1109,15 @@ Wire Wire Line
 Text Label 3090 5650 0    50   ~ 0
 PC3_C
 Text Label 3110 5850 0    50   ~ 0
-PF4
+PB15
 Text Label 3100 5550 0    50   ~ 0
 PF13
 Text Label 1600 5850 0    50   ~ 0
-PF14
+PB14
 Text Label 3100 5450 0    50   ~ 0
 PF12
 Text Label 3100 5750 0    50   ~ 0
-PF11
+PD8
 Connection ~ 2500 5450
 Connection ~ 2750 5550
 Wire Wire Line
@@ -1237,4 +1237,18 @@ Text Label 7150 4340 3    50   ~ 0
 ENCODER_IN_A
 Text Label 6654 5320 0    50   ~ 0
 ENCODER_IN_B
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 60C68E0F
+P 9360 2710
+F 0 "#FLG0102" H 9360 2785 50  0001 C CNN
+F 1 "PWR_FLAG" H 9370 2900 50  0001 C CNN
+F 2 "" H 9360 2710 50  0001 C CNN
+F 3 "~" H 9360 2710 50  0001 C CNN
+	1    9360 2710
+	1    0    0    -1  
+$EndComp
+Connection ~ 9360 2710
+Wire Wire Line
+	9360 2710 9610 2710
 $EndSCHEMATC

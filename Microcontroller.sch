@@ -180,7 +180,6 @@ Wire Wire Line
 	6130 1910 6640 1910
 Text Label 6130 1910 0    50   ~ 0
 USART2_RX
-NoConn ~ 6640 2010
 Text HLabel 1270 2810 0    50   Input ~ 0
 LEVEL_SWITCH
 Wire Wire Line
@@ -309,20 +308,16 @@ Wire Wire Line
 Text HLabel 8950 4640 2    50   Input ~ 0
 Button_Func
 Wire Wire Line
-	8440 5440 8950 5440
-Text HLabel 8950 5440 2    50   Output ~ 0
-SPI6_CS
+	8440 5240 8950 5240
+Text HLabel 8950 5240 2    50   Output ~ 0
+SPI1_NSS
 NoConn ~ 8440 5140
-NoConn ~ 8440 5240
-NoConn ~ 8440 5340
 Wire Wire Line
-	8440 5540 8950 5540
-Text HLabel 8950 5540 2    50   Output ~ 0
-SPI6_SCK
-Wire Wire Line
-	8440 5640 8950 5640
-Text HLabel 8950 5640 2    50   Output ~ 0
-SPI6_MOSI
+	8440 5340 8950 5340
+Text HLabel 8950 5340 2    50   Output ~ 0
+SPI1_SCK
+Text HLabel 6130 2010 0    50   Output ~ 0
+SPI1_MOSI
 NoConn ~ 8440 5040
 NoConn ~ 8440 5740
 Wire Wire Line
@@ -598,4 +593,9 @@ Wire Wire Line
 	1650 6460 1650 6430
 Wire Wire Line
 	1650 6430 1750 6430
+Wire Wire Line
+	6130 2010 6640 2010
+NoConn ~ 8440 5640
+NoConn ~ 8440 5540
+NoConn ~ 8440 5440
 $EndSCHEMATC

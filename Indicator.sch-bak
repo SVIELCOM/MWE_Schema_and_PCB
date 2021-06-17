@@ -862,25 +862,25 @@ $EndComp
 Wire Wire Line
 	1880 7270 1880 7380
 Text HLabel 980  3570 0    50   Input ~ 0
-SPI6_CS
+SPI1_NSS
 Wire Wire Line
 	980  3570 1080 3570
 Connection ~ 1080 3570
 Text Label 1240 3570 0    50   ~ 0
-PG15
+PG10
 Text HLabel 980  3670 0    50   Input ~ 0
-SPI6_SCK
+SPI1_SCK
 Wire Wire Line
 	980  3670 1220 3670
 Connection ~ 1220 3670
 Text HLabel 980  3770 0    50   Input ~ 0
-SPI6_MOSI
+SPI1_MOSI
 Wire Wire Line
 	980  3770 1450 3770
 Text Label 1240 3670 0    50   ~ 0
-PG13
+PG11
 Text Label 1240 3770 0    50   ~ 0
-PG14
+PD7
 $Comp
 L Device:LED D1
 U 1 1 60D12378

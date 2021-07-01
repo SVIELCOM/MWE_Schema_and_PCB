@@ -679,7 +679,7 @@ AR Path="/60A2F6E4" Ref="Y?"  Part="1"
 AR Path="/60A03F8A/60A2F6E4" Ref="Y1"  Part="1" 
 F 0 "Y1" V 3860 2140 50  0000 C CNN
 F 1 "NX5032GA-8MHz" V 3970 2220 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering" H 3760 2300 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm" H 3760 2300 50  0001 C CNN
 F 3 "" H 3760 2300 50  0001 C CNN
 	1    3760 2300
 	0    1    1    0   

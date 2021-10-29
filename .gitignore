@@ -1,0 +1,4 @@
+Gerbers/
+Gerbers_analog/
+*.sch-bak
+*.kicad_pcb-bak

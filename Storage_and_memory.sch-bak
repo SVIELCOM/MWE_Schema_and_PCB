@@ -294,7 +294,6 @@ F 4 "RC0805FR-0733RL" V 4700 7010 50  0001 C CNN "Type"
 $EndComp
 Wire Wire Line
 	4280 7010 4550 7010
-NoConn ~ 3180 6810
 Wire Wire Line
 	2620 7010 2940 7010
 Wire Wire Line
@@ -841,4 +840,10 @@ Wire Wire Line
 Connection ~ 2940 7010
 Wire Wire Line
 	2940 7010 3180 7010
+Wire Wire Line
+	3180 6810 3180 6920
+Wire Wire Line
+	3180 6920 2620 6920
+Text GLabel 2620 6920 0    50   Input ~ 0
+NRST
 $EndSCHEMATC

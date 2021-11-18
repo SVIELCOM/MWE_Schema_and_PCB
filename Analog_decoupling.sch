@@ -28,7 +28,7 @@ F 4 "B82790C0225N265" H 1740 2220 50  0001 C CNN "Type"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Схема-и-печатная-плата-rescue:ISO224ADWVR-Isolator U2
+L Analog_decoupling-rescue:ISO224ADWVR-Isolator-Схема-и-печатная-плата-rescue U2
 U 1 1 60D90026
 P 3740 1920
 AR Path="/60D90026" Ref="U2"  Part="1" 
@@ -765,7 +765,7 @@ F 4 "B82790C0225N265" H 1790 5280 50  0001 C CNN "Type"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Схема-и-печатная-плата-rescue:ISO224ADWVR-Isolator U5
+L Analog_decoupling-rescue:ISO224ADWVR-Isolator-Схема-и-печатная-плата-rescue U5
 U 1 1 60B39259
 P 3790 4980
 AR Path="/60B39259" Ref="U5"  Part="1" 
@@ -1393,7 +1393,7 @@ F 4 "B82790C0225N265" H 1900 8840 50  0001 C CNN "Type"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Схема-и-печатная-плата-rescue:ISO224ADWVR-Isolator U9
+L Analog_decoupling-rescue:ISO224ADWVR-Isolator-Схема-и-печатная-плата-rescue U9
 U 1 1 60BB246B
 P 3900 8540
 AR Path="/60BB246B" Ref="U9"  Part="1" 

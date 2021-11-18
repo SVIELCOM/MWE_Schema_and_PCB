@@ -1,6 +1,64 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Analog_decoupling-rescue_ISO224ADWVR-Isolator-Схема-и-печатная-плата-rescue
+#
+DEF Analog_decoupling-rescue_ISO224ADWVR-Isolator-Схема-и-печатная-плата-rescue U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN
+F1 "Analog_decoupling-rescue_ISO224ADWVR-Isolator-Схема-и-печатная-плата-rescue" 0 300 50 H V L CNN
+F2 "Texas_Instruments-DWV0008A-0-0-*" 0 400 50 H I L CNN
+F3 "https://www.ti.com/lit/ds/symlink/iso224.pdf" 0 500 50 H I L CNN
+F4 "+125°C" 0 600 50 H I L CNN "ambient temperature range high"
+F5 "-55°C" 0 700 50 H I L CNN "ambient temperature range low"
+F6 "No" 0 800 50 H I L CNN "automotive"
+F7 "IC" 0 900 50 H I L CNN "category"
+F8 "Integrated Circuits (ICs)" 0 1000 50 H I L CNN "device class L1"
+F9 "Linear ICs" 0 1100 50 H I L CNN "device class L2"
+F10 "unset" 0 1200 50 H I L CNN "device class L3"
+F11 "IC ISOLATED 8SOIC" 0 1300 50 H I L CNN "digikey description"
+F12 "296-52315-1-ND" 0 1400 50 H I L CNN "digikey part number"
+F13 "185kHz" 0 1500 50 H I L CNN "gain bandwidth"
+F14 "2.8mm" 0 1600 50 H I L CNN "height"
+F15 "0.015uA" 0 1700 50 H I L CNN "input bias current"
+F16 "1mV" 0 1800 50 H I L CNN "input offset voltage"
+F17 "Yes" 0 1900 50 H I L CNN "lead free"
+F18 "f96fe3b55d649421" 0 2000 50 H I L CNN "library id"
+F19 "Texas Instruments" 0 2100 50 H I L CNN "manufacturer"
+F20 "+150°C" 0 2200 50 H I L CNN "max junction temp"
+F21 "18V" 0 2300 50 H I L CNN "max supply voltage"
+F22 "4.5V" 0 2400 50 H I L CNN "min supply voltage"
+F23 "Reinforced isolated amplifier for voltage sensing with ±12-V input 8-SOIC -55 to 125" 0 2500 50 H I L CNN "mouser description"
+F24 "595-ISO224ADWVR" 0 2600 50 H I L CNN "mouser part number"
+F25 "1" 0 2700 50 H I L CNN "number of channels"
+F26 "18mA" 0 2800 50 H I L CNN "output current per channel"
+F27 "SOICW8" 0 2900 50 H I L CNN "package"
+F28 "250us" 0 3000 50 H I L CNN "response time"
+F29 "Yes" 0 3100 50 H I L CNN "rohs"
+F30 "0.36mm" 0 3200 50 H I L CNN "standoff height"
+F31 "+125°C" 0 3300 50 H I L CNN "temperature range high"
+F32 "-55°C" 0 3400 50 H I L CNN "temperature range low"
+F33 "0.001/3V/mV" 0 3500 50 H I L CNN "voltage gain"
+DRAW
+S 200 100 1100 -700 1 1 0 f
+P 2 1 1 0 600 -550 600 -650 N
+P 2 1 1 0 600 -350 600 -450 N
+P 2 1 1 0 600 -150 600 -250 N
+P 2 1 1 0 600 50 600 -50 N
+P 2 1 1 0 700 -550 700 -650 N
+P 2 1 1 0 700 -350 700 -450 N
+P 2 1 1 0 700 -150 700 -250 N
+P 2 1 1 0 700 50 700 -50 N
+X VCAP 1 100 -400 100 R 40 40 1 1 P
+X IN 2 100 -200 100 R 40 40 1 1 P
+X VDD1 3 100 0 100 R 40 40 1 1 W
+X GND1 4 100 -600 100 R 40 40 1 1 W
+X GND2 5 1200 -600 100 L 40 40 1 1 W
+X OUTN 6 1200 -400 100 L 40 40 1 1 P
+X OUTP 7 1200 -200 100 L 40 40 1 1 P
+X VDD2 8 1200 0 100 L 40 40 1 1 W
+ENDDRAW
+ENDDEF
+#
 # Connector_TestPoint
 #
 DEF Connector_TestPoint TP 0 30 N N 1 F N
@@ -380,64 +438,6 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
 X pwr 1 0 0 0 U 50 50 0 0 w
-ENDDRAW
-ENDDEF
-#
-# Схема-и-печатная-плата-rescue_ISO224ADWVR-Isolator
-#
-DEF Схема-и-печатная-плата-rescue_ISO224ADWVR-Isolator U 0 40 Y Y 1 L N
-F0 "U" 0 200 50 H V L CNN
-F1 "Схема-и-печатная-плата-rescue_ISO224ADWVR-Isolator" 0 300 50 H V L CNN
-F2 "Texas_Instruments-DWV0008A-0-0-*" 0 400 50 H I L CNN
-F3 "https://www.ti.com/lit/ds/symlink/iso224.pdf" 0 500 50 H I L CNN
-F4 "+125°C" 0 600 50 H I L CNN "ambient temperature range high"
-F5 "-55°C" 0 700 50 H I L CNN "ambient temperature range low"
-F6 "No" 0 800 50 H I L CNN "automotive"
-F7 "IC" 0 900 50 H I L CNN "category"
-F8 "Integrated Circuits (ICs)" 0 1000 50 H I L CNN "device class L1"
-F9 "Linear ICs" 0 1100 50 H I L CNN "device class L2"
-F10 "unset" 0 1200 50 H I L CNN "device class L3"
-F11 "IC ISOLATED 8SOIC" 0 1300 50 H I L CNN "digikey description"
-F12 "296-52315-1-ND" 0 1400 50 H I L CNN "digikey part number"
-F13 "185kHz" 0 1500 50 H I L CNN "gain bandwidth"
-F14 "2.8mm" 0 1600 50 H I L CNN "height"
-F15 "0.015uA" 0 1700 50 H I L CNN "input bias current"
-F16 "1mV" 0 1800 50 H I L CNN "input offset voltage"
-F17 "Yes" 0 1900 50 H I L CNN "lead free"
-F18 "f96fe3b55d649421" 0 2000 50 H I L CNN "library id"
-F19 "Texas Instruments" 0 2100 50 H I L CNN "manufacturer"
-F20 "+150°C" 0 2200 50 H I L CNN "max junction temp"
-F21 "18V" 0 2300 50 H I L CNN "max supply voltage"
-F22 "4.5V" 0 2400 50 H I L CNN "min supply voltage"
-F23 "Reinforced isolated amplifier for voltage sensing with ±12-V input 8-SOIC -55 to 125" 0 2500 50 H I L CNN "mouser description"
-F24 "595-ISO224ADWVR" 0 2600 50 H I L CNN "mouser part number"
-F25 "1" 0 2700 50 H I L CNN "number of channels"
-F26 "18mA" 0 2800 50 H I L CNN "output current per channel"
-F27 "SOICW8" 0 2900 50 H I L CNN "package"
-F28 "250us" 0 3000 50 H I L CNN "response time"
-F29 "Yes" 0 3100 50 H I L CNN "rohs"
-F30 "0.36mm" 0 3200 50 H I L CNN "standoff height"
-F31 "+125°C" 0 3300 50 H I L CNN "temperature range high"
-F32 "-55°C" 0 3400 50 H I L CNN "temperature range low"
-F33 "0.001/3V/mV" 0 3500 50 H I L CNN "voltage gain"
-DRAW
-S 200 100 1100 -700 1 1 0 f
-P 2 1 1 0 600 -550 600 -650 N
-P 2 1 1 0 600 -350 600 -450 N
-P 2 1 1 0 600 -150 600 -250 N
-P 2 1 1 0 600 50 600 -50 N
-P 2 1 1 0 700 -550 700 -650 N
-P 2 1 1 0 700 -350 700 -450 N
-P 2 1 1 0 700 -150 700 -250 N
-P 2 1 1 0 700 50 700 -50 N
-X VCAP 1 100 -400 100 R 40 40 1 1 P
-X IN 2 100 -200 100 R 40 40 1 1 P
-X VDD1 3 100 0 100 R 40 40 1 1 W
-X GND1 4 100 -600 100 R 40 40 1 1 W
-X GND2 5 1200 -600 100 L 40 40 1 1 W
-X OUTN 6 1200 -400 100 L 40 40 1 1 P
-X OUTP 7 1200 -200 100 L 40 40 1 1 P
-X VDD2 8 1200 0 100 L 40 40 1 1 W
 ENDDRAW
 ENDDEF
 #

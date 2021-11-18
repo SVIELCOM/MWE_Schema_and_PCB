@@ -268,10 +268,8 @@ Text HLabel 6130 2110 0    50   Input ~ 0
 A_CH1_FAULT
 Wire Wire Line
 	6130 2110 6640 2110
-Text HLabel 6130 5440 0    50   Input ~ 0
+Text HLabel 6130 5340 0    50   Input ~ 0
 ADC1_P
-Wire Wire Line
-	6130 5440 6640 5440
 Text HLabel 6130 5540 0    50   Input ~ 0
 ADC2_P
 Wire Wire Line
@@ -523,7 +521,6 @@ Wire Wire Line
 NoConn ~ 6640 2310
 NoConn ~ 6640 2210
 NoConn ~ 6640 5640
-NoConn ~ 6640 5340
 NoConn ~ 6640 4640
 $Comp
 L dk_Rectangular-Connectors-Headers-Male-Pins:640456-3 J13
@@ -598,4 +595,7 @@ Wire Wire Line
 NoConn ~ 8440 5640
 NoConn ~ 8440 5540
 NoConn ~ 8440 5440
+Wire Wire Line
+	6130 5340 6640 5340
+NoConn ~ 6640 5440
 $EndSCHEMATC

@@ -153,4 +153,5 @@
   (lib (name freetronics_schematic)(type Legacy)(uri /home/cableman/Documents/KiCAD/LIBS/freetronics_kicad_library-master/freetronics_schematic.lib)(options "")(descr ""))
   (lib (name Project_Lib)(type Legacy)(uri ${KIPRJMOD}/Project_Lib.lib)(options "")(descr ""))
   (lib (name Schema_and_PCB-rescue)(type Legacy)(uri ${KIPRJMOD}/Schema_and_PCB-rescue.lib)(options "")(descr ""))
+  (lib (name Analog_decoupling-rescue)(type Legacy)(uri ${KIPRJMOD}/Analog_decoupling-rescue.lib)(options "")(descr ""))
 )

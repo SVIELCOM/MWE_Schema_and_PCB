@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Схема-и-печатная-плата-rescue:LAN8742A-CZ-TR-Interface_Ethernet U?
+L Schema_and_PCB-rescue:LAN8742A-CZ-TR-Interface_Ethernet-Схема-и-печатная-плата-rescue U?
 U 1 1 6091F45D
 P 3290 3270
 AR Path="/6091F45D" Ref="U?"  Part="1" 

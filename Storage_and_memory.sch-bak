@@ -14,9 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Схема-и-печатная-плата-rescue:W25Q256JVFIQ-Memory_Flash U15
+L Schema_and_PCB-rescue:W25Q256JVFIQ-Memory_Flash-Схема-и-печатная-плата-rescue U15
 U 1 1 60D8B67A
 P 3180 6610
+AR Path="/60D8B67A" Ref="U15"  Part="1" 
+AR Path="/60D8A641/60D8B67A" Ref="U15"  Part="1" 
 F 0 "U15" H 3730 6875 50  0000 C CNN
 F 1 "W25Q256JVFIQ" H 3730 6784 50  0000 C CNN
 F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 3180 7010 50  0001 L CNN

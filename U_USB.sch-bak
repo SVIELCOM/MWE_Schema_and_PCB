@@ -31,9 +31,11 @@ Wire Wire Line
 Wire Wire Line
 	5730 5350 5730 5460
 $Comp
-L Interface_USB:ADUM4160 U8
+L Schema_and_PCB-rescue:ADUM4160-Interface_USB U8
 U 1 1 60CF7C1F
 P 4150 3950
+AR Path="/60CF7C1F" Ref="U8"  Part="1" 
+AR Path="/6099558B/60CF7C1F" Ref="U8"  Part="1" 
 F 0 "U8" H 3780 4610 50  0000 C CNN
 F 1 "ADUM4160" H 3780 4520 50  0000 C CNN
 F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 4150 3250 50  0001 C CNN

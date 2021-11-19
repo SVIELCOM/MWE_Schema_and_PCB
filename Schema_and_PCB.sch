@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title "ШВУ"
 Date "2021-03-25"
 Rev "V0.3"
@@ -265,4 +265,10 @@ Wire Wire Line
 	7750 3500 8550 3500
 Wire Wire Line
 	8550 3700 7750 3700
+$Sheet
+S 8550 4180 1100 530 
+U 619A1DC2
+F0 "RTC" 50
+F1 "RTC.sch" 50
+$EndSheet
 $EndSCHEMATC

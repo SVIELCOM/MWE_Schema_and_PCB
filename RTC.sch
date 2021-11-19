@@ -13,4 +13,111 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Timer_RTC:DS3231MZ U16
+U 1 1 619A60A6
+P 3940 3940
+F 0 "U16" H 3630 4290 50  0000 C CNN
+F 1 "DS3231MZ" H 4200 4290 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3940 3440 50  0001 C CNN
+F 3 "http://datasheets.maximintegrated.com/en/ds/DS3231M.pdf" H 3940 3340 50  0001 C CNN
+	1    3940 3940
+	1    0    0    -1  
+$EndComp
+Text HLabel 2940 3740 0    50   Input ~ 0
+RTC_SCL
+Text HLabel 2940 3840 0    50   BiDi ~ 0
+RTC_SDA
+Text GLabel 2930 4140 0    50   Input ~ 0
+NRST
+$Comp
+L power:GNDREF #PWR065
+U 1 1 619A9B69
+P 3940 4340
+F 0 "#PWR065" H 3940 4090 50  0001 C CNN
+F 1 "GNDREF" H 3970 4160 50  0001 C CNN
+F 2 "" H 3940 4340 50  0001 C CNN
+F 3 "" H 3940 4340 50  0001 C CNN
+	1    3940 4340
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2940 3740 3050 3740
+Wire Wire Line
+	3440 3840 3290 3840
+Wire Wire Line
+	2930 4140 3440 4140
+Text GLabel 3750 3440 0    50   Input ~ 0
+RTCbat
+Wire Wire Line
+	3750 3440 3840 3440
+Wire Wire Line
+	3840 3440 3840 3540
+NoConn ~ 4440 3740
+NoConn ~ 4440 4040
+$Comp
+L SVIELCOM_Library:VDD_MCU #PWR?
+U 1 1 619DA804
+P 3940 3010
+AR Path="/60D8A641/619DA804" Ref="#PWR?"  Part="1" 
+AR Path="/619A1DC2/619DA804" Ref="#PWR061"  Part="1" 
+F 0 "#PWR061" H 3940 2860 50  0001 C CNN
+F 1 "VDD_MCU" H 3955 3183 50  0000 C CNN
+F 2 "" H 3940 3010 50  0001 C CNN
+F 3 "" H 3940 3010 50  0001 C CNN
+	1    3940 3010
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3940 3540 3940 3080
+$Comp
+L Device:R R?
+U 1 1 619DCC06
+P 3050 3290
+AR Path="/608C7842/619DCC06" Ref="R?"  Part="1" 
+AR Path="/619A1DC2/619DCC06" Ref="R25"  Part="1" 
+F 0 "R25" H 2860 3340 50  0000 L CNN
+F 1 "50" H 2880 3250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2980 3290 50  0001 C CNN
+F 3 "~" H 3050 3290 50  0001 C CNN
+F 4 "CRCW060350R0FKEA" H 3050 3290 50  0001 C CNN "Type"
+	1    3050 3290
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 619DCC5A
+P 3290 3290
+AR Path="/608C7842/619DCC5A" Ref="R?"  Part="1" 
+AR Path="/619A1DC2/619DCC5A" Ref="R28"  Part="1" 
+F 0 "R28" H 3100 3340 50  0000 L CNN
+F 1 "50" H 3120 3250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3220 3290 50  0001 C CNN
+F 3 "~" H 3290 3290 50  0001 C CNN
+F 4 "CRCW060350R0FKEA" H 3290 3290 50  0001 C CNN "Type"
+	1    3290 3290
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3140 3050 3080
+Wire Wire Line
+	3050 3080 3290 3080
+Connection ~ 3940 3080
+Wire Wire Line
+	3940 3080 3940 3010
+Wire Wire Line
+	3290 3140 3290 3080
+Connection ~ 3290 3080
+Wire Wire Line
+	3290 3080 3940 3080
+Wire Wire Line
+	3050 3440 3050 3740
+Connection ~ 3050 3740
+Wire Wire Line
+	3050 3740 3440 3740
+Wire Wire Line
+	3290 3440 3290 3840
+Connection ~ 3290 3840
+Wire Wire Line
+	3290 3840 2940 3840
 $EndSCHEMATC

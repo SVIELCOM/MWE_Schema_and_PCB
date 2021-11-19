@@ -908,8 +908,6 @@ F 3 "" H 5340 7310 50  0001 C CNN
 $EndComp
 Text Label 5340 6270 3    50   ~ 0
 VDDA
-Text Label 3380 1250 2    50   ~ 0
-Vbat
 $Comp
 L SVIELCOM_Library:VDD_MCU #PWR?
 U 1 1 60A0FE94
@@ -1873,8 +1871,6 @@ F 4 "593D106X9016A2TE3" H 7950 2650 50  0001 C CNN "Type"
 	1    7950 2650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2750 1250 3490 1250
 $Comp
 L dk_Terminal-Blocks-Wire-to-Board:OSTTC020162 J2
 U 1 1 60F35197
@@ -2018,4 +2014,13 @@ Wire Wire Line
 	1300 3770 1300 4080
 Wire Wire Line
 	1830 3770 1960 3770
+Wire Wire Line
+	2750 1250 3490 1250
+Text Label 3190 1250 0    50   ~ 0
+Vbat
+Text GLabel 4050 1500 2    50   Input ~ 0
+RTCbat
+Wire Wire Line
+	3800 1500 4050 1500
+Connection ~ 3800 1500
 $EndSCHEMATC

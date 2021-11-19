@@ -189,8 +189,6 @@ SKIP_N_UNLOADED_REL
 Wire Wire Line
 	8950 1310 8440 1310
 NoConn ~ 6640 2410
-NoConn ~ 6640 2510
-NoConn ~ 6640 2610
 Text HLabel 8950 1410 2    50   Output ~ 0
 SKIP_N_UNLOADED_BEEPER
 Wire Wire Line
@@ -598,4 +596,12 @@ NoConn ~ 8440 5440
 Wire Wire Line
 	6130 5340 6640 5340
 NoConn ~ 6640 5440
+Text HLabel 6130 2510 0    50   Output ~ 0
+RTC_SCL
+Text HLabel 6130 2610 0    50   BiDi ~ 0
+RTC_SDA
+Wire Wire Line
+	6130 2510 6640 2510
+Wire Wire Line
+	6130 2610 6640 2610
 $EndSCHEMATC

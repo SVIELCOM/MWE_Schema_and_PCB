@@ -93,7 +93,6 @@ Wire Wire Line
 Text Label 1270 2710 0    50   ~ 0
 SWCLK
 NoConn ~ 1780 3010
-NoConn ~ 1780 3110
 NoConn ~ 1780 3210
 Wire Wire Line
 	1270 3310 1780 3310
@@ -268,10 +267,10 @@ Wire Wire Line
 	6130 2110 6640 2110
 Text HLabel 6130 5340 0    50   Input ~ 0
 ADC1_P
-Text HLabel 6130 5540 0    50   Input ~ 0
+Text HLabel 1270 3110 0    50   Input ~ 0
 ADC2_P
 Wire Wire Line
-	6130 5540 6640 5540
+	1270 3110 1780 3110
 Text HLabel 1270 4410 0    50   Input ~ 0
 A_CH2_FAULT
 Wire Wire Line
@@ -604,4 +603,5 @@ Wire Wire Line
 	6130 2510 6640 2510
 Wire Wire Line
 	6130 2610 6640 2610
+NoConn ~ 6640 5540
 $EndSCHEMATC

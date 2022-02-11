@@ -1285,6 +1285,9 @@
     (path "/00000000-0000-0000-0000-000060d8c564/00000000-0000-0000-0000-000060ce730e"
       (reference "C52") (unit 1) (value "1µF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
+    (path "/00000000-0000-0000-0000-000060d8c564/812ee326-0ff8-4b91-893e-0ffd62893872"
+      (reference "C53") (unit 1) (value "3.3µFx50") (footprint "Capacitor_Tantalum_SMD:CP_EIA-6032-15_Kemet-U")
+    )
     (path "/00000000-0000-0000-0000-000060d8c564/00000000-0000-0000-0000-000060be1f29"
       (reference "C54") (unit 1) (value "0.1µF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
@@ -1367,16 +1370,16 @@
       (reference "D4") (unit 1) (value "2W10G-E4/51") (footprint "Diode_THT:Diode_Bridge_Round_D9.8mm")
     )
     (path "/00000000-0000-0000-0000-000060d8c564/00000000-0000-0000-0000-000060c5b600"
-      (reference "D5") (unit 1) (value "BZV85-C56.113") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
+      (reference "D5") (unit 1) (value "BZV85-C27.113") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000060d8c564/00000000-0000-0000-0000-000060bde913"
       (reference "D8") (unit 1) (value "ES1G") (footprint "Diode_SMD:D_SMA_Handsoldering")
     )
     (path "/00000000-0000-0000-0000-000060d8c564/00000000-0000-0000-0000-0000613012b1"
-      (reference "D11") (unit 1) (value "BZV85-C56.113") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
+      (reference "D11") (unit 1) (value "BZV85-C27.113") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000060d8c564/00000000-0000-0000-0000-0000613748ab"
-      (reference "D12") (unit 1) (value "BZV85-C56.113") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
+      (reference "D12") (unit 1) (value "BZV85-C27.113") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000608c7842/00000000-0000-0000-0000-0000608eaa22"
       (reference "D15") (unit 1) (value "USBLC6-4SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6_Handsoldering")
@@ -1543,9 +1546,6 @@
     (path "/00000000-0000-0000-0000-000060d8c564/00000000-0000-0000-0000-000060b676e2"
       (reference "R26") (unit 1) (value "560") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-000060d8c564/00000000-0000-0000-0000-000060c2a5c4"
-      (reference "R27") (unit 1) (value "15K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
     (path "/00000000-0000-0000-0000-0000619a1dc2/00000000-0000-0000-0000-0000619dcc5a"
       (reference "R28") (unit 1) (value "50") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
@@ -1559,13 +1559,13 @@
       (reference "R56") (unit 1) (value "560") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000060d8c564/00000000-0000-0000-0000-0000613012a5"
-      (reference "R57") (unit 1) (value "10K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R57") (unit 1) (value "2.5K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000060d8c564/00000000-0000-0000-0000-000061374885"
       (reference "R60") (unit 1) (value "560") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000060d8c564/00000000-0000-0000-0000-00006137489f"
-      (reference "R61") (unit 1) (value "10K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R61") (unit 1) (value "2.5K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000060cdbd15/00000000-0000-0000-0000-000060d39378"
       (reference "R74") (unit 1) (value "15K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")

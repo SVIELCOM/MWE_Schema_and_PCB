@@ -1733,28 +1733,28 @@
       (reference "R103") (unit 1) (value "12.1K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000060d8a641/00000000-0000-0000-0000-000060c76675"
-      (reference "R104") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R104") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000060d8a641/00000000-0000-0000-0000-000060c46d53"
-      (reference "R105") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R105") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000060d8a641/00000000-0000-0000-0000-000060c47172"
-      (reference "R106") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R106") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000060d8a641/00000000-0000-0000-0000-000060c60727"
-      (reference "R107") (unit 1) (value "50K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R107") (unit 1) (value "50K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000060d8a641/00000000-0000-0000-0000-000060c60fbe"
-      (reference "R108") (unit 1) (value "50K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R108") (unit 1) (value "50K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000060d8a641/00000000-0000-0000-0000-000060c4648d"
-      (reference "R109") (unit 1) (value "50K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R109") (unit 1) (value "50K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000060d8a641/00000000-0000-0000-0000-000060c46a90"
-      (reference "R110") (unit 1) (value "50K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R110") (unit 1) (value "50K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000060d8a641/00000000-0000-0000-0000-000060c41870"
-      (reference "R111") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R111") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000060d8c564/00000000-0000-0000-0000-000060b03c42"
       (reference "RL1") (unit 1) (value "G2RL-1-E-DC5") (footprint "Relay_THT:Relay_DPDT_Omron_G2RL")

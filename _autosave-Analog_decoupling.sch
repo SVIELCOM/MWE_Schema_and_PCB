@@ -1,0 +1,2768 @@
+EESchema Schematic File Version 5
+EELAYER 36 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "ШВУ"
+Date "2021-03-25"
+Rev "V0.3"
+Comp "ЦВЕТМЕТНАЛАДКА"
+Comment1 "Шустов В.И."
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Connection ~ 2520 2120
+Connection ~ 2520 2780
+Connection ~ 2630 5180
+Connection ~ 2630 5840
+Connection ~ 2670 8740
+Connection ~ 2670 9400
+Connection ~ 2930 2120
+Connection ~ 2930 2780
+Connection ~ 2980 5180
+Connection ~ 2980 5840
+Connection ~ 3090 8740
+Connection ~ 3090 9400
+Connection ~ 3200 1590
+Connection ~ 3200 2780
+Connection ~ 3250 4650
+Connection ~ 3250 5840
+Connection ~ 3360 8210
+Connection ~ 3360 9400
+Connection ~ 3520 1160
+Connection ~ 3520 1590
+Connection ~ 3570 4220
+Connection ~ 3570 4650
+Connection ~ 3650 1590
+Connection ~ 3650 2520
+Connection ~ 3680 7780
+Connection ~ 3680 8210
+Connection ~ 3700 4650
+Connection ~ 3700 5580
+Connection ~ 3810 8210
+Connection ~ 3810 9140
+Connection ~ 3840 1160
+Connection ~ 3890 4220
+Connection ~ 4000 7780
+Connection ~ 5150 1030
+Connection ~ 5150 1360
+Connection ~ 5150 1920
+Connection ~ 5200 4090
+Connection ~ 5200 4420
+Connection ~ 5200 4980
+Connection ~ 5310 7650
+Connection ~ 5310 7980
+Connection ~ 5310 8540
+Connection ~ 5470 1030
+Connection ~ 5470 1360
+Connection ~ 5470 1920
+Connection ~ 5610 2120
+Connection ~ 5660 5180
+Connection ~ 5760 1360
+Connection ~ 5770 8740
+Connection ~ 5900 2320
+Connection ~ 5900 2900
+Connection ~ 5950 5380
+Connection ~ 5950 5960
+Connection ~ 6060 8940
+Connection ~ 6060 9520
+Connection ~ 6210 3020
+Connection ~ 6260 6080
+Connection ~ 6370 9640
+Connection ~ 6460 1920
+Connection ~ 6460 2660
+Connection ~ 6510 4980
+Connection ~ 6510 5720
+Connection ~ 6620 8540
+Connection ~ 6620 9280
+Connection ~ 7130 4980
+Connection ~ 7220 1060
+Connection ~ 7220 1920
+Connection ~ 7240 8540
+Connection ~ 7320 3120
+Connection ~ 7360 2120
+Connection ~ 7360 2320
+Connection ~ 7370 6180
+Connection ~ 7410 5180
+Connection ~ 7410 5380
+Connection ~ 7480 9740
+Connection ~ 7520 8740
+Connection ~ 7520 8940
+Connection ~ 8140 7070
+Connection ~ 8140 7270
+Connection ~ 8230 2220
+Connection ~ 8280 5280
+Connection ~ 8390 8840
+Connection ~ 8810 2220
+Connection ~ 8860 5280
+Connection ~ 8970 8840
+Connection ~ 9040 7470
+Connection ~ 9330 4690
+Connection ~ 9330 7270
+Connection ~ 13470 6290
+Connection ~ 13470 6390
+Connection ~ 13470 6490
+Connection ~ 13830 7790
+NoConn ~ 3990 1260
+NoConn ~ 4040 4320
+NoConn ~ 4150 7880
+NoConn ~ 9040 7070
+Wire Wire Line
+	980  2190 1370 2190
+Wire Wire Line
+	980  2290 1370 2290
+Wire Wire Line
+	1030 5250 1420 5250
+Wire Wire Line
+	1030 5350 1420 5350
+Wire Wire Line
+	1140 8810 1530 8810
+Wire Wire Line
+	1140 8910 1530 8910
+Wire Wire Line
+	1370 2120 1540 2120
+Wire Wire Line
+	1370 2190 1370 2120
+Wire Wire Line
+	1370 2290 1370 2320
+Wire Wire Line
+	1370 2320 1540 2320
+Wire Wire Line
+	1420 5180 1590 5180
+Wire Wire Line
+	1420 5250 1420 5180
+Wire Wire Line
+	1420 5350 1420 5380
+Wire Wire Line
+	1420 5380 1590 5380
+Wire Wire Line
+	1530 8740 1700 8740
+Wire Wire Line
+	1530 8810 1530 8740
+Wire Wire Line
+	1530 8910 1530 8940
+Wire Wire Line
+	1530 8940 1700 8940
+Wire Wire Line
+	1940 2120 2010 2120
+Wire Wire Line
+	1940 2320 1940 2780
+Wire Wire Line
+	1940 2780 2520 2780
+Wire Wire Line
+	1990 5180 2060 5180
+Wire Wire Line
+	1990 5380 1990 5840
+Wire Wire Line
+	1990 5840 2630 5840
+Wire Wire Line
+	2100 8740 2170 8740
+Wire Wire Line
+	2100 8940 2100 9400
+Wire Wire Line
+	2100 9400 2670 9400
+Wire Wire Line
+	2310 2120 2520 2120
+Wire Wire Line
+	2360 5180 2630 5180
+Wire Wire Line
+	2470 8740 2670 8740
+Wire Wire Line
+	2520 2120 2930 2120
+Wire Wire Line
+	2520 2480 2520 2420
+Wire Wire Line
+	2520 2780 2930 2780
+Wire Wire Line
+	2630 5180 2980 5180
+Wire Wire Line
+	2630 5540 2630 5480
+Wire Wire Line
+	2630 5840 2980 5840
+Wire Wire Line
+	2670 8740 3090 8740
+Wire Wire Line
+	2670 9100 2670 9040
+Wire Wire Line
+	2670 9400 3090 9400
+Wire Wire Line
+	2930 2120 3840 2120
+Wire Wire Line
+	2930 2320 2930 2120
+Wire Wire Line
+	2930 2620 2930 2780
+Wire Wire Line
+	2930 2780 3200 2780
+Wire Wire Line
+	2980 5180 3890 5180
+Wire Wire Line
+	2980 5380 2980 5180
+Wire Wire Line
+	2980 5680 2980 5840
+Wire Wire Line
+	2980 5840 3250 5840
+Wire Wire Line
+	3090 8740 4000 8740
+Wire Wire Line
+	3090 8940 3090 8740
+Wire Wire Line
+	3090 9240 3090 9400
+Wire Wire Line
+	3090 9400 3360 9400
+Wire Wire Line
+	3200 1160 3520 1160
+Wire Wire Line
+	3200 1460 3200 1590
+Wire Wire Line
+	3200 1590 3520 1590
+Wire Wire Line
+	3200 2780 3200 2620
+Wire Wire Line
+	3200 2780 3650 2780
+Wire Wire Line
+	3250 4220 3570 4220
+Wire Wire Line
+	3250 4520 3250 4650
+Wire Wire Line
+	3250 4650 3570 4650
+Wire Wire Line
+	3250 5840 3250 5680
+Wire Wire Line
+	3250 5840 3700 5840
+Wire Wire Line
+	3360 7780 3680 7780
+Wire Wire Line
+	3360 8080 3360 8210
+Wire Wire Line
+	3360 8210 3680 8210
+Wire Wire Line
+	3360 9400 3360 9240
+Wire Wire Line
+	3360 9400 3810 9400
+Wire Wire Line
+	3520 1160 3840 1160
+Wire Wire Line
+	3520 1460 3520 1590
+Wire Wire Line
+	3520 1590 3650 1590
+Wire Wire Line
+	3570 4220 3890 4220
+Wire Wire Line
+	3570 4520 3570 4650
+Wire Wire Line
+	3570 4650 3700 4650
+Wire Wire Line
+	3650 1360 3650 1590
+Wire Wire Line
+	3650 1590 3650 2520
+Wire Wire Line
+	3650 2520 3840 2520
+Wire Wire Line
+	3650 2780 3650 2520
+Wire Wire Line
+	3680 7780 4000 7780
+Wire Wire Line
+	3680 8080 3680 8210
+Wire Wire Line
+	3680 8210 3810 8210
+Wire Wire Line
+	3700 4420 3700 4650
+Wire Wire Line
+	3700 4650 3700 5580
+Wire Wire Line
+	3700 5580 3890 5580
+Wire Wire Line
+	3700 5840 3700 5580
+Wire Wire Line
+	3810 7980 3810 8210
+Wire Wire Line
+	3810 8210 3810 9140
+Wire Wire Line
+	3810 9140 4000 9140
+Wire Wire Line
+	3810 9400 3810 9140
+Wire Wire Line
+	3840 1160 3840 1920
+Wire Wire Line
+	3840 2320 3200 2320
+Wire Wire Line
+	3890 4220 3890 4980
+Wire Wire Line
+	3890 5380 3250 5380
+Wire Wire Line
+	3990 1160 3840 1160
+Wire Wire Line
+	3990 1360 3650 1360
+Wire Wire Line
+	4000 7780 4000 8540
+Wire Wire Line
+	4000 8940 3360 8940
+Wire Wire Line
+	4040 4220 3890 4220
+Wire Wire Line
+	4040 4420 3700 4420
+Wire Wire Line
+	4150 7780 4000 7780
+Wire Wire Line
+	4150 7980 3810 7980
+Wire Wire Line
+	4790 1160 4960 1160
+Wire Wire Line
+	4790 1360 5150 1360
+Wire Wire Line
+	4840 4220 5010 4220
+Wire Wire Line
+	4840 4420 5200 4420
+Wire Wire Line
+	4940 1920 5150 1920
+Wire Wire Line
+	4940 2120 5130 2120
+Wire Wire Line
+	4940 2320 5130 2320
+Wire Wire Line
+	4940 2520 5130 2520
+Wire Wire Line
+	4950 7780 5120 7780
+Wire Wire Line
+	4950 7980 5310 7980
+Wire Wire Line
+	4960 1030 5150 1030
+Wire Wire Line
+	4960 1160 4960 1030
+Wire Wire Line
+	4990 4980 5200 4980
+Wire Wire Line
+	4990 5180 5180 5180
+Wire Wire Line
+	4990 5380 5180 5380
+Wire Wire Line
+	4990 5580 5180 5580
+Wire Wire Line
+	5010 4090 5200 4090
+Wire Wire Line
+	5010 4220 5010 4090
+Wire Wire Line
+	5100 8540 5310 8540
+Wire Wire Line
+	5100 8740 5290 8740
+Wire Wire Line
+	5100 8940 5290 8940
+Wire Wire Line
+	5100 9140 5290 9140
+Wire Wire Line
+	5120 7650 5310 7650
+Wire Wire Line
+	5120 7780 5120 7650
+Wire Wire Line
+	5130 2520 5130 2640
+Wire Wire Line
+	5150 1030 5150 850 
+Wire Wire Line
+	5150 1030 5470 1030
+Wire Wire Line
+	5150 1060 5150 1030
+Wire Wire Line
+	5150 1360 5470 1360
+Wire Wire Line
+	5150 1500 5150 1360
+Wire Wire Line
+	5150 1800 5150 1920
+Wire Wire Line
+	5150 1920 5470 1920
+Wire Wire Line
+	5180 5580 5180 5700
+Wire Wire Line
+	5200 4090 5200 3910
+Wire Wire Line
+	5200 4120 5200 4090
+Wire Wire Line
+	5200 4420 5570 4420
+Wire Wire Line
+	5200 4560 5200 4420
+Wire Wire Line
+	5200 4860 5200 4980
+Wire Wire Line
+	5200 4980 6510 4980
+Wire Wire Line
+	5290 9140 5290 9260
+Wire Wire Line
+	5310 7650 5310 7470
+Wire Wire Line
+	5310 7680 5310 7650
+Wire Wire Line
+	5310 7980 5680 7980
+Wire Wire Line
+	5310 8120 5310 7980
+Wire Wire Line
+	5310 8420 5310 8540
+Wire Wire Line
+	5310 8540 6620 8540
+Wire Wire Line
+	5430 2120 5610 2120
+Wire Wire Line
+	5430 2320 5900 2320
+Wire Wire Line
+	5470 1030 5880 1030
+Wire Wire Line
+	5470 1060 5470 1030
+Wire Wire Line
+	5470 1360 5760 1360
+Wire Wire Line
+	5470 1500 5470 1360
+Wire Wire Line
+	5470 1800 5470 1920
+Wire Wire Line
+	5470 1920 6460 1920
+Wire Wire Line
+	5480 5180 5660 5180
+Wire Wire Line
+	5480 5380 5950 5380
+Wire Wire Line
+	5570 4420 5570 4550
+Wire Wire Line
+	5590 8740 5770 8740
+Wire Wire Line
+	5590 8940 6060 8940
+Wire Wire Line
+	5610 2120 5610 2460
+Wire Wire Line
+	5610 2760 5610 2900
+Wire Wire Line
+	5610 2900 5900 2900
+Wire Wire Line
+	5660 5180 5660 5520
+Wire Wire Line
+	5660 5820 5660 5960
+Wire Wire Line
+	5660 5960 5950 5960
+Wire Wire Line
+	5680 7980 5680 8110
+Wire Wire Line
+	5760 1360 5880 1360
+Wire Wire Line
+	5760 1540 5760 1360
+Wire Wire Line
+	5770 8740 5770 9080
+Wire Wire Line
+	5770 9380 5770 9520
+Wire Wire Line
+	5770 9520 6060 9520
+Wire Wire Line
+	5880 1030 5880 1060
+Wire Wire Line
+	5900 2320 7360 2320
+Wire Wire Line
+	5900 2460 5900 2320
+Wire Wire Line
+	5900 2900 5900 2760
+Wire Wire Line
+	5900 2900 5900 3220
+Wire Wire Line
+	5900 3220 6260 3220
+Wire Wire Line
+	5950 5380 7410 5380
+Wire Wire Line
+	5950 5520 5950 5380
+Wire Wire Line
+	5950 5960 5950 5820
+Wire Wire Line
+	5950 5960 5950 6280
+Wire Wire Line
+	5950 6280 6310 6280
+Wire Wire Line
+	6060 8940 7520 8940
+Wire Wire Line
+	6060 9080 6060 8940
+Wire Wire Line
+	6060 9520 6060 9380
+Wire Wire Line
+	6060 9520 6060 9840
+Wire Wire Line
+	6060 9840 6420 9840
+Wire Wire Line
+	6210 2660 6460 2660
+Wire Wire Line
+	6210 2960 6210 3020
+Wire Wire Line
+	6210 3020 6210 3300
+Wire Wire Line
+	6210 3020 6260 3020
+Wire Wire Line
+	6260 5720 6510 5720
+Wire Wire Line
+	6260 6020 6260 6080
+Wire Wire Line
+	6260 6080 6260 6360
+Wire Wire Line
+	6260 6080 6310 6080
+Wire Wire Line
+	6370 9280 6620 9280
+Wire Wire Line
+	6370 9580 6370 9640
+Wire Wire Line
+	6370 9640 6370 9920
+Wire Wire Line
+	6370 9640 6420 9640
+Wire Wire Line
+	6460 1920 7220 1920
+Wire Wire Line
+	6460 2660 6460 1920
+Wire Wire Line
+	6460 2660 6460 2820
+Wire Wire Line
+	6460 3600 6460 3420
+Wire Wire Line
+	6510 4980 7130 4980
+Wire Wire Line
+	6510 5720 6510 4980
+Wire Wire Line
+	6510 5720 6510 5880
+Wire Wire Line
+	6510 6660 6510 6480
+Wire Wire Line
+	6620 8540 7240 8540
+Wire Wire Line
+	6620 9280 6620 8540
+Wire Wire Line
+	6620 9280 6620 9440
+Wire Wire Line
+	6620 10220 6620 10040
+Wire Wire Line
+	6860 3120 6930 3120
+Wire Wire Line
+	6910 6180 6980 6180
+Wire Wire Line
+	7020 9740 7090 9740
+Wire Wire Line
+	7080 1060 7220 1060
+Wire Wire Line
+	7130 4980 7130 4480
+Wire Wire Line
+	7130 4980 7730 4980
+Wire Wire Line
+	7220 940  7220 1060
+Wire Wire Line
+	7220 1060 7220 1920
+Wire Wire Line
+	7220 1920 7680 1920
+Wire Wire Line
+	7230 3120 7320 3120
+Wire Wire Line
+	7240 8540 7240 8040
+Wire Wire Line
+	7240 8540 7840 8540
+Wire Wire Line
+	7280 6180 7370 6180
+Wire Wire Line
+	7320 3120 7320 3230
+Wire Wire Line
+	7320 3530 7320 3600
+Wire Wire Line
+	7360 1630 7360 2120
+Wire Wire Line
+	7360 1630 7800 1630
+Wire Wire Line
+	7360 2120 5610 2120
+Wire Wire Line
+	7360 2320 7360 2750
+Wire Wire Line
+	7360 2320 7480 2320
+Wire Wire Line
+	7370 6180 7370 6290
+Wire Wire Line
+	7370 6590 7370 6660
+Wire Wire Line
+	7390 9740 7480 9740
+Wire Wire Line
+	7410 4690 7410 5180
+Wire Wire Line
+	7410 4690 7850 4690
+Wire Wire Line
+	7410 5180 5660 5180
+Wire Wire Line
+	7410 5380 7410 5810
+Wire Wire Line
+	7410 5380 7530 5380
+Wire Wire Line
+	7410 5810 7850 5810
+Wire Wire Line
+	7480 2120 7360 2120
+Wire Wire Line
+	7480 9740 7480 9850
+Wire Wire Line
+	7480 10150 7480 10220
+Wire Wire Line
+	7520 8250 7520 8740
+Wire Wire Line
+	7520 8250 7960 8250
+Wire Wire Line
+	7520 8740 5770 8740
+Wire Wire Line
+	7520 8940 7520 9370
+Wire Wire Line
+	7520 8940 7640 8940
+Wire Wire Line
+	7520 9370 7960 9370
+Wire Wire Line
+	7530 5180 7410 5180
+Wire Wire Line
+	7640 8740 7520 8740
+Wire Wire Line
+	7680 2520 7680 2590
+Wire Wire Line
+	7730 5580 7730 5650
+Wire Wire Line
+	7800 2750 7360 2750
+Wire Wire Line
+	7840 9140 7840 9210
+Wire Wire Line
+	7860 6980 7860 7070
+Wire Wire Line
+	7860 7070 8140 7070
+Wire Wire Line
+	7890 3120 7320 3120
+Wire Wire Line
+	7940 6180 7370 6180
+Wire Wire Line
+	8050 9740 7480 9740
+Wire Wire Line
+	8080 2220 8230 2220
+Wire Wire Line
+	8130 5280 8280 5280
+Wire Wire Line
+	8140 7070 8140 7270
+Wire Wire Line
+	8230 2220 8400 2220
+Wire Wire Line
+	8230 2370 8230 2220
+Wire Wire Line
+	8230 2750 8100 2750
+Wire Wire Line
+	8230 2750 8230 2670
+Wire Wire Line
+	8240 8840 8390 8840
+Wire Wire Line
+	8280 5280 8450 5280
+Wire Wire Line
+	8280 5430 8280 5280
+Wire Wire Line
+	8280 5810 8150 5810
+Wire Wire Line
+	8280 5810 8280 5730
+Wire Wire Line
+	8390 8840 8560 8840
+Wire Wire Line
+	8390 8990 8390 8840
+Wire Wire Line
+	8390 9370 8260 9370
+Wire Wire Line
+	8390 9370 8390 9290
+Wire Wire Line
+	8400 1630 9330 1630
+Wire Wire Line
+	8450 4690 9330 4690
+Wire Wire Line
+	8560 8250 9330 8250
+Wire Wire Line
+	8700 2220 8810 2220
+Wire Wire Line
+	8750 5280 8860 5280
+Wire Wire Line
+	8860 8840 8970 8840
+Wire Wire Line
+	9040 7270 9330 7270
+Wire Wire Line
+	9040 7470 9040 7550
+Wire Wire Line
+	9330 1630 9330 4690
+Wire Wire Line
+	9330 4690 9330 7270
+Wire Wire Line
+	9330 7270 9330 8250
+Wire Wire Line
+	9330 7270 9620 7270
+Wire Wire Line
+	9620 7270 9620 7320
+Wire Wire Line
+	9700 8840 8970 8840
+Wire Wire Line
+	9740 2220 8810 2220
+Wire Wire Line
+	9800 5280 8860 5280
+Wire Wire Line
+	12930 6590 13650 6590
+Wire Wire Line
+	13470 6190 13650 6190
+Wire Wire Line
+	13470 6290 13470 6190
+Wire Wire Line
+	13470 6390 13470 6290
+Wire Wire Line
+	13470 6490 13470 6390
+Wire Wire Line
+	13470 6760 13470 6490
+Wire Wire Line
+	13650 6290 13470 6290
+Wire Wire Line
+	13650 6390 13470 6390
+Wire Wire Line
+	13650 6490 13470 6490
+Wire Wire Line
+	14050 6190 14680 6190
+Wire Wire Line
+	14050 6290 14680 6290
+Wire Wire Line
+	14050 6390 14680 6390
+Wire Wire Line
+	14050 6490 14680 6490
+Wire Wire Line
+	14050 6590 14680 6590
+Text Label 7890 3120 2    50   ~ 0
+A_CH1_FAULT
+Text Label 7940 6180 2    50   ~ 0
+A_CH2_FAULT
+Text Label 8050 9740 2    50   ~ 0
+A_CH3_FAULT
+Text Label 8970 8250 2    50   ~ 0
+Ref_1,65V
+Text Label 9700 8840 2    50   ~ 0
+ADC3_P
+Text Label 9740 2220 2    50   ~ 0
+ADC1_P
+Text Label 9800 5280 2    50   ~ 0
+ADC2_P
+Text Label 12930 6590 0    50   ~ 0
+A_CH2_FAULT
+Text Label 14680 6190 2    50   ~ 0
+ADC1_P
+Text Label 14680 6290 2    50   ~ 0
+ADC2_P
+Text Label 14680 6390 2    50   ~ 0
+ADC3_P
+Text Label 14680 6490 2    50   ~ 0
+A_CH1_FAULT
+Text Label 14680 6590 2    50   ~ 0
+A_CH3_FAULT
+$Comp
+L SVIELCOM_Library:+24V #PWR01
+U 1 1 60A219AD
+P 5150 850
+F 0 "#PWR01" H 5300 900 50  0001 C CNN
+F 1 "+24V" H 5165 1023 50  0000 C CNN
+F 2 "" H 5150 850 50  0001 C CNN
+F 3 "" H 5150 850 50  0001 C CNN
+	1    5150 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:+24V #PWR010
+U 1 1 60B392E1
+P 5200 3910
+F 0 "#PWR010" H 5350 3960 50  0001 C CNN
+F 1 "+24V" H 5215 4083 50  0000 C CNN
+F 2 "" H 5200 3910 50  0001 C CNN
+F 3 "" H 5200 3910 50  0001 C CNN
+	1    5200 3910
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:+24V #PWR020
+U 1 1 60BB24E7
+P 5310 7470
+F 0 "#PWR020" H 5460 7520 50  0001 C CNN
+F 1 "+24V" H 5325 7643 50  0000 C CNN
+F 2 "" H 5310 7470 50  0001 C CNN
+F 3 "" H 5310 7470 50  0001 C CNN
+	1    5310 7470
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:+5V_Analog #PWR011
+U 1 1 60C4F6C7
+P 7130 4480
+F 0 "#PWR011" H 7130 4330 50  0001 C CNN
+F 1 "+5V_Analog" H 7145 4653 50  0000 C CNN
+F 2 "" H 7130 4480 50  0001 C CNN
+F 3 "" H 7130 4480 50  0001 C CNN
+	1    7130 4480
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:+5V_Analog #PWR02
+U 1 1 60C0268F
+P 7220 940
+F 0 "#PWR02" H 7220 790 50  0001 C CNN
+F 1 "+5V_Analog" H 7235 1113 50  0000 C CNN
+F 2 "" H 7220 940 50  0001 C CNN
+F 3 "" H 7220 940 50  0001 C CNN
+	1    7220 940 
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:+5V_Analog #PWR024
+U 1 1 60C80C90
+P 7240 8040
+F 0 "#PWR024" H 7240 7890 50  0001 C CNN
+F 1 "+5V_Analog" H 7255 8213 50  0000 C CNN
+F 2 "" H 7240 8040 50  0001 C CNN
+F 3 "" H 7240 8040 50  0001 C CNN
+	1    7240 8040
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:+5V_Analog #PWR019
+U 1 1 60CE7B0C
+P 7860 6980
+F 0 "#PWR019" H 7860 6830 50  0001 C CNN
+F 1 "+5V_Analog" H 7875 7153 50  0000 C CNN
+F 2 "" H 7860 6980 50  0001 C CNN
+F 3 "" H 7860 6980 50  0001 C CNN
+	1    7860 6980
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:+24V #PWR0102
+U 1 1 60C6601C
+P 13830 7790
+F 0 "#PWR0102" H 13980 7840 50  0001 C CNN
+F 1 "+24V" H 13820 7950 50  0000 C CNN
+F 2 "" H 13830 7790 50  0001 C CNN
+F 3 "" H 13830 7790 50  0001 C CNN
+	1    13830 7790
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 61752532
+P 9040 7470
+F 0 "#FLG01" H 9040 7545 50  0001 C CNN
+F 1 "PWR_FLAG" V 9040 7600 50  0001 L CNN
+F 2 "" H 9040 7470 50  0001 C CNN
+F 3 "~" H 9040 7470 50  0001 C CNN
+	1    9040 7470
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 60C67E1D
+P 13830 7790
+F 0 "#FLG0101" H 13830 7865 50  0001 C CNN
+F 1 "PWR_FLAG" V 13800 7940 50  0001 L CNN
+F 2 "" H 13830 7790 50  0001 C CNN
+F 3 "~" H 13830 7790 50  0001 C CNN
+	1    13830 7790
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 60A0042D
+P 2930 2120
+F 0 "TP3" H 2880 2330 50  0000 L CNN
+F 1 "TestPoint" H 2990 2320 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3130 2120 50  0001 C CNN
+F 3 "~" H 3130 2120 50  0001 C CNN
+	1    2930 2120
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP8
+U 1 1 60B39294
+P 2980 5180
+F 0 "TP8" H 2930 5390 50  0000 L CNN
+F 1 "TestPoint" H 3040 5380 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3180 5180 50  0001 C CNN
+F 3 "~" H 3180 5180 50  0001 C CNN
+	1    2980 5180
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP13
+U 1 1 60BB249A
+P 3090 8740
+F 0 "TP13" H 3040 8950 50  0000 L CNN
+F 1 "TestPoint" H 3150 8940 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3290 8740 50  0001 C CNN
+F 3 "~" H 3290 8740 50  0001 C CNN
+	1    3090 8740
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 60A1BD52
+P 3200 1590
+F 0 "TP2" H 3150 1800 50  0000 L CNN
+F 1 "TestPoint" H 3260 1790 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3400 1590 50  0001 C CNN
+F 3 "~" H 3400 1590 50  0001 C CNN
+	1    3200 1590
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 60B392D6
+P 3250 4650
+F 0 "TP7" H 3200 4860 50  0000 L CNN
+F 1 "TestPoint" H 3310 4850 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3450 4650 50  0001 C CNN
+F 3 "~" H 3450 4650 50  0001 C CNN
+	1    3250 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP12
+U 1 1 60BB24DC
+P 3360 8210
+F 0 "TP12" H 3310 8420 50  0000 L CNN
+F 1 "TestPoint" H 3420 8410 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3560 8210 50  0001 C CNN
+F 3 "~" H 3560 8210 50  0001 C CNN
+	1    3360 8210
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 60A1B9BA
+P 3840 1160
+F 0 "TP1" H 3790 1370 50  0000 L CNN
+F 1 "TestPoint" H 3900 1360 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4040 1160 50  0001 C CNN
+F 3 "~" H 4040 1160 50  0001 C CNN
+	1    3840 1160
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 60B392D0
+P 3890 4220
+F 0 "TP6" H 3840 4430 50  0000 L CNN
+F 1 "TestPoint" H 3950 4420 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4090 4220 50  0001 C CNN
+F 3 "~" H 4090 4220 50  0001 C CNN
+	1    3890 4220
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP11
+U 1 1 60BB24D6
+P 4000 7780
+F 0 "TP11" H 3950 7990 50  0000 L CNN
+F 1 "TestPoint" H 4060 7980 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4200 7780 50  0001 C CNN
+F 3 "~" H 4200 7780 50  0001 C CNN
+	1    4000 7780
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 61B89820
+P 7320 3120
+F 0 "TP5" H 7270 3330 50  0000 L CNN
+F 1 "TestPoint" H 7380 3320 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7520 3120 50  0001 C CNN
+F 3 "~" H 7520 3120 50  0001 C CNN
+	1    7320 3120
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP10
+U 1 1 61BB19D2
+P 7370 6180
+F 0 "TP10" H 7320 6390 50  0000 L CNN
+F 1 "TestPoint" H 7430 6380 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7570 6180 50  0001 C CNN
+F 3 "~" H 7570 6180 50  0001 C CNN
+	1    7370 6180
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP15
+U 1 1 61BD9B2A
+P 7480 9740
+F 0 "TP15" H 7430 9950 50  0000 L CNN
+F 1 "TestPoint" H 7540 9940 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7680 9740 50  0001 C CNN
+F 3 "~" H 7680 9740 50  0001 C CNN
+	1    7480 9740
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 60A0228F
+P 8810 2220
+F 0 "TP4" H 8760 2430 50  0000 L CNN
+F 1 "TestPoint" H 8870 2420 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9010 2220 50  0001 C CNN
+F 3 "~" H 9010 2220 50  0001 C CNN
+	1    8810 2220
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP9
+U 1 1 60A01A0C
+P 8860 5280
+F 0 "TP9" H 8810 5490 50  0000 L CNN
+F 1 "TestPoint" H 8920 5480 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9060 5280 50  0001 C CNN
+F 3 "~" H 9060 5280 50  0001 C CNN
+	1    8860 5280
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP14
+U 1 1 60A00D3E
+P 8970 8840
+F 0 "TP14" H 8920 9050 50  0000 L CNN
+F 1 "TestPoint" H 9030 9040 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9170 8840 50  0001 C CNN
+F 3 "~" H 9170 8840 50  0001 C CNN
+	1    8970 8840
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR05
+U 1 1 60A43779
+P 5130 2640
+AR Path="/60A43779" Ref="#PWR05"  Part="1" 
+AR Path="/60A03F8A/60A43779" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60A43779" Ref="#PWR?"  Part="1" 
+F 0 "#PWR05" H 5130 2390 50  0001 C CNN
+F 1 "GNDREF" V 5135 2512 50  0001 R CNN
+F 2 "" H 5130 2640 50  0001 C CNN
+F 3 "" H 5130 2640 50  0001 C CNN
+	1    5130 2640
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR014
+U 1 1 60B39320
+P 5180 5700
+AR Path="/60B39320" Ref="#PWR014"  Part="1" 
+AR Path="/60A03F8A/60B39320" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60B39320" Ref="#PWR?"  Part="1" 
+F 0 "#PWR014" H 5180 5450 50  0001 C CNN
+F 1 "GNDREF" V 5185 5572 50  0001 R CNN
+F 2 "" H 5180 5700 50  0001 C CNN
+F 3 "" H 5180 5700 50  0001 C CNN
+	1    5180 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR027
+U 1 1 60BB2507
+P 5290 9260
+AR Path="/60BB2507" Ref="#PWR027"  Part="1" 
+AR Path="/60A03F8A/60BB2507" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60BB2507" Ref="#PWR?"  Part="1" 
+F 0 "#PWR027" H 5290 9010 50  0001 C CNN
+F 1 "GNDREF" V 5295 9132 50  0001 R CNN
+F 2 "" H 5290 9260 50  0001 C CNN
+F 3 "" H 5290 9260 50  0001 C CNN
+	1    5290 9260
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR012
+U 1 1 60B5E81B
+P 5570 4550
+AR Path="/60B5E81B" Ref="#PWR012"  Part="1" 
+AR Path="/60A03F8A/60B5E81B" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60B5E81B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR012" H 5570 4300 50  0001 C CNN
+F 1 "GNDREF" V 5575 4422 50  0001 R CNN
+F 2 "" H 5570 4550 50  0001 C CNN
+F 3 "" H 5570 4550 50  0001 C CNN
+	1    5570 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR025
+U 1 1 60BB25CE
+P 5680 8110
+AR Path="/60BB25CE" Ref="#PWR025"  Part="1" 
+AR Path="/60A03F8A/60BB25CE" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60BB25CE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR025" H 5680 7860 50  0001 C CNN
+F 1 "GNDREF" V 5685 7982 50  0001 R CNN
+F 2 "" H 5680 8110 50  0001 C CNN
+F 3 "" H 5680 8110 50  0001 C CNN
+	1    5680 8110
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR03
+U 1 1 609F7899
+P 5760 1540
+AR Path="/609F7899" Ref="#PWR03"  Part="1" 
+AR Path="/60A03F8A/609F7899" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/609F7899" Ref="#PWR?"  Part="1" 
+F 0 "#PWR03" H 5760 1290 50  0001 C CNN
+F 1 "GNDREF" V 5765 1412 50  0001 R CNN
+F 2 "" H 5760 1540 50  0001 C CNN
+F 3 "" H 5760 1540 50  0001 C CNN
+	1    5760 1540
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR07
+U 1 1 60AA1308
+P 6210 3600
+AR Path="/60AA1308" Ref="#PWR07"  Part="1" 
+AR Path="/60A03F8A/60AA1308" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60AA1308" Ref="#PWR?"  Part="1" 
+F 0 "#PWR07" H 6210 3350 50  0001 C CNN
+F 1 "GNDREF" V 6215 3472 50  0001 R CNN
+F 2 "" H 6210 3600 50  0001 C CNN
+F 3 "" H 6210 3600 50  0001 C CNN
+	1    6210 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR016
+U 1 1 60B39382
+P 6260 6660
+AR Path="/60B39382" Ref="#PWR016"  Part="1" 
+AR Path="/60A03F8A/60B39382" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60B39382" Ref="#PWR?"  Part="1" 
+F 0 "#PWR016" H 6260 6410 50  0001 C CNN
+F 1 "GNDREF" V 6265 6532 50  0001 R CNN
+F 2 "" H 6260 6660 50  0001 C CNN
+F 3 "" H 6260 6660 50  0001 C CNN
+	1    6260 6660
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR029
+U 1 1 60BB2569
+P 6370 10220
+AR Path="/60BB2569" Ref="#PWR029"  Part="1" 
+AR Path="/60A03F8A/60BB2569" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60BB2569" Ref="#PWR?"  Part="1" 
+F 0 "#PWR029" H 6370 9970 50  0001 C CNN
+F 1 "GNDREF" V 6375 10092 50  0001 R CNN
+F 2 "" H 6370 10220 50  0001 C CNN
+F 3 "" H 6370 10220 50  0001 C CNN
+	1    6370 10220
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR08
+U 1 1 60A9E2E2
+P 6460 3600
+AR Path="/60A9E2E2" Ref="#PWR08"  Part="1" 
+AR Path="/60A03F8A/60A9E2E2" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60A9E2E2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR08" H 6460 3350 50  0001 C CNN
+F 1 "GNDREF" V 6465 3472 50  0001 R CNN
+F 2 "" H 6460 3600 50  0001 C CNN
+F 3 "" H 6460 3600 50  0001 C CNN
+	1    6460 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR017
+U 1 1 60B39374
+P 6510 6660
+AR Path="/60B39374" Ref="#PWR017"  Part="1" 
+AR Path="/60A03F8A/60B39374" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60B39374" Ref="#PWR?"  Part="1" 
+F 0 "#PWR017" H 6510 6410 50  0001 C CNN
+F 1 "GNDREF" V 6515 6532 50  0001 R CNN
+F 2 "" H 6510 6660 50  0001 C CNN
+F 3 "" H 6510 6660 50  0001 C CNN
+	1    6510 6660
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR030
+U 1 1 60BB255B
+P 6620 10220
+AR Path="/60BB255B" Ref="#PWR030"  Part="1" 
+AR Path="/60A03F8A/60BB255B" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60BB255B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR030" H 6620 9970 50  0001 C CNN
+F 1 "GNDREF" V 6625 10092 50  0001 R CNN
+F 2 "" H 6620 10220 50  0001 C CNN
+F 3 "" H 6620 10220 50  0001 C CNN
+	1    6620 10220
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR09
+U 1 1 60AA8754
+P 7320 3600
+AR Path="/60AA8754" Ref="#PWR09"  Part="1" 
+AR Path="/60A03F8A/60AA8754" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60AA8754" Ref="#PWR?"  Part="1" 
+F 0 "#PWR09" H 7320 3350 50  0001 C CNN
+F 1 "GNDREF" V 7325 3472 50  0001 R CNN
+F 2 "" H 7320 3600 50  0001 C CNN
+F 3 "" H 7320 3600 50  0001 C CNN
+	1    7320 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR018
+U 1 1 60B39397
+P 7370 6660
+AR Path="/60B39397" Ref="#PWR018"  Part="1" 
+AR Path="/60A03F8A/60B39397" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60B39397" Ref="#PWR?"  Part="1" 
+F 0 "#PWR018" H 7370 6410 50  0001 C CNN
+F 1 "GNDREF" V 7375 6532 50  0001 R CNN
+F 2 "" H 7370 6660 50  0001 C CNN
+F 3 "" H 7370 6660 50  0001 C CNN
+	1    7370 6660
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR031
+U 1 1 60BB257E
+P 7480 10220
+AR Path="/60BB257E" Ref="#PWR031"  Part="1" 
+AR Path="/60A03F8A/60BB257E" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60BB257E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR031" H 7480 9970 50  0001 C CNN
+F 1 "GNDREF" V 7485 10092 50  0001 R CNN
+F 2 "" H 7480 10220 50  0001 C CNN
+F 3 "" H 7480 10220 50  0001 C CNN
+	1    7480 10220
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR04
+U 1 1 60ABFD68
+P 7680 2590
+AR Path="/60ABFD68" Ref="#PWR04"  Part="1" 
+AR Path="/60A03F8A/60ABFD68" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60ABFD68" Ref="#PWR?"  Part="1" 
+F 0 "#PWR04" H 7680 2340 50  0001 C CNN
+F 1 "GNDREF" V 7685 2462 50  0001 R CNN
+F 2 "" H 7680 2590 50  0001 C CNN
+F 3 "" H 7680 2590 50  0001 C CNN
+	1    7680 2590
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR013
+U 1 1 60B393AB
+P 7730 5650
+AR Path="/60B393AB" Ref="#PWR013"  Part="1" 
+AR Path="/60A03F8A/60B393AB" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60B393AB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR013" H 7730 5400 50  0001 C CNN
+F 1 "GNDREF" V 7735 5522 50  0001 R CNN
+F 2 "" H 7730 5650 50  0001 C CNN
+F 3 "" H 7730 5650 50  0001 C CNN
+	1    7730 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR026
+U 1 1 60BB2592
+P 7840 9210
+AR Path="/60BB2592" Ref="#PWR026"  Part="1" 
+AR Path="/60A03F8A/60BB2592" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60BB2592" Ref="#PWR?"  Part="1" 
+F 0 "#PWR026" H 7840 8960 50  0001 C CNN
+F 1 "GNDREF" V 7845 9082 50  0001 R CNN
+F 2 "" H 7840 9210 50  0001 C CNN
+F 3 "" H 7840 9210 50  0001 C CNN
+	1    7840 9210
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR022
+U 1 1 60D531A9
+P 8140 7570
+AR Path="/60D531A9" Ref="#PWR022"  Part="1" 
+AR Path="/60A03F8A/60D531A9" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60D531A9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR022" H 8140 7320 50  0001 C CNN
+F 1 "GNDREF" V 8145 7442 50  0001 R CNN
+F 2 "" H 8140 7570 50  0001 C CNN
+F 3 "" H 8140 7570 50  0001 C CNN
+	1    8140 7570
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR021
+U 1 1 60C9B7EC
+P 9040 7550
+AR Path="/60C9B7EC" Ref="#PWR021"  Part="1" 
+AR Path="/60A03F8A/60C9B7EC" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60C9B7EC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR021" H 9040 7300 50  0001 C CNN
+F 1 "GNDREF" V 9045 7422 50  0001 R CNN
+F 2 "" H 9040 7550 50  0001 C CNN
+F 3 "" H 9040 7550 50  0001 C CNN
+	1    9040 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR023
+U 1 1 60D6F173
+P 9620 7620
+AR Path="/60D6F173" Ref="#PWR023"  Part="1" 
+AR Path="/60A03F8A/60D6F173" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60D6F173" Ref="#PWR?"  Part="1" 
+F 0 "#PWR023" H 9620 7370 50  0001 C CNN
+F 1 "GNDREF" V 9625 7492 50  0001 R CNN
+F 2 "" H 9620 7620 50  0001 C CNN
+F 3 "" H 9620 7620 50  0001 C CNN
+	1    9620 7620
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR06
+U 1 1 60B3A1E6
+P 13470 6760
+AR Path="/60B3A1E6" Ref="#PWR06"  Part="1" 
+AR Path="/60A03F8A/60B3A1E6" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60B3A1E6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR06" H 13470 6510 50  0001 C CNN
+F 1 "GNDREF" V 13475 6632 50  0001 R CNN
+F 2 "" H 13470 6760 50  0001 C CNN
+F 3 "" H 13470 6760 50  0001 C CNN
+	1    13470 6760
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0101
+U 1 1 60C64714
+P 13730 7790
+AR Path="/60C64714" Ref="#PWR0101"  Part="1" 
+AR Path="/60A03F8A/60C64714" Ref="#PWR?"  Part="1" 
+AR Path="/60D8C564/60C64714" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0101" H 13730 7540 50  0001 C CNN
+F 1 "GNDREF" V 13735 7662 50  0001 R CNN
+F 2 "" H 13730 7790 50  0001 C CNN
+F 3 "" H 13730 7790 50  0001 C CNN
+	1    13730 7790
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 609FD081
+P 2160 2120
+AR Path="/609FD081" Ref="R3"  Part="1" 
+AR Path="/60A03F8A/609FD081" Ref="R?"  Part="1" 
+AR Path="/60D8C564/609FD081" Ref="R?"  Part="1" 
+F 0 "R3" V 2270 2040 50  0000 C CNN
+F 1 "1K" V 2270 2190 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2090 2120 50  0001 C CNN
+F 3 "~" H 2160 2120 50  0001 C CNN
+F 4 "MFR-25FTF52-1K" V 2160 2120 50  0001 C CNN "Type"
+	1    2160 2120
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 60B39281
+P 2210 5180
+AR Path="/60B39281" Ref="R17"  Part="1" 
+AR Path="/60A03F8A/60B39281" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60B39281" Ref="R?"  Part="1" 
+F 0 "R17" V 2320 5100 50  0000 C CNN
+F 1 "1K" V 2320 5250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2140 5180 50  0001 C CNN
+F 3 "~" H 2210 5180 50  0001 C CNN
+F 4 "MFR-25FTF52-1K" V 2210 5180 50  0001 C CNN "Type"
+	1    2210 5180
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R31
+U 1 1 60BB2487
+P 2320 8740
+AR Path="/60BB2487" Ref="R31"  Part="1" 
+AR Path="/60A03F8A/60BB2487" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60BB2487" Ref="R?"  Part="1" 
+F 0 "R31" V 2430 8660 50  0000 C CNN
+F 1 "1K" V 2430 8810 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2250 8740 50  0001 C CNN
+F 3 "~" H 2320 8740 50  0001 C CNN
+F 4 "MFR-25FTF52-1K" V 2320 8740 50  0001 C CNN "Type"
+	1    2320 8740
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 60A72C0A
+P 5280 2120
+AR Path="/60A72C0A" Ref="R4"  Part="1" 
+AR Path="/60A03F8A/60A72C0A" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60A72C0A" Ref="R?"  Part="1" 
+F 0 "R4" V 5190 2120 50  0000 C CNN
+F 1 "10K" V 5190 2290 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5210 2120 50  0001 C CNN
+F 3 "~" H 5280 2120 50  0001 C CNN
+F 4 "RT0805BRB0710KL" V 5280 2120 50  0001 C CNN "Type"
+	1    5280 2120
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 60A7307F
+P 5280 2320
+AR Path="/60A7307F" Ref="R6"  Part="1" 
+AR Path="/60A03F8A/60A7307F" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60A7307F" Ref="R?"  Part="1" 
+F 0 "R6" V 5180 2310 50  0000 C CNN
+F 1 "10K" V 5370 2310 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5210 2320 50  0001 C CNN
+F 3 "~" H 5280 2320 50  0001 C CNN
+F 4 "RT0805BRB0710KL" V 5280 2320 50  0001 C CNN "Type"
+	1    5280 2320
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 60B39344
+P 5330 5180
+AR Path="/60B39344" Ref="R18"  Part="1" 
+AR Path="/60A03F8A/60B39344" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60B39344" Ref="R?"  Part="1" 
+F 0 "R18" V 5240 5180 50  0000 C CNN
+F 1 "10K" V 5420 5180 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5260 5180 50  0001 C CNN
+F 3 "~" H 5330 5180 50  0001 C CNN
+F 4 "RT0805BRB0710KL" V 5330 5180 50  0001 C CNN "Type"
+	1    5330 5180
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 60B3934A
+P 5330 5380
+AR Path="/60B3934A" Ref="R20"  Part="1" 
+AR Path="/60A03F8A/60B3934A" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60B3934A" Ref="R?"  Part="1" 
+F 0 "R20" V 5440 5270 50  0000 C CNN
+F 1 "10K" V 5440 5450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5260 5380 50  0001 C CNN
+F 3 "~" H 5330 5380 50  0001 C CNN
+F 4 "RT0805BRB0710KL" V 5330 5380 50  0001 C CNN "Type"
+	1    5330 5380
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R32
+U 1 1 60BB252B
+P 5440 8740
+AR Path="/60BB252B" Ref="R32"  Part="1" 
+AR Path="/60A03F8A/60BB252B" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60BB252B" Ref="R?"  Part="1" 
+F 0 "R32" V 5360 8740 50  0000 C CNN
+F 1 "10K" V 5360 8910 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5370 8740 50  0001 C CNN
+F 3 "~" H 5440 8740 50  0001 C CNN
+F 4 "RT0805BRB0710KL" V 5440 8740 50  0001 C CNN "Type"
+	1    5440 8740
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R34
+U 1 1 60BB2531
+P 5440 8940
+AR Path="/60BB2531" Ref="R34"  Part="1" 
+AR Path="/60A03F8A/60BB2531" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60BB2531" Ref="R?"  Part="1" 
+F 0 "R34" V 5360 8890 50  0000 C CNN
+F 1 "10K" V 5360 9050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5370 8940 50  0001 C CNN
+F 3 "~" H 5440 8940 50  0001 C CNN
+F 4 "RT0805BRB0710KL" V 5440 8940 50  0001 C CNN "Type"
+	1    5440 8940
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 60A7B0E6
+P 5610 2610
+AR Path="/60A7B0E6" Ref="R8"  Part="1" 
+AR Path="/60A03F8A/60A7B0E6" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60A7B0E6" Ref="R?"  Part="1" 
+F 0 "R8" H 5770 2600 50  0000 C CNN
+F 1 "10K" H 5750 2690 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5540 2610 50  0001 C CNN
+F 3 "~" H 5610 2610 50  0001 C CNN
+F 4 "RT0805BRB0710KL" H 5610 2610 50  0001 C CNN "Type"
+	1    5610 2610
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 60B39351
+P 5660 5670
+AR Path="/60B39351" Ref="R22"  Part="1" 
+AR Path="/60A03F8A/60B39351" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60B39351" Ref="R?"  Part="1" 
+F 0 "R22" H 5820 5660 50  0000 C CNN
+F 1 "10K" H 5800 5750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5590 5670 50  0001 C CNN
+F 3 "~" H 5660 5670 50  0001 C CNN
+F 4 "RT0805BRB0710KL" H 5660 5670 50  0001 C CNN "Type"
+	1    5660 5670
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R36
+U 1 1 60BB2538
+P 5770 9230
+AR Path="/60BB2538" Ref="R36"  Part="1" 
+AR Path="/60A03F8A/60BB2538" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60BB2538" Ref="R?"  Part="1" 
+F 0 "R36" H 5930 9220 50  0000 C CNN
+F 1 "10K" H 5910 9310 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5700 9230 50  0001 C CNN
+F 3 "~" H 5770 9230 50  0001 C CNN
+F 4 "RT0805BRB0710KL" H 5770 9230 50  0001 C CNN "Type"
+	1    5770 9230
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 60A7B62D
+P 5900 2610
+AR Path="/60A7B62D" Ref="R9"  Part="1" 
+AR Path="/60A03F8A/60A7B62D" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60A7B62D" Ref="R?"  Part="1" 
+F 0 "R9" H 6040 2600 50  0000 C CNN
+F 1 "10K" H 6030 2690 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5830 2610 50  0001 C CNN
+F 3 "~" H 5900 2610 50  0001 C CNN
+F 4 "RT0805BRB0710KL" H 5900 2610 50  0001 C CNN "Type"
+	1    5900 2610
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 60B39357
+P 5950 5670
+AR Path="/60B39357" Ref="R23"  Part="1" 
+AR Path="/60A03F8A/60B39357" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60B39357" Ref="R?"  Part="1" 
+F 0 "R23" H 6090 5660 50  0000 C CNN
+F 1 "10K" H 6080 5750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5880 5670 50  0001 C CNN
+F 3 "~" H 5950 5670 50  0001 C CNN
+F 4 "RT0805BRB0710KL" H 5950 5670 50  0001 C CNN "Type"
+	1    5950 5670
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R37
+U 1 1 60BB253E
+P 6060 9230
+AR Path="/60BB253E" Ref="R37"  Part="1" 
+AR Path="/60A03F8A/60BB253E" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60BB253E" Ref="R?"  Part="1" 
+F 0 "R37" H 6200 9220 50  0000 C CNN
+F 1 "10K" H 6190 9310 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5990 9230 50  0001 C CNN
+F 3 "~" H 6060 9230 50  0001 C CNN
+F 4 "RT0805BRB0710KL" H 6060 9230 50  0001 C CNN "Type"
+	1    6060 9230
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 60A95601
+P 6210 2810
+AR Path="/60A95601" Ref="R11"  Part="1" 
+AR Path="/60A03F8A/60A95601" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60A95601" Ref="R?"  Part="1" 
+F 0 "R11" H 6350 2800 50  0000 C CNN
+F 1 "2K" H 6340 2890 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6140 2810 50  0001 C CNN
+F 3 "~" H 6210 2810 50  0001 C CNN
+F 4 "RC0805FR-072KL" H 6210 2810 50  0001 C CNN "Type"
+	1    6210 2810
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 60A9E8ED
+P 6210 3450
+AR Path="/60A9E8ED" Ref="R14"  Part="1" 
+AR Path="/60A03F8A/60A9E8ED" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60A9E8ED" Ref="R?"  Part="1" 
+F 0 "R14" H 6350 3440 50  0000 C CNN
+F 1 "1K" H 6340 3530 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6140 3450 50  0001 C CNN
+F 3 "~" H 6210 3450 50  0001 C CNN
+F 4 "RC0805FR-071KL" H 6210 3450 50  0001 C CNN "Type"
+	1    6210 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 60B39366
+P 6260 5870
+AR Path="/60B39366" Ref="R25"  Part="1" 
+AR Path="/60A03F8A/60B39366" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60B39366" Ref="R?"  Part="1" 
+F 0 "R25" H 6400 5860 50  0000 C CNN
+F 1 "2K" H 6390 5950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6190 5870 50  0001 C CNN
+F 3 "~" H 6260 5870 50  0001 C CNN
+F 4 "RC0805FR-072KL" H 6260 5870 50  0001 C CNN "Type"
+	1    6260 5870
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 60B3937A
+P 6260 6510
+AR Path="/60B3937A" Ref="R28"  Part="1" 
+AR Path="/60A03F8A/60B3937A" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60B3937A" Ref="R?"  Part="1" 
+F 0 "R28" H 6400 6500 50  0000 C CNN
+F 1 "1K" H 6390 6590 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6190 6510 50  0001 C CNN
+F 3 "~" H 6260 6510 50  0001 C CNN
+F 4 "RC0805FR-071KL" H 6260 6510 50  0001 C CNN "Type"
+	1    6260 6510
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R39
+U 1 1 60BB254D
+P 6370 9430
+AR Path="/60BB254D" Ref="R39"  Part="1" 
+AR Path="/60A03F8A/60BB254D" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60BB254D" Ref="R?"  Part="1" 
+F 0 "R39" H 6510 9420 50  0000 C CNN
+F 1 "2K" H 6500 9510 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6300 9430 50  0001 C CNN
+F 3 "~" H 6370 9430 50  0001 C CNN
+F 4 "RC0805FR-072KL" H 6370 9430 50  0001 C CNN "Type"
+	1    6370 9430
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R42
+U 1 1 60BB2561
+P 6370 10070
+AR Path="/60BB2561" Ref="R42"  Part="1" 
+AR Path="/60A03F8A/60BB2561" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60BB2561" Ref="R?"  Part="1" 
+F 0 "R42" H 6510 10060 50  0000 C CNN
+F 1 "1K" H 6500 10150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6300 10070 50  0001 C CNN
+F 3 "~" H 6370 10070 50  0001 C CNN
+F 4 "RC0805FR-071KL" H 6370 10070 50  0001 C CNN "Type"
+	1    6370 10070
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 60AA3037
+P 7080 3120
+AR Path="/60AA3037" Ref="R12"  Part="1" 
+AR Path="/60A03F8A/60AA3037" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60AA3037" Ref="R?"  Part="1" 
+F 0 "R12" V 6970 3170 50  0000 C CNN
+F 1 "1K" V 6890 3170 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7010 3120 50  0001 C CNN
+F 3 "~" H 7080 3120 50  0001 C CNN
+F 4 "RC0805FR-071KL" V 7080 3120 50  0001 C CNN "Type"
+	1    7080 3120
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 60B3938E
+P 7130 6180
+AR Path="/60B3938E" Ref="R26"  Part="1" 
+AR Path="/60A03F8A/60B3938E" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60B3938E" Ref="R?"  Part="1" 
+F 0 "R26" V 7020 6230 50  0000 C CNN
+F 1 "1K" V 6940 6230 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7060 6180 50  0001 C CNN
+F 3 "~" H 7130 6180 50  0001 C CNN
+F 4 "RC0805FR-071KL" V 7130 6180 50  0001 C CNN "Type"
+	1    7130 6180
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R40
+U 1 1 60BB2575
+P 7240 9740
+AR Path="/60BB2575" Ref="R40"  Part="1" 
+AR Path="/60A03F8A/60BB2575" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60BB2575" Ref="R?"  Part="1" 
+F 0 "R40" V 7130 9790 50  0000 C CNN
+F 1 "1K" V 7050 9790 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7170 9740 50  0001 C CNN
+F 3 "~" H 7240 9740 50  0001 C CNN
+F 4 "RC0805FR-071KL" V 7240 9740 50  0001 C CNN "Type"
+	1    7240 9740
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 60AA29B6
+P 7320 3380
+AR Path="/60AA29B6" Ref="R13"  Part="1" 
+AR Path="/60A03F8A/60AA29B6" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60AA29B6" Ref="R?"  Part="1" 
+F 0 "R13" H 7460 3370 50  0000 C CNN
+F 1 "1K" H 7450 3460 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7250 3380 50  0001 C CNN
+F 3 "~" H 7320 3380 50  0001 C CNN
+F 4 "RC0805FR-071KL" H 7320 3380 50  0001 C CNN "Type"
+	1    7320 3380
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 60B39388
+P 7370 6440
+AR Path="/60B39388" Ref="R27"  Part="1" 
+AR Path="/60A03F8A/60B39388" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60B39388" Ref="R?"  Part="1" 
+F 0 "R27" H 7510 6430 50  0000 C CNN
+F 1 "1K" H 7500 6520 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7300 6440 50  0001 C CNN
+F 3 "~" H 7370 6440 50  0001 C CNN
+F 4 "RC0805FR-071KL" H 7370 6440 50  0001 C CNN "Type"
+	1    7370 6440
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R41
+U 1 1 60BB256F
+P 7480 10000
+AR Path="/60BB256F" Ref="R41"  Part="1" 
+AR Path="/60A03F8A/60BB256F" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60BB256F" Ref="R?"  Part="1" 
+F 0 "R41" H 7620 9990 50  0000 C CNN
+F 1 "1K" H 7610 10080 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7410 10000 50  0001 C CNN
+F 3 "~" H 7480 10000 50  0001 C CNN
+F 4 "RC0805FR-071KL" H 7480 10000 50  0001 C CNN "Type"
+	1    7480 10000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 60ACB13C
+P 7950 1630
+AR Path="/60ACB13C" Ref="R1"  Part="1" 
+AR Path="/60A03F8A/60ACB13C" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60ACB13C" Ref="R?"  Part="1" 
+F 0 "R1" V 7840 1680 50  0000 C CNN
+F 1 "3.3K" V 7760 1680 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7880 1630 50  0001 C CNN
+F 3 "~" H 7950 1630 50  0001 C CNN
+F 4 "RT0603BRD073K3L" V 7950 1630 50  0001 C CNN "Type"
+	1    7950 1630
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 60AC4DFD
+P 7950 2750
+AR Path="/60AC4DFD" Ref="R10"  Part="1" 
+AR Path="/60A03F8A/60AC4DFD" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60AC4DFD" Ref="R?"  Part="1" 
+F 0 "R10" V 7840 2800 50  0000 C CNN
+F 1 "3.3K" V 7840 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7880 2750 50  0001 C CNN
+F 3 "~" H 7950 2750 50  0001 C CNN
+F 4 "RT0603BRD073K3L" V 7950 2750 50  0001 C CNN "Type"
+	1    7950 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 61994BB5
+P 8000 4690
+AR Path="/61994BB5" Ref="R15"  Part="1" 
+AR Path="/60A03F8A/61994BB5" Ref="R?"  Part="1" 
+AR Path="/60D8C564/61994BB5" Ref="R?"  Part="1" 
+F 0 "R15" V 7890 4740 50  0000 C CNN
+F 1 "3.3K" V 7810 4740 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7930 4690 50  0001 C CNN
+F 3 "~" H 8000 4690 50  0001 C CNN
+F 4 "RT0603BRD073K3L" V 8000 4690 50  0001 C CNN "Type"
+	1    8000 4690
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 61A5B796
+P 8000 5810
+AR Path="/61A5B796" Ref="R24"  Part="1" 
+AR Path="/60A03F8A/61A5B796" Ref="R?"  Part="1" 
+AR Path="/60D8C564/61A5B796" Ref="R?"  Part="1" 
+F 0 "R24" V 7890 5860 50  0000 C CNN
+F 1 "3.3K" V 7890 5660 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7930 5810 50  0001 C CNN
+F 3 "~" H 8000 5810 50  0001 C CNN
+F 4 "RT0603BRD073K3L" V 8000 5810 50  0001 C CNN "Type"
+	1    8000 5810
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R29
+U 1 1 61A0B682
+P 8110 8250
+AR Path="/61A0B682" Ref="R29"  Part="1" 
+AR Path="/60A03F8A/61A0B682" Ref="R?"  Part="1" 
+AR Path="/60D8C564/61A0B682" Ref="R?"  Part="1" 
+F 0 "R29" V 8000 8300 50  0000 C CNN
+F 1 "3.3K" V 7920 8300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8040 8250 50  0001 C CNN
+F 3 "~" H 8110 8250 50  0001 C CNN
+F 4 "RT0603BRD073K3L" V 8110 8250 50  0001 C CNN "Type"
+	1    8110 8250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R38
+U 1 1 61AAB9EC
+P 8110 9370
+AR Path="/61AAB9EC" Ref="R38"  Part="1" 
+AR Path="/60A03F8A/61AAB9EC" Ref="R?"  Part="1" 
+AR Path="/60D8C564/61AAB9EC" Ref="R?"  Part="1" 
+F 0 "R38" V 8000 9420 50  0000 C CNN
+F 1 "3.3K" V 8000 9220 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8040 9370 50  0001 C CNN
+F 3 "~" H 8110 9370 50  0001 C CNN
+F 4 "RT0603BRD073K3L" V 8110 9370 50  0001 C CNN "Type"
+	1    8110 9370
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 618F31BF
+P 8230 2520
+AR Path="/618F31BF" Ref="R7"  Part="1" 
+AR Path="/60A03F8A/618F31BF" Ref="R?"  Part="1" 
+AR Path="/60D8C564/618F31BF" Ref="R?"  Part="1" 
+F 0 "R7" H 8060 2570 50  0000 C CNN
+F 1 "825" H 8090 2470 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8160 2520 50  0001 C CNN
+F 3 "~" H 8230 2520 50  0001 C CNN
+F 4 "RC0603FR-07825RL" H 8230 2520 50  0001 C CNN "Type"
+	1    8230 2520
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 618F1B3F
+P 8250 1630
+AR Path="/618F1B3F" Ref="R2"  Part="1" 
+AR Path="/60A03F8A/618F1B3F" Ref="R?"  Part="1" 
+AR Path="/60D8C564/618F1B3F" Ref="R?"  Part="1" 
+F 0 "R2" V 8140 1680 50  0000 C CNN
+F 1 "825" V 8060 1680 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8180 1630 50  0001 C CNN
+F 3 "~" H 8250 1630 50  0001 C CNN
+F 4 "RC0603FR-07825RL" V 8250 1630 50  0001 C CNN "Type"
+	1    8250 1630
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 61A5B79D
+P 8280 5580
+AR Path="/61A5B79D" Ref="R21"  Part="1" 
+AR Path="/60A03F8A/61A5B79D" Ref="R?"  Part="1" 
+AR Path="/60D8C564/61A5B79D" Ref="R?"  Part="1" 
+F 0 "R21" H 8110 5630 50  0000 C CNN
+F 1 "825" H 8140 5530 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8210 5580 50  0001 C CNN
+F 3 "~" H 8280 5580 50  0001 C CNN
+F 4 "RC0603FR-07825RL" H 8280 5580 50  0001 C CNN "Type"
+	1    8280 5580
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 61994BBB
+P 8300 4690
+AR Path="/61994BBB" Ref="R16"  Part="1" 
+AR Path="/60A03F8A/61994BBB" Ref="R?"  Part="1" 
+AR Path="/60D8C564/61994BBB" Ref="R?"  Part="1" 
+F 0 "R16" V 8190 4740 50  0000 C CNN
+F 1 "825" V 8110 4740 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8230 4690 50  0001 C CNN
+F 3 "~" H 8300 4690 50  0001 C CNN
+F 4 "RC0603FR-07825RL" V 8300 4690 50  0001 C CNN "Type"
+	1    8300 4690
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R35
+U 1 1 61AAB9F3
+P 8390 9140
+AR Path="/61AAB9F3" Ref="R35"  Part="1" 
+AR Path="/60A03F8A/61AAB9F3" Ref="R?"  Part="1" 
+AR Path="/60D8C564/61AAB9F3" Ref="R?"  Part="1" 
+F 0 "R35" H 8220 9190 50  0000 C CNN
+F 1 "825" H 8250 9090 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8320 9140 50  0001 C CNN
+F 3 "~" H 8390 9140 50  0001 C CNN
+F 4 "RC0603FR-07825RL" H 8390 9140 50  0001 C CNN "Type"
+	1    8390 9140
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R30
+U 1 1 61A0B688
+P 8410 8250
+AR Path="/61A0B688" Ref="R30"  Part="1" 
+AR Path="/60A03F8A/61A0B688" Ref="R?"  Part="1" 
+AR Path="/60D8C564/61A0B688" Ref="R?"  Part="1" 
+F 0 "R30" V 8300 8300 50  0000 C CNN
+F 1 "825" V 8220 8300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8340 8250 50  0001 C CNN
+F 3 "~" H 8410 8250 50  0001 C CNN
+F 4 "RC0603FR-07825RL" V 8410 8250 50  0001 C CNN "Type"
+	1    8410 8250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 60ADB992
+P 8550 2220
+AR Path="/60ADB992" Ref="R5"  Part="1" 
+AR Path="/60A03F8A/60ADB992" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60ADB992" Ref="R?"  Part="1" 
+F 0 "R5" V 8710 2210 50  0000 C CNN
+F 1 "1.1K" V 8630 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8480 2220 50  0001 C CNN
+F 3 "~" H 8550 2220 50  0001 C CNN
+F 4 "RC0805FR-071K1L" V 8550 2220 50  0001 C CNN "Type"
+	1    8550 2220
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 60B393CD
+P 8600 5280
+AR Path="/60B393CD" Ref="R19"  Part="1" 
+AR Path="/60A03F8A/60B393CD" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60B393CD" Ref="R?"  Part="1" 
+F 0 "R19" V 8760 5270 50  0000 C CNN
+F 1 "1.1K" V 8680 5260 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8530 5280 50  0001 C CNN
+F 3 "~" H 8600 5280 50  0001 C CNN
+F 4 "RC0805FR-071K1L" V 8600 5280 50  0001 C CNN "Type"
+	1    8600 5280
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R33
+U 1 1 60BB25B0
+P 8710 8840
+AR Path="/60BB25B0" Ref="R33"  Part="1" 
+AR Path="/60A03F8A/60BB25B0" Ref="R?"  Part="1" 
+AR Path="/60D8C564/60BB25B0" Ref="R?"  Part="1" 
+F 0 "R33" V 8870 8830 50  0000 C CNN
+F 1 "1.1K" V 8790 8820 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8640 8840 50  0001 C CNN
+F 3 "~" H 8710 8840 50  0001 C CNN
+F 4 "RC0805FR-071K1L" V 8710 8840 50  0001 C CNN "Type"
+	1    8710 8840
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N47xxA D1
+U 1 1 60A4D898
+P 2520 2270
+F 0 "D1" V 2510 2400 50  0000 L CNN
+F 1 "1N4743A" V 2390 2320 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2520 2095 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 2520 2270 50  0001 C CNN
+	1    2520 2270
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N47xxA D2
+U 1 1 60A459BD
+P 2520 2630
+F 0 "D2" V 2410 2400 50  0000 L CNN
+F 1 "1N4743A" V 2510 2230 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2520 2455 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 2520 2630 50  0001 C CNN
+	1    2520 2630
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N47xxA D3
+U 1 1 60DE39B9
+P 2630 5330
+F 0 "D3" V 2620 5460 50  0000 L CNN
+F 1 "1N4743A" V 2500 5380 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2630 5155 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 2630 5330 50  0001 C CNN
+	1    2630 5330
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N47xxA D4
+U 1 1 60DE39B3
+P 2630 5690
+F 0 "D4" V 2520 5460 50  0000 L CNN
+F 1 "1N4743A" V 2620 5290 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2630 5515 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 2630 5690 50  0001 C CNN
+	1    2630 5690
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N47xxA D5
+U 1 1 60DF8AD1
+P 2670 8890
+F 0 "D5" V 2680 8660 50  0000 L CNN
+F 1 "1N4743A" V 2570 8500 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2670 8715 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 2670 8890 50  0001 C CNN
+	1    2670 8890
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N47xxA D6
+U 1 1 60DF8ACB
+P 2670 9250
+F 0 "D6" V 2560 9020 50  0000 L CNN
+F 1 "1N4743A" V 2660 8850 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2670 9075 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 2670 9250 50  0001 C CNN
+	1    2670 9250
+	0    1    1    0   
+$EndComp
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:22-23-2021 J1
+U 1 1 60A0B5AB
+P 880 2190
+F 0 "J1" V 747 2198 50  0000 C CNN
+F 1 "22-23-2021" V 746 2198 50  0001 C CNN
+F 2 "digikey-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm" H 1080 2390 60  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" H 1080 2490 60  0001 L CNN
+F 4 "WM4200-ND" H 1080 2590 60  0001 L CNN "Digi-Key_PN"
+F 5 "22-23-2021" H 1080 2690 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1080 2790 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 1080 2890 60  0001 L CNN "Family"
+F 8 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" H 1080 2990 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/22-23-2021/WM4200-ND/26667" H 1080 3090 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 2POS 2.54MM" H 1080 3190 60  0001 L CNN "Description"
+F 11 "Molex" H 1080 3290 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1080 3390 60  0001 L CNN "Status"
+	1    880  2190
+	0    1    1    0   
+$EndComp
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:22-23-2021 J2
+U 1 1 60B392A3
+P 930 5250
+F 0 "J2" V 797 5258 50  0000 C CNN
+F 1 "22-23-2021" V 796 5258 50  0001 C CNN
+F 2 "digikey-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm" H 1130 5450 60  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" H 1130 5550 60  0001 L CNN
+F 4 "WM4200-ND" H 1130 5650 60  0001 L CNN "Digi-Key_PN"
+F 5 "22-23-2021" H 1130 5750 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1130 5850 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 1130 5950 60  0001 L CNN "Family"
+F 8 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" H 1130 6050 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/22-23-2021/WM4200-ND/26667" H 1130 6150 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 2POS 2.54MM" H 1130 6250 60  0001 L CNN "Description"
+F 11 "Molex" H 1130 6350 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1130 6450 60  0001 L CNN "Status"
+	1    930  5250
+	0    1    1    0   
+$EndComp
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:22-23-2021 J3
+U 1 1 60BB24A9
+P 1040 8810
+F 0 "J3" V 907 8818 50  0000 C CNN
+F 1 "22-23-2021" V 906 8818 50  0001 C CNN
+F 2 "digikey-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm" H 1240 9010 60  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" H 1240 9110 60  0001 L CNN
+F 4 "WM4200-ND" H 1240 9210 60  0001 L CNN "Digi-Key_PN"
+F 5 "22-23-2021" H 1240 9310 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1240 9410 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 1240 9510 60  0001 L CNN "Family"
+F 8 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" H 1240 9610 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/22-23-2021/WM4200-ND/26667" H 1240 9710 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 2POS 2.54MM" H 1240 9810 60  0001 L CNN "Description"
+F 11 "Molex" H 1240 9910 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1240 10010 60  0001 L CNN "Status"
+	1    1040 8810
+	0    1    1    0   
+$EndComp
+$Comp
+L dk_Terminal-Blocks-Wire-to-Board:OSTTC020162 J5
+U 1 1 60C63E05
+P 13730 7990
+F 0 "J5" H 13560 8030 50  0000 L CNN
+F 1 "OSTTC020162" H 13500 7880 50  0000 L CNN
+F 2 "digikey-footprints:Term_Block_1x2_P5mm" H 13930 8190 60  0001 L CNN
+F 3 "http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf" H 13930 8290 60  0001 L CNN
+F 4 "ED2600-ND" H 13930 8390 60  0001 L CNN "Digi-Key_PN"
+F 5 "OSTTC020162" H 13930 8490 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 13930 8590 60  0001 L CNN "Category"
+F 7 "Terminal Blocks - Wire to Board" H 13930 8690 60  0001 L CNN "Family"
+F 8 "http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf" H 13930 8790 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-shore-technology-inc/OSTTC020162/ED2600-ND/614549" H 13930 8890 60  0001 L CNN "DK_Detail_Page"
+F 10 "TERM BLK 2POS SIDE ENTRY 5MM PCB" H 13930 8990 60  0001 L CNN "Description"
+F 11 "On Shore Technology Inc." H 13930 9090 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 13930 9190 60  0001 L CNN "Status"
+	1    13730 7990
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 609FE2C3
+P 2930 2470
+AR Path="/609FE2C3" Ref="C7"  Part="1" 
+AR Path="/60A03F8A/609FE2C3" Ref="C?"  Part="1" 
+AR Path="/60D8C564/609FE2C3" Ref="C?"  Part="1" 
+F 0 "C7" H 3010 2570 50  0000 L CNN
+F 1 "0.1µF" H 2960 2360 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2968 2320 50  0001 C CNN
+F 3 "" H 2930 2470 50  0001 C CNN
+F 4 "CL10B104KC8NNNC" H 2930 2470 50  0001 C CNN "Type"
+	1    2930 2470
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C14
+U 1 1 60B39288
+P 2980 5530
+AR Path="/60B39288" Ref="C14"  Part="1" 
+AR Path="/60A03F8A/60B39288" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60B39288" Ref="C?"  Part="1" 
+F 0 "C14" H 3060 5630 50  0000 L CNN
+F 1 "0.1µF" H 3010 5420 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3018 5380 50  0001 C CNN
+F 3 "" H 2980 5530 50  0001 C CNN
+F 4 "CL10B104KC8NNNC" H 2980 5530 50  0001 C CNN "Type"
+	1    2980 5530
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C23
+U 1 1 60BB248E
+P 3090 9090
+AR Path="/60BB248E" Ref="C23"  Part="1" 
+AR Path="/60A03F8A/60BB248E" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60BB248E" Ref="C?"  Part="1" 
+F 0 "C23" H 3170 9190 50  0000 L CNN
+F 1 "0.1µF" H 3120 8980 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3128 8940 50  0001 C CNN
+F 3 "" H 3090 9090 50  0001 C CNN
+F 4 "CL10B104KC8NNNC" H 3090 9090 50  0001 C CNN "Type"
+	1    3090 9090
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 60A1913F
+P 3200 1310
+AR Path="/60A1913F" Ref="C3"  Part="1" 
+AR Path="/60A03F8A/60A1913F" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60A1913F" Ref="C?"  Part="1" 
+F 0 "C3" H 3240 1400 50  0000 L CNN
+F 1 "1µF" H 3230 1200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3238 1160 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 3200 1310 50  0001 C CNN
+F 4 "GRM188R7YA105KA12D" H 3200 1310 50  0001 C CNN "Type"
+	1    3200 1310
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 609F97C8
+P 3200 2470
+AR Path="/609F97C8" Ref="C8"  Part="1" 
+AR Path="/60A03F8A/609F97C8" Ref="C?"  Part="1" 
+AR Path="/60D8C564/609F97C8" Ref="C?"  Part="1" 
+F 0 "C8" H 3240 2560 50  0000 L CNN
+F 1 "0.22µF" H 3230 2360 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3238 2320 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 3200 2470 50  0001 C CNN
+F 4 "C1608X7R1H224K080AB" H 3200 2470 50  0001 C CNN "Type"
+	1    3200 2470
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 60B392C5
+P 3250 4370
+AR Path="/60B392C5" Ref="C11"  Part="1" 
+AR Path="/60A03F8A/60B392C5" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60B392C5" Ref="C?"  Part="1" 
+F 0 "C11" H 3290 4460 50  0000 L CNN
+F 1 "1µF" H 3280 4260 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3288 4220 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 3250 4370 50  0001 C CNN
+F 4 "GRM188R7YA105KA12D" H 3250 4370 50  0001 C CNN "Type"
+	1    3250 4370
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C15
+U 1 1 60B39278
+P 3250 5530
+AR Path="/60B39278" Ref="C15"  Part="1" 
+AR Path="/60A03F8A/60B39278" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60B39278" Ref="C?"  Part="1" 
+F 0 "C15" H 3290 5620 50  0000 L CNN
+F 1 "0.22µF" H 3280 5420 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3288 5380 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 3250 5530 50  0001 C CNN
+F 4 "C1608X7R1H224K080AB" H 3250 5530 50  0001 C CNN "Type"
+	1    3250 5530
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C20
+U 1 1 60BB24CB
+P 3360 7930
+AR Path="/60BB24CB" Ref="C20"  Part="1" 
+AR Path="/60A03F8A/60BB24CB" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60BB24CB" Ref="C?"  Part="1" 
+F 0 "C20" H 3400 8020 50  0000 L CNN
+F 1 "1µF" H 3390 7820 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3398 7780 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 3360 7930 50  0001 C CNN
+F 4 "GRM188R7YA105KA12D" H 3360 7930 50  0001 C CNN "Type"
+	1    3360 7930
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C24
+U 1 1 60BB247E
+P 3360 9090
+AR Path="/60BB247E" Ref="C24"  Part="1" 
+AR Path="/60A03F8A/60BB247E" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60BB247E" Ref="C?"  Part="1" 
+F 0 "C24" H 3400 9180 50  0000 L CNN
+F 1 "0.22µF" H 3390 8980 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3398 8940 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 3360 9090 50  0001 C CNN
+F 4 "C1608X7R1H224K080AB" H 3360 9090 50  0001 C CNN "Type"
+	1    3360 9090
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C4
+U 1 1 60A16EA4
+P 3520 1310
+AR Path="/60A16EA4" Ref="C4"  Part="1" 
+AR Path="/60A03F8A/60A16EA4" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60A16EA4" Ref="C?"  Part="1" 
+F 0 "C4" H 3500 1600 50  0000 L CNN
+F 1 "10µFx35" H 3350 1530 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-30_AVX-N_Pad2.25x2.55mm_HandSolder" H 3558 1160 50  0001 C CNN
+F 3 "" H 3520 1310 50  0001 C CNN
+F 4 "293D106X9035D2TE3" H 3520 1310 50  0001 C CNN "Type"
+	1    3520 1310
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C12
+U 1 1 60B392B8
+P 3570 4370
+AR Path="/60B392B8" Ref="C12"  Part="1" 
+AR Path="/60A03F8A/60B392B8" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60B392B8" Ref="C?"  Part="1" 
+F 0 "C12" H 3550 4660 50  0000 L CNN
+F 1 "10µFx35" H 3400 4590 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-30_AVX-N_Pad2.25x2.55mm_HandSolder" H 3608 4220 50  0001 C CNN
+F 3 "" H 3570 4370 50  0001 C CNN
+F 4 "293D106X9035D2TE3" H 3570 4370 50  0001 C CNN "Type"
+	1    3570 4370
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C21
+U 1 1 60BB24BE
+P 3680 7930
+AR Path="/60BB24BE" Ref="C21"  Part="1" 
+AR Path="/60A03F8A/60BB24BE" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60BB24BE" Ref="C?"  Part="1" 
+F 0 "C21" H 3660 8220 50  0000 L CNN
+F 1 "10µFx35" H 3510 8150 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-30_AVX-N_Pad2.25x2.55mm_HandSolder" H 3718 7780 50  0001 C CNN
+F 3 "" H 3680 7930 50  0001 C CNN
+F 4 "293D106X9035D2TE3" H 3680 7930 50  0001 C CNN "Type"
+	1    3680 7930
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 60A291AF
+P 5150 1210
+AR Path="/60A291AF" Ref="C1"  Part="1" 
+AR Path="/60A03F8A/60A291AF" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60A291AF" Ref="C?"  Part="1" 
+F 0 "C1" H 4960 1520 50  0000 L CNN
+F 1 "1µF" H 4980 1440 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5188 1060 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 5150 1210 50  0001 C CNN
+F 4 "GRM188R7YA105KA12D" H 5150 1210 50  0001 C CNN "Type"
+	1    5150 1210
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 60A382A5
+P 5150 1650
+AR Path="/60A382A5" Ref="C5"  Part="1" 
+AR Path="/60A03F8A/60A382A5" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60A382A5" Ref="C?"  Part="1" 
+F 0 "C5" H 5000 1790 50  0000 L CNN
+F 1 "1µF" H 4900 1700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5188 1500 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 5150 1650 50  0001 C CNN
+F 4 "GRM188R7YA105KA12D" H 5150 1650 50  0001 C CNN "Type"
+	1    5150 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 60B392EF
+P 5200 4270
+AR Path="/60B392EF" Ref="C10"  Part="1" 
+AR Path="/60A03F8A/60B392EF" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60B392EF" Ref="C?"  Part="1" 
+F 0 "C10" H 5010 4580 50  0000 L CNN
+F 1 "1µF" H 5030 4500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5238 4120 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 5200 4270 50  0001 C CNN
+F 4 "GRM188R7YA105KA12D" H 5200 4270 50  0001 C CNN "Type"
+	1    5200 4270
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C13
+U 1 1 60B3930B
+P 5200 4710
+AR Path="/60B3930B" Ref="C13"  Part="1" 
+AR Path="/60A03F8A/60B3930B" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60B3930B" Ref="C?"  Part="1" 
+F 0 "C13" H 5050 4850 50  0000 L CNN
+F 1 "1µF" H 4950 4760 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5238 4560 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 5200 4710 50  0001 C CNN
+F 4 "GRM188R7YA105KA12D" H 5200 4710 50  0001 C CNN "Type"
+	1    5200 4710
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C19
+U 1 1 60BB24EE
+P 5310 7830
+AR Path="/60BB24EE" Ref="C19"  Part="1" 
+AR Path="/60A03F8A/60BB24EE" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60BB24EE" Ref="C?"  Part="1" 
+F 0 "C19" H 5120 8140 50  0000 L CNN
+F 1 "1µF" H 5140 8060 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5348 7680 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 5310 7830 50  0001 C CNN
+F 4 "GRM188R7YA105KA12D" H 5310 7830 50  0001 C CNN "Type"
+	1    5310 7830
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C22
+U 1 1 60BB24FC
+P 5310 8270
+AR Path="/60BB24FC" Ref="C22"  Part="1" 
+AR Path="/60A03F8A/60BB24FC" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60BB24FC" Ref="C?"  Part="1" 
+F 0 "C22" H 5080 8410 50  0000 L CNN
+F 1 "1µF" H 5060 8320 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5348 8120 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 5310 8270 50  0001 C CNN
+F 4 "GRM188R7YA105KA12D" H 5310 8270 50  0001 C CNN "Type"
+	1    5310 8270
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 60A291A8
+P 5470 1210
+AR Path="/60A291A8" Ref="C2"  Part="1" 
+AR Path="/60A03F8A/60A291A8" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60A291A8" Ref="C?"  Part="1" 
+F 0 "C2" H 5450 1530 50  0000 L CNN
+F 1 "10µFx35" H 5300 1450 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-30_AVX-N_Pad2.25x2.55mm_HandSolder" H 5508 1060 50  0001 C CNN
+F 3 "" H 5470 1210 50  0001 C CNN
+F 4 "293D106X9035D2TE3" H 5470 1210 50  0001 C CNN "Type"
+	1    5470 1210
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C6
+U 1 1 60A361CE
+P 5470 1650
+AR Path="/60A361CE" Ref="C6"  Part="1" 
+AR Path="/60A03F8A/60A361CE" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60A361CE" Ref="C?"  Part="1" 
+F 0 "C6" H 5580 1740 50  0000 L CNN
+F 1 "10µFx16" H 5490 1820 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I" H 5508 1500 50  0001 C CNN
+F 3 "" H 5470 1650 50  0001 C CNN
+F 4 "593D106X9016A2TE3" H 5470 1650 50  0001 C CNN "Type"
+	1    5470 1650
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C17
+U 1 1 60D526CD
+P 8140 7420
+AR Path="/60D526CD" Ref="C17"  Part="1" 
+AR Path="/60A03F8A/60D526CD" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60D526CD" Ref="C?"  Part="1" 
+F 0 "C17" H 7890 7560 50  0000 L CNN
+F 1 "1µF" H 7890 7470 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8178 7270 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 8140 7420 50  0001 C CNN
+F 4 "GRM188R7YA105KA12D" H 8140 7420 50  0001 C CNN "Type"
+	1    8140 7420
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 60D54AAA
+P 9620 7470
+AR Path="/60D54AAA" Ref="C18"  Part="1" 
+AR Path="/60A03F8A/60D54AAA" Ref="C?"  Part="1" 
+AR Path="/60D8C564/60D54AAA" Ref="C?"  Part="1" 
+F 0 "C18" H 9370 7610 50  0000 L CNN
+F 1 "1µF" H 9370 7520 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9658 7320 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2710676.pdf" H 9620 7470 50  0001 C CNN
+F 4 "CL10B105KA8NNNC" H 9620 7470 50  0001 C CNN "Type"
+	1    9620 7470
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Core_Ferrite_Coupled L1
+U 1 1 60D90002
+P 1740 2220
+AR Path="/60D90002" Ref="L1"  Part="1" 
+AR Path="/60D8C564/60D90002" Ref="L?"  Part="1" 
+F 0 "L1" H 1740 2501 50  0000 C CNN
+F 1 "B82790C0225N265" H 1550 2420 50  0000 C CNN
+F 2 "SVIELCOM:B82790C0225N265" H 1740 2220 50  0001 C CNN
+F 3 "https://www.terraelectronica.ru/pdf/show?pdf_file=%252Fds%252Fpdf%252FB%252FB82790.pdf" H 1740 2220 50  0001 C CNN
+F 4 "B82790C0225N265" H 1740 2220 50  0001 C CNN "Type"
+	1    1740 2220
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Core_Ferrite_Coupled L2
+U 1 1 60B39235
+P 1790 5280
+AR Path="/60B39235" Ref="L2"  Part="1" 
+AR Path="/60D8C564/60B39235" Ref="L?"  Part="1" 
+F 0 "L2" H 1790 5561 50  0000 C CNN
+F 1 "B82790C0225N265" H 1600 5480 50  0000 C CNN
+F 2 "SVIELCOM:B82790C0225N265" H 1790 5280 50  0001 C CNN
+F 3 "https://www.terraelectronica.ru/pdf/show?pdf_file=%252Fds%252Fpdf%252FB%252FB82790.pdf" H 1790 5280 50  0001 C CNN
+F 4 "B82790C0225N265" H 1790 5280 50  0001 C CNN "Type"
+	1    1790 5280
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Core_Ferrite_Coupled L3
+U 1 1 60BB2447
+P 1900 8840
+AR Path="/60BB2447" Ref="L3"  Part="1" 
+AR Path="/60D8C564/60BB2447" Ref="L?"  Part="1" 
+F 0 "L3" H 1900 9121 50  0000 C CNN
+F 1 "B82790C0225N265" H 1710 9040 50  0000 C CNN
+F 2 "SVIELCOM:B82790C0225N265" H 1900 8840 50  0001 C CNN
+F 3 "https://www.terraelectronica.ru/pdf/show?pdf_file=%252Fds%252Fpdf%252FB%252FB82790.pdf" H 1900 8840 50  0001 C CNN
+F 4 "B82790C0225N265" H 1900 8840 50  0001 C CNN "Type"
+	1    1900 8840
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:302-S101 J4
+U 1 1 60B387F8
+P 13850 6390
+F 0 "J4" H 13890 6840 50  0000 C CNN
+F 1 "302-S101" H 13890 6740 50  0000 C CNN
+F 2 "digikey-footprints:PinHeader_2x5_P2.54mm_Drill1.2mm" H 14050 6590 60  0001 L CNN
+F 3 "http://www.on-shore.com/wp-content/uploads/2018/04/302-SXX1.pdf" V 14050 6690 60  0001 L CNN
+F 4 "ED1543-ND" H 14050 6790 60  0001 L CNN "Digi-Key_PN"
+F 5 "302-S101" H 14050 6890 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 14050 6990 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 14050 7090 60  0001 L CNN "Family"
+F 8 "http://www.on-shore.com/wp-content/uploads/2018/04/302-SXX1.pdf" H 14050 7190 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-shore-technology-inc/302-S101/ED1543-ND/2178422" H 14050 7290 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 10POS 2.54MM" H 14050 7390 60  0001 L CNN "Description"
+F 11 "On Shore Technology Inc." H 14050 7490 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 14050 7590 60  0001 L CNN "Status"
+	1    13850 6390
+	1    0    0    -1  
+$EndComp
+$Comp
+L Converter_DCDC:IA2415S PS1
+U 1 1 609B5185
+P 4390 1260
+F 0 "PS1" H 4390 1627 50  0000 C CNN
+F 1 "TMH2415S" H 4390 1536 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_XP_POWER-IAxxxxS_THT" H 3340 1010 50  0001 L CNN
+F 3 "https://www.terraelectronica.ru/pdf/show?pdf_file=%252Fds%252Fpdf%252FT%252FTMH.pdf" H 5440 960 50  0001 L CNN
+	1    4390 1260
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Converter_DCDC:IA2415S PS2
+U 1 1 60B39265
+P 4440 4320
+F 0 "PS2" H 4440 4687 50  0000 C CNN
+F 1 "TMH2415S" H 4440 4596 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_XP_POWER-IAxxxxS_THT" H 3390 4070 50  0001 L CNN
+F 3 "https://www.terraelectronica.ru/pdf/show?pdf_file=%252Fds%252Fpdf%252FT%252FTMH.pdf" H 5490 4020 50  0001 L CNN
+	1    4440 4320
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Converter_DCDC:IA2415S PS3
+U 1 1 60BB2477
+P 4550 7880
+F 0 "PS3" H 4550 8247 50  0000 C CNN
+F 1 "TMH2415S" H 4550 8156 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_XP_POWER-IAxxxxS_THT" H 3500 7630 50  0001 L CNN
+F 3 "https://www.terraelectronica.ru/pdf/show?pdf_file=%252Fds%252Fpdf%252FT%252FTMH.pdf" H 5600 7580 50  0001 L CNN
+	1    4550 7880
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:TLV9001IDBVR U4
+U 1 1 60E03488
+P 6460 3120
+F 0 "U4" H 6520 3390 50  0000 L CNN
+F 1 "TLV9001IDBVR" H 6530 3310 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6910 3420 50  0001 C CNN
+F 3 "" H 6460 3120 50  0001 C CNN
+	1    6460 3120
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:TLV9001IDBVR U7
+U 1 1 60E06DF2
+P 6510 6180
+F 0 "U7" H 6560 6490 50  0000 L CNN
+F 1 "TLV9001IDBVR" H 6570 6400 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6960 6480 50  0001 C CNN
+F 3 "" H 6510 6180 50  0001 C CNN
+	1    6510 6180
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:TLV9001IDBVR U11
+U 1 1 60E098C4
+P 6620 9740
+F 0 "U11" H 6690 10050 50  0000 L CNN
+F 1 "TLV9001IDBVR" H 6700 9960 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7070 10040 50  0001 C CNN
+F 3 "" H 6620 9740 50  0001 C CNN
+	1    6620 9740
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:TLV9001IDBVR U3
+U 1 1 60E01E9F
+P 7680 2220
+F 0 "U3" H 7750 2470 50  0000 L CNN
+F 1 "TLV9001IDBVR" H 7760 2390 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 8130 2520 50  0001 C CNN
+F 3 "" H 7680 2220 50  0001 C CNN
+	1    7680 2220
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:TLV9001IDBVR U6
+U 1 1 60E058E6
+P 7730 5280
+F 0 "U6" H 7790 5520 50  0000 L CNN
+F 1 "TLV9001IDBVR" H 7790 5450 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 8180 5580 50  0001 C CNN
+F 3 "" H 7730 5280 50  0001 C CNN
+	1    7730 5280
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:TLV9001IDBVR U10
+U 1 1 60E0843F
+P 7840 8840
+F 0 "U10" H 7890 9100 50  0000 L CNN
+F 1 "TLV9001IDBVR" H 7890 9020 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 8290 9140 50  0001 C CNN
+F 3 "" H 7840 8840 50  0001 C CNN
+	1    7840 8840
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:REF1933AIDDCT U8
+U 1 1 609ED31F
+P 8590 7270
+F 0 "U8" H 8590 7757 60  0000 C CNN
+F 1 "REF1933AIDDCT" H 8590 7651 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 8640 6870 60  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ref1933.pdf?ts=1620800334381&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FREF1933%253FkeyMatch%253DREF1933%2526tisearch%253Dsearch-everything%2526usecase%253DGPN" H 8940 7270 60  0001 C CNN
+	1    8590 7270
+	1    0    0    -1  
+$EndComp
+$Comp
+L SVIELCOM_Library:LT1129CST-5#PBF U1
+U 1 1 609EC5FA
+P 6480 1210
+F 0 "U1" H 6480 1697 60  0000 C CNN
+F 1 "LT1129CST-5#PBF" H 6480 1591 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6430 810 60  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/1576439.pdf" H 6380 1510 60  0001 C CNN
+	1    6480 1210
+	1    0    0    -1  
+$EndComp
+$Comp
+L Analog_decoupling-rescue:ISO224ADWVR-Isolator-Схема-и-печатная-плата-rescue U2
+U 1 1 60D90026
+P 3740 1920
+AR Path="/60D90026" Ref="U2"  Part="1" 
+AR Path="/60D8C564/60D90026" Ref="U?"  Part="1" 
+F 0 "U2" H 4390 2185 50  0000 C CNN
+F 1 "ISO224ADWVR" H 4390 2094 50  0000 C CNN
+F 2 "SVIELCOM:Texas_Instruments-DWV0008A-0-0-IPC_A" H 3740 2320 50  0001 L CNN
+F 3 "https://www.ti.com/lit/ds/symlink/iso224.pdf" H 3740 2420 50  0001 L CNN
+F 4 "+125°C" H 3740 2520 50  0001 L CNN "ambient temperature range high"
+F 5 "-55°C" H 3740 2620 50  0001 L CNN "ambient temperature range low"
+F 6 "No" H 3740 2720 50  0001 L CNN "automotive"
+F 7 "IC" H 3740 2820 50  0001 L CNN "category"
+F 8 "Integrated Circuits (ICs)" H 3740 2920 50  0001 L CNN "device class L1"
+F 9 "Linear ICs" H 3740 3020 50  0001 L CNN "device class L2"
+F 10 "unset" H 3740 3120 50  0001 L CNN "device class L3"
+F 11 "IC ISOLATED 8SOIC" H 3740 3220 50  0001 L CNN "digikey description"
+F 12 "296-52315-1-ND" H 3740 3320 50  0001 L CNN "digikey part number"
+F 13 "185kHz" H 3740 3420 50  0001 L CNN "gain bandwidth"
+F 14 "2.8mm" H 3740 3520 50  0001 L CNN "height"
+F 15 "0.015uA" H 3740 3620 50  0001 L CNN "input bias current"
+F 16 "1mV" H 3740 3720 50  0001 L CNN "input offset voltage"
+F 17 "Yes" H 3740 3820 50  0001 L CNN "lead free"
+F 18 "f96fe3b55d649421" H 3740 3920 50  0001 L CNN "library id"
+F 19 "Texas Instruments" H 3740 4020 50  0001 L CNN "manufacturer"
+F 20 "+150°C" H 3740 4120 50  0001 L CNN "max junction temp"
+F 21 "18V" H 3740 4220 50  0001 L CNN "max supply voltage"
+F 22 "4.5V" H 3740 4320 50  0001 L CNN "min supply voltage"
+F 23 "Reinforced isolated amplifier for voltage sensing with ±12-V input 8-SOIC -55 to 125" H 3740 4420 50  0001 L CNN "mouser description"
+F 24 "595-ISO224ADWVR" H 3740 4520 50  0001 L CNN "mouser part number"
+F 25 "1" H 3740 4620 50  0001 L CNN "number of channels"
+F 26 "18mA" H 3740 4720 50  0001 L CNN "output current per channel"
+F 27 "SOICW8" H 3740 4820 50  0001 L CNN "package"
+F 28 "250us" H 3740 4920 50  0001 L CNN "response time"
+F 29 "Yes" H 3740 5020 50  0001 L CNN "rohs"
+F 30 "0.36mm" H 3740 5120 50  0001 L CNN "standoff height"
+F 31 "+125°C" H 3740 5220 50  0001 L CNN "temperature range high"
+F 32 "-55°C" H 3740 5320 50  0001 L CNN "temperature range low"
+F 33 "0.001/3V/mV" H 3740 5420 50  0001 L CNN "voltage gain"
+	1    3740 1920
+	1    0    0    -1  
+$EndComp
+$Comp
+L Analog_decoupling-rescue:ISO224ADWVR-Isolator-Схема-и-печатная-плата-rescue U5
+U 1 1 60B39259
+P 3790 4980
+AR Path="/60B39259" Ref="U5"  Part="1" 
+AR Path="/60D8C564/60B39259" Ref="U?"  Part="1" 
+F 0 "U5" H 4440 5245 50  0000 C CNN
+F 1 "ISO224ADWVR" H 4440 5154 50  0000 C CNN
+F 2 "SVIELCOM:Texas_Instruments-DWV0008A-0-0-IPC_A" H 3790 5380 50  0001 L CNN
+F 3 "https://www.ti.com/lit/ds/symlink/iso224.pdf" H 3790 5480 50  0001 L CNN
+F 4 "+125°C" H 3790 5580 50  0001 L CNN "ambient temperature range high"
+F 5 "-55°C" H 3790 5680 50  0001 L CNN "ambient temperature range low"
+F 6 "No" H 3790 5780 50  0001 L CNN "automotive"
+F 7 "IC" H 3790 5880 50  0001 L CNN "category"
+F 8 "Integrated Circuits (ICs)" H 3790 5980 50  0001 L CNN "device class L1"
+F 9 "Linear ICs" H 3790 6080 50  0001 L CNN "device class L2"
+F 10 "unset" H 3790 6180 50  0001 L CNN "device class L3"
+F 11 "IC ISOLATED 8SOIC" H 3790 6280 50  0001 L CNN "digikey description"
+F 12 "296-52315-1-ND" H 3790 6380 50  0001 L CNN "digikey part number"
+F 13 "185kHz" H 3790 6480 50  0001 L CNN "gain bandwidth"
+F 14 "2.8mm" H 3790 6580 50  0001 L CNN "height"
+F 15 "0.015uA" H 3790 6680 50  0001 L CNN "input bias current"
+F 16 "1mV" H 3790 6780 50  0001 L CNN "input offset voltage"
+F 17 "Yes" H 3790 6880 50  0001 L CNN "lead free"
+F 18 "f96fe3b55d649421" H 3790 6980 50  0001 L CNN "library id"
+F 19 "Texas Instruments" H 3790 7080 50  0001 L CNN "manufacturer"
+F 20 "+150°C" H 3790 7180 50  0001 L CNN "max junction temp"
+F 21 "18V" H 3790 7280 50  0001 L CNN "max supply voltage"
+F 22 "4.5V" H 3790 7380 50  0001 L CNN "min supply voltage"
+F 23 "Reinforced isolated amplifier for voltage sensing with ±12-V input 8-SOIC -55 to 125" H 3790 7480 50  0001 L CNN "mouser description"
+F 24 "595-ISO224ADWVR" H 3790 7580 50  0001 L CNN "mouser part number"
+F 25 "1" H 3790 7680 50  0001 L CNN "number of channels"
+F 26 "18mA" H 3790 7780 50  0001 L CNN "output current per channel"
+F 27 "SOICW8" H 3790 7880 50  0001 L CNN "package"
+F 28 "250us" H 3790 7980 50  0001 L CNN "response time"
+F 29 "Yes" H 3790 8080 50  0001 L CNN "rohs"
+F 30 "0.36mm" H 3790 8180 50  0001 L CNN "standoff height"
+F 31 "+125°C" H 3790 8280 50  0001 L CNN "temperature range high"
+F 32 "-55°C" H 3790 8380 50  0001 L CNN "temperature range low"
+F 33 "0.001/3V/mV" H 3790 8480 50  0001 L CNN "voltage gain"
+	1    3790 4980
+	1    0    0    -1  
+$EndComp
+$Comp
+L Analog_decoupling-rescue:ISO224ADWVR-Isolator-Схема-и-печатная-плата-rescue U9
+U 1 1 60BB246B
+P 3900 8540
+AR Path="/60BB246B" Ref="U9"  Part="1" 
+AR Path="/60D8C564/60BB246B" Ref="U?"  Part="1" 
+F 0 "U9" H 4550 8805 50  0000 C CNN
+F 1 "ISO224ADWVR" H 4550 8714 50  0000 C CNN
+F 2 "SVIELCOM:Texas_Instruments-DWV0008A-0-0-IPC_A" H 3900 8940 50  0001 L CNN
+F 3 "https://www.ti.com/lit/ds/symlink/iso224.pdf" H 3900 9040 50  0001 L CNN
+F 4 "+125°C" H 3900 9140 50  0001 L CNN "ambient temperature range high"
+F 5 "-55°C" H 3900 9240 50  0001 L CNN "ambient temperature range low"
+F 6 "No" H 3900 9340 50  0001 L CNN "automotive"
+F 7 "IC" H 3900 9440 50  0001 L CNN "category"
+F 8 "Integrated Circuits (ICs)" H 3900 9540 50  0001 L CNN "device class L1"
+F 9 "Linear ICs" H 3900 9640 50  0001 L CNN "device class L2"
+F 10 "unset" H 3900 9740 50  0001 L CNN "device class L3"
+F 11 "IC ISOLATED 8SOIC" H 3900 9840 50  0001 L CNN "digikey description"
+F 12 "296-52315-1-ND" H 3900 9940 50  0001 L CNN "digikey part number"
+F 13 "185kHz" H 3900 10040 50  0001 L CNN "gain bandwidth"
+F 14 "2.8mm" H 3900 10140 50  0001 L CNN "height"
+F 15 "0.015uA" H 3900 10240 50  0001 L CNN "input bias current"
+F 16 "1mV" H 3900 10340 50  0001 L CNN "input offset voltage"
+F 17 "Yes" H 3900 10440 50  0001 L CNN "lead free"
+F 18 "f96fe3b55d649421" H 3900 10540 50  0001 L CNN "library id"
+F 19 "Texas Instruments" H 3900 10640 50  0001 L CNN "manufacturer"
+F 20 "+150°C" H 3900 10740 50  0001 L CNN "max junction temp"
+F 21 "18V" H 3900 10840 50  0001 L CNN "max supply voltage"
+F 22 "4.5V" H 3900 10940 50  0001 L CNN "min supply voltage"
+F 23 "Reinforced isolated amplifier for voltage sensing with ±12-V input 8-SOIC -55 to 125" H 3900 11040 50  0001 L CNN "mouser description"
+F 24 "595-ISO224ADWVR" H 3900 11140 50  0001 L CNN "mouser part number"
+F 25 "1" H 3900 11240 50  0001 L CNN "number of channels"
+F 26 "18mA" H 3900 11340 50  0001 L CNN "output current per channel"
+F 27 "SOICW8" H 3900 11440 50  0001 L CNN "package"
+F 28 "250us" H 3900 11540 50  0001 L CNN "response time"
+F 29 "Yes" H 3900 11640 50  0001 L CNN "rohs"
+F 30 "0.36mm" H 3900 11740 50  0001 L CNN "standoff height"
+F 31 "+125°C" H 3900 11840 50  0001 L CNN "temperature range high"
+F 32 "-55°C" H 3900 11940 50  0001 L CNN "temperature range low"
+F 33 "0.001/3V/mV" H 3900 12040 50  0001 L CNN "voltage gain"
+	1    3900 8540
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

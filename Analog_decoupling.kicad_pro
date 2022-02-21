@@ -336,7 +336,7 @@
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
-      "lib_symbol_issues": "warning",
+      "lib_symbol_issues": "ignore",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -452,6 +452,15 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "8d9a3ecc-539f-41da-8099-d37cea9c28e7",
+      ""
+    ],
+    [
+      "77d698b3-5ad1-407b-896a-c996810fca37",
+      "Do Not Print"
+    ]
+  ],
   "text_variables": {}
 }

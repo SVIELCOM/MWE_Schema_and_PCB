@@ -565,6 +565,10 @@
     [
       "00000000-0000-0000-0000-0000619a1dc2",
       "RTC"
+    ],
+    [
+      "c5a6ee00-8c8f-47f9-b4bc-c68a1a04bf77",
+      "External IO connectors"
     ]
   ],
   "text_variables": {}
